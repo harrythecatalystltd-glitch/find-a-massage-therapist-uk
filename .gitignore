@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package.json
+package-lock.json
+
+# Skill / agent installs (local tooling, not part of the site)
+.agents/
+.claude/
+superpowers/
+ui-ux-skill/
+skills-lock.json
+
+# Push worktrees / scratch
+.last-push-worktree
+.push-worktree-*/
+
+# OS / editor
+.DS_Store
+Thumbs.db
