@@ -1,7 +1,10 @@
 // One-off import of existing listings from scripts/data/listings.json into Supabase.
-// Run: node --env-file=.env.local --import tsx scripts/import-listings.ts
+// Run: npx --yes tsx scripts/import-listings.ts
 import { readFileSync } from "node:fs";
+import { loadEnvFile } from "node:process";
 import { createClient } from "@supabase/supabase-js";
+
+loadEnvFile(".env.local");
 import { uniqueSlug } from "../src/lib/slug";
 import type { Database } from "../src/lib/database.types";
 
