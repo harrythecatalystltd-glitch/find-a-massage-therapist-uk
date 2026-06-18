@@ -28,6 +28,9 @@ superpowers/
 ui-ux-skill/
 skills-lock.json
 
+# Import data (contains personal emails — never commit)
+scripts/data/
+
 # Push worktrees / scratch
 .last-push-worktree
 .push-worktree-*/
