@@ -2,49 +2,69 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ListingCardData } from "@/lib/queries";
 
+/**
+ * Premium therapist card (design-reference `.therapist-card`), adapted to real
+ * listing data: the photo area shows the business logo (object-fit: contain on a
+ * lilac wash, since listings supply logos not full-bleed portraits). Reused by the
+ * home page, browse, location and treatment pages.
+ */
 export function TherapistCard({ listing }: { listing: ListingCardData }) {
+  const tags = (listing.treatments ?? []).slice(0, 2);
+
   return (
-    <Link
-      href={`/therapist/${listing.slug}`}
-      className="group block rounded-2xl border border-outline-variant/30 bg-surface-container-lowest p-8 spa-shadow transition-all duration-500 hover:border-primary-container/40"
-    >
-      <div className="flex items-start gap-4">
+    <article className="therapist-card reveal">
+      <div className="therapist-photo">
         {listing.logo_url ? (
           <Image
             src={listing.logo_url}
             alt={`${listing.business_name} logo`}
-            width={64}
-            height={64}
-            className="h-16 w-16 flex-shrink-0 rounded-xl object-cover"
+            width={400}
+            height={300}
+            unoptimized
           />
         ) : (
-          <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-xl bg-surface-container text-on-surface-variant">
-            <span className="text-xl font-bold">
-              {listing.business_name.charAt(0)}
-            </span>
+          <span className="photo-fallback" aria-hidden="true">
+            {listing.business_name.charAt(0)}
+          </span>
+        )}
+        {listing.is_featured && <span className="badge-tier">Featured</span>}
+      </div>
+
+      <div className="therapist-body">
+        <h3>{listing.business_name}</h3>
+        {listing.town && (
+          <p className="therapist-loc">
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              aria-hidden="true"
+            >
+              <path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
+            {listing.town}
+          </p>
+        )}
+
+        {tags.length > 0 && (
+          <div className="tag-row">
+            {tags.map((t) => (
+              <span className="tag" key={t.slug}>
+                {t.name}
+              </span>
+            ))}
           </div>
         )}
-        <div className="min-w-0 flex-1">
-          <div className="flex items-start justify-between gap-2">
-            <h3 className="font-display text-2xl font-semibold text-on-surface">
-              {listing.business_name}
-            </h3>
-            {listing.is_featured && (
-              <span className="flex-shrink-0 rounded-full bg-primary-container/90 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-on-primary-container">
-                Featured
-              </span>
-            )}
-          </div>
-          {listing.town && (
-            <p className="mt-1 text-xs text-secondary">{listing.town}</p>
-          )}
-          {listing.summary && (
-            <p className="mt-3 line-clamp-2 text-on-surface-variant">
-              {listing.summary}
-            </p>
-          )}
-        </div>
+
+        <Link className="btn btn-ghost" href={`/therapist/${listing.slug}/`}>
+          View profile
+        </Link>
       </div>
-    </Link>
+    </article>
   );
 }

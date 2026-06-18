@@ -1,45 +1,56 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef } from "react";
 
 type Faq = { question: string; answer: string };
 
 export function FaqAccordion({ items }: { items: Faq[] }) {
-  const [open, setOpen] = useState<number | null>(0);
+  const ref = useRef<HTMLDivElement | null>(null);
+
+  // Close other panels when one opens (matches the design-reference behaviour).
+  useEffect(() => {
+    const root = ref.current;
+    if (!root) return;
+    const all = Array.from(root.querySelectorAll<HTMLDetailsElement>("details"));
+    const handlers = all.map((details) => {
+      const onToggle = () => {
+        if (details.open) {
+          all.forEach((other) => {
+            if (other !== details) other.removeAttribute("open");
+          });
+        }
+      };
+      details.addEventListener("toggle", onToggle);
+      return { details, onToggle };
+    });
+    return () =>
+      handlers.forEach(({ details, onToggle }) =>
+        details.removeEventListener("toggle", onToggle),
+      );
+  }, []);
 
   return (
-    <div className="space-y-4">
-      {items.map((item, i) => {
-        const isOpen = open === i;
-        return (
-          <div
-            key={item.question}
-            className="rounded-2xl border border-outline-variant/30 bg-surface-container-lowest spa-shadow"
-          >
-            <button
-              type="button"
-              onClick={() => setOpen(isOpen ? null : i)}
-              aria-expanded={isOpen}
-              className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+    <div className="faq reveal" ref={ref}>
+      {items.map((item, i) => (
+        <details key={item.question} open={i === 0}>
+          <summary>
+            {item.question}
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.2"
+              strokeLinecap="round"
+              aria-hidden="true"
             >
-              <span className="font-display text-xl font-semibold text-on-surface">
-                {item.question}
-              </span>
-              <span
-                className={`material-symbols-outlined flex-shrink-0 text-primary transition-transform duration-300 ${
-                  isOpen ? "rotate-180" : ""
-                }`}
-                aria-hidden="true"
-              >
-                expand_more
-              </span>
-            </button>
-            {isOpen && (
-              <p className="px-6 pb-6 text-on-surface-variant">{item.answer}</p>
-            )}
-          </div>
-        );
-      })}
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </summary>
+          <div className="faq-answer">{item.answer}</div>
+        </details>
+      ))}
     </div>
   );
 }

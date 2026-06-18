@@ -23,9 +23,26 @@ export type ListingCardData = {
   town: string | null;
   logo_url: string | null;
   is_featured: boolean;
+  treatments?: { name: string; slug: string }[];
 };
 
-const CARD_COLUMNS = "slug, business_name, summary, town, logo_url, is_featured";
+const CARD_COLUMNS =
+  "slug, business_name, summary, town, logo_url, is_featured, listing_treatment_types ( treatment_types ( name, slug ) )";
+
+/** Flatten the nested treatment join the card query selects into a tidy array. */
+type RawCardRow = Omit<ListingCardData, "treatments"> & {
+  listing_treatment_types?: { treatment_types: { name: string; slug: string } | null }[] | null;
+};
+
+function toCardData(rows: unknown): ListingCardData[] {
+  return ((rows ?? []) as RawCardRow[]).map((row) => {
+    const { listing_treatment_types, ...rest } = row;
+    const treatments = (listing_treatment_types ?? [])
+      .map((r) => r.treatment_types)
+      .filter((t): t is { name: string; slug: string } => t != null);
+    return { ...rest, treatments };
+  });
+}
 
 export type ListingDetail = ListingCardData & {
   description_long: string | null;
@@ -43,7 +60,7 @@ export async function getFeaturedListings(): Promise<ListingCardData[]> {
     .eq("status", "approved")
     .eq("is_featured", true)
     .order("business_name");
-  return (data ?? []) as ListingCardData[];
+  return toCardData(data);
 }
 
 export async function getApprovedListings(): Promise<ListingCardData[]> {
@@ -54,7 +71,7 @@ export async function getApprovedListings(): Promise<ListingCardData[]> {
     .eq("status", "approved")
     .order("is_featured", { ascending: false })
     .order("business_name");
-  return (data ?? []) as ListingCardData[];
+  return toCardData(data);
 }
 
 export async function getListingsForTown(townName: string): Promise<ListingCardData[]> {
@@ -66,7 +83,7 @@ export async function getListingsForTown(townName: string): Promise<ListingCardD
     .ilike("town", `%${townName}%`)
     .order("is_featured", { ascending: false })
     .order("business_name");
-  return (data ?? []) as ListingCardData[];
+  return toCardData(data);
 }
 
 /** Approved listings linked to a given treatment-type slug (via listing_treatment_types). */
@@ -74,14 +91,15 @@ export async function getListingsForTreatment(
   treatmentSlug: string,
 ): Promise<ListingCardData[]> {
   const supabase = createClient();
+  // Filter via an inner join, then read the full treatment set with the card embed.
   const { data } = await supabase
     .from("listings")
-    .select(`${CARD_COLUMNS}, listing_treatment_types!inner ( treatment_types!inner ( slug ) )`)
+    .select(`${CARD_COLUMNS}, _filter:listing_treatment_types!inner ( treatment_types!inner ( slug ) )`)
     .eq("status", "approved")
-    .eq("listing_treatment_types.treatment_types.slug", treatmentSlug)
+    .eq("_filter.treatment_types.slug", treatmentSlug)
     .order("is_featured", { ascending: false })
     .order("business_name");
-  return (data ?? []) as unknown as ListingCardData[];
+  return toCardData(data);
 }
 
 export async function getListingBySlug(slug: string): Promise<ListingDetail | null> {

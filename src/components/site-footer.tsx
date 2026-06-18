@@ -26,63 +26,64 @@ const resourceLinks = [
 
 export function SiteFooter() {
   return (
-    <footer className="bg-tertiary text-white">
-      <div className="mx-auto max-w-container-max px-margin-mobile py-section-gap md:px-margin-desktop">
-        <div className="grid grid-cols-1 gap-gutter sm:grid-cols-2 lg:grid-cols-4">
-          <div>
-            <p className="font-display text-lg font-bold">Find a Massage Therapist UK</p>
-            <p className="mt-4 text-sm text-on-tertiary-container">
-              © Find a Massage Therapist UK. All rights reserved.
+    <footer className="site-footer">
+      <div className="container">
+        <div className="footer-grid">
+          <div className="footer-brand">
+            <p className="footer-logo">
+              Find a Massage
+              <br />
+              Therapist UK
+            </p>
+            <p>
+              Connecting people with qualified, insured massage therapists across
+              the UK — so booking the right care is simple.
             </p>
           </div>
 
           <div>
-            <h5 className="font-bold text-label-md uppercase tracking-[0.1em]">Quick Links</h5>
-            <ul className="mt-4 space-y-2 text-sm">
+            <h5>Quick Links</h5>
+            <ul>
               {quickLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-on-tertiary-container hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </Link>
+                  <Link href={link.href}>{link.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h5 className="font-bold text-label-md uppercase tracking-[0.1em]">Resources</h5>
-            <ul className="mt-4 space-y-2 text-sm">
+            <h5>Resources</h5>
+            <ul>
               {resourceLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-on-tertiary-container hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </Link>
+                  <Link href={link.href}>{link.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
 
           <div>
-            <h5 className="font-bold text-label-md uppercase tracking-[0.1em]">Follow Us</h5>
-            <ul className="mt-4 space-y-2 text-sm">
+            <h5>Follow Us</h5>
+            <ul>
               <li>
                 <a
                   href="https://www.instagram.com/findamassagetherapistuk"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-on-tertiary-container hover:text-white transition-colors"
                 >
                   Instagram
                 </a>
               </li>
             </ul>
           </div>
+        </div>
+
+        <div className="footer-bottom">
+          <p style={{ margin: 0 }}>
+            © {new Date().getFullYear()} Find a Massage Therapist UK. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>

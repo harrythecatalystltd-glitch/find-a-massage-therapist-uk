@@ -5,37 +5,68 @@ import { useRouter } from "next/navigation";
 
 export function HeroSearch() {
   const router = useRouter();
-  const [term, setTerm] = useState("");
+  const [treatment, setTreatment] = useState("");
+  const [location, setLocation] = useState("");
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    const q = term.trim();
+    const q = [treatment.trim(), location.trim()].filter(Boolean).join(" ");
     router.push(q ? `/find-a-therapist?q=${encodeURIComponent(q)}` : "/find-a-therapist");
   }
 
   return (
     <form
+      className="search-card"
       onSubmit={handleSubmit}
-      className="flex flex-col gap-2 rounded-xl border border-outline-variant/30 bg-surface-container-lowest p-2 spa-shadow sm:flex-row sm:items-center"
       aria-label="Search for a massage therapist"
     >
-      <div className="flex flex-1 items-center gap-2 px-3">
-        <span className="material-symbols-outlined text-outline" aria-hidden="true">
-          search
-        </span>
+      <div className="search-field">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="7" />
+          <path d="m20 20-3.5-3.5" />
+        </svg>
         <input
           type="text"
-          value={term}
-          onChange={(e) => setTerm(e.target.value)}
-          placeholder="Deep tissue, sports, pregnancy, town…"
-          aria-label="Search treatments, therapists or towns"
-          className="w-full bg-transparent py-3 text-on-surface outline-none placeholder:text-outline"
+          value={treatment}
+          onChange={(e) => setTreatment(e.target.value)}
+          placeholder="Deep tissue, sports, pregnancy…"
+          aria-label="Treatment"
+          autoComplete="off"
         />
       </div>
-      <button
-        type="submit"
-        className="rounded-full bg-primary-container px-8 py-3 font-bold text-label-md text-on-primary-container transition-all hover:bg-primary hover:text-white active:scale-95"
-      >
+      <div className="search-field">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          aria-hidden="true"
+        >
+          <path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z" />
+          <circle cx="12" cy="10" r="2.5" />
+        </svg>
+        <input
+          type="text"
+          value={location}
+          onChange={(e) => setLocation(e.target.value)}
+          placeholder="Town or postcode"
+          aria-label="Location"
+          autoComplete="off"
+        />
+      </div>
+      <button className="btn btn-primary" type="submit">
         Search therapists
       </button>
     </form>
