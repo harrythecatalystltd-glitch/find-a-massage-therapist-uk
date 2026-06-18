@@ -1,6 +1,16 @@
 import "server-only";
-import { createClient } from "@/lib/supabase/server";
+import { createClient as createSupabaseClient } from "@supabase/supabase-js";
 import type { Database } from "@/lib/database.types";
+
+// Public directory reads use a cookieless anon client: RLS already restricts
+// anon access to approved listings + published locations, and this works inside
+// `generateStaticParams` (which runs at build time, without an HTTP request).
+function createClient() {
+  return createSupabaseClient<Database>(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  );
+}
 
 type LocationRow = Database["public"]["Tables"]["locations"]["Row"];
 type TreatmentTypeRow = Database["public"]["Tables"]["treatment_types"]["Row"];
@@ -26,7 +36,7 @@ export type ListingDetail = ListingCardData & {
 };
 
 export async function getFeaturedListings(): Promise<ListingCardData[]> {
-  const supabase = await createClient();
+  const supabase = createClient();
   const { data } = await supabase
     .from("listings")
     .select(CARD_COLUMNS)
@@ -37,7 +47,7 @@ export async function getFeaturedListings(): Promise<ListingCardData[]> {
 }
 
 export async function getApprovedListings(): Promise<ListingCardData[]> {
-  const supabase = await createClient();
+  const supabase = createClient();
   const { data } = await supabase
     .from("listings")
     .select(CARD_COLUMNS)
@@ -48,7 +58,7 @@ export async function getApprovedListings(): Promise<ListingCardData[]> {
 }
 
 export async function getListingsForTown(townName: string): Promise<ListingCardData[]> {
-  const supabase = await createClient();
+  const supabase = createClient();
   const { data } = await supabase
     .from("listings")
     .select(CARD_COLUMNS)
@@ -60,7 +70,7 @@ export async function getListingsForTown(townName: string): Promise<ListingCardD
 }
 
 export async function getListingBySlug(slug: string): Promise<ListingDetail | null> {
-  const supabase = await createClient();
+  const supabase = createClient();
   const { data } = await supabase
     .from("listings")
     .select(
@@ -93,8 +103,27 @@ export async function getListingBySlug(slug: string): Promise<ListingDetail | nu
   };
 }
 
+/** Map of approved listing slug -> its treatment-type names (for the browse filter). */
+export async function getApprovedTreatmentsBySlug(): Promise<Record<string, string[]>> {
+  const supabase = createClient();
+  const { data } = await supabase
+    .from("listings")
+    .select("slug, listing_treatment_types ( treatment_types ( name ) )")
+    .eq("status", "approved")
+    .not("slug", "is", null);
+
+  const map: Record<string, string[]> = {};
+  for (const row of data ?? []) {
+    const names = (row.listing_treatment_types ?? [])
+      .map((r) => r.treatment_types?.name)
+      .filter((n): n is string => n != null);
+    map[row.slug as string] = names;
+  }
+  return map;
+}
+
 export async function getApprovedSlugs(): Promise<string[]> {
-  const supabase = await createClient();
+  const supabase = createClient();
   const { data } = await supabase
     .from("listings")
     .select("slug")
@@ -104,13 +133,13 @@ export async function getApprovedSlugs(): Promise<string[]> {
 }
 
 export async function getAllLocations(): Promise<LocationRow[]> {
-  const supabase = await createClient();
+  const supabase = createClient();
   const { data } = await supabase.from("locations").select("*").order("town");
   return data ?? [];
 }
 
 export async function getLocationBySlug(slug: string): Promise<LocationRow | null> {
-  const supabase = await createClient();
+  const supabase = createClient();
   const { data } = await supabase
     .from("locations")
     .select("*")
@@ -120,7 +149,7 @@ export async function getLocationBySlug(slug: string): Promise<LocationRow | nul
 }
 
 export async function getTreatmentTypes(): Promise<TreatmentTypeRow[]> {
-  const supabase = await createClient();
+  const supabase = createClient();
   const { data } = await supabase.from("treatment_types").select("*").order("name");
   return data ?? [];
 }
