@@ -25,6 +25,7 @@ const config: Config = {
         "on-surface-variant": "#4b4450",
         outline: { DEFAULT: "#7c7481", variant: "#cdc3d2" },
         tertiary: { DEFAULT: "#212125", container: "#36363a" },
+        "on-tertiary-container": "#a19fa3",
         error: { DEFAULT: "#ba1a1a", container: "#ffdad6" },
       },
       borderRadius: {
