@@ -1,7 +1,5 @@
 # Dependencies
 node_modules/
-package.json
-package-lock.json
 
 # Skill / agent installs (local tooling, not part of the site)
 .agents/
