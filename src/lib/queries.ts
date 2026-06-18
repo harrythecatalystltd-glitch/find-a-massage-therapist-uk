@@ -69,6 +69,21 @@ export async function getListingsForTown(townName: string): Promise<ListingCardD
   return (data ?? []) as ListingCardData[];
 }
 
+/** Approved listings linked to a given treatment-type slug (via listing_treatment_types). */
+export async function getListingsForTreatment(
+  treatmentSlug: string,
+): Promise<ListingCardData[]> {
+  const supabase = createClient();
+  const { data } = await supabase
+    .from("listings")
+    .select(`${CARD_COLUMNS}, listing_treatment_types!inner ( treatment_types!inner ( slug ) )`)
+    .eq("status", "approved")
+    .eq("listing_treatment_types.treatment_types.slug", treatmentSlug)
+    .order("is_featured", { ascending: false })
+    .order("business_name");
+  return (data ?? []) as unknown as ListingCardData[];
+}
+
 export async function getListingBySlug(slug: string): Promise<ListingDetail | null> {
   const supabase = createClient();
   const { data } = await supabase
