@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import { TherapistFilter } from "@/components/therapist-filter";
 import {
   getApprovedListings,
@@ -15,8 +14,13 @@ export const metadata: Metadata = {
     "Browse qualified, insured massage therapists across the UK by treatment, town and search.",
 };
 
-export default async function FindATherapistPage() {
-  const [listings, treatmentTypes, treatmentsByListing] = await Promise.all([
+export default async function FindATherapistPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
+  const [{ q }, listings, treatmentTypes, treatmentsByListing] = await Promise.all([
+    searchParams,
     getApprovedListings(),
     getTreatmentTypes(),
     getApprovedTreatmentsBySlug(),
@@ -34,13 +38,12 @@ export default async function FindATherapistPage() {
         </p>
       </header>
 
-      <Suspense>
-        <TherapistFilter
-          listings={listings}
-          treatments={treatmentTypes.map((t) => ({ name: t.name, slug: t.slug }))}
-          treatmentsByListing={treatmentsByListing}
-        />
-      </Suspense>
+      <TherapistFilter
+        listings={listings}
+        treatments={treatmentTypes.map((t) => ({ name: t.name, slug: t.slug }))}
+        treatmentsByListing={treatmentsByListing}
+        initialSearch={q ?? ""}
+      />
     </div>
   );
 }
