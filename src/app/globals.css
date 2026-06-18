@@ -13,3 +13,7 @@
     box-shadow: 0 15px 45px -10px rgba(75, 30, 120, 0.1);
   }
 }
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+}

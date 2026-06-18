@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { TherapistFilter } from "@/components/therapist-filter";
 import {
   getApprovedListings,
@@ -33,11 +34,13 @@ export default async function FindATherapistPage() {
         </p>
       </header>
 
-      <TherapistFilter
-        listings={listings}
-        treatments={treatmentTypes.map((t) => ({ name: t.name, slug: t.slug }))}
-        treatmentsByListing={treatmentsByListing}
-      />
+      <Suspense>
+        <TherapistFilter
+          listings={listings}
+          treatments={treatmentTypes.map((t) => ({ name: t.name, slug: t.slug }))}
+          treatmentsByListing={treatmentsByListing}
+        />
+      </Suspense>
     </div>
   );
 }

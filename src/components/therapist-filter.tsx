@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { TherapistCard } from "@/components/therapist-card";
 import type { ListingCardData } from "@/lib/queries";
 
@@ -15,9 +16,10 @@ export function TherapistFilter({
   treatments: { name: string; slug: string }[];
   treatmentsByListing: TreatmentMap;
 }) {
+  const initialSearch = useSearchParams().get("q") ?? "";
   const [activeTreatment, setActiveTreatment] = useState<string | null>(null);
   const [town, setTown] = useState("");
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState(initialSearch);
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
