@@ -27,23 +27,28 @@ export default async function FindATherapistPage({
   ]);
 
   return (
-    <div className="mx-auto max-w-container-max px-margin-mobile py-16 md:px-margin-desktop">
-      <header className="mb-10 text-center">
-        <h1 className="font-display text-4xl font-bold text-on-surface md:text-5xl">
-          Find a Massage Therapist
-        </h1>
-        <p className="mx-auto mt-4 max-w-2xl text-on-surface-variant">
-          Browse qualified, insured therapists across the UK. Filter by treatment,
-          town or search by name.
-        </p>
-      </header>
+    <div className="site">
+      <section className="loc-hero">
+        <div className="container">
+          <span className="eyebrow">UK massage directory</span>
+          <h1>Find a Massage Therapist</h1>
+          <p className="lead" style={{ maxWidth: "640px" }}>
+            Browse qualified therapists across the UK. Filter by treatment, town, or
+            search by name.
+          </p>
+        </div>
+      </section>
 
-      <TherapistFilter
-        listings={listings}
-        treatments={treatmentTypes.map((t) => ({ name: t.name, slug: t.slug }))}
-        treatmentsByListing={treatmentsByListing}
-        initialSearch={q ?? ""}
-      />
+      <section className="section">
+        <div className="container">
+          <TherapistFilter
+            listings={listings}
+            treatments={treatmentTypes.map((t) => ({ name: t.name, slug: t.slug }))}
+            treatmentsByListing={treatmentsByListing}
+            initialSearch={q ?? ""}
+          />
+        </div>
+      </section>
     </div>
   );
 }

@@ -2,9 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { TherapistCard } from "@/components/therapist-card";
-import { getListingsForTreatment, getTreatmentTypes } from "@/lib/queries";
+import {
+  getAllLocations,
+  getListingsForTreatment,
+  getTreatmentTypes,
+} from "@/lib/queries";
 
 export const revalidate = 3600;
+
+const BLURB: Record<string, string> = {
+  "sports-massage":
+    "Targeted work for training load, recovery and injury prevention — ideal for active bodies and anyone in regular pain.",
+  "deep-tissue":
+    "Slow, firm pressure that reaches stubborn knots and long-held tension in the deeper muscle layers.",
+  "swedish-massage":
+    "The classic full-body reset — light to medium pressure to ease stress and aid relaxation.",
+  "remedial-massage":
+    "Treatment-focused massage to rehabilitate injury, ease chronic pain and restore movement.",
+  "pregnancy-massage":
+    "Gentle, position-adapted care that supports changing bodies through every trimester.",
+  "hot-stone-massage":
+    "Heat-assisted release using warmed stones for deep, slow-melting tension relief.",
+  "lymphatic-drainage":
+    "Light, rhythmic strokes that ease swelling, support the immune system and aid recovery.",
+  osteopathy:
+    "Hands-on assessment and treatment of muscles, joints and posture to relieve pain and improve movement.",
+  physiotherapy:
+    "Clinical rehabilitation for injury, pain and mobility, tailored to getting you moving again.",
+};
 
 export async function generateStaticParams() {
   const treatments = await getTreatmentTypes();
@@ -22,7 +47,9 @@ export async function generateMetadata({
   if (!treatment) return {};
   return {
     title: `${treatment.name} Therapists in the UK`,
-    description: `Find qualified ${treatment.name.toLowerCase()} therapists across the UK.`,
+    description:
+      BLURB[treatment.slug] ??
+      `Find qualified ${treatment.name.toLowerCase()} therapists across the UK.`,
   };
 }
 
@@ -32,60 +59,86 @@ export default async function TreatmentPage({
   params: Promise<{ type: string }>;
 }) {
   const { type } = await params;
-  const treatments = await getTreatmentTypes();
+  const [treatments, allLocations] = await Promise.all([
+    getTreatmentTypes(),
+    getAllLocations(),
+  ]);
   const treatment = treatments.find((t) => t.slug === type);
   if (!treatment) notFound();
 
   const listings = await getListingsForTreatment(treatment.slug);
   const others = treatments.filter((t) => t.slug !== treatment.slug);
+  const name = treatment.name;
 
   return (
-    <div className="mx-auto max-w-container-max px-margin-mobile py-16 md:px-margin-desktop">
-      <header className="mb-10 text-center">
-        <h1 className="font-display text-4xl font-bold text-on-surface md:text-5xl">
-          {treatment.name} Therapists in the UK
-        </h1>
-        <p className="mx-auto mt-4 max-w-2xl text-on-surface-variant">
-          Browse qualified, insured {treatment.name.toLowerCase()} therapists across the
-          UK.
-        </p>
-      </header>
-
-      {listings.length > 0 ? (
-        <div className="grid gap-6 md:grid-cols-2">
-          {listings.map((listing) => (
-            <TherapistCard key={listing.slug} listing={listing} />
-          ))}
-        </div>
-      ) : (
-        <div className="rounded-2xl border border-outline-variant/30 bg-surface-container-lowest p-10 text-center">
-          <p className="text-on-surface-variant">
-            No {treatment.name.toLowerCase()} listings yet.
+    <div className="site">
+      <section className="loc-hero">
+        <div className="container">
+          <ol className="loc-breadcrumb">
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li aria-hidden>/</li>
+            <li>
+              <Link href="/find-a-therapist">Find a Therapist</Link>
+            </li>
+            <li aria-hidden>/</li>
+            <li style={{ color: "var(--ink)" }}>{name}</li>
+          </ol>
+          <span className="eyebrow">Massage treatment</span>
+          <h1>{name} Therapists in the UK</h1>
+          <p className="lead" style={{ maxWidth: "640px" }}>
+            {BLURB[treatment.slug] ??
+              `Browse qualified ${name.toLowerCase()} therapists across the UK.`}
           </p>
-          <Link
-            href="/list-your-practice"
-            className="mt-6 inline-block rounded-full bg-primary-container px-8 py-3 font-bold text-on-primary-container shadow-md transition-all hover:bg-primary active:scale-95"
-          >
-            List your practice
-          </Link>
         </div>
-      )}
+      </section>
 
-      {others.length > 0 && (
-        <section className="mt-16 border-t border-outline-variant/30 pt-10">
-          <h2 className="font-display text-2xl font-semibold text-on-surface">
-            Other treatments
-          </h2>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {others.map((t) => (
-              <Link
-                key={t.slug}
-                href={`/massage/${t.slug}`}
-                className="rounded-full bg-secondary-container/50 px-4 py-2 text-sm font-medium text-on-secondary-container transition-colors hover:bg-secondary-container"
-              >
-                {t.name}
+      <section className="section">
+        <div className="container">
+          <h2>{name} therapists</h2>
+          {listings.length > 0 ? (
+            <div className="therapist-grid loc-grid">
+              {listings.map((listing) => (
+                <TherapistCard key={listing.slug} listing={listing} />
+              ))}
+            </div>
+          ) : (
+            <div className="loc-cta">
+              <h3>No {name.toLowerCase()} listings yet</h3>
+              <p>Are you a {name.toLowerCase()} therapist? Claim your spot in the directory.</p>
+              <Link className="btn btn-primary" href="/list-your-practice">
+                List your practice
+              </Link>
+            </div>
+          )}
+        </div>
+      </section>
+
+      <section className="section loc-seo">
+        <div className="container">
+          <h2>Find {name.toLowerCase()} near you</h2>
+          <div className="town-links">
+            {allLocations.map((l) => (
+              <Link key={l.slug} href={`/find-a-therapist/${l.slug}/`}>
+                {l.town}
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {others.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <h2>Other treatments</h2>
+            <div className="town-links">
+              {others.map((t) => (
+                <Link key={t.slug} href={`/massage/${t.slug}/`}>
+                  {t.name}
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
       )}
