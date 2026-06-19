@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { TherapistCard } from "@/components/therapist-card";
+import { TherapistFilter } from "@/components/therapist-filter";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { nearestTowns, type GeoPoint } from "@/lib/geo";
 import {
@@ -64,6 +64,14 @@ export default async function LocationPage({
     getTreatmentTypes(),
     getAllLocations(),
   ]);
+
+  // Treatment chips, limited to treatments actually offered by this town's listings.
+  const townTreatmentSlugs = new Set(
+    listings.flatMap((l) => (l.treatments ?? []).map((t) => t.slug)),
+  );
+  const townTreatments = treatments
+    .filter((t) => townTreatmentSlugs.has(t.slug))
+    .map((t) => ({ name: t.name, slug: t.slug }));
 
   const faqs = parseFaqs(location.faqs);
   const seoParagraphs = (location.seo_body ?? "")
@@ -148,15 +156,6 @@ export default async function LocationPage({
               {location.intro_copy}
             </p>
           )}
-          {treatments.length > 0 && (
-            <div className="town-links">
-              {treatments.map((t) => (
-                <Link key={t.slug} href={`/massage/${t.slug}/`}>
-                  {t.name}
-                </Link>
-              ))}
-            </div>
-          )}
         </div>
       </section>
 
@@ -165,16 +164,16 @@ export default async function LocationPage({
         <div className="container">
           <h2>Therapists in {location.town}</h2>
           {listings.length > 0 ? (
-            <div className="therapist-grid loc-grid">
-              {listings.map((listing) => (
-                <TherapistCard key={listing.slug} listing={listing} />
-              ))}
-            </div>
+            <TherapistFilter
+              listings={listings}
+              treatments={townTreatments}
+              showTownInput={false}
+            />
           ) : (
             <div className="loc-cta">
               <h3>Be the first therapist listed in {location.town}</h3>
               <p>
-                There are no therapists listed in {location.town} yet — claim the spot
+                There are no therapists listed in {location.town} yet. Claim the spot
                 and reach clients searching here.
               </p>
               <Link className="btn btn-primary" href="/list-your-practice">

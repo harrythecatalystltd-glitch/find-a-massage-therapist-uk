@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { HeroSearch } from "@/components/hero-search";
 import { FaqAccordion } from "@/components/faq-accordion";
@@ -12,7 +13,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Find a Massage Therapist UK | Qualified, Insured Therapists Near You",
   description:
-    "The UK's premier wellness directory. Search qualified, insured massage therapists by treatment, town and availability — and book the right hands for the job.",
+    "The UK's premier wellness directory. Search qualified, insured massage therapists by treatment, town and availability, and book the right hands for the job.",
 };
 
 const ArrowIcon = () => (
@@ -51,7 +52,7 @@ const CheckIcon = () => (
 const TREATMENT_BLURBS: Record<string, string> = {
   "sports-massage": "Training load, recovery and injury prevention for active bodies.",
   "deep-tissue": "Slow, firm work for stubborn knots and long-held tension.",
-  "swedish-massage": "The classic full-body reset — light to medium pressure.",
+  "swedish-massage": "The classic full-body reset with light to medium pressure.",
   "remedial-massage": "Targeted treatment for specific aches, strains and restrictions.",
   "pregnancy-massage": "Gentle, position-adapted care for changing bodies.",
   "hot-stone-massage": "Heat-assisted release for deep, slow-melting tension.",
@@ -126,8 +127,8 @@ export default async function Home() {
                 its <span className="loose">therapist.</span>
               </h1>
               <p className="lead">
-                Search qualified, insured massage therapists across the UK — by
-                treatment, town and availability — and book the right hands for the
+                Search qualified, insured massage therapists across the UK by
+                treatment, town and availability, and book the right hands for the
                 job.
               </p>
             </div>
@@ -208,7 +209,7 @@ export default async function Home() {
                 <span className="eyebrow">Hand-picked practitioners</span>
                 <h2>Featured therapists</h2>
                 <p className="lead">
-                  Qualified, insured and highly regarded — selected from across the
+                  Qualified, insured and highly regarded, selected from across the
                   directory.
                 </p>
               </div>
@@ -277,7 +278,14 @@ export default async function Home() {
                   List your practice
                 </Link>
               </div>
-              <div className="grow-decor" aria-hidden="true" />
+              <div className="grow-decor">
+                <Image
+                  src="/therapist-listing.png"
+                  alt="A qualified massage therapist in their treatment room"
+                  fill
+                  sizes="(max-width: 880px) 100vw, 50vw"
+                />
+              </div>
             </div>
           </div>
         </section>
@@ -289,7 +297,7 @@ export default async function Home() {
               <span className="eyebrow">Across the UK</span>
               <h2>Find a massage therapist near you</h2>
               <p className="lead">
-                From city centres to market towns — wherever the tension lives,
+                From city centres to market towns, wherever the tension lives,
                 there&apos;s a therapist nearby.
               </p>
             </div>
@@ -302,6 +310,13 @@ export default async function Home() {
                 const href = match ? `/find-a-therapist/${match.slug}/` : "/find-a-therapist";
                 return (
                   <Link className="location-tile" key={town} href={href}>
+                    <Image
+                      className="loc-img"
+                      src={`/locations/${town.toLowerCase()}.png`}
+                      alt={`${town} skyline`}
+                      fill
+                      sizes="(max-width: 600px) 50vw, 25vw"
+                    />
                     <span className="loc-name">{town}</span>
                   </Link>
                 );

@@ -136,25 +136,6 @@ export async function getListingBySlug(slug: string): Promise<ListingDetail | nu
   };
 }
 
-/** Map of approved listing slug -> its treatment-type names (for the browse filter). */
-export async function getApprovedTreatmentsBySlug(): Promise<Record<string, string[]>> {
-  const supabase = createClient();
-  const { data } = await supabase
-    .from("listings")
-    .select("slug, listing_treatment_types ( treatment_types ( name ) )")
-    .eq("status", "approved")
-    .not("slug", "is", null);
-
-  const map: Record<string, string[]> = {};
-  for (const row of data ?? []) {
-    const names = (row.listing_treatment_types ?? [])
-      .map((r) => r.treatment_types?.name)
-      .filter((n): n is string => n != null);
-    map[row.slug as string] = names;
-  }
-  return map;
-}
-
 export async function getApprovedSlugs(): Promise<string[]> {
   const supabase = createClient();
   const { data } = await supabase
@@ -184,5 +165,19 @@ export async function getLocationBySlug(slug: string): Promise<LocationRow | nul
 export async function getTreatmentTypes(): Promise<TreatmentTypeRow[]> {
   const supabase = createClient();
   const { data } = await supabase.from("treatment_types").select("*").order("name");
+  return data ?? [];
+}
+
+export type ToolRow = Database["public"]["Tables"]["massage_tools"]["Row"];
+
+/** Approved massage tools/equipment listings, featured first. */
+export async function getMassageTools(): Promise<ToolRow[]> {
+  const supabase = createClient();
+  const { data } = await supabase
+    .from("massage_tools")
+    .select("*")
+    .eq("status", "approved")
+    .order("is_featured", { ascending: false })
+    .order("business_name");
   return data ?? [];
 }

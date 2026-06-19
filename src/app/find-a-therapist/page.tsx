@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
 import { TherapistFilter } from "@/components/therapist-filter";
-import {
-  getApprovedListings,
-  getApprovedTreatmentsBySlug,
-  getTreatmentTypes,
-} from "@/lib/queries";
+import { getApprovedListings, getTreatmentTypes } from "@/lib/queries";
 
 export const revalidate = 3600;
 
@@ -19,11 +15,10 @@ export default async function FindATherapistPage({
 }: {
   searchParams: Promise<{ q?: string }>;
 }) {
-  const [{ q }, listings, treatmentTypes, treatmentsByListing] = await Promise.all([
+  const [{ q }, listings, treatmentTypes] = await Promise.all([
     searchParams,
     getApprovedListings(),
     getTreatmentTypes(),
-    getApprovedTreatmentsBySlug(),
   ]);
 
   return (
@@ -44,7 +39,6 @@ export default async function FindATherapistPage({
           <TherapistFilter
             listings={listings}
             treatments={treatmentTypes.map((t) => ({ name: t.name, slug: t.slug }))}
-            treatmentsByListing={treatmentsByListing}
             initialSearch={q ?? ""}
           />
         </div>

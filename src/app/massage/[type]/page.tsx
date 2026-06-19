@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { TherapistCard } from "@/components/therapist-card";
+import { TherapistFilter } from "@/components/therapist-filter";
 import {
   getAllLocations,
   getListingsForTreatment,
@@ -12,11 +12,11 @@ export const revalidate = 3600;
 
 const BLURB: Record<string, string> = {
   "sports-massage":
-    "Targeted work for training load, recovery and injury prevention — ideal for active bodies and anyone in regular pain.",
+    "Targeted work for training load, recovery and injury prevention, ideal for active bodies and anyone in regular pain.",
   "deep-tissue":
     "Slow, firm pressure that reaches stubborn knots and long-held tension in the deeper muscle layers.",
   "swedish-massage":
-    "The classic full-body reset — light to medium pressure to ease stress and aid relaxation.",
+    "The classic full-body reset with light to medium pressure to ease stress and aid relaxation.",
   "remedial-massage":
     "Treatment-focused massage to rehabilitate injury, ease chronic pain and restore movement.",
   "pregnancy-massage":
@@ -98,11 +98,7 @@ export default async function TreatmentPage({
         <div className="container">
           <h2>{name} therapists</h2>
           {listings.length > 0 ? (
-            <div className="therapist-grid loc-grid">
-              {listings.map((listing) => (
-                <TherapistCard key={listing.slug} listing={listing} />
-              ))}
-            </div>
+            <TherapistFilter listings={listings} showTreatmentChips={false} />
           ) : (
             <div className="loc-cta">
               <h3>No {name.toLowerCase()} listings yet</h3>

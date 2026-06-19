@@ -60,7 +60,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists provide mobile massage in Bury and the surrounding areas, including Ramsbottom, Prestwich, Whitefield, Tottington and Radcliffe. Each listing shows the areas covered, so check before booking a home visit.",
       },
       {
-        question: "I cycle and walk around Holcombe and the West Pennine hills — which massage helps?",
+        question: "I cycle and walk around Holcombe and the West Pennine hills, which massage helps?",
         answer:
           "For tired legs after walking up Holcombe Hill or cycling the local lanes, sports massage or deep tissue is usually the best fit. Both ease muscle tightness and support recovery. Many Bury therapists offer sports massage aimed at active clients.",
       },
@@ -128,7 +128,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage in Lincoln and nearby areas including North Hykeham, Birchwood, Bracebridge Heath and the surrounding villages. Each listing shows the areas a therapist covers, so check before booking.",
       },
       {
-        question: "My legs ache after walking up Steep Hill — what massage helps?",
+        question: "My legs ache after walking up Steep Hill, what massage helps?",
         answer:
           "For tired or tight legs after Lincoln's famous Steep Hill, deep tissue or sports massage works well to release the muscles and aid recovery. Many therapists in the city offer treatments aimed at active clients and walkers.",
       },
@@ -196,7 +196,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage in Bristol, visiting homes in areas such as Clifton, Bishopston, Bedminster, Redland and the Harbourside. Each listing shows the areas covered, so check before booking a home visit.",
       },
       {
-        question: "I run on the Downs and cycle around Bristol — which massage helps?",
+        question: "I run on the Downs and cycle around Bristol, which massage helps?",
         answer:
           "For active clients, sports massage or deep tissue is usually the best fit, easing tight legs and supporting recovery after running on the Downs, cycling or training at the gym. Many Bristol therapists specialise in sports and remedial work.",
       },
@@ -298,7 +298,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Many therapists offer mobile massage across Edinburgh, visiting homes in areas such as Leith, Stockbridge, Morningside, Bruntsfield and Newington. Each listing shows the areas covered, so check before booking.",
       },
       {
-        question: "I climb Arthur's Seat and run the Pentlands — which massage helps?",
+        question: "I climb Arthur's Seat and run the Pentlands, which massage helps?",
         answer:
           "For active clients, sports massage or deep tissue is usually best, easing tight legs and supporting recovery after climbing Arthur's Seat, running the Pentlands or training at the gym. Many Edinburgh therapists offer sports and remedial work.",
       },
@@ -332,7 +332,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage in Uddingston, Bothwell and the surrounding areas including Tannochside, Birkenshaw and Viewpark. Each listing shows the areas covered, so check before booking a home visit.",
       },
       {
-        question: "I commute to Glasgow and sit at a desk all day — which massage helps?",
+        question: "I commute to Glasgow and sit at a desk all day, which massage helps?",
         answer:
           "For commuters and desk workers, deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up over long days. Many therapists around Uddingston and Bothwell focus on this kind of work.",
       },
@@ -434,7 +434,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage in Caterham, visiting homes in Caterham on the Hill, Caterham Valley, Whyteleafe, Warlingham and the surrounding area. Each listing shows the areas covered, so check before booking.",
       },
       {
-        question: "I commute to London and sit at a desk — which massage helps?",
+        question: "I commute to London and sit at a desk, which massage helps?",
         answer:
           "For London commuters and desk workers, deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up. Many Caterham therapists focus on this kind of work, which is ideal after a week of train journeys and screen time.",
       },
@@ -502,7 +502,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Many therapists offer mobile massage across Sheffield, visiting homes in areas such as Ecclesall Road, Crookes, Walkley, Nether Edge and Hillsborough. Each listing shows the areas covered, so check before booking.",
       },
       {
-        question: "I run, climb and cycle around the Peak District — which massage helps?",
+        question: "I run, climb and cycle around the Peak District, which massage helps?",
         answer:
           "For active clients, sports massage or deep tissue is usually best, easing tight legs and shoulders after running Sheffield's hills, climbing in the Peak District or cycling. Many Sheffield therapists specialise in sports and remedial work.",
       },
@@ -536,7 +536,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage across Flintshire, visiting homes in Mold, Buckley, Connah's Quay, Flint and the surrounding villages. Each listing shows the areas covered, so check before booking.",
       },
       {
-        question: "I walk the Clwydian Range and work a physical job — which massage helps?",
+        question: "I walk the Clwydian Range and work a physical job, which massage helps?",
         answer:
           "For walkers and those in physical or manual work, deep tissue, sports and remedial massage are all well suited to easing muscle strain and aiding recovery. Many Flintshire therapists offer sports and deep tissue work for active and hard-working clients.",
       },
@@ -570,7 +570,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage across the Sutton borough, visiting homes in Cheam, Carshalton, Wallington, Worcester Park and Belmont. Each listing shows the areas covered, so check before booking.",
       },
       {
-        question: "I commute into London and sit at a desk — which massage helps?",
+        question: "I commute into London and sit at a desk, which massage helps?",
         answer:
           "For commuters and desk workers, deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up over the week. Many Sutton therapists focus on this kind of work, ideal for a relaxing reset close to home.",
       },
@@ -604,7 +604,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage in Bolton, visiting homes in areas such as Horwich, Westhoughton, Bromley Cross, Egerton and Farnworth. Each listing shows the areas covered, so check before booking a home visit.",
       },
       {
-        question: "I walk the West Pennine Moors and Rivington — which massage helps?",
+        question: "I walk the West Pennine Moors and Rivington, which massage helps?",
         answer:
           "For walkers and cyclists making the most of the moors and Rivington, sports massage or deep tissue is usually best for tired, tight legs and recovery. Many Bolton therapists offer sports massage aimed at active clients.",
       },
@@ -672,7 +672,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage in Newcastle, visiting homes in areas such as Jesmond, Gosforth, Heaton, Fenham and around the city centre. Each listing shows the areas covered, so check before booking a home visit.",
       },
       {
-        question: "I run along the Tyne and train at the gym — which massage helps?",
+        question: "I run along the Tyne and train at the gym, which massage helps?",
         answer:
           "For active clients, sports massage or deep tissue is usually best, easing tight muscles and aiding recovery after running along the Tyne, cycling or training at the gym. Many Newcastle therapists specialise in sports and remedial work.",
       },
@@ -740,7 +740,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage across the Wirral, visiting homes in West Kirby, Heswall, Birkenhead, Hoylake, New Brighton and the surrounding villages. Each listing shows the areas covered, so check before booking.",
       },
       {
-        question: "I walk the coast and the Wirral Way — which massage helps?",
+        question: "I walk the coast and the Wirral Way, which massage helps?",
         answer:
           "For walkers, runners and cyclists making the most of the seafronts and the Wirral Way, sports massage or deep tissue is usually best for tired legs and recovery. Many Wirral therapists offer sports massage aimed at active clients.",
       },
@@ -774,7 +774,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage in Penrith and the surrounding area, visiting homes and holiday accommodation around Eamont Bridge, the Ullswater area and nearby villages. Each listing shows the areas covered, so check before booking.",
       },
       {
-        question: "I've been walking the fells around Ullswater — which massage helps?",
+        question: "I've been walking the fells around Ullswater, which massage helps?",
         answer:
           "After a day on Helvellyn or the fells around Ullswater, sports massage or deep tissue is ideal for tired, tight legs and recovery, while a relaxing Swedish or hot stone session helps you unwind. Many Penrith therapists cater to walkers and visitors.",
       },
@@ -829,7 +829,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
     intro:
       "Looking for a massage therapist in Brighton? Find qualified practitioners across Brighton & Hove, from Kemptown to the seafront, covering sports, deep tissue, relaxation, pregnancy and hot stone massage.",
     body:
-      "Brighton & Hove is a busy seaside city with a strong wellness culture and a mix of distinct neighbourhoods. Whether you are in buzzy Kemptown, around the North Laine and the Lanes, up in Hanover or Preston Park, over in Hove, or towards Whitehawk, you will find massage therapists in Brighton within easy reach.\n\nThe city's active, outdoors-minded population keeps sports and deep tissue massage in demand, from runners and cyclists along the seafront to walkers on the South Downs. Brighton's large creative, digital and tech scene — often called Silicon Beach — fills offices with desk-based workers who book deep tissue or remedial massage for neck and shoulder tension, while students at the University of Brighton and University of Sussex add to the mix. For relaxation, a Swedish or hot stone session near the seafront or the Lanes is a popular way to unwind.\n\nTherapists across Brighton & Hove offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in Kemptown, Hove and the city centre, while others provide mobile massage in Brighton, visiting homes across Hanover, Preston Park, Hove and beyond.\n\nThe directory also covers nearby areas including Hove, Shoreham, Lewes and the wider Sussex coast, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+      "Brighton & Hove is a busy seaside city with a strong wellness culture and a mix of distinct neighbourhoods. Whether you are in buzzy Kemptown, around the North Laine and the Lanes, up in Hanover or Preston Park, over in Hove, or towards Whitehawk, you will find massage therapists in Brighton within easy reach.\n\nThe city's active, outdoors-minded population keeps sports and deep tissue massage in demand, from runners and cyclists along the seafront to walkers on the South Downs. Brighton's large creative, digital and tech scene, often called Silicon Beach, fills offices with desk-based workers who book deep tissue or remedial massage for neck and shoulder tension, while students at the University of Brighton and University of Sussex add to the mix. For relaxation, a Swedish or hot stone session near the seafront or the Lanes is a popular way to unwind.\n\nTherapists across Brighton & Hove offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in Kemptown, Hove and the city centre, while others provide mobile massage in Brighton, visiting homes across Hanover, Preston Park, Hove and beyond.\n\nThe directory also covers nearby areas including Hove, Shoreham, Lewes and the wider Sussex coast, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
     faqs: [
       {
         question: "How much does a massage cost in Brighton?",
@@ -842,7 +842,7 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
           "Yes. Several therapists offer mobile massage across Brighton & Hove, visiting homes in areas such as Kemptown, Hanover, Preston Park and Hove. Each listing shows the areas covered, so check before booking a home visit.",
       },
       {
-        question: "I run along the seafront and walk the South Downs — which massage helps?",
+        question: "I run along the seafront and walk the South Downs, which massage helps?",
         answer:
           "For runners, cyclists and walkers, sports massage or deep tissue is ideal for easing tight, tired muscles and aiding recovery. Many Brighton therapists work with active clients, so look for sports or remedial specialists on their listing.",
       },

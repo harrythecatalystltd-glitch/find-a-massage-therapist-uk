@@ -37,7 +37,7 @@ export function SiteFooter() {
             </p>
             <p>
               Connecting people with qualified, insured massage therapists across
-              the UK — so booking the right care is simple.
+              the UK, so booking the right care is simple.
             </p>
           </div>
 

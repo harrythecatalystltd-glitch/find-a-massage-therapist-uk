@@ -183,6 +183,12 @@
   justify-content: space-between;
   gap: 1.5rem;
   height: 76px;
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  /* Align the logo and CTA with the page content (was full-bleed: logo hard
+     against the left edge, CTA hard against the right). */
+  padding-inline: clamp(1.25rem, 4vw, 3rem);
 }
 
 .nav-logo {
@@ -558,23 +564,18 @@
 .grow-list li { display: flex; align-items: flex-start; gap: 0.8rem; color: rgba(255, 255, 255, 0.92); }
 .grow-list svg { color: var(--lavender); flex: none; margin-top: 3px; }
 
-/* decorative panel replaces the photo column (no asset available) */
+/* photo column — lifestyle shot of a listed therapist in their treatment room */
 .grow-decor {
   position: relative;
   min-height: 420px;
-  background:
-    radial-gradient(520px 320px at 78% 22%, rgba(239, 219, 255, 0.55), transparent 60%),
-    radial-gradient(420px 320px at 18% 88%, rgba(117, 73, 163, 0.65), transparent 60%),
-    linear-gradient(150deg, #4b1e78 0%, #34005f 60%, #2b0052 100%);
+  background: var(--aubergine);
 }
-.grow-decor::after {
-  content: "";
+.grow-decor img {
   position: absolute;
   inset: 0;
-  background:
-    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.05) 0 2px, transparent 2px 22px);
-  mix-blend-mode: screen;
-  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* ---------- locations ---------- */
@@ -621,9 +622,21 @@
   transition: background 0.4s ease;
 }
 .location-tile:hover::after { background: linear-gradient(to top, rgba(75, 30, 120, 0.88), rgba(75, 30, 120, 0.15) 70%); }
+/* Real city photo sits above the gradient fallback, below the dark overlay. */
+.location-tile .loc-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  transition: transform 0.9s ease;
+}
+.location-tile:hover .loc-img { transform: scale(1.06); }
+.location-tile::after { z-index: 1; }
 .location-tile .loc-name {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   color: #fff;
   font-family: var(--font-display);
   font-size: 1.5rem;
