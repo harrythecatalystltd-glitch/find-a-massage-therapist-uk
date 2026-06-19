@@ -8,11 +8,17 @@ import type { ListingCardData } from "@/lib/queries";
  * lilac wash, since listings supply logos not full-bleed portraits). Reused by the
  * home page, browse, location and treatment pages.
  */
-export function TherapistCard({ listing }: { listing: ListingCardData }) {
+export function TherapistCard({
+  listing,
+  reveal = false,
+}: {
+  listing: ListingCardData;
+  reveal?: boolean;
+}) {
   const tags = (listing.treatments ?? []).slice(0, 2);
 
   return (
-    <article className="therapist-card reveal">
+    <article className={reveal ? "therapist-card reveal" : "therapist-card"}>
       <div className="therapist-photo">
         {listing.logo_url ? (
           <Image

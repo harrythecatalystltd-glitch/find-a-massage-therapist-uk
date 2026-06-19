@@ -223,7 +223,7 @@ export default async function Home() {
             {featured.length > 0 ? (
               <div className="therapist-grid">
                 {featured.map((listing) => (
-                  <TherapistCard key={listing.slug} listing={listing} />
+                  <TherapistCard key={listing.slug} listing={listing} reveal />
                 ))}
               </div>
             ) : (
@@ -331,7 +331,7 @@ export default async function Home() {
               <span className="eyebrow">Good to know</span>
               <h2>Frequently asked questions</h2>
             </div>
-            <FaqAccordion items={FAQS} />
+            <FaqAccordion items={FAQS} reveal />
           </div>
         </section>
       </div>

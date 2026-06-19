@@ -4,7 +4,13 @@ import { useEffect, useRef } from "react";
 
 type Faq = { question: string; answer: string };
 
-export function FaqAccordion({ items }: { items: Faq[] }) {
+export function FaqAccordion({
+  items,
+  reveal = false,
+}: {
+  items: Faq[];
+  reveal?: boolean;
+}) {
   const ref = useRef<HTMLDivElement | null>(null);
 
   // Close other panels when one opens (matches the design-reference behaviour).
@@ -30,7 +36,7 @@ export function FaqAccordion({ items }: { items: Faq[] }) {
   }, []);
 
   return (
-    <div className="faq reveal" ref={ref}>
+    <div className={reveal ? "faq reveal" : "faq"} ref={ref}>
       {items.map((item, i) => (
         <details key={item.question} open={i === 0}>
           <summary>
