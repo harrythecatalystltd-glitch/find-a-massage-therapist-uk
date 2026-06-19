@@ -824,4 +824,38 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  brighton: {
+    intro:
+      "Looking for a massage therapist in Brighton? Find qualified practitioners across Brighton & Hove, from Kemptown to the seafront, covering sports, deep tissue, relaxation, pregnancy and hot stone massage.",
+    body:
+      "Brighton & Hove is a busy seaside city with a strong wellness culture and a mix of distinct neighbourhoods. Whether you are in buzzy Kemptown, around the North Laine and the Lanes, up in Hanover or Preston Park, over in Hove, or towards Whitehawk, you will find massage therapists in Brighton within easy reach.\n\nThe city's active, outdoors-minded population keeps sports and deep tissue massage in demand, from runners and cyclists along the seafront to walkers on the South Downs. Brighton's large creative, digital and tech scene — often called Silicon Beach — fills offices with desk-based workers who book deep tissue or remedial massage for neck and shoulder tension, while students at the University of Brighton and University of Sussex add to the mix. For relaxation, a Swedish or hot stone session near the seafront or the Lanes is a popular way to unwind.\n\nTherapists across Brighton & Hove offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in Kemptown, Hove and the city centre, while others provide mobile massage in Brighton, visiting homes across Hanover, Preston Park, Hove and beyond.\n\nThe directory also covers nearby areas including Hove, Shoreham, Lewes and the wider Sussex coast, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Brighton?",
+        answer:
+          "A one-hour massage in Brighton usually costs around £40 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or mobile appointment. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Brighton?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Brighton & Hove, visiting homes in areas such as Kemptown, Hanover, Preston Park and Hove. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I run along the seafront and walk the South Downs — which massage helps?",
+        answer:
+          "For runners, cyclists and walkers, sports massage or deep tissue is ideal for easing tight, tired muscles and aiding recovery. Many Brighton therapists work with active clients, so look for sports or remedial specialists on their listing.",
+      },
+      {
+        question: "What types of massage are available in Brighton?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Brighton?",
+        answer:
+          "Look for relevant qualifications and insurance, confirm they offer the treatment you need, and decide whether a clinic in Kemptown or Hove or a home visit suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
 };
