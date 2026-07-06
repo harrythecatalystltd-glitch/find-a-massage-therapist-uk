@@ -17,6 +17,7 @@ const quickLinks = [
   { href: "/find-a-therapist/glasgow/", label: "Glasgow" },
   { href: "/find-a-therapist/uddington/", label: "Uddington" },
   { href: "/find-a-therapist/bath/", label: "Bath" },
+  { href: "/find-a-therapist/plymouth/", label: "Plymouth" },
 ];
 
 const resourceLinks = [
