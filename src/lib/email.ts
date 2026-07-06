@@ -9,8 +9,14 @@ function fromSender() {
   return new Sender(process.env.MAILERSEND_FROM_EMAIL!, "Find a Massage Therapist UK");
 }
 
+function siteUrl() {
+  const url = process.env.NEXT_PUBLIC_SITE_URL;
+  if (!url) throw new Error("NEXT_PUBLIC_SITE_URL is not set — cannot build an email link");
+  return url;
+}
+
 export async function sendVerificationEmail(to: string, token: string) {
-  const verifyUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/verify?token=${token}`;
+  const verifyUrl = `${siteUrl()}/verify?token=${token}`;
   const params = new EmailParams()
     .setFrom(fromSender())
     .setTo([new Recipient(to)])
@@ -33,8 +39,8 @@ export async function sendAdminNotifyEmail(listing: { business_name: string; ema
       `<p><strong>${listing.business_name}</strong> (${listing.town ?? "no town set"}) verified their email` +
         ` and is ready for review.</p>` +
         `<p>Contact: ${listing.email ?? "none given"}</p>` +
-        `<p><a href="${process.env.NEXT_PUBLIC_SITE_URL}/admin">Review in the admin queue</a></p>`,
+        `<p><a href="${siteUrl()}/admin">Review in the admin queue</a></p>`,
     )
-    .setText(`${listing.business_name} verified their email and is ready for review: ${process.env.NEXT_PUBLIC_SITE_URL}/admin`);
+    .setText(`${listing.business_name} verified their email and is ready for review: ${siteUrl()}/admin`);
   await client().email.send(params);
 }

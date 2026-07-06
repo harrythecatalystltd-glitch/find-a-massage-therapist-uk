@@ -45,4 +45,13 @@ describe("email", () => {
     expect(params.html).toContain("Calm Hands Massage");
     expect(params.html).toContain("Manchester");
   });
+
+  it("throws instead of sending a broken link when NEXT_PUBLIC_SITE_URL is unset", async () => {
+    delete process.env.NEXT_PUBLIC_SITE_URL;
+    const { sendVerificationEmail } = await import("@/lib/email");
+    await expect(sendVerificationEmail("therapist@example.com", "abc123")).rejects.toThrow(
+      "NEXT_PUBLIC_SITE_URL",
+    );
+    expect(send).not.toHaveBeenCalled();
+  });
 });
