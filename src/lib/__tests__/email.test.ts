@@ -46,6 +46,16 @@ describe("email", () => {
     expect(params.html).toContain("Manchester");
   });
 
+  it("sends a 'your listing is live' email linking to the therapist's profile", async () => {
+    const { sendApprovedEmail } = await import("@/lib/email");
+    await sendApprovedEmail("hi@calmhands.co.uk", "Calm Hands Massage", "calm-hands-massage");
+
+    expect(send).toHaveBeenCalledTimes(1);
+    const params = send.mock.calls[0][0];
+    expect(params.to).toEqual([{ email: "hi@calmhands.co.uk", name: undefined }]);
+    expect(params.html).toContain("/therapist/calm-hands-massage");
+  });
+
   it("throws instead of sending a broken link when NEXT_PUBLIC_SITE_URL is unset", async () => {
     delete process.env.NEXT_PUBLIC_SITE_URL;
     const { sendVerificationEmail } = await import("@/lib/email");

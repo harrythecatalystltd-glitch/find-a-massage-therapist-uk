@@ -44,3 +44,17 @@ export async function sendAdminNotifyEmail(listing: { business_name: string; ema
     .setText(`${listing.business_name} verified their email and is ready for review: ${siteUrl()}/admin`);
   await client().email.send(params);
 }
+
+export async function sendApprovedEmail(to: string, businessName: string, slug: string) {
+  const profileUrl = `${siteUrl()}/therapist/${slug}`;
+  const params = new EmailParams()
+    .setFrom(fromSender())
+    .setTo([new Recipient(to)])
+    .setSubject("Your listing is live on Find a Massage Therapist UK")
+    .setHtml(
+      `<p>Good news — <strong>${businessName}</strong> has been approved and is now live on Find a Massage Therapist UK.</p>` +
+        `<p><a href="${profileUrl}">View your listing</a></p>`,
+    )
+    .setText(`Your listing is live: ${profileUrl}`);
+  await client().email.send(params);
+}
