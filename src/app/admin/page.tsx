@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { approveListing, rejectListing, signOut } from "./actions";
 
@@ -28,11 +29,16 @@ export default async function AdminPage() {
             <span className="eyebrow">Admin</span>
             <h1>Review Queue</h1>
           </div>
-          <form action={signOut}>
-            <button type="submit" className="btn btn-ghost">
-              Sign out
-            </button>
-          </form>
+          <div style={{ display: "flex", gap: "0.75rem" }}>
+            <Link className="btn btn-ghost" href="/admin/account">
+              Change password
+            </Link>
+            <form action={signOut}>
+              <button type="submit" className="btn btn-ghost">
+                Sign out
+              </button>
+            </form>
+          </div>
         </div>
       </section>
 
