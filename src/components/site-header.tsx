@@ -7,12 +7,9 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/find-a-therapist", label: "Find a Therapist" },
-  { href: "/list-your-practice", label: "List Your Practice" },
   { href: "/learn", label: "Learn" },
   { href: "/massage-tools", label: "Massage Tools" },
 ];
-
-const ctaHref = "https://www.thecatalystmethod.co.uk/signup";
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -55,14 +52,9 @@ export function SiteHeader() {
         </ul>
 
         <div className="nav-actions">
-          <a
-            className="btn btn-primary"
-            href={ctaHref}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Get Leads
-          </a>
+          <Link className="btn btn-primary" href="/list-your-practice" onClick={() => setOpen(false)}>
+            List Your Clinic
+          </Link>
           <button
             className="nav-toggle"
             type="button"
