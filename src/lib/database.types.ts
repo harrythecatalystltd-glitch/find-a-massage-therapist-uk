@@ -46,6 +46,7 @@ export type Database = {
       }
       listings: {
         Row: {
+          address: string | null
           approved_at: string | null
           booking_url: string | null
           business_name: string
@@ -57,17 +58,25 @@ export type Database = {
           email_verified: boolean
           facebook: string | null
           fbclid: string | null
+          google_maps_url: string | null
+          google_rating: number | null
+          google_review_count: number | null
           id: string
           instagram: string | null
+          insurance_provider: string | null
+          insured: boolean
           is_featured: boolean
           lat: number | null
+          listing_type: Database["public"]["Enums"]["listing_type"] | null
           lng: number | null
           logo_url: string | null
           owner_user_id: string | null
           pending_changes: Json | null
           phone: string | null
           postcode: string | null
+          qualifications: string | null
           region: string | null
+          service_area: string | null
           slug: string | null
           source: string | null
           status: Database["public"]["Enums"]["listing_status"]
@@ -82,6 +91,7 @@ export type Database = {
           website_url: string | null
         }
         Insert: {
+          address?: string | null
           approved_at?: string | null
           booking_url?: string | null
           business_name: string
@@ -93,17 +103,25 @@ export type Database = {
           email_verified?: boolean
           facebook?: string | null
           fbclid?: string | null
+          google_maps_url?: string | null
+          google_rating?: number | null
+          google_review_count?: number | null
           id?: string
           instagram?: string | null
+          insurance_provider?: string | null
+          insured?: boolean
           is_featured?: boolean
           lat?: number | null
+          listing_type?: Database["public"]["Enums"]["listing_type"] | null
           lng?: number | null
           logo_url?: string | null
           owner_user_id?: string | null
           pending_changes?: Json | null
           phone?: string | null
           postcode?: string | null
+          qualifications?: string | null
           region?: string | null
+          service_area?: string | null
           slug?: string | null
           source?: string | null
           status?: Database["public"]["Enums"]["listing_status"]
@@ -118,6 +136,7 @@ export type Database = {
           website_url?: string | null
         }
         Update: {
+          address?: string | null
           approved_at?: string | null
           booking_url?: string | null
           business_name?: string
@@ -129,18 +148,26 @@ export type Database = {
           email_verified?: boolean
           facebook?: string | null
           fbclid?: string | null
+          google_maps_url?: string | null
+          google_rating?: number | null
+          google_review_count?: number | null
           id?: string
           instagram?: string | null
+          insurance_provider?: string | null
+          insured?: boolean
           is_featured?: boolean
           lat?: number | null
+          listing_type?: Database["public"]["Enums"]["listing_type"] | null
           lng?: number | null
           logo_url?: string | null
           owner_user_id?: string | null
           pending_changes?: Json | null
           phone?: string | null
           postcode?: string | null
+          qualifications?: string | null
           region?: string | null
-          slug?: string | null
+          service_area?: string | null
+          slug?: string
           source?: string | null
           status?: Database["public"]["Enums"]["listing_status"]
           summary?: string | null
@@ -276,6 +303,7 @@ export type Database = {
     Enums: {
       listing_status: "pending" | "verified" | "approved" | "rejected"
       listing_tier: "free" | "featured" | "premium"
+      listing_type: "clinic" | "mobile"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -405,6 +433,7 @@ export const Constants = {
     Enums: {
       listing_status: ["pending", "verified", "approved", "rejected"],
       listing_tier: ["free", "featured", "premium"],
+      listing_type: ["clinic", "mobile"],
     },
   },
 } as const
