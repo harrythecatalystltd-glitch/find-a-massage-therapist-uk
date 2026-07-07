@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "List Your Practice",
   description:
     "Add your massage, sports therapy or bodywork practice to the UK's premier wellness directory.",
+  alternates: { canonical: "/list-your-practice/" },
 };
 
 export default async function ListYourPracticePage({

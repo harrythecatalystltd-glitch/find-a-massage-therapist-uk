@@ -50,6 +50,7 @@ export async function generateMetadata({
     description:
       BLURB[treatment.slug] ??
       `Find qualified ${treatment.name.toLowerCase()} therapists across the UK.`,
+    alternates: { canonical: `/massage/${treatment.slug}/` },
   };
 }
 

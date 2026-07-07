@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "FAQ",
   description:
     "Answers to common questions about finding a massage therapist and listing your practice on Find a Massage Therapist UK.",
+  alternates: { canonical: "/faq/" },
 };
 
 const CLIENT_FAQS = [

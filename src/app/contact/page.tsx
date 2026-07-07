@@ -5,6 +5,7 @@ import { ContactForm } from "./contact-form";
 export const metadata: Metadata = {
   title: "Contact",
   description: "Get in touch with the Find a Massage Therapist UK team.",
+  alternates: { canonical: "/contact/" },
 };
 
 export default function ContactPage() {

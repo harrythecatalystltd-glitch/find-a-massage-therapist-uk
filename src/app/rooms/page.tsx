@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Find a Massage Therapy Room to Rent",
   description:
     "Find a massage therapy room to rent, build your business and get links to room rental options for massage therapists.",
+  alternates: { canonical: "/rooms/" },
 };
 
 const PARTNERS = [

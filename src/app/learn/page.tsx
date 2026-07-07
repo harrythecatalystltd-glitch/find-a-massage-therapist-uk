@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Learn",
   description:
     "Massage treatment guides, wellness tips and advice from the Find a Massage Therapist UK team.",
+  alternates: { canonical: "/learn/" },
 };
 
 export default async function LearnPage({

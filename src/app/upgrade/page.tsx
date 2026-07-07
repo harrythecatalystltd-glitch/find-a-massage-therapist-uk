@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Upgrade Your Listing",
   description:
     "Get more visibility for your practice with a Featured, Premium or Boosted listing on Find a Massage Therapist UK.",
+  alternates: { canonical: "/upgrade/" },
 };
 
 const TIERS = [

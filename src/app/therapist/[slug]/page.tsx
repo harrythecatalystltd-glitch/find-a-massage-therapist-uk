@@ -22,6 +22,7 @@ export async function generateMetadata({
   return {
     title: listing.business_name,
     description: listing.summary ?? `Massage therapy from ${listing.business_name}.`,
+    alternates: { canonical: `/therapist/${listing.slug}/` },
   };
 }
 

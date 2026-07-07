@@ -47,6 +47,7 @@ export async function generateMetadata({
     description:
       location.intro_copy ??
       `Find qualified, insured massage therapists in ${location.town} and nearby areas.`,
+    alternates: { canonical: `/find-a-therapist/${location.slug}/` },
   };
 }
 

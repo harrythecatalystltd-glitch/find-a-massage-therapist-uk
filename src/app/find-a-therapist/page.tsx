@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Find a Massage Therapist",
   description:
     "Browse qualified, insured massage therapists across the UK by treatment, town and search.",
+  alternates: { canonical: "/find-a-therapist/" },
 };
 
 export default async function FindATherapistPage({

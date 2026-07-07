@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Massage Tools & Equipment",
   description:
     "Massage tables, beds and treatment couches for clinics and mobile therapists, with exclusive partner discounts.",
+  alternates: { canonical: "/massage-tools/" },
 };
 
 export default async function MassageToolsPage() {

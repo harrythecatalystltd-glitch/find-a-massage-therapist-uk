@@ -18,6 +18,7 @@ export async function generateMetadata({
     // `seoTitle` (short) and `headline` — same fallback the index list uses.
     title: post.seoTitle || post.headline,
     description: post.metaDescription,
+    alternates: { canonical: `/learn/${slug}/` },
   };
 }
 

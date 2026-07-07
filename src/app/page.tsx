@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "Find a Massage Therapist UK | Qualified, Insured Therapists Near You",
   description:
     "The UK's premier wellness directory. Search qualified, insured massage therapists by treatment, town and availability, and book the right hands for the job.",
+  alternates: { canonical: "/" },
 };
 
 const ArrowIcon = () => (
