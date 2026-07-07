@@ -95,6 +95,31 @@ export default async function TherapistPage({
                   ))}
                 </div>
               )}
+              {(listing.insured || listing.qualifications) && (
+                <div className="profile-tags">
+                  {listing.insured && (
+                    <span className="tag">
+                      Insured{listing.insurance_provider ? ` · ${listing.insurance_provider}` : ""}
+                    </span>
+                  )}
+                  {listing.qualifications && <span className="tag">{listing.qualifications}</span>}
+                </div>
+              )}
+              {(listing.google_rating != null || listing.google_review_count != null || listing.google_maps_url) && (
+                <p className="profile-loc">
+                  {listing.google_rating != null && <strong>★ {listing.google_rating.toFixed(1)}</strong>}
+                  {listing.google_review_count != null &&
+                    ` (${listing.google_review_count} Google review${listing.google_review_count === 1 ? "" : "s"})`}
+                  {listing.google_maps_url && (
+                    <>
+                      {(listing.google_rating != null || listing.google_review_count != null) && " · "}
+                      <a href={listing.google_maps_url} target="_blank" rel="noopener noreferrer">
+                        See reviews on Google
+                      </a>
+                    </>
+                  )}
+                </p>
+              )}
             </div>
           </div>
         </div>

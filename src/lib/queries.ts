@@ -50,6 +50,12 @@ export type ListingDetail = ListingCardData & {
   dofollow: boolean;
   region: string | null;
   treatments: { name: string; slug: string }[];
+  google_maps_url: string | null;
+  google_review_count: number | null;
+  google_rating: number | null;
+  qualifications: string | null;
+  insured: boolean;
+  insurance_provider: string | null;
 };
 
 export async function getFeaturedListings(): Promise<ListingCardData[]> {
@@ -109,6 +115,8 @@ export async function getListingBySlug(slug: string): Promise<ListingDetail | nu
     .select(
       `slug, business_name, summary, town, logo_url, is_featured,
        description_long, website_url, dofollow, region,
+       google_maps_url, google_review_count, google_rating,
+       qualifications, insured, insurance_provider,
        listing_treatment_types ( treatment_types ( name, slug ) )`,
     )
     .eq("status", "approved")
@@ -133,6 +141,13 @@ export async function getListingBySlug(slug: string): Promise<ListingDetail | nu
     dofollow: data.dofollow,
     region: data.region,
     treatments,
+    google_maps_url: data.google_maps_url,
+    google_review_count: data.google_review_count,
+    // numeric(2,1) comes back from postgrest as a string (e.g. "5.0").
+    google_rating: data.google_rating != null ? Number(data.google_rating) : null,
+    qualifications: data.qualifications,
+    insured: data.insured,
+    insurance_provider: data.insurance_provider,
   };
 }
 
