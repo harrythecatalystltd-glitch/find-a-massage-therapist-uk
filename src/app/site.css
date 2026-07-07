@@ -605,6 +605,7 @@
   content: "";
   position: absolute;
   inset: 0;
+  z-index: -1;
   background:
     radial-gradient(140% 110% at 80% 0%, rgba(239, 219, 255, 0.55), transparent 55%),
     linear-gradient(160deg, #7549a3 0%, #4b1e78 55%, #34005f 100%);
