@@ -9,7 +9,7 @@ export const listingFormSchema = z
     address: z.string().trim().optional(),
     service_area: z.string().trim().optional(),
     town: z.string().trim().min(2, "Enter the town this listing serves"),
-    summary: z.string().trim().max(280).optional(),
+    summary: z.string().trim().min(10, "Enter a short summary").max(280),
     phone: z.string().trim().optional(),
     instagram: z.url().optional().or(z.literal("")),
     facebook: z.url().optional().or(z.literal("")),
@@ -17,9 +17,11 @@ export const listingFormSchema = z
     google_maps_url: z.url().optional().or(z.literal("")),
     google_review_count: z.coerce.number().int().min(0).optional(),
     google_rating: z.coerce.number().min(0).max(5).optional(),
-    qualifications: z.string().trim().optional(),
-    insured: z.coerce.boolean().default(false),
-    insurance_provider: z.string().trim().optional(),
+    qualifications: z.string().trim().min(2, "Enter your qualifications"),
+    insured: z.coerce
+      .boolean()
+      .refine((v) => v === true, { message: "Confirm you have professional insurance to list" }),
+    insurance_provider: z.string().trim().min(2, "Enter your insurance provider"),
     treatment_type_ids: z.array(z.string()).min(1, "Select at least one treatment"),
     source: z.string().trim().optional(),
     utm_source: z.string().trim().optional(),

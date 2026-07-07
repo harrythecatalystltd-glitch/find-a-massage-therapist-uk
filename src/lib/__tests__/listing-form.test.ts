@@ -8,6 +8,10 @@ const validClinic = {
   listing_type: "clinic" as const,
   address: "12 High Street, Manchester",
   town: "Manchester",
+  summary: "Relaxing deep tissue and Swedish massage in central Manchester.",
+  qualifications: "Level 4 Diploma in Sports Massage Therapy",
+  insured: true,
+  insurance_provider: "Balens",
   treatment_type_ids: ["sports-massage-id"],
 };
 
@@ -61,11 +65,33 @@ describe("listingFormSchema", () => {
     expect(result.success).toBe(false);
   });
 
-  it("allows optional Google/insurance fields to be omitted", () => {
+  it("allows the optional Google review fields to be omitted", () => {
     const result = listingFormSchema.safeParse(validClinic);
     expect(result.success).toBe(true);
-    if (result.success) {
-      expect(result.data.insured).toBe(false);
-    }
+  });
+
+  it("allows phone, social and booking fields to be omitted", () => {
+    const result = listingFormSchema.safeParse(validClinic);
+    expect(result.success).toBe(true);
+  });
+
+  it("rejects a missing summary", () => {
+    const result = listingFormSchema.safeParse({ ...validClinic, summary: undefined });
+    expect(result.success).toBe(false);
+  });
+
+  it("rejects missing qualifications", () => {
+    const result = listingFormSchema.safeParse({ ...validClinic, qualifications: undefined });
+    expect(result.success).toBe(false);
+  });
+
+  it("rejects an unchecked insurance confirmation", () => {
+    const result = listingFormSchema.safeParse({ ...validClinic, insured: false });
+    expect(result.success).toBe(false);
+  });
+
+  it("rejects a missing insurance provider", () => {
+    const result = listingFormSchema.safeParse({ ...validClinic, insurance_provider: undefined });
+    expect(result.success).toBe(false);
   });
 });

@@ -46,28 +46,33 @@ export async function submitListing(
   };
 
   const parsed = listingFormSchema.safeParse(raw);
+  const errors: Record<string, string> = {};
   if (!parsed.success) {
-    const errors: Record<string, string> = {};
     for (const issue of parsed.error.issues) {
       const key = issue.path[0]?.toString() ?? "form";
       if (!errors[key]) errors[key] = issue.message;
     }
+  }
+
+  const logo = formData.get("logo");
+  const logoValid = logo instanceof File && logo.size > 0;
+  if (!logoValid) errors.logo = "Upload a logo or photo for your listing";
+
+  if (!parsed.success || !logoValid) {
     return { status: "error", errors };
   }
 
   const data = parsed.data;
   const supabase = createAdminClient();
+  const logoFile = logo as File; // logoValid confirmed this above
 
   let logo_url: string | null = null;
-  const logo = formData.get("logo");
-  if (logo instanceof File && logo.size > 0) {
-    const path = `${randomBytes(8).toString("hex")}-${slugify(logo.name)}`;
-    const { error: uploadError } = await supabase.storage
-      .from("listing-logos")
-      .upload(path, logo, { contentType: logo.type });
-    if (!uploadError) {
-      logo_url = supabase.storage.from("listing-logos").getPublicUrl(path).data.publicUrl;
-    }
+  const path = `${randomBytes(8).toString("hex")}-${slugify(logoFile.name)}`;
+  const { error: uploadError } = await supabase.storage
+    .from("listing-logos")
+    .upload(path, logoFile, { contentType: logoFile.type });
+  if (!uploadError) {
+    logo_url = supabase.storage.from("listing-logos").getPublicUrl(path).data.publicUrl;
   }
 
   const verification_token = randomBytes(32).toString("hex");

@@ -38,10 +38,15 @@ function baseFormData(overrides: Record<string, string> = {}) {
     listing_type: "clinic",
     address: "12 High Street, Manchester",
     town: "Manchester",
+    summary: "Relaxing deep tissue and Swedish massage in central Manchester.",
+    qualifications: "Level 4 Diploma in Sports Massage Therapy",
+    insured: "on",
+    insurance_provider: "Balens",
     ...overrides,
   };
   for (const [key, value] of Object.entries(fields)) fd.set(key, value);
   fd.append("treatment_type_ids", "sports-massage-id");
+  fd.set("logo", new File(["fake-image-bytes"], "logo.png", { type: "image/png" }));
   return fd;
 }
 
@@ -64,7 +69,7 @@ describe("submitListing", () => {
     expect(payload.business_name).toBe("Calm Hands Massage");
     expect(payload.listing_type).toBe("clinic");
     expect(payload.verification_token).toMatch(/^[0-9a-f]{64}$/);
-    expect(payload.insured).toBe(false);
+    expect(payload.insured).toBe(true);
 
     expect(junctionInsert).toHaveBeenCalledWith([
       { listing_id: "listing-1", treatment_type_id: "sports-massage-id" },
@@ -97,5 +102,18 @@ describe("submitListing", () => {
     if (result.status === "error") {
       expect(result.errors.address).toBeDefined();
     }
+  });
+
+  it("requires a logo to be uploaded", async () => {
+    const { submitListing } = await import("@/app/list-your-practice/actions");
+    const fd = baseFormData();
+    fd.delete("logo");
+    const result = await submitListing({ status: "idle" }, fd);
+
+    expect(result.status).toBe("error");
+    if (result.status === "error") {
+      expect(result.errors.logo).toBeDefined();
+    }
+    expect(listingsInsert).not.toHaveBeenCalled();
   });
 });

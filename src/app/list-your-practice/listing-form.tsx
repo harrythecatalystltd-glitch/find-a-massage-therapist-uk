@@ -14,7 +14,7 @@ export function ListingForm({
 }) {
   const [state, formAction, pending] = useActionState(submitListing, initialState);
   const [listingType, setListingType] = useState<"clinic" | "mobile">("clinic");
-  const [insured, setInsured] = useState(false);
+  const [insured, setInsured] = useState(true);
 
   const errors = state.status === "error" ? state.errors : {};
 
@@ -67,13 +67,15 @@ export function ListingForm({
           </div>
 
           <div className="form-field full">
-            <label htmlFor="summary">Short summary (optional)</label>
-            <textarea id="summary" name="summary" maxLength={280} />
+            <label htmlFor="summary">Short summary</label>
+            <textarea id="summary" name="summary" maxLength={280} required />
+            {errors.summary && <p className="form-error">{errors.summary}</p>}
           </div>
 
           <div className="form-field">
-            <label htmlFor="logo">Logo (optional)</label>
-            <input type="file" id="logo" name="logo" accept="image/*" />
+            <label htmlFor="logo">Logo</label>
+            <input type="file" id="logo" name="logo" accept="image/*" required />
+            {errors.logo && <p className="form-error">{errors.logo}</p>}
           </div>
         </div>
       </div>
@@ -164,10 +166,9 @@ export function ListingForm({
           </div>
 
           <div className="form-field full">
-            <label htmlFor="qualifications">
-              Qualifications <span className="hint">(optional)</span>
-            </label>
-            <textarea id="qualifications" name="qualifications" />
+            <label htmlFor="qualifications">Qualifications</label>
+            <textarea id="qualifications" name="qualifications" required />
+            {errors.qualifications && <p className="form-error">{errors.qualifications}</p>}
           </div>
 
           <div className="form-field">
@@ -177,14 +178,17 @@ export function ListingForm({
                 name="insured"
                 checked={insured}
                 onChange={(e) => setInsured(e.target.checked)}
+                required
               />
               I have professional insurance
             </label>
+            {errors.insured && <p className="form-error">{errors.insured}</p>}
           </div>
           {insured && (
             <div className="form-field">
               <label htmlFor="insurance_provider">Insurance provider</label>
-              <input type="text" id="insurance_provider" name="insurance_provider" />
+              <input type="text" id="insurance_provider" name="insurance_provider" required />
+              {errors.insurance_provider && <p className="form-error">{errors.insurance_provider}</p>}
             </div>
           )}
         </div>
