@@ -45,6 +45,17 @@ export async function sendAdminNotifyEmail(listing: { business_name: string; ema
   await client().email.send(params);
 }
 
+export async function sendContactEmail(data: { name: string; email: string; message: string }) {
+  const params = new EmailParams()
+    .setFrom(fromSender())
+    .setTo([new Recipient(process.env.ADMIN_NOTIFY_EMAIL!)])
+    .setReplyTo(new Sender(data.email, data.name))
+    .setSubject(`Contact form: ${data.name}`)
+    .setHtml(`<p><strong>${data.name}</strong> (${data.email}) wrote:</p><p>${data.message}</p>`)
+    .setText(`${data.name} (${data.email}) wrote:\n\n${data.message}`);
+  await client().email.send(params);
+}
+
 export async function sendApprovedEmail(to: string, businessName: string, slug: string) {
   const profileUrl = `${siteUrl()}/therapist/${slug}`;
   const params = new EmailParams()

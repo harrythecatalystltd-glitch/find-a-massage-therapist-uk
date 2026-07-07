@@ -23,6 +23,8 @@ const quickLinks = [
 const resourceLinks = [
   { href: "/faq", label: "FAQ" },
   { href: "/contact", label: "Contact" },
+  { href: "/upgrade", label: "Upgrade" },
+  { href: "/rooms", label: "Room Rentals" },
 ];
 
 export function SiteFooter() {
