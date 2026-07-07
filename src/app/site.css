@@ -668,6 +668,11 @@
 .loc-seo { background: var(--lilac-wash); }
 .loc-prose { max-width: 760px; }
 .loc-prose p { color: var(--muted); }
+.loc-prose ul,
+.loc-prose ol { color: var(--muted); margin: 0 0 1em; padding-left: 1.3em; }
+.loc-prose li { margin-bottom: 0.4em; }
+.loc-prose img { border-radius: var(--radius-tile); margin: 1.5em 0; }
+.loc-prose a { text-decoration: underline; }
 .loc-grid { margin-top: 1.8rem; }
 .loc-cta {
   margin-top: 1.8rem;
