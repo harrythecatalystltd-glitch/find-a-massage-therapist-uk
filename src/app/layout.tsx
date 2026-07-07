@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Playfair_Display, Montserrat } from "next/font/google";
 import "./globals.css";
 import "./site.css";
@@ -41,6 +42,18 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0"
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-Z4B72RJ3PB"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-Z4B72RJ3PB');
+          `}
+        </Script>
         <SiteHeader />
         <main className="flex-1 pt-20">{children}</main>
         <SiteFooter />
