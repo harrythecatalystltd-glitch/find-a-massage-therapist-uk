@@ -70,6 +70,22 @@ export async function sendDashboardInviteEmail(to: string, businessName: string,
   await client().email.send(params);
 }
 
+const TIER_LABEL: Record<string, string> = { free: "Free", pro: "Pro", vip: "VIP" };
+
+export async function sendTierChangedEmail(to: string, businessName: string, tier: string) {
+  const label = TIER_LABEL[tier] ?? tier;
+  const params = new EmailParams()
+    .setFrom(fromSender())
+    .setTo([new Recipient(to)])
+    .setSubject(`Your listing is now on the ${label} plan`)
+    .setHtml(
+      `<p><strong>${businessName}</strong> is now on the <strong>${label}</strong> plan.</p>` +
+        `<p><a href="${siteUrl()}/dashboard">Manage your listing</a></p>`,
+    )
+    .setText(`${businessName} is now on the ${label} plan. Manage it: ${siteUrl()}/dashboard`);
+  await client().email.send(params);
+}
+
 export async function sendApprovedEmail(to: string, businessName: string, slug: string) {
   const profileUrl = `${siteUrl()}/therapist/${slug}`;
   const params = new EmailParams()

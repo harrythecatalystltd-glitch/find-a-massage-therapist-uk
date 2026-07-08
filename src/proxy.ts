@@ -2,9 +2,34 @@ import { createServerClient } from "@supabase/ssr";
 import { type NextRequest, NextResponse } from "next/server";
 
 const PUBLIC_PREFIXES = ["/admin/login", "/dashboard/login", "/dashboard/set-password"];
+const PROTECTED_PREFIXES = ["/admin", "/dashboard"];
+
+// Replaces Next's built-in `trailingSlash: true` redirect (disabled via
+// `skipTrailingSlashRedirect` in next.config.ts) so we can exempt /api routes from
+// it — Route Handlers don't get a trailing-slash alias, so the built-in redirect
+// sent every /api request to a URL that 404s, and Stripe doesn't follow redirects.
+// The matcher below already excludes /api, static files and _next assets, so this
+// only ever runs for page paths.
+function withTrailingSlash(request: NextRequest) {
+  const { pathname, search } = request.nextUrl;
+  if (pathname === "/" || pathname.endsWith("/")) return null;
+  // Plain `URL`, not `request.nextUrl.clone()` — NextURL's clone().toString() silently
+  // drops a trailing slash set via the `.pathname` setter, even though the property
+  // itself holds the right value (confirmed by logging it — a real NextURL quirk).
+  const url = new URL(`${pathname}/${search}`, request.url);
+  return NextResponse.redirect(url, 308);
+}
 
 export async function proxy(request: NextRequest) {
-  if (PUBLIC_PREFIXES.some((path) => request.nextUrl.pathname.startsWith(path))) {
+  const slashRedirect = withTrailingSlash(request);
+  if (slashRedirect) return slashRedirect;
+
+  const { pathname } = request.nextUrl;
+  if (!PROTECTED_PREFIXES.some((prefix) => pathname.startsWith(prefix))) {
+    return NextResponse.next();
+  }
+
+  if (PUBLIC_PREFIXES.some((path) => pathname.startsWith(path))) {
     return NextResponse.next();
   }
 
@@ -44,5 +69,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*", "/dashboard/:path*"],
+  matcher: ["/((?!api/|_next/static|_next/image|favicon.ico|.*\\..*).*)"],
 };

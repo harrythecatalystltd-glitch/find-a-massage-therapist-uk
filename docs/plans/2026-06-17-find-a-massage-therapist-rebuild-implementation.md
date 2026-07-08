@@ -456,6 +456,7 @@ simpler: the dashboard just links straight to these with query params, no
   - `STRIPE_PRICE_PRO=price_1Tqb0oRpXGxdLJUChhxmubPv`, `STRIPE_PRICE_VIP=price_1Tqb2aRpXGxdLJUCOv99QGqA` (webhook uses these to tell tiers apart)
   - `NEXT_PUBLIC_STRIPE_PAYMENT_LINK_PRO=https://buy.stripe.com/6oU00l8bAcRp60PbNbaMU00`, `NEXT_PUBLIC_STRIPE_PAYMENT_LINK_VIP=https://buy.stripe.com/fZu28t2Rg4kTfBp04taMU01` (public — safe to expose, they're just checkout links)
 - `npm install stripe` (still needed server-side, for the webhook and the Billing Portal in Task 8.13).
+- Correction 2026-07-08: the env vars above were never actually written to `.env.local`/`.env.example` despite this task being marked done — added the Payment Link + Price ID vars now (they're not secret). `STRIPE_SECRET_KEY` and `STRIPE_WEBHOOK_SECRET` are still blank — real secrets, need to come from the user via the Stripe dashboard.
 
 ### Task 8.1: Migration — tiers, gallery, Stripe linkage
 
@@ -574,7 +575,7 @@ simpler: the dashboard just links straight to these with query params, no
   should say "Log in to your dashboard to upgrade" → `/dashboard/login`, not trigger
   Checkout directly from this public page. Commit.
 
-### Task 8.11: Upgrade buttons link straight to the Payment Links
+### Task 8.11: Upgrade buttons link straight to the Payment Links — done 2026-07-08
 
 **Files:** Modify `src/app/dashboard/page.tsx`
 - No server action needed to start checkout — Payment Links support query params
@@ -586,7 +587,7 @@ simpler: the dashboard just links straight to these with query params, no
   and `docs.stripe.com/payment-links/customize`.
 - Only show the Pro button if `tier === "free"`; only show the VIP button if `tier !== "vip"`. Commit.
 
-### Task 8.12: Stripe webhook
+### Task 8.12: Stripe webhook — code done 2026-07-08, needs real `STRIPE_SECRET_KEY`/`STRIPE_WEBHOOK_SECRET` + endpoint registered in the Stripe dashboard before it's live
 
 **Files:** Create `src/app/api/stripe/webhook/route.ts`, `src/lib/stripe.ts`, modify `src/lib/email.ts`
 - `src/lib/stripe.ts`: thin wrapper instantiating the `Stripe` client from `STRIPE_SECRET_KEY` (mirrors `src/lib/email.ts`'s `client()` pattern). Still needed here (and for Task 8.13's Billing Portal) even though Checkout itself no longer needs it.
@@ -614,7 +615,7 @@ simpler: the dashboard just links straight to these with query params, no
   every tier change (upgrade, downgrade, cancellation) so the therapist always knows what
   happened to their listing. Commit.
 
-### Task 8.13: Stripe Billing Portal
+### Task 8.13: Stripe Billing Portal — code done 2026-07-08, needs "customers can switch plans" enabled in the Stripe dashboard first
 
 **Files:** Modify `src/app/dashboard/actions.ts`, `src/app/dashboard/page.tsx`
 - **Manual, in Stripe Dashboard first:** under Billing Portal settings, enable "customers

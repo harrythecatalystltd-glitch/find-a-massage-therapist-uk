@@ -2,19 +2,25 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { signOut } from "./actions";
+import { signOut, openBillingPortal } from "./actions";
 
 export const metadata: Metadata = { title: "Dashboard" };
 export const dynamic = "force-dynamic";
 
 const TIER_LABEL: Record<string, string> = { free: "Free", pro: "Pro", vip: "VIP" };
 
+function paymentLink(base: string, listingId: string, email: string | null) {
+  const params = new URLSearchParams({ client_reference_id: listingId });
+  if (email) params.set("prefilled_email", email);
+  return `${base}?${params.toString()}`;
+}
+
 async function getOwnListing(userId: string) {
   const supabase = createAdminClient();
   const { data } = await supabase
     .from("listings")
     .select(
-      "business_name, town, phone, email, website_url, summary, tier, stripe_subscription_id",
+      "id, business_name, town, phone, email, website_url, summary, tier, stripe_customer_id, stripe_subscription_id",
     )
     .eq("owner_user_id", userId)
     .maybeSingle();
@@ -74,10 +80,36 @@ export default async function DashboardPage() {
                 <Link className="btn btn-primary" href="/dashboard/edit">
                   Edit listing
                 </Link>
+                {listing.tier === "free" && (
+                  <a
+                    className="btn btn-ghost"
+                    href={paymentLink(
+                      process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK_PRO!,
+                      listing.id,
+                      listing.email,
+                    )}
+                  >
+                    Upgrade to Pro — £7/mo
+                  </a>
+                )}
                 {listing.tier !== "vip" && (
-                  <Link className="btn btn-ghost" href="/upgrade">
-                    Upgrade your listing
-                  </Link>
+                  <a
+                    className="btn btn-ghost"
+                    href={paymentLink(
+                      process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK_VIP!,
+                      listing.id,
+                      listing.email,
+                    )}
+                  >
+                    Upgrade to VIP — £27/mo
+                  </a>
+                )}
+                {listing.stripe_customer_id && (
+                  <form action={openBillingPortal}>
+                    <button type="submit" className="btn btn-ghost">
+                      Manage billing
+                    </button>
+                  </form>
                 )}
               </div>
             </>

@@ -7,6 +7,7 @@ import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { slugify } from "@/lib/slug";
+import { stripeClient } from "@/lib/stripe";
 import type { Database } from "@/lib/database.types";
 
 type ListingUpdate = Database["public"]["Tables"]["listings"]["Update"];
@@ -15,6 +16,28 @@ export async function signOut() {
   const supabase = await createClient();
   await supabase.auth.signOut();
   redirect("/dashboard/login");
+}
+
+export async function openBillingPortal() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) redirect("/dashboard/login");
+
+  const admin = createAdminClient();
+  const { data: listing } = await admin
+    .from("listings")
+    .select("stripe_customer_id")
+    .eq("owner_user_id", user.id)
+    .maybeSingle();
+  if (!listing?.stripe_customer_id) redirect("/dashboard");
+
+  const session = await stripeClient().billingPortal.sessions.create({
+    customer: listing.stripe_customer_id,
+    return_url: `${process.env.NEXT_PUBLIC_SITE_URL}/dashboard`,
+  });
+  redirect(session.url);
 }
 
 export type UpdateListingState =

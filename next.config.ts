@@ -2,6 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
+  // Next's built-in trailingSlash redirect has no exception for Route Handlers: it
+  // 308s `/api/x` -> `/api/x/`, but route handlers don't get a trailing-slash alias,
+  // so that redirect target 404s. Stripe (like most webhook senders) doesn't follow
+  // redirects, so this silently broke the webhook. Handling it ourselves in
+  // src/proxy.ts lets us exclude /api from the trailing-slash redirect entirely.
+  skipTrailingSlashRedirect: true,
   async redirects() {
     return [
       // Old location slug used no hyphen; ours is hyphenated.
