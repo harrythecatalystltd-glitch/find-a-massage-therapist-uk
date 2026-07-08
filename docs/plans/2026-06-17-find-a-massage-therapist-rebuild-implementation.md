@@ -421,17 +421,219 @@ NEXT_PUBLIC_SITE_URL=https://www.findamassagetherapist.co.uk
 
 ---
 
-# PHASE 8 — Later (outline only; expand when reached)
+# PHASE 8 — Therapist dashboard & paid tiers
 
-### Therapist self-edit `/dashboard` (design §8)
-- Magic-link login; `owner_user_id` claim flow on the listing matching the therapist's email.
-- RLS policy: therapist may `select`/`update` only their own listing.
-- Edits to a live listing write to `pending_changes`; owner approves in `/admin` to merge + re-publish.
+Revised from the design doc's §8/§9 sketch after a decision with the user (2026-07-07):
+**no self-claim.** Admin approval works exactly as it does today; approval is what
+provisions the therapist's login. Two paid tiers, not three, and the top tier includes
+everything the lower tier does:
 
-### Stripe paid tiers `/upgrade` (design §9)
-- Stripe Checkout for Featured / Premium / Boosted.
-- Webhook flips `tier` / `is_featured` / `dofollow` (premium ⇒ dofollow + long profile + gallery).
-- Sort listings by tier on home/town pages.
+| Tier | Price | Unlocks |
+|------|-------|---------|
+| Free | £0 | Current behaviour: listed, `nofollow` outbound link |
+| Pro | £7/mo | `dofollow` outbound link |
+| VIP | £27/mo | Everything in Pro, **plus** homepage/location-page featured placement (`is_featured`), long-form description, photo gallery |
+
+`is_featured`, `dofollow`, `description_long` are already wired into `src/lib/queries.ts`
+and `src/app/therapist/[slug]/page.tsx`/`src/components/therapist-card.tsx` (sort order,
+`Featured` badge, `dofollow`/`nofollow` rel) — that part needs no rework, just a tier gate
+fix (Task 8.9) and a gallery column that doesn't exist yet.
+
+Dashboard edits **publish immediately** (no `pending_changes` admin queue) — decided with
+the user in favour of speed over review, since the therapist already passed one admin
+review to get here.
+
+### Task 8.0: Stripe account setup (manual, with the user) — done 2026-07-07
+
+Done via hosted **Payment Links** rather than server-created Checkout Sessions —
+simpler: the dashboard just links straight to these with query params, no
+`stripe.checkout.sessions.create()` call needed.
+
+- Pro (£7/mo): `https://buy.stripe.com/6oU00l8bAcRp60PbNbaMU00` — price `price_1Tqb0oRpXGxdLJUChhxmubPv`
+- VIP (£27/mo): `https://buy.stripe.com/fZu28t2Rg4kTfBp04taMU01` — price `price_1Tqb2aRpXGxdLJUCOv99QGqA`
+- Add to `.env.example` and the real env:
+  - `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET` (webhook secret comes from Task 8.12 — create the endpoint in the Stripe dashboard once `/api/stripe/webhook` exists, or use the Stripe CLI's `stripe listen` secret for local dev)
+  - `STRIPE_PRICE_PRO=price_1Tqb0oRpXGxdLJUChhxmubPv`, `STRIPE_PRICE_VIP=price_1Tqb2aRpXGxdLJUCOv99QGqA` (webhook uses these to tell tiers apart)
+  - `NEXT_PUBLIC_STRIPE_PAYMENT_LINK_PRO=https://buy.stripe.com/6oU00l8bAcRp60PbNbaMU00`, `NEXT_PUBLIC_STRIPE_PAYMENT_LINK_VIP=https://buy.stripe.com/fZu28t2Rg4kTfBp04taMU01` (public — safe to expose, they're just checkout links)
+- `npm install stripe` (still needed server-side, for the webhook and the Billing Portal in Task 8.13).
+
+### Task 8.1: Migration — tiers, gallery, Stripe linkage
+
+**Files:** Create `supabase/migrations/0011_therapist_tiers.sql`
+- `alter type listing_tier rename value 'featured' to 'pro';`
+- `alter type listing_tier rename value 'premium' to 'vip';`
+- `alter table listings add column gallery_urls text[] not null default '{}';`
+- `alter table listings add constraint gallery_urls_max check (array_length(gallery_urls, 1) is null or array_length(gallery_urls, 1) <= 6);`
+- `alter table listings add column stripe_customer_id text;`
+- `alter table listings add column stripe_subscription_id text;`
+- No data migration needed — no paid customers exist yet. Commit.
+
+### Task 8.2: Provision dashboard login on approval — done 2026-07-07
+
+**Files:** Modified `src/app/admin/actions.ts` (`approveListing`), `src/lib/email.ts`, `src/app/admin/__tests__/actions.test.ts`
+- In `approveListing`, after the listing is set to `approved` with a slug, and only if
+  `owner_user_id` is not already set: call `supabase.auth.admin.createUser({ email, email_confirm: true })`,
+  then update the listing's `owner_user_id` to the new user's id.
+- Call `supabase.auth.admin.generateLink({ type: "recovery", email, options: { redirectTo: `${siteUrl}/dashboard/set-password` } })`
+  to get a one-time `action_link`.
+- Add `sendDashboardInviteEmail(to, businessName, actionLink)` to `src/lib/email.ts` (same
+  `MailerSend` pattern as `sendApprovedEmail`) — "Your listing is live. Set a password to
+  manage it: {actionLink}". Send it alongside the existing `sendApprovedEmail` call.
+- If `owner_user_id` is already set (re-approval after edit/rejection), skip user creation
+  and just resend nothing — the therapist already has an account.
+- **Test:** `src/app/admin/__tests__/actions.test.ts` — mock `auth.admin.createUser` /
+  `generateLink`, assert they're called with the listing's email and that
+  `sendDashboardInviteEmail` fires with the returned link. Commit.
+
+### Task 8.3: `/dashboard/set-password` page
+
+**Files:** Create `src/app/dashboard/set-password/page.tsx`
+- Client component. The Supabase browser client picks up the recovery session from the
+  URL fragment automatically. Form: new password + confirm, calls
+  `supabase.auth.updateUser({ password })`, then `router.replace("/dashboard")`.
+- Show a clear error if the link has expired ("ask the site owner to resend your invite from `/admin`"). Commit.
+
+### Task 8.4: `/dashboard/login` page
+
+**Files:** Create `src/app/dashboard/login/page.tsx`
+- Same shape as `src/app/admin/login/page.tsx:1-70` (`signInWithPassword`), redirect to
+  `/dashboard` on success. Add a "forgot password" link that calls
+  `supabase.auth.resetPasswordForEmail(email, { redirectTo: "/dashboard/set-password" })`. Commit.
+
+### Task 8.5: Route protection
+
+**Files:** Create `middleware.ts` (project root)
+- Use `@supabase/ssr`'s `createServerClient` with the request/response cookie adapters
+  (standard Next.js middleware pattern). Matcher: `/dashboard/:path*`. If no session and
+  the path isn't `/dashboard/login` or `/dashboard/set-password`, redirect to `/dashboard/login`.
+- Check whether `/admin` also lacks middleware protection today (research found none) —
+  if so, add the same guard for `/admin/:path*` (excluding `/admin/login`) while touching this file. Commit.
+
+### Task 8.6: `/dashboard` home page
+
+**Files:** Create `src/app/dashboard/page.tsx`
+- Server component: get the session user via `src/lib/supabase/server.ts`, then use the
+  service-role client to fetch the one listing where `owner_user_id = user.id` (mirrors
+  how `src/app/admin/actions.ts` always writes through the service-role client — no new
+  RLS policy needed, consistent with "all writes/owner-reads go through server code").
+- Show: current tier badge, key listing fields (read-only summary), a "Manage billing"
+  button (Task 8.13) if `stripe_subscription_id` is set, and upgrade CTAs (Task 8.9 copy)
+  if not VIP. Link to `/dashboard/edit`. Commit.
+
+### Task 8.7: `/dashboard/edit` page + server action
+
+**Files:** Create `src/app/dashboard/edit/page.tsx`, `src/app/dashboard/actions.ts`, `src/app/dashboard/__tests__/actions.test.ts`
+- Form pre-filled from the therapist's own listing. Editable for every tier: `summary`,
+  `phone`, `email`, `instagram`, `facebook`, `booking_url`, `website_url`, `logo_url`
+  (re-upload, same `listing-logos` bucket pattern as `src/app/list-your-practice/actions.ts:66-76`),
+  treatment types.
+- **`business_name` is editable but the `slug` never changes post-approval** — call this
+  out in the UI ("your listing URL won't change") so nobody breaks an indexed link.
+- `description_long` and `gallery_urls` fields render but are disabled/locked with an
+  "Unlock with VIP" CTA unless `tier === 'vip'`.
+- `updateOwnListing(formData)` server action: re-check the session user owns the listing
+  server-side, whitelist exactly the fields above (never accept `tier`, `is_featured`,
+  `dofollow`, `status`, `slug`, `stripe_*` from form data even if present), and only write
+  `description_long`/`gallery_urls` if the listing's current `tier === 'vip'`. Commit.
+
+### Task 8.8: Gallery upload (VIP only)
+
+**Files:** Modify `src/app/dashboard/actions.ts`, `src/app/dashboard/edit/page.tsx`; new Supabase Storage bucket `listing-gallery`
+- Multi-file input, same upload pattern as the logo (`supabase.storage.from("listing-gallery").upload(...)`),
+  path `${listing.id}/${randomBytes(8).toString("hex")}-${slugify(file.name)}`.
+- Enforce max 6 images client-side and let the Task 8.1 check constraint back it up
+  server-side. Allow removing an individual image (filter it out of `gallery_urls` and update). Commit.
+
+### Task 8.9: Tier-gate the public listing page + render the gallery
+
+**Files:** Modify `src/app/therapist/[slug]/page.tsx:38-52`, `src/components/therapist-card.tsx`
+- Currently `description = listing.description_long ?? listing.summary` regardless of
+  tier — if a VIP subscription lapses, stale long-form copy would keep showing. Change to
+  `listing.tier === "vip" ? (listing.description_long ?? listing.summary) : listing.summary`.
+- Add a gallery section on the therapist page, rendered only `if (listing.tier === "vip" && listing.gallery_urls.length)`.
+- `is_featured`/`dofollow` need no change — the webhook (Task 8.12) always flips them
+  straight to `false` on downgrade. Commit.
+
+### Task 8.10: Real `/upgrade` copy
+
+**Files:** Modify `src/app/upgrade/page.tsx:1-73`
+- Replace the "launching soon" placeholder with the two real tiers (table above) and
+  their prices. Since Checkout needs to know *which listing* is paying, the buttons here
+  should say "Log in to your dashboard to upgrade" → `/dashboard/login`, not trigger
+  Checkout directly from this public page. Commit.
+
+### Task 8.11: Upgrade buttons link straight to the Payment Links
+
+**Files:** Modify `src/app/dashboard/page.tsx`
+- No server action needed to start checkout — Payment Links support query params
+  directly. Render plain links (server-rendered, since `listing.id`/`listing.email` are
+  already available in the page):
+  `${process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK_PRO}?client_reference_id=${listing.id}&prefilled_email=${encodeURIComponent(listing.email)}`
+  (same shape for VIP). `client_reference_id` and `prefilled_email` are both
+  Stripe-documented Payment Link query params — confirmed via `docs.stripe.com/payment-links/url-parameters`
+  and `docs.stripe.com/payment-links/customize`.
+- Only show the Pro button if `tier === "free"`; only show the VIP button if `tier !== "vip"`. Commit.
+
+### Task 8.12: Stripe webhook
+
+**Files:** Create `src/app/api/stripe/webhook/route.ts`, `src/lib/stripe.ts`, modify `src/lib/email.ts`
+- `src/lib/stripe.ts`: thin wrapper instantiating the `Stripe` client from `STRIPE_SECRET_KEY` (mirrors `src/lib/email.ts`'s `client()` pattern). Still needed here (and for Task 8.13's Billing Portal) even though Checkout itself no longer needs it.
+- Read the raw body (`await req.text()`), verify with
+  `stripe.webhooks.constructEvent(body, sig, STRIPE_WEBHOOK_SECRET)`.
+- Tier is always derived by comparing a **Price ID** against `STRIPE_PRICE_PRO` /
+  `STRIPE_PRICE_VIP` env vars — never from Payment Link metadata (Payment Link metadata
+  only copies onto the Checkout Session, not onto the Subscription, so it wouldn't be
+  available on later `customer.subscription.*` events; a subscription's `items` always
+  carry the price actually being billed, so comparing price IDs works uniformly for every event type).
+- `checkout.session.completed`: `client_reference_id` is the `listing.id` (came straight
+  off the URL param from Task 8.11 — no metadata needed for this either). Call
+  `stripe.checkout.sessions.listLineItems(session.id)` to get the purchased price id, map
+  to `tier`. Update that listing's `tier`, `stripe_customer_id` (`session.customer`),
+  `stripe_subscription_id` (`session.subscription`), `dofollow = true` (both paid tiers),
+  `is_featured = (tier === "vip")`.
+- `customer.subscription.updated`: look up the listing by `stripe_subscription_id ===
+  subscription.id` (not `client_reference_id` — that's a Checkout Session-only field).
+  Map `subscription.items.data[0].price.id` to a tier and flip the flags to match (handles
+  a therapist switching Pro↔VIP via the Billing Portal in Task 8.13). If `status` is
+  `canceled`/`unpaid`, downgrade to `tier: "free", is_featured: false, dofollow: false`.
+- `customer.subscription.deleted`: same downgrade-to-free, immediately (no grace period —
+  matches "no rework needed, just wiring" from the design doc).
+- Add `sendTierChangedEmail(to, businessName, tier)` to `src/lib/email.ts` and send it on
+  every tier change (upgrade, downgrade, cancellation) so the therapist always knows what
+  happened to their listing. Commit.
+
+### Task 8.13: Stripe Billing Portal
+
+**Files:** Modify `src/app/dashboard/actions.ts`, `src/app/dashboard/page.tsx`
+- **Manual, in Stripe Dashboard first:** under Billing Portal settings, enable "customers
+  can switch plans" and add both the Pro and VIP prices to the allowed list — otherwise
+  the portal only offers cancel/update-card, and a Pro→VIP switch would have to go through
+  a brand new Payment Link checkout instead (which works too, just less slick).
+- `openBillingPortal()` server action: `stripe.billingPortal.sessions.create({ customer:
+  listing.stripe_customer_id, return_url: `${siteUrl}/dashboard` })`, redirect to the
+  returned URL. This is how therapists update their card, cancel, or (if enabled above)
+  switch tiers — no custom UI to build for any of it. Only show the button if
+  `stripe_customer_id` is set. Commit.
+
+### Task 8.14 (optional): Manual tier override in `/admin`
+
+**Files:** Modify `src/app/admin/page.tsx`, `src/app/admin/actions.ts`
+- A tier `<select>` + save button per listing in the admin queue, writing directly via the
+  service-role client (bypasses Stripe entirely). Useful for comping a listing, testing,
+  or covering the gap before Stripe is live. Low effort, not required for the launch of
+  Phase 8 itself. Commit.
+
+---
+
+## Definition of done (Phase 8)
+
+- [ ] Admin approval creates a dashboard login and emails a one-time set-password link.
+- [ ] Therapist can sign in at `/dashboard` and edit their own listing; edits go live immediately.
+- [ ] VIP-only fields (`description_long`, `gallery_urls`) are locked behind a clear upgrade CTA for Free/Pro.
+- [ ] `/upgrade` → dashboard → Stripe Checkout → webhook flips `tier`/`is_featured`/`dofollow` correctly for both tiers.
+- [ ] Cancelling/lapsing a subscription downgrades to free and the public listing page stops showing VIP-only content immediately.
+- [ ] `/dashboard` and `/admin` are both guarded by `middleware.ts`.
+- [ ] `npm test` green.
 
 ---
 

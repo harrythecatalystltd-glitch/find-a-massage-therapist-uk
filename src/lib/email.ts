@@ -56,6 +56,20 @@ export async function sendContactEmail(data: { name: string; email: string; mess
   await client().email.send(params);
 }
 
+export async function sendDashboardInviteEmail(to: string, businessName: string, actionLink: string) {
+  const params = new EmailParams()
+    .setFrom(fromSender())
+    .setTo([new Recipient(to)])
+    .setSubject("Set up your therapist dashboard login")
+    .setHtml(
+      `<p>Your listing for <strong>${businessName}</strong> is live. You can now manage it yourself.</p>` +
+        `<p><a href="${actionLink}">Click here to set a password</a> and sign in to your dashboard.</p>` +
+        `<p>This link is one-time use. If it's expired, ask us to resend it.</p>`,
+    )
+    .setText(`Set a password to manage your listing: ${actionLink}`);
+  await client().email.send(params);
+}
+
 export async function sendApprovedEmail(to: string, businessName: string, slug: string) {
   const profileUrl = `${siteUrl()}/therapist/${slug}`;
   const params = new EmailParams()

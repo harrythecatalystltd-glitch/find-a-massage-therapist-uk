@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
 import { uniqueSlug, slugify } from "@/lib/slug";
-import { sendApprovedEmail } from "@/lib/email";
+import { sendApprovedEmail, sendDashboardInviteEmail } from "@/lib/email";
 
 /** Ensure a location page exists for this town so the listing is discoverable,
  * even if it's a new town nobody has seeded a page for yet. Matches the same
@@ -27,12 +27,39 @@ async function ensureLocationForTown(
     .upsert({ town, slug: slugify(town) }, { onConflict: "slug", ignoreDuplicates: true });
 }
 
+/** First approval provisions a dashboard login: create the auth user, link it to the
+ * listing, and email a one-time password-setup link. Re-approvals (owner_user_id already
+ * set) skip this — the therapist already has an account. */
+async function provisionDashboardLogin(
+  supabase: ReturnType<typeof createAdminClient>,
+  listingId: string,
+  email: string,
+  businessName: string,
+) {
+  const { data: created, error: createError } = await supabase.auth.admin.createUser({
+    email,
+    email_confirm: true,
+  });
+  if (createError || !created.user) return;
+
+  await supabase.from("listings").update({ owner_user_id: created.user.id }).eq("id", listingId);
+
+  const { data: link } = await supabase.auth.admin.generateLink({
+    type: "recovery",
+    email,
+    options: { redirectTo: `${process.env.NEXT_PUBLIC_SITE_URL}/dashboard/set-password` },
+  });
+  if (!link?.properties) return;
+
+  await sendDashboardInviteEmail(email, businessName, link.properties.action_link);
+}
+
 export async function approveListing(id: string) {
   const supabase = createAdminClient();
 
   const { data: listing } = await supabase
     .from("listings")
-    .select("business_name, email, town")
+    .select("business_name, email, town, owner_user_id")
     .eq("id", id)
     .single();
   if (!listing) return;
@@ -50,6 +77,10 @@ export async function approveListing(id: string) {
 
   if (listing.email) {
     await sendApprovedEmail(listing.email, listing.business_name, slug);
+
+    if (!listing.owner_user_id) {
+      await provisionDashboardLogin(supabase, id, listing.email, listing.business_name);
+    }
   }
 
   revalidatePath("/", "layout");

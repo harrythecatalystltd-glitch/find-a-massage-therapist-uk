@@ -3,20 +3,31 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 vi.mock("next/cache", () => ({ revalidatePath: vi.fn() }));
 
 const sendApprovedEmail = vi.fn().mockResolvedValue(undefined);
-vi.mock("@/lib/email", () => ({ sendApprovedEmail }));
+const sendDashboardInviteEmail = vi.fn().mockResolvedValue(undefined);
+vi.mock("@/lib/email", () => ({ sendApprovedEmail, sendDashboardInviteEmail }));
 
 const createAdminClient = vi.fn();
 vi.mock("@/lib/supabase/admin", () => ({ createAdminClient }));
 
 const listingsUpdate = vi.fn().mockReturnValue({ eq: () => Promise.resolve({ error: null }) });
 const locationsUpsert = vi.fn().mockResolvedValue({ error: null });
+const createUser = vi.fn().mockResolvedValue({ data: { user: { id: "new-user-1" } }, error: null });
+const generateLink = vi.fn().mockResolvedValue({
+  data: { properties: { action_link: "https://example.com/verify?token=abc" } },
+  error: null,
+});
 
 function buildSupabaseMock({
   listing,
   existingSlugs = [],
   existingTowns = [],
 }: {
-  listing: { business_name: string; email: string | null; town: string | null };
+  listing: {
+    business_name: string;
+    email: string | null;
+    town: string | null;
+    owner_user_id?: string | null;
+  };
   existingSlugs?: string[];
   existingTowns?: string[];
 }) {
@@ -44,6 +55,7 @@ function buildSupabaseMock({
       }
       throw new Error(`unexpected table ${table}`);
     },
+    auth: { admin: { createUser, generateLink } },
   };
 }
 
@@ -52,6 +64,9 @@ describe("approveListing", () => {
     listingsUpdate.mockClear();
     locationsUpsert.mockClear();
     sendApprovedEmail.mockClear();
+    sendDashboardInviteEmail.mockClear();
+    createUser.mockClear();
+    generateLink.mockClear();
   });
 
   it("creates a new location when the listing's town isn't covered by any existing page", async () => {
@@ -107,5 +122,44 @@ describe("approveListing", () => {
     await approveListing("listing-4");
 
     expect(sendApprovedEmail).not.toHaveBeenCalled();
+    expect(createUser).not.toHaveBeenCalled();
+  });
+
+  it("provisions a dashboard login and emails the one-time set-password link on first approval", async () => {
+    createAdminClient.mockReturnValue(
+      buildSupabaseMock({
+        listing: { business_name: "Some Clinic", email: "hi@example.com", town: "Manchester", owner_user_id: null },
+        existingTowns: ["Manchester"],
+      }),
+    );
+    const { approveListing } = await import("@/app/admin/actions");
+    await approveListing("listing-5");
+
+    expect(createUser).toHaveBeenCalledWith({ email: "hi@example.com", email_confirm: true });
+    expect(listingsUpdate).toHaveBeenCalledWith({ owner_user_id: "new-user-1" });
+    expect(generateLink).toHaveBeenCalledWith({
+      type: "recovery",
+      email: "hi@example.com",
+      options: { redirectTo: expect.stringContaining("/dashboard/set-password") },
+    });
+    expect(sendDashboardInviteEmail).toHaveBeenCalledWith(
+      "hi@example.com",
+      "Some Clinic",
+      "https://example.com/verify?token=abc",
+    );
+  });
+
+  it("does not re-provision a dashboard login when the listing already has an owner", async () => {
+    createAdminClient.mockReturnValue(
+      buildSupabaseMock({
+        listing: { business_name: "Some Clinic", email: "hi@example.com", town: "Manchester", owner_user_id: "existing-user" },
+        existingTowns: ["Manchester"],
+      }),
+    );
+    const { approveListing } = await import("@/app/admin/actions");
+    await approveListing("listing-6");
+
+    expect(createUser).not.toHaveBeenCalled();
+    expect(sendDashboardInviteEmail).not.toHaveBeenCalled();
   });
 });

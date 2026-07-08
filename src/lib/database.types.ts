@@ -58,6 +58,7 @@ export type Database = {
           email_verified: boolean
           facebook: string | null
           fbclid: string | null
+          gallery_urls: string[]
           google_maps_url: string | null
           google_rating: number | null
           google_review_count: number | null
@@ -80,6 +81,8 @@ export type Database = {
           slug: string | null
           source: string | null
           status: Database["public"]["Enums"]["listing_status"]
+          stripe_customer_id: string | null
+          stripe_subscription_id: string | null
           summary: string | null
           tier: Database["public"]["Enums"]["listing_tier"]
           town: string | null
@@ -103,6 +106,7 @@ export type Database = {
           email_verified?: boolean
           facebook?: string | null
           fbclid?: string | null
+          gallery_urls?: string[]
           google_maps_url?: string | null
           google_rating?: number | null
           google_review_count?: number | null
@@ -125,6 +129,8 @@ export type Database = {
           slug?: string | null
           source?: string | null
           status?: Database["public"]["Enums"]["listing_status"]
+          stripe_customer_id?: string | null
+          stripe_subscription_id?: string | null
           summary?: string | null
           tier?: Database["public"]["Enums"]["listing_tier"]
           town?: string | null
@@ -148,6 +154,7 @@ export type Database = {
           email_verified?: boolean
           facebook?: string | null
           fbclid?: string | null
+          gallery_urls?: string[]
           google_maps_url?: string | null
           google_rating?: number | null
           google_review_count?: number | null
@@ -167,9 +174,11 @@ export type Database = {
           qualifications?: string | null
           region?: string | null
           service_area?: string | null
-          slug?: string
+          slug?: string | null
           source?: string | null
           status?: Database["public"]["Enums"]["listing_status"]
+          stripe_customer_id?: string | null
+          stripe_subscription_id?: string | null
           summary?: string | null
           tier?: Database["public"]["Enums"]["listing_tier"]
           town?: string | null
@@ -302,7 +311,7 @@ export type Database = {
     }
     Enums: {
       listing_status: "pending" | "verified" | "approved" | "rejected"
-      listing_tier: "free" | "featured" | "premium"
+      listing_tier: "free" | "pro" | "vip"
       listing_type: "clinic" | "mobile"
     }
     CompositeTypes: {
@@ -432,7 +441,7 @@ export const Constants = {
   public: {
     Enums: {
       listing_status: ["pending", "verified", "approved", "rejected"],
-      listing_tier: ["free", "featured", "premium"],
+      listing_tier: ["free", "pro", "vip"],
       listing_type: ["clinic", "mobile"],
     },
   },
