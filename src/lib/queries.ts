@@ -56,6 +56,8 @@ export type ListingDetail = ListingCardData & {
   qualifications: string | null;
   insured: boolean;
   insurance_provider: string | null;
+  tier: Database["public"]["Enums"]["listing_tier"];
+  gallery_urls: string[];
 };
 
 export async function getFeaturedListings(): Promise<ListingCardData[]> {
@@ -116,7 +118,7 @@ export async function getListingBySlug(slug: string): Promise<ListingDetail | nu
       `slug, business_name, summary, town, logo_url, is_featured,
        description_long, website_url, dofollow, region,
        google_maps_url, google_review_count, google_rating,
-       qualifications, insured, insurance_provider,
+       qualifications, insured, insurance_provider, tier, gallery_urls,
        listing_treatment_types ( treatment_types ( name, slug ) )`,
     )
     .eq("status", "approved")
@@ -148,6 +150,8 @@ export async function getListingBySlug(slug: string): Promise<ListingDetail | nu
     qualifications: data.qualifications,
     insured: data.insured,
     insurance_provider: data.insurance_provider,
+    tier: data.tier,
+    gallery_urls: data.gallery_urls,
   };
 }
 

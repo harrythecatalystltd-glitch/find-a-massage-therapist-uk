@@ -485,7 +485,7 @@ simpler: the dashboard just links straight to these with query params, no
   `generateLink`, assert they're called with the listing's email and that
   `sendDashboardInviteEmail` fires with the returned link. Commit.
 
-### Task 8.3: `/dashboard/set-password` page
+### Task 8.3: `/dashboard/set-password` page — done 2026-07-08
 
 **Files:** Create `src/app/dashboard/set-password/page.tsx`
 - Client component. The Supabase browser client picks up the recovery session from the
@@ -493,34 +493,46 @@ simpler: the dashboard just links straight to these with query params, no
   `supabase.auth.updateUser({ password })`, then `router.replace("/dashboard")`.
 - Show a clear error if the link has expired ("ask the site owner to resend your invite from `/admin`"). Commit.
 
-### Task 8.4: `/dashboard/login` page
+### Task 8.4: `/dashboard/login` page — done 2026-07-08
 
 **Files:** Create `src/app/dashboard/login/page.tsx`
 - Same shape as `src/app/admin/login/page.tsx:1-70` (`signInWithPassword`), redirect to
   `/dashboard` on success. Add a "forgot password" link that calls
   `supabase.auth.resetPasswordForEmail(email, { redirectTo: "/dashboard/set-password" })`. Commit.
 
-### Task 8.5: Route protection
+### Task 8.5: Route protection — done 2026-07-08
 
-**Files:** Create `middleware.ts` (project root)
-- Use `@supabase/ssr`'s `createServerClient` with the request/response cookie adapters
-  (standard Next.js middleware pattern). Matcher: `/dashboard/:path*`. If no session and
-  the path isn't `/dashboard/login` or `/dashboard/set-password`, redirect to `/dashboard/login`.
-- Check whether `/admin` also lacks middleware protection today (research found none) —
-  if so, add the same guard for `/admin/:path*` (excluding `/admin/login`) while touching this file. Commit.
+**Files:** Modified `src/proxy.ts` (not `middleware.ts` — see note below)
+- This Next.js 16 project uses the renamed `proxy.ts`/`export function proxy` convention,
+  not `middleware.ts`/`export function middleware`. `/admin` was **already guarded** by a
+  `src/proxy.ts` committed back in Phase 5 (`27cc46a`) — the original research claiming
+  "`/admin` has no session check" only grepped page/action code and missed this file.
+- Extended the existing `proxy.ts`: added a `PUBLIC_PREFIXES` array
+  (`/admin/login`, `/dashboard/login`, `/dashboard/set-password`, checked with
+  `.startsWith()` so the `trailingSlash: true` config can never cause a mismatch), and
+  widened `config.matcher` to `["/admin/:path*", "/dashboard/:path*"]`. Unauthenticated
+  requests redirect to `/dashboard/login` or `/admin/login` depending on which tree they're
+  under. Commit.
 
-### Task 8.6: `/dashboard` home page
+### Task 8.6: `/dashboard` home page — done 2026-07-08
 
-**Files:** Create `src/app/dashboard/page.tsx`
+**Files:** Create `src/app/dashboard/page.tsx`, `src/app/dashboard/actions.ts`
 - Server component: get the session user via `src/lib/supabase/server.ts`, then use the
   service-role client to fetch the one listing where `owner_user_id = user.id` (mirrors
   how `src/app/admin/actions.ts` always writes through the service-role client — no new
   RLS policy needed, consistent with "all writes/owner-reads go through server code").
-- Show: current tier badge, key listing fields (read-only summary), a "Manage billing"
-  button (Task 8.13) if `stripe_subscription_id` is set, and upgrade CTAs (Task 8.9 copy)
-  if not VIP. Link to `/dashboard/edit`. Commit.
+- Show: current tier badge (`.profile-badge` class), key listing fields (read-only
+  summary), and upgrade CTA (link to `/upgrade`) if not VIP. Link to `/dashboard/edit`
+  (not built yet — lands in Task 8.7, this link 404s until then).
+- `signOut` server action added to `src/app/dashboard/actions.ts` mirroring
+  `src/app/admin/actions.ts`'s pattern. Commit.
+- **Deferred, not built here:** the "Manage billing" button — plan text put it in 8.6, but
+  it can't do anything real until Task 8.13 creates the Stripe Billing Portal server
+  action, and it's unreachable today anyway since no listing has `stripe_subscription_id`
+  set yet (webhook from Task 8.12 is what sets it). Building it now would just be a dead
+  link. Add it as part of 8.13 instead.
 
-### Task 8.7: `/dashboard/edit` page + server action
+### Task 8.7: `/dashboard/edit` page + server action — done 2026-07-08
 
 **Files:** Create `src/app/dashboard/edit/page.tsx`, `src/app/dashboard/actions.ts`, `src/app/dashboard/__tests__/actions.test.ts`
 - Form pre-filled from the therapist's own listing. Editable for every tier: `summary`,
@@ -536,7 +548,7 @@ simpler: the dashboard just links straight to these with query params, no
   `dofollow`, `status`, `slug`, `stripe_*` from form data even if present), and only write
   `description_long`/`gallery_urls` if the listing's current `tier === 'vip'`. Commit.
 
-### Task 8.8: Gallery upload (VIP only)
+### Task 8.8: Gallery upload (VIP only) — done 2026-07-08
 
 **Files:** Modify `src/app/dashboard/actions.ts`, `src/app/dashboard/edit/page.tsx`; new Supabase Storage bucket `listing-gallery`
 - Multi-file input, same upload pattern as the logo (`supabase.storage.from("listing-gallery").upload(...)`),
@@ -544,7 +556,7 @@ simpler: the dashboard just links straight to these with query params, no
 - Enforce max 6 images client-side and let the Task 8.1 check constraint back it up
   server-side. Allow removing an individual image (filter it out of `gallery_urls` and update). Commit.
 
-### Task 8.9: Tier-gate the public listing page + render the gallery
+### Task 8.9: Tier-gate the public listing page + render the gallery — done 2026-07-08
 
 **Files:** Modify `src/app/therapist/[slug]/page.tsx:38-52`, `src/components/therapist-card.tsx`
 - Currently `description = listing.description_long ?? listing.summary` regardless of
@@ -554,7 +566,7 @@ simpler: the dashboard just links straight to these with query params, no
 - `is_featured`/`dofollow` need no change — the webhook (Task 8.12) always flips them
   straight to `false` on downgrade. Commit.
 
-### Task 8.10: Real `/upgrade` copy
+### Task 8.10: Real `/upgrade` copy — done 2026-07-08
 
 **Files:** Modify `src/app/upgrade/page.tsx:1-73`
 - Replace the "launching soon" placeholder with the two real tiers (table above) and

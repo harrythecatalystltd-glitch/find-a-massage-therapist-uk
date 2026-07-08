@@ -49,7 +49,8 @@ export default async function TherapistPage({
       : {}),
   };
 
-  const description = listing.description_long ?? listing.summary;
+  // Paid feature: a lapsed VIP subscription must not keep showing premium long-form copy.
+  const description = listing.tier === "vip" ? listing.description_long ?? listing.summary : listing.summary;
 
   return (
     <div className="site">
@@ -131,6 +132,14 @@ export default async function TherapistPage({
           {description && (
             <div className="loc-prose" style={{ whiteSpace: "pre-line" }}>
               {description}
+            </div>
+          )}
+
+          {listing.tier === "vip" && listing.gallery_urls.length > 0 && (
+            <div className="profile-gallery">
+              {listing.gallery_urls.map((url) => (
+                <Image key={url} src={url} alt={`${listing.business_name} photo`} width={320} height={160} />
+              ))}
             </div>
           )}
 

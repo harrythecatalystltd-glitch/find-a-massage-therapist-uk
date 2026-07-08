@@ -1,8 +1,10 @@
 import { createServerClient } from "@supabase/ssr";
 import { type NextRequest, NextResponse } from "next/server";
 
+const PUBLIC_PREFIXES = ["/admin/login", "/dashboard/login", "/dashboard/set-password"];
+
 export async function proxy(request: NextRequest) {
-  if (request.nextUrl.pathname.startsWith("/admin/login")) {
+  if (PUBLIC_PREFIXES.some((path) => request.nextUrl.pathname.startsWith(path))) {
     return NextResponse.next();
   }
 
@@ -31,7 +33,10 @@ export async function proxy(request: NextRequest) {
   } = await supabase.auth.getUser();
 
   if (!user) {
-    const loginUrl = new URL("/admin/login", request.url);
+    const loginPath = request.nextUrl.pathname.startsWith("/dashboard")
+      ? "/dashboard/login"
+      : "/admin/login";
+    const loginUrl = new URL(loginPath, request.url);
     return NextResponse.redirect(loginUrl);
   }
 
@@ -39,5 +44,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*"],
+  matcher: ["/admin/:path*", "/dashboard/:path*"],
 };
