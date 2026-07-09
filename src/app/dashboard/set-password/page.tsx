@@ -15,19 +15,12 @@ export default function SetPasswordPage() {
   const [pending, setPending] = useState(false);
 
   useEffect(() => {
-    const supabase = createClient();
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((event, session) => {
-      if (event === "PASSWORD_RECOVERY" || session) setStatus("ready");
-    });
-    const timeout = setTimeout(() => {
-      setStatus((current) => (current === "checking" ? "expired" : current));
-    }, 3000);
-    return () => {
-      subscription.unsubscribe();
-      clearTimeout(timeout);
-    };
+    // The session is already set via cookies by src/app/auth/confirm/route.ts before
+    // this page ever loads (or wasn't, if the token was invalid/expired) — so we just
+    // need to confirm it's there, no URL fragment or auth-event listening required.
+    createClient()
+      .auth.getUser()
+      .then(({ data: { user } }) => setStatus(user ? "ready" : "expired"));
   }, []);
 
   async function handleSubmit(e: React.FormEvent) {

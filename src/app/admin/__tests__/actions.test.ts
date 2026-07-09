@@ -13,7 +13,7 @@ const listingsUpdate = vi.fn().mockReturnValue({ eq: () => Promise.resolve({ err
 const locationsUpsert = vi.fn().mockResolvedValue({ error: null });
 const createUser = vi.fn().mockResolvedValue({ data: { user: { id: "new-user-1" } }, error: null });
 const generateLink = vi.fn().mockResolvedValue({
-  data: { properties: { action_link: "https://example.com/verify?token=abc" } },
+  data: { properties: { hashed_token: "hashed-abc" } },
   error: null,
 });
 
@@ -145,7 +145,7 @@ describe("approveListing", () => {
     expect(sendDashboardInviteEmail).toHaveBeenCalledWith(
       "hi@example.com",
       "Some Clinic",
-      "https://example.com/verify?token=abc",
+      expect.stringContaining("/auth/confirm?token_hash=hashed-abc&type=recovery"),
     );
   });
 

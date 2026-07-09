@@ -69,5 +69,7 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api/|_next/static|_next/image|favicon.ico|.*\\..*).*)"],
+  // auth/confirm is exempted for the same reason api/ is: it's a Route Handler, which
+  // doesn't get a trailing-slash alias, so redirecting it to a slash-suffixed URL 404s.
+  matcher: ["/((?!api/|auth/confirm|_next/static|_next/image|favicon.ico|.*\\..*).*)"],
 };

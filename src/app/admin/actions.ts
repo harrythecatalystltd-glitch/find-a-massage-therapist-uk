@@ -51,7 +51,11 @@ async function provisionDashboardLogin(
   });
   if (!link?.properties) return;
 
-  await sendDashboardInviteEmail(email, businessName, link.properties.action_link);
+  // Not link.properties.action_link — that points at Supabase's own /auth/v1/verify,
+  // which redirects with an implicit-flow `#access_token=` fragment our PKCE-only
+  // browser client can't consume (see src/app/auth/confirm/route.ts).
+  const confirmUrl = `${process.env.NEXT_PUBLIC_SITE_URL}/auth/confirm?token_hash=${link.properties.hashed_token}&type=recovery`;
+  await sendDashboardInviteEmail(email, businessName, confirmUrl);
 }
 
 export async function approveListing(id: string) {
