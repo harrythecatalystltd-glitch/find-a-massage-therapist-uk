@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Upgrade Your Listing",
   description:
-    "Compare Free, Pro and VIP listing tiers on Find a Massage Therapist UK — dofollow links, featured placement, and a photo gallery.",
+    "Compare Free, Pro and VIP listing tiers on Find a Massage Therapist UK: dofollow links, featured placement, and a photo gallery.",
   alternates: { canonical: "/upgrade/" },
 };
 
@@ -39,7 +39,7 @@ const TIERS = [
     blurb: "Pass on more SEO value and capture better leads.",
     features: [
       "Everything in Free",
-      "Dofollow outbound link to your website — helps you get found on Google",
+      "Dofollow outbound link to your website, helps you get found on Google",
       "Higher placement on your town's location page",
       "A star next to your listing",
       "Full profile unlock to capture better leads",

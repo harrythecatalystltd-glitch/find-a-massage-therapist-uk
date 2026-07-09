@@ -41,7 +41,7 @@ export default async function VerifyPage({
               <>
                 <h3>Email confirmed</h3>
                 <p>
-                  Thanks — your listing has been sent to us for review. We&apos;ll email you
+                  Thanks! Your listing has been sent to us for review. We&apos;ll email you
                   once it&apos;s approved and live on the directory.
                 </p>
               </>

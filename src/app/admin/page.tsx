@@ -3,7 +3,7 @@ import Link from "next/link";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { approveListing, rejectListing, signOut } from "./actions";
 
-export const metadata: Metadata = { title: "Admin — Review Queue" };
+export const metadata: Metadata = { title: "Admin: Review Queue" };
 export const dynamic = "force-dynamic";
 
 async function getVerifiedListings() {

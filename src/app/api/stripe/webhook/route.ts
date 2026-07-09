@@ -12,9 +12,13 @@ async function applyTierChange(
   tier: ListingTier,
   extra?: { stripe_customer_id?: string | null; stripe_subscription_id?: string | null },
 ) {
-  const base = supabase
-    .from("listings")
-    .update({ tier, dofollow: tier !== "free", is_featured: tier === "vip", ...extra });
+  const base = supabase.from("listings").update({
+    tier,
+    dofollow: tier !== "free",
+    is_boosted: tier !== "free",
+    is_featured: tier === "vip",
+    ...extra,
+  });
 
   const { data } =
     "id" in match

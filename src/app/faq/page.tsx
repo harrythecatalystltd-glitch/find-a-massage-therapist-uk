@@ -28,7 +28,7 @@ const CLIENT_FAQS = [
   {
     question: "How do I book an appointment?",
     answer:
-      "Open a therapist's profile and use their website, phone number or booking link to get in touch directly — we don't handle bookings ourselves.",
+      "Open a therapist's profile and use their website, phone number or booking link to get in touch directly. We don't handle bookings ourselves.",
   },
   {
     question: "What if there's no therapist listed in my town yet?",
@@ -51,7 +51,7 @@ const THERAPIST_FAQS = [
   {
     question: "Does it cost anything to list my practice?",
     answer:
-      "A standard listing is free and links out to your website. Paid tiers add featured placement and a dofollow backlink — see Upgrade for details.",
+      "A standard listing is free and links out to your website. Paid tiers add featured placement and a dofollow backlink. See Upgrade for details.",
   },
   {
     question: "How long does approval take?",

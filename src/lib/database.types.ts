@@ -66,6 +66,7 @@ export type Database = {
           instagram: string | null
           insurance_provider: string | null
           insured: boolean
+          is_boosted: boolean
           is_featured: boolean
           lat: number | null
           listing_type: Database["public"]["Enums"]["listing_type"] | null
@@ -114,6 +115,7 @@ export type Database = {
           instagram?: string | null
           insurance_provider?: string | null
           insured?: boolean
+          is_boosted?: boolean
           is_featured?: boolean
           lat?: number | null
           listing_type?: Database["public"]["Enums"]["listing_type"] | null
@@ -162,6 +164,7 @@ export type Database = {
           instagram?: string | null
           insurance_provider?: string | null
           insured?: boolean
+          is_boosted?: boolean
           is_featured?: boolean
           lat?: number | null
           listing_type?: Database["public"]["Enums"]["listing_type"] | null

@@ -70,7 +70,7 @@ export async function updateOwnListing(
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) {
-    return { status: "error", errors: { form: "Your session expired — sign in again." } };
+    return { status: "error", errors: { form: "Your session expired. Sign in again." } };
   }
 
   const admin = createAdminClient();
@@ -154,7 +154,7 @@ export async function updateOwnListing(
     if (gallery_urls.length > 6) {
       return {
         status: "error",
-        errors: { gallery: "You can have at most 6 gallery images — remove some first." },
+        errors: { gallery: "You can have at most 6 gallery images. Remove some first." },
       };
     }
     update.gallery_urls = gallery_urls;

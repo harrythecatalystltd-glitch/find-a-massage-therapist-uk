@@ -152,7 +152,7 @@ export function EditListingForm({
 
           <div className="form-field">
             <label htmlFor="logo">
-              Logo <span className="hint">(optional — leave blank to keep your current one)</span>
+              Logo <span className="hint">(optional, leave blank to keep your current one)</span>
             </label>
             <input type="file" id="logo" name="logo" accept="image/*" />
           </div>
@@ -232,7 +232,7 @@ export function EditListingForm({
           </div>
         ) : (
           <p className="hint">
-            Unlock with VIP — write a full-length profile instead of just your short summary.
+            Unlock with VIP to write a full-length profile instead of just your short summary.
           </p>
         )}
       </div>
@@ -288,14 +288,14 @@ export function EditListingForm({
             </p>
             {overGalleryLimit && (
               <p className="form-error">
-                You can have at most {MAX_GALLERY_IMAGES} gallery images — remove some or select
+                You can have at most {MAX_GALLERY_IMAGES} gallery images. Remove some or select
                 fewer files.
               </p>
             )}
             {errors.gallery && <p className="form-error">{errors.gallery}</p>}
           </>
         ) : (
-          <p className="hint">Unlock with VIP — add up to {MAX_GALLERY_IMAGES} photos to your profile.</p>
+          <p className="hint">Unlock with VIP to add up to {MAX_GALLERY_IMAGES} photos to your profile.</p>
         )}
       </div>
 

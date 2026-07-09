@@ -85,7 +85,9 @@ export default async function TherapistPage({
               />
             )}
             <div>
-              {listing.is_featured && <span className="profile-badge">Featured</span>}
+              {(listing.is_featured || listing.is_boosted) && (
+                <span className="profile-badge">Featured</span>
+              )}
               <h1>{listing.business_name}</h1>
               {listing.town && <p className="profile-loc">{listing.town}</p>}
               {listing.treatments.length > 0 && (

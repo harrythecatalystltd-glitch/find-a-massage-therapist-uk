@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,11 +14,13 @@ const PARTNERS = [
     name: "Practice Place Co",
     summary: "Room rental listings for therapists across the UK.",
     url: "https://www.practiceplace.co/",
+    logo: "/partners/practice-place-co.jpg",
   },
   {
     name: "Minsony",
     summary: "Room rental listings for therapists in London.",
     url: "https://minsony.com/",
+    logo: "/partners/minsony.svg",
   },
 ];
 
@@ -48,9 +51,13 @@ export default function RoomsPage() {
             {PARTNERS.map((partner) => (
               <article className="therapist-card" key={partner.name}>
                 <div className="therapist-photo">
-                  <span className="photo-fallback" aria-hidden="true">
-                    {partner.name.charAt(0)}
-                  </span>
+                  <Image
+                    src={partner.logo}
+                    alt={`${partner.name} logo`}
+                    width={400}
+                    height={300}
+                    unoptimized
+                  />
                 </div>
                 <div className="therapist-body">
                   <h3>{partner.name}</h3>

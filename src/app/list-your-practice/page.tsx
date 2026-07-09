@@ -26,7 +26,7 @@ export default async function ListYourPracticePage({
           <h1>List Your Practice</h1>
           <p className="lead" style={{ maxWidth: "640px" }}>
             Join the UK&apos;s premier massage and bodywork directory. Free listings link out to
-            your website — submit your details below and we&apos;ll review and publish your
+            your website. Submit your details below and we&apos;ll review and publish your
             profile.
           </p>
         </div>

@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/find-a-therapist", label: "Find a Therapist" },
   { href: "/learn", label: "Learn" },
   { href: "/massage-tools", label: "Massage Tools" },
+  { href: "/rooms", label: "Rooms" },
 ];
 
 export function SiteHeader() {

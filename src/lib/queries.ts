@@ -23,11 +23,12 @@ export type ListingCardData = {
   town: string | null;
   logo_url: string | null;
   is_featured: boolean;
+  is_boosted: boolean;
   treatments?: { name: string; slug: string }[];
 };
 
 const CARD_COLUMNS =
-  "slug, business_name, summary, town, logo_url, is_featured, listing_treatment_types ( treatment_types ( name, slug ) )";
+  "slug, business_name, summary, town, logo_url, is_featured, is_boosted, listing_treatment_types ( treatment_types ( name, slug ) )";
 
 /** Flatten the nested treatment join the card query selects into a tidy array. */
 type RawCardRow = Omit<ListingCardData, "treatments"> & {
@@ -77,7 +78,7 @@ export async function getApprovedListings(): Promise<ListingCardData[]> {
     .from("listings")
     .select(CARD_COLUMNS)
     .eq("status", "approved")
-    .order("is_featured", { ascending: false })
+    .order("is_boosted", { ascending: false })
     .order("business_name");
   return toCardData(data);
 }
@@ -89,7 +90,7 @@ export async function getListingsForTown(townName: string): Promise<ListingCardD
     .select(CARD_COLUMNS)
     .eq("status", "approved")
     .ilike("town", `%${townName}%`)
-    .order("is_featured", { ascending: false })
+    .order("is_boosted", { ascending: false })
     .order("business_name");
   return toCardData(data);
 }
@@ -105,7 +106,7 @@ export async function getListingsForTreatment(
     .select(`${CARD_COLUMNS}, _filter:listing_treatment_types!inner ( treatment_types!inner ( slug ) )`)
     .eq("status", "approved")
     .eq("_filter.treatment_types.slug", treatmentSlug)
-    .order("is_featured", { ascending: false })
+    .order("is_boosted", { ascending: false })
     .order("business_name");
   return toCardData(data);
 }
@@ -115,7 +116,7 @@ export async function getListingBySlug(slug: string): Promise<ListingDetail | nu
   const { data } = await supabase
     .from("listings")
     .select(
-      `slug, business_name, summary, town, logo_url, is_featured,
+      `slug, business_name, summary, town, logo_url, is_featured, is_boosted,
        description_long, website_url, dofollow, region,
        google_maps_url, google_review_count, google_rating,
        qualifications, insured, insurance_provider, tier, gallery_urls,
@@ -138,6 +139,7 @@ export async function getListingBySlug(slug: string): Promise<ListingDetail | nu
     town: data.town,
     logo_url: data.logo_url,
     is_featured: data.is_featured,
+    is_boosted: data.is_boosted,
     description_long: data.description_long,
     website_url: data.website_url,
     dofollow: data.dofollow,

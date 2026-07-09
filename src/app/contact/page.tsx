@@ -23,8 +23,8 @@ export default function ContactPage() {
           <span className="eyebrow">Get in touch</span>
           <h1>Contact Us</h1>
           <p className="lead" style={{ maxWidth: "640px" }}>
-            Questions about listing your practice, finding a therapist, or anything else —
-            send us a message and we&apos;ll get back to you.
+            Questions about listing your practice, finding a therapist, or anything else?
+            Send us a message and we&apos;ll get back to you.
           </p>
         </div>
       </section>

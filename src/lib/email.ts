@@ -93,7 +93,7 @@ export async function sendApprovedEmail(to: string, businessName: string, slug: 
     .setTo([new Recipient(to)])
     .setSubject("Your listing is live on Find a Massage Therapist UK")
     .setHtml(
-      `<p>Good news — <strong>${businessName}</strong> has been approved and is now live on Find a Massage Therapist UK.</p>` +
+      `<p>Good news! <strong>${businessName}</strong> has been approved and is now live on Find a Massage Therapist UK.</p>` +
         `<p><a href="${profileUrl}">View your listing</a></p>`,
     )
     .setText(`Your listing is live: ${profileUrl}`);

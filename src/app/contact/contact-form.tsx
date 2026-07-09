@@ -13,7 +13,7 @@ export function ContactForm() {
     return (
       <div className="form-success">
         <h3>Message sent</h3>
-        <p>Thanks for getting in touch — we&apos;ll reply as soon as we can.</p>
+        <p>Thanks for getting in touch. We&apos;ll reply as soon as we can.</p>
       </div>
     );
   }

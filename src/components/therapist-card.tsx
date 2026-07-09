@@ -33,7 +33,9 @@ export function TherapistCard({
             {listing.business_name.charAt(0)}
           </span>
         )}
-        {listing.is_featured && <span className="badge-tier">Featured</span>}
+        {(listing.is_featured || listing.is_boosted) && (
+          <span className="badge-tier">Featured</span>
+        )}
       </div>
 
       <div className="therapist-body">

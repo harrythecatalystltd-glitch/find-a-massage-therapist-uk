@@ -24,7 +24,7 @@ export function ListingForm({
         <h3>Check your email</h3>
         <p>
           We&apos;ve sent a confirmation link to the email address you entered. Click it to
-          send your listing to us for review — we&apos;ll be in touch once it&apos;s live.
+          send your listing to us for review. We&apos;ll be in touch once it&apos;s live.
         </p>
       </div>
     );

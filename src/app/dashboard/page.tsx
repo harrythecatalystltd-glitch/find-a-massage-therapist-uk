@@ -64,15 +64,15 @@ export default async function DashboardPage() {
               <h2>{listing.business_name}</h2>
               <div className="loc-cta" style={{ marginTop: "1.5rem" }}>
                 <p>
-                  <strong>Town:</strong> {listing.town ?? "—"}
+                  <strong>Town:</strong> {listing.town ?? "Not set"}
                   <br />
-                  <strong>Phone:</strong> {listing.phone ?? "—"}
+                  <strong>Phone:</strong> {listing.phone ?? "Not set"}
                   <br />
-                  <strong>Email:</strong> {listing.email ?? "—"}
+                  <strong>Email:</strong> {listing.email ?? "Not set"}
                   <br />
-                  <strong>Website:</strong> {listing.website_url ?? "—"}
+                  <strong>Website:</strong> {listing.website_url ?? "Not set"}
                   <br />
-                  <strong>Summary:</strong> {listing.summary ?? "—"}
+                  <strong>Summary:</strong> {listing.summary ?? "Not set"}
                 </p>
               </div>
 
@@ -89,7 +89,7 @@ export default async function DashboardPage() {
                       listing.email,
                     )}
                   >
-                    Upgrade to Pro — £7/mo
+                    Upgrade to Pro (£7/mo)
                   </a>
                 )}
                 {listing.tier !== "vip" && (
@@ -101,7 +101,7 @@ export default async function DashboardPage() {
                       listing.email,
                     )}
                   >
-                    Upgrade to VIP — £27/mo
+                    Upgrade to VIP (£27/mo)
                   </a>
                 )}
                 {listing.stripe_customer_id && (

@@ -49,7 +49,7 @@ export default async function EditListingPage() {
           <h1>Edit Your Listing</h1>
           {listing.slug && (
             <p className="lead">
-              Your listing URL is <strong>/therapist/{listing.slug}/</strong> — this won&apos;t
+              Your listing URL is <strong>/therapist/{listing.slug}/</strong>. This won&apos;t
               change even if you update your business name below.
             </p>
           )}
