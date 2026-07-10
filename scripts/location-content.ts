@@ -858,4 +858,718 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  plymouth: {
+    intro:
+      "Looking for a massage therapist in Plymouth? Find qualified practitioners across the waterfront city, from the Hoe and Barbican to Mutley and Plymstock, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Plymouth is a waterfront city built around its historic harbours, so massage therapists are within easy reach whether you are near the Hoe and Barbican, in Mutley and Mannamead, or out towards Plymstock, Plympton and Devonport. Sutton Harbour and Plymouth Sound give the city a strong maritime feel that shapes the kind of massage people book.\n\nDevonport's naval base and dockyard, alongside the University of Plymouth, fill the city with shift workers and students who book deep tissue or remedial massage for neck and shoulder tension. Sailors, rowers and watersports enthusiasts around Plymouth Sound and Sutton Harbour are regular clients for sports massage, as are supporters and players connected to Plymouth Argyle and the city's rugby clubs. For relaxation, a Swedish or hot stone session with Hoe seafront views, or somewhere quieter in Mannamead, is a popular way to unwind after a busy week.\n\nTherapists across Plymouth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in the city centre, Mutley and the Barbican, while others provide mobile massage in Plymouth, visiting homes across Plymstock, Plympton, Devonport and beyond.\n\nThe directory also covers nearby areas including Saltash, Ivybridge, Tavistock and further into South Hams towards Totnes and the South Devon coast, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Plymouth?",
+        answer:
+          "A one-hour massage in Plymouth usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic visit or home appointment. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Plymouth?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Plymouth and the wider South Hams, visiting homes in areas such as Mutley, Plymstock, Plympton and Devonport, as well as further out towards Totnes and the South Devon coast. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I sail or train on the water, which massage helps?",
+        answer:
+          "For sailors, rowers and watersports enthusiasts around Plymouth Sound and Sutton Harbour, sports massage or deep tissue is usually best, easing shoulder and back tension and aiding recovery between sessions. Many Plymouth therapists specialise in sports and remedial work.",
+      },
+      {
+        question: "What types of massage can I book in Plymouth?",
+        answer:
+          "Practitioners across Plymouth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. The treatments each therapist provides are listed on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Plymouth?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide which area and format suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  leeds: {
+    intro:
+      "Looking for a massage therapist in Leeds? Find qualified practitioners across the city, from Headingley and Chapel Allerton to Roundhay, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Leeds is a major Yorkshire city with a strong mix of student, professional and residential neighbourhoods, so massage is easy to find close to home. Whether you are in student-heavy Headingley, leafy Chapel Allerton, around Roundhay and its huge park, or out in Horsforth and Kirkstall, you will find massage therapists in Leeds within easy reach.\n\nThe University of Leeds and Leeds Beckett University bring a large student population that keeps deep tissue and sports massage in steady demand, while the city's status as one of the UK's biggest financial and legal centres outside London fills the centre with desk-based workers booking deep tissue or remedial massage for neck and shoulder tension. Leeds United fans and players around Elland Road, along with the Leeds Rhinos and cricket crowds at Headingley Stadium, add to demand for sports massage, while a relaxing Swedish or hot stone session in Roundhay Park or Chapel Allerton is a popular way to unwind.\n\nTherapists across Leeds offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in Headingley, Chapel Allerton and the city centre, while others provide mobile massage in Leeds, visiting homes across Horsforth, Kirkstall, Roundhay and beyond.\n\nThe directory also covers nearby areas including Wakefield, Pudsey, Otley and Morley, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Leeds?",
+        answer:
+          "A one-hour massage in Leeds usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Leeds?",
+        answer:
+          "Yes. Many therapists offer mobile massage across Leeds, visiting homes in areas such as Headingley, Chapel Allerton, Horsforth and Kirkstall. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I'm a student at Leeds or Leeds Beckett, which massage helps with study stress?",
+        answer:
+          "Deep tissue or Swedish massage is popular with students for easing tension from long library sessions and desk work, while sports massage suits those training or playing five-a-side. Several therapists near Headingley and the city centre specialise in student-friendly appointments.",
+      },
+      {
+        question: "What types of massage are available in Leeds?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Leeds?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  bradford: {
+    intro:
+      "Looking for a massage therapist in Bradford? Browse qualified practitioners across the city, from Manningham and Heaton to Idle and Wibsey, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Bradford is a West Yorkshire city with a rich industrial past and distinct neighbourhoods spread across its hills, so massage is easy to find close to home. Whether you are in Manningham near Lister Park, out in Idle or Wibsey, around Heaton, or towards Eccleshill, you will find massage therapists in Bradford within easy reach.\n\nThe city's textile and wool manufacturing heritage still shapes its physically demanding trades, and many clients book deep tissue or remedial massage to manage the strain, while the University of Bradford brings a steady flow of students booking treatments for desk and study-related tension. Bradford City fans around Valley Parade and visitors to the National Science and Media Museum add to local footfall, and a relaxing Swedish or hot stone session near Lister Park or out towards Saltaire is a popular way to unwind.\n\nTherapists across Bradford offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Manningham, Heaton and the city centre, while others provide mobile massage in Bradford, visiting homes across Idle, Wibsey, Eccleshill and beyond.\n\nThe directory also covers nearby areas including Shipley, Bingley, Keighley and Ilkley, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Bradford?",
+        answer:
+          "A one-hour massage in Bradford typically costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Bradford?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Bradford, visiting homes in areas such as Manningham, Idle, Wibsey and Eccleshill. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a physically demanding job in Bradford, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with manual or physically demanding work, a legacy of Bradford's manufacturing heritage. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in Bradford?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Bradford?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  nottingham: {
+    intro:
+      "Looking for a massage therapist in Nottingham? Find qualified practitioners across the city, from West Bridgford and Beeston to The Park and Sherwood, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Nottingham is a lively East Midlands city with well-defined neighbourhoods either side of the River Trent, so massage is easy to find close to home. Whether you are in West Bridgford near Trent Bridge, in leafy The Park or Wollaton, around Lenton and Beeston, or out in Sherwood, you will find massage therapists in Nottingham within easy reach.\n\nWith both the University of Nottingham and Nottingham Trent University based here, the city has a large student population that keeps deep tissue and sports massage in steady demand, while the Queen's Medical Centre and the city's legal and finance sector fill the centre with workers booking treatment for desk-bound tension. Fans of Nottingham Forest and Notts County, along with the cricket crowds at Trent Bridge, add to demand for sports massage, and a relaxing Swedish or hot stone session near Wollaton Hall and its deer park is a popular way to unwind.\n\nTherapists across Nottingham offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in The Park, West Bridgford and the city centre, while others provide mobile massage in Nottingham, visiting homes across Beeston, Lenton, Sherwood and beyond.\n\nThe directory also covers nearby areas including Beeston, West Bridgford, Arnold and Long Eaton, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Nottingham?",
+        answer:
+          "A one-hour massage in Nottingham usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Nottingham?",
+        answer:
+          "Yes. Many therapists offer mobile massage across Nottingham, visiting homes in areas such as West Bridgford, Beeston, Lenton and Sherwood. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I'm a student in Nottingham, which massage suits study or exam stress?",
+        answer:
+          "Deep tissue or Swedish massage is popular with students for easing neck and shoulder tension from long study sessions, while sports massage suits those training at the gym or playing university sport. Several therapists near the universities offer student-friendly appointments.",
+      },
+      {
+        question: "What types of massage are available in Nottingham?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Nottingham?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  coventry: {
+    intro:
+      "Looking for a massage therapist in Coventry? Browse qualified practitioners across the city, from Earlsdon and Chapelfields to Coundon and Tile Hill, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Coventry is a West Midlands city rebuilt around its famous cathedral, with distinct neighbourhoods spread across the ring road, so massage is easy to find close to home. Whether you are in popular Earlsdon, around Chapelfields and Coundon, in the Stoke district, or out towards Tile Hill and Radford, you will find massage therapists in Coventry within easy reach.\n\nCoventry University and the nearby University of Warwick bring a large student population that keeps deep tissue and sports massage in steady demand, while the city's logistics, distribution and automotive heritage still shapes plenty of physically demanding work. Fans and players connected to Coventry City at the Coventry Building Society Arena add to demand for sports massage, and a relaxing Swedish or hot stone session near War Memorial Park or the Cathedral Quarter is a popular way to unwind.\n\nTherapists across Coventry offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Earlsdon, Chapelfields and the city centre, while others provide mobile massage in Coventry, visiting homes across Coundon, Tile Hill, Radford and beyond.\n\nThe directory also covers nearby areas including Kenilworth, Nuneaton, Rugby and Royal Leamington Spa, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Coventry?",
+        answer:
+          "A one-hour massage in Coventry typically costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Coventry?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Coventry, visiting homes in areas such as Earlsdon, Chapelfields, Coundon and Tile Hill. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in warehousing or manufacturing around Coventry, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with manual or physically demanding work, common across Coventry's logistics and manufacturing sector. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in Coventry?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Coventry?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  hull: {
+    intro:
+      "Looking for a massage therapist in Hull? Find qualified practitioners across the city, from Hessle Road and Newland Avenue to the Marina and The Avenues, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Hull is a maritime city built around its historic docks and marina, with distinct neighbourhoods spread along the Humber, so massage is easy to find close to home. Whether you are near Hessle Road, around leafy The Avenues, on buzzing Newland Avenue, or out towards Sutton and Kingswood, you will find massage therapists in Hull within easy reach.\n\nHull's fishing and maritime heritage, together with its working docks, means plenty of physically demanding work, and many clients book deep tissue or remedial massage to manage the strain, while the University of Hull brings a steady stream of students booking treatment for study-related tension. Fans of Hull City, Hull FC and Hull Kingston Rovers around the MKM Stadium add to demand for sports massage, and a relaxing Swedish or hot stone session near Hull Marina or The Deep is a popular way to unwind.\n\nTherapists across Hull offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near Newland Avenue, The Avenues and the city centre, while others provide mobile massage in Hull, visiting homes across Hessle Road, Sutton, Kingswood and beyond.\n\nThe directory also covers nearby areas including Beverley, Cottingham, Hessle and Willerby, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Hull?",
+        answer:
+          "A one-hour massage in Hull usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Hull?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Hull, visiting homes in areas such as Hessle Road, The Avenues, Newland Avenue, Sutton and Kingswood. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I work on the docks or in a physically demanding job in Hull, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with manual or physically demanding work, in keeping with Hull's maritime and dock-working heritage. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in Hull?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Hull?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and decide whether a city clinic or a home visit suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "stoke-on-trent": {
+    intro:
+      "Looking for a massage therapist in Stoke-on-Trent? Browse qualified practitioners across the Potteries, from Hanley and Burslem to Longton and Fenton, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Stoke-on-Trent is a Staffordshire city made up of six historic pottery towns, so massage is easy to find close to home wherever you are based. Whether you are in Hanley, the city's main centre, in Burslem or Tunstall to the north, around Longton and Fenton to the south, or towards Stoke town itself, you will find massage therapists in Stoke-on-Trent within easy reach.\n\nThe city's pottery and ceramics manufacturing heritage, home to names like Wedgwood and Spode, means plenty of physically demanding work, and many clients book deep tissue or remedial massage to manage the strain. Staffordshire University brings a steady flow of students booking treatment for study-related tension, while fans of Stoke City around the bet365 Stadium add to demand for sports massage. For relaxation, a Swedish or hot stone session near Trentham Gardens is a popular way to unwind.\n\nTherapists across Stoke-on-Trent offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Hanley, Burslem and Longton, while others provide mobile massage across Stoke-on-Trent, visiting homes throughout the Potteries towns and surrounding villages.\n\nThe directory also covers nearby areas including Newcastle-under-Lyme, Leek, Congleton and Biddulph, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Stoke-on-Trent?",
+        answer:
+          "A one-hour massage in Stoke-on-Trent typically costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Stoke-on-Trent?",
+        answer:
+          "Yes. Several therapists offer mobile massage across the Potteries towns, visiting homes in Hanley, Burslem, Longton, Fenton and the surrounding areas. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I work in manufacturing or on my feet all day in Stoke, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with manual or physically demanding work, a legacy of the city's pottery and ceramics industry. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in Stoke-on-Trent?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed across the Potteries. The treatments each therapist offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Stoke-on-Trent?",
+        answer:
+          "Look for relevant qualifications and insurance, confirm the therapist offers the treatment you need, and decide which town and format suits you. The listing details help you compare, then you contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  wolverhampton: {
+    intro:
+      "Looking for a massage therapist in Wolverhampton? Find qualified practitioners across the city, from Tettenhall and Penn to Wednesfield and Bilston, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Wolverhampton is a Black Country city with a mix of leafy suburbs and busy industrial districts, so massage is easy to find close to home. Whether you are in Tettenhall, around Penn and Compton, out in Wednesfield, or towards Bilston, you will find massage therapists in Wolverhampton within easy reach.\n\nThe city's Black Country metalworking and manufacturing heritage means plenty of physically demanding work, and many clients book deep tissue or remedial massage to manage the strain, while the University of Wolverhampton brings a steady stream of students booking treatment for study-related tension. Wolverhampton Wanderers fans and players around Molineux add to demand for sports massage, and many commuters into Birmingham book deep tissue or remedial massage for desk-bound tension. For relaxation, a Swedish or hot stone session near West Park is a popular way to unwind.\n\nTherapists across Wolverhampton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Tettenhall, Penn and the city centre, while others provide mobile massage in Wolverhampton, visiting homes across Wednesfield, Bilston, Compton and beyond.\n\nThe directory also covers nearby areas including Dudley, Walsall, Bilston and Willenhall, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Wolverhampton?",
+        answer:
+          "A one-hour massage in Wolverhampton usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Wolverhampton?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Wolverhampton, visiting homes in areas such as Tettenhall, Penn, Wednesfield and Bilston. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I commute into Birmingham and sit at a desk, which massage helps?",
+        answer:
+          "For commuters and desk workers, deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up over the week. Many Wolverhampton therapists focus on this kind of work, ideal for a reset close to home rather than travelling into the city.",
+      },
+      {
+        question: "What types of massage are available in Wolverhampton?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Wolverhampton?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  southampton: {
+    intro:
+      "Looking for a massage therapist in Southampton? Browse qualified practitioners across the city, from Portswood and Bassett to Ocean Village and Woolston, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Southampton is a major waterfront city built around one of the UK's busiest ports, with distinct neighbourhoods spread across the water, so massage is easy to find close to home. Whether you are in student-heavy Portswood, around Bassett and Highfield, near the marina at Ocean Village, or over the water in Woolston, you will find massage therapists in Southampton within easy reach.\n\nThe University of Southampton and Solent University bring a large student population that keeps deep tissue and sports massage in steady demand, while the docks and cruise-ship terminal fill the city with maritime and shift workers who book deep tissue or remedial massage to manage physical strain. Southampton FC fans around St Mary's Stadium add to demand for sports massage, and with fast trains to London many commuters book treatment for desk-bound tension. For relaxation, a Swedish or hot stone session near Southampton Common is a popular way to unwind.\n\nTherapists across Southampton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in Portswood, Bassett and the city centre, while others provide mobile massage in Southampton, visiting homes across Ocean Village, Woolston, Highfield and beyond.\n\nThe directory also covers nearby areas including Eastleigh, Totton, Romsey and Hedge End, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Southampton?",
+        answer:
+          "A one-hour massage in Southampton usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Southampton?",
+        answer:
+          "Yes. Many therapists offer mobile massage across Southampton, visiting homes in areas such as Portswood, Bassett, Ocean Village and Woolston. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I work on the docks or in a physically demanding job in Southampton, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with manual or physically demanding work, common around Southampton's docks and maritime industry. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in Southampton?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Southampton?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  derby: {
+    intro:
+      "Looking for a massage therapist in Derby? Find qualified practitioners across the city, from Allestree and Darley Abbey to Mickleover and Chaddesden, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Derby is an East Midlands city with deep engineering roots and a spread of well-known neighbourhoods, so massage is easy to find close to home. Whether you are in Allestree, around Darley Abbey and its historic mills, in Mickleover or Littleover, or out towards Chaddesden and Spondon, you will find massage therapists in Derby within easy reach.\n\nDerby's engineering heritage, home to Rolls-Royce and the nearby Toyota plant at Burnaston, means plenty of physically demanding and precision-focused work, and many clients book deep tissue or remedial massage to manage the strain. The University of Derby brings a steady flow of students booking treatment for study-related tension, while Derby County fans around Pride Park Stadium add to demand for sports massage. For relaxation, a Swedish or hot stone session near Derby Arboretum or Darley Abbey Mills is a popular way to unwind.\n\nTherapists across Derby offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Allestree, Darley Abbey and the city centre, while others provide mobile massage in Derby, visiting homes across Mickleover, Littleover, Chaddesden and beyond.\n\nThe directory also covers nearby areas including Belper, Ilkeston, Long Eaton and Swadlincote, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Derby?",
+        answer:
+          "A one-hour massage in Derby typically costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Derby?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Derby, visiting homes in areas such as Allestree, Mickleover, Chaddesden and Spondon. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I work in engineering or manufacturing in Derby, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with manual or physically demanding work, common across Derby's engineering and manufacturing employers. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in Derby?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Derby?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  belfast: {
+    intro:
+      "Looking for a massage therapist in Belfast? Browse qualified practitioners across the city, from the Cathedral Quarter and Titanic Quarter to Stranmillis and Ormeau, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Belfast is Northern Ireland's capital, with distinct neighbourhoods spread around Belfast Lough and the River Lagan, so massage is easy to find close to home. Whether you are in the buzzing Cathedral Quarter, around the waterfront Titanic Quarter, in leafy Stranmillis or Malone, or over in Ormeau or East Belfast, you will find massage therapists in Belfast within easy reach.\n\nQueen's University Belfast and Ulster University bring a large student population that keeps deep tissue and sports massage in steady demand, while the city's role as Northern Ireland's seat of government and its growing tech and financial services sector fill the centre with desk-based workers booking treatment for neck and shoulder tension. The shipbuilding heritage of the Titanic Quarter and a strong film and TV production economy add to the mix, and a relaxing Swedish or hot stone session near the Botanic Gardens or Cave Hill is a popular way to unwind.\n\nTherapists across Belfast offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in the Cathedral Quarter, Stranmillis and the city centre, while others provide mobile massage in Belfast, visiting homes across Malone, Ormeau, East Belfast and beyond.\n\nThe directory also covers nearby areas including Lisburn, Bangor, Holywood and Newtownabbey, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Belfast?",
+        answer:
+          "A one-hour massage in Belfast usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Belfast?",
+        answer:
+          "Yes. Many therapists offer mobile massage across Belfast, visiting homes in areas such as Stranmillis, Malone, Ormeau and East Belfast. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I'm a student at Queen's or Ulster University, which massage helps with study stress?",
+        answer:
+          "Deep tissue or Swedish massage is popular with students for easing tension from long study sessions and desk work, while sports massage suits those training or playing university sport. Several therapists near Stranmillis and the city centre offer student-friendly appointments.",
+      },
+      {
+        question: "What types of massage are available in Belfast?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Belfast?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  portsmouth: {
+    intro:
+      "Looking for a massage therapist in Portsmouth? Find qualified practitioners across the city, from Southsea and Old Portsmouth to North End and Cosham, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Portsmouth is England's only island city, built around the Solent with a mix of seafront, naval and residential neighbourhoods, so massage is easy to find close to home. Whether you are in seaside Southsea, around Old Portsmouth and the Historic Dockyard, in North End or Fratton, or out towards Cosham and Copnor, you will find massage therapists in Portsmouth within easy reach.\n\nAs home to the Royal Navy's largest base, Portsmouth has a large shift-working naval and dockyard population, and many clients book deep tissue or remedial massage to manage the physical strain of naval and manual work. The University of Portsmouth brings a steady stream of students booking treatment for study-related tension, while Portsmouth FC fans around Fratton Park add to demand for sports massage. For relaxation, a Swedish or hot stone session along Southsea seafront or near Southsea Common is a popular way to unwind.\n\nTherapists across Portsmouth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Southsea, North End and the city centre, while others provide mobile massage in Portsmouth, visiting homes across Cosham, Fratton, Copnor and beyond.\n\nThe directory also covers nearby areas including Havant, Fareham, Gosport and Waterlooville, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Portsmouth?",
+        answer:
+          "A one-hour massage in Portsmouth usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Portsmouth?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Portsmouth, visiting homes in areas such as Southsea, North End, Cosham and Fratton. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in the Navy or the dockyard, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and irregular sleep patterns that come with naval and shift-based dockyard work. Many Portsmouth therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Portsmouth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Portsmouth?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  swansea: {
+    intro:
+      "Looking for a massage therapist in Swansea? Browse qualified practitioners across the city, from Mumbles and Sketty to Uplands and Morriston, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Swansea is a Welsh coastal city with the Gower Peninsula on its doorstep, so massage is easy to find close to home wherever you are based. Whether you are in seaside Mumbles, around Sketty and Uplands, near the waterfront SA1 marina, or out towards Morriston, you will find massage therapists in Swansea within easy reach.\n\nSwansea University and the University of Wales Trinity Saint David bring a large student population that keeps deep tissue and sports massage in steady demand, while the city's historic copper-smelting heritage, once earning it the name 'Copperopolis', still shapes some of its physically demanding trades. Fans of Swansea City AFC and the Ospreys rugby team around the Swansea.com Stadium add to demand for sports massage, and the Gower coastline and Mumbles seafront make a relaxing Swedish or hot stone session a popular way to unwind after a day outdoors.\n\nTherapists across Swansea offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Sketty, Uplands and the city centre, while others provide mobile massage in Swansea, visiting homes across Mumbles, Morriston, St Thomas and beyond.\n\nThe directory also covers nearby areas including Neath, Llanelli, Port Talbot and Gowerton, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Swansea?",
+        answer:
+          "A one-hour massage in Swansea typically costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Swansea?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Swansea, visiting homes in areas such as Mumbles, Sketty, Uplands and Morriston. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I walk or surf around the Gower, which massage helps?",
+        answer:
+          "For walkers, surfers and anyone active along the Gower coastline, sports massage or deep tissue is usually best for tired, tight muscles and recovery. Many Swansea therapists offer sports massage aimed at active, outdoors clients.",
+      },
+      {
+        question: "What types of massage are available in Swansea?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Swansea?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "milton-keynes": {
+    intro:
+      "Looking for a massage therapist in Milton Keynes? Find qualified practitioners across the city, from Bletchley and Stony Stratford to Woburn Sands and Newport Pagnell, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Milton Keynes is a planned city known for its grid-pattern roads and network of parks and redways, so massage is easy to find close to home wherever you are based. Whether you are in historic Bletchley, around Stony Stratford or Newport Pagnell, near Willen Lake, or out towards Woburn Sands and Furzton, you will find massage therapists in Milton Keynes within easy reach.\n\nWith fast trains into London Euston in around 35 minutes, Milton Keynes is home to a huge number of commuters who book deep tissue or remedial massage to ease the neck and shoulder tension of city working, while the large corporate and office presence built up since the city was founded in 1967 adds to demand for desk-related treatments. MK Dons fans around Stadium MK add to demand for sports massage, and a relaxing Swedish or hot stone session near Willen Lake or Campbell Park is a popular way to unwind.\n\nTherapists across Milton Keynes offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the city centre, Bletchley and Stony Stratford, while others provide mobile massage in Milton Keynes, visiting homes across Woughton, Furzton, Woburn Sands and beyond.\n\nThe directory also covers nearby areas including Bletchley, Newport Pagnell, Stony Stratford and Olney, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Milton Keynes?",
+        answer:
+          "A one-hour massage in Milton Keynes usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Milton Keynes?",
+        answer:
+          "Yes. Many therapists offer mobile massage across Milton Keynes, visiting homes in areas such as Bletchley, Stony Stratford, Woburn Sands and Newport Pagnell. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I commute to London and sit at a desk, which massage helps?",
+        answer:
+          "For London commuters and desk workers, deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up over the week. Many Milton Keynes therapists focus on this kind of work, ideal for a reset close to home rather than travelling further.",
+      },
+      {
+        question: "What types of massage are available in Milton Keynes?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Milton Keynes?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  aberdeen: {
+    intro:
+      "Looking for a massage therapist in Aberdeen? Browse qualified practitioners across the Granite City, from Rosemount and Ferryhill to Old Aberdeen and Bridge of Don, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Aberdeen is a granite-built Scottish city on the North Sea coast, with distinct neighbourhoods spread from the harbour to the beach, so massage is easy to find close to home. Whether you are in Rosemount, around Ferryhill and the West End, near historic Old Aberdeen and King's College, or out towards Bridge of Don and Cults, you will find massage therapists in Aberdeen within easy reach.\n\nAs the long-standing hub of the North Sea oil and gas industry, Aberdeen has a large offshore workforce doing physically demanding rotational shifts, and many clients book deep tissue or remedial massage to manage the strain between trips. The University of Aberdeen and Robert Gordon University bring a steady stream of students booking treatment for study-related tension, and fans of Aberdeen FC around Pittodrie add to demand for sports massage. For relaxation, a Swedish or hot stone session near Duthie Park or Aberdeen beach is a popular way to unwind.\n\nTherapists across Aberdeen offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Rosemount, Ferryhill and the city centre, while others provide mobile massage in Aberdeen, visiting homes across Old Aberdeen, Bridge of Don, Cults and beyond.\n\nThe directory also covers nearby areas including Stonehaven, Westhill, Ellon and Inverurie, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Aberdeen?",
+        answer:
+          "A one-hour massage in Aberdeen usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Aberdeen?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Aberdeen, visiting homes in areas such as Rosemount, Ferryhill, Bridge of Don and Cults. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I work offshore on rotation, which massage helps between trips?",
+        answer:
+          "Deep tissue and remedial massage are popular with offshore workers for easing the muscle strain and stiffness that builds up during rotational shifts. Many Aberdeen therapists are used to fitting appointments around irregular offshore schedules, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Aberdeen?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Aberdeen?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  dundee: {
+    intro:
+      "Looking for a massage therapist in Dundee? Find qualified practitioners across the city, from Broughty Ferry and the West End to Stobswell and Lochee, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Dundee is a Scottish city on the Firth of Tay, with a regenerated waterfront and distinct neighbourhoods spread along the water, so massage is easy to find close to home. Whether you are in seaside Broughty Ferry, around the West End near the university, in Stobswell, or out towards Lochee and Menzieshill, you will find massage therapists in Dundee within easy reach.\n\nThe University of Dundee and Abertay University, the latter known for its games and technology courses, bring a large student population that keeps deep tissue and sports massage in steady demand. Dundee's industrial heritage in jute, jam and journalism still shapes some physically demanding trades, while fans of Dundee FC and Dundee United around Dens Park and Tannadice Park add to demand for sports massage. For relaxation, a Swedish or hot stone session near the V&A Dundee waterfront or Broughty Ferry beach is a popular way to unwind.\n\nTherapists across Dundee offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the West End, Broughty Ferry and the city centre, while others provide mobile massage in Dundee, visiting homes across Stobswell, Lochee, Menzieshill and beyond.\n\nThe directory also covers nearby areas including Broughty Ferry, Monifieth, Carnoustie and Perth, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Dundee?",
+        answer:
+          "A one-hour massage in Dundee typically costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Dundee?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Dundee, visiting homes in areas such as Broughty Ferry, the West End, Stobswell and Lochee. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I'm a student in Dundee, which massage suits study or exam stress?",
+        answer:
+          "Deep tissue or Swedish massage is popular with students for easing tension from long study sessions and desk work, while sports massage suits those training or playing university sport. Several therapists near the university and city centre offer student-friendly appointments.",
+      },
+      {
+        question: "What types of massage are available in Dundee?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Dundee?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  newport: {
+    intro:
+      "Looking for a massage therapist in Newport? Browse qualified practitioners across the city, from Caerleon and Malpas to Rogerstone and Alway, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Newport is a South Wales city on the River Usk, with a mix of historic and industrial neighbourhoods, so massage is easy to find close to home. Whether you are in Roman Caerleon, around Malpas and Bettws, in Alway and Beechwood, or out towards Rogerstone, you will find massage therapists in Newport within easy reach.\n\nNewport's steel manufacturing heritage and its role as an M4-corridor logistics and distribution hub mean plenty of physically demanding work, and many clients book deep tissue or remedial massage to manage the strain, while commuters heading into Cardiff and Bristol book treatment for desk-bound tension. Fans of Newport County AFC and the Dragons rugby team at Rodney Parade add to demand for sports massage, and a relaxing Swedish or hot stone session near the historic Transporter Bridge or Tredegar House is a popular way to unwind.\n\nTherapists across Newport offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Caerleon, Malpas and the city centre, while others provide mobile massage in Newport, visiting homes across Bettws, Alway, Rogerstone and beyond.\n\nThe directory also covers nearby areas including Cwmbran, Caerleon, Risca and Chepstow, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Newport?",
+        answer:
+          "A one-hour massage in Newport usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Newport?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Newport, visiting homes in areas such as Caerleon, Malpas, Bettws and Rogerstone. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I commute into Cardiff or Bristol and sit at a desk, which massage helps?",
+        answer:
+          "For commuters and desk workers, deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up over the week. Many Newport therapists focus on this kind of work, ideal for a reset close to home rather than travelling further.",
+      },
+      {
+        question: "What types of massage are available in Newport?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Newport?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  preston: {
+    intro:
+      "Looking for a massage therapist in Preston? Find qualified practitioners across the city, from Fulwood and Ashton-on-Ribble to Ribbleton and Penwortham, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Preston is the administrative centre of Lancashire, built around the River Ribble, with a spread of well-known neighbourhoods, so massage is easy to find close to home. Whether you are in Fulwood, around Ashton-on-Ribble, near Winckley Square and the city centre, or out towards Ribbleton and Ingol, you will find massage therapists in Preston within easy reach.\n\nThe University of Central Lancashire brings a large student population that keeps deep tissue and sports massage in steady demand, while the city's historic cotton and textile manufacturing heritage, along with the nearby BAE Systems aerospace plants at Warton and Samlesbury, still shapes plenty of physically demanding and precision work. Preston North End fans at Deepdale, the oldest continuously used football league ground in the world, add to demand for sports massage, and a relaxing Swedish or hot stone session in Avenham Park or Miller Park is a popular way to unwind.\n\nTherapists across Preston offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Fulwood, Ashton-on-Ribble and the city centre, while others provide mobile massage in Preston, visiting homes across Ribbleton, Ingol, Penwortham and beyond.\n\nThe directory also covers nearby areas including Leyland, Chorley, Lancaster and Longridge, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Preston?",
+        answer:
+          "A one-hour massage in Preston typically costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Preston?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Preston, visiting homes in areas such as Fulwood, Ashton-on-Ribble, Ribbleton and Penwortham. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I'm a student at UCLan, which massage helps with study stress?",
+        answer:
+          "Deep tissue or Swedish massage is popular with students for easing tension from long study sessions and desk work, while sports massage suits those training or playing university sport. Several therapists near the city centre offer student-friendly appointments.",
+      },
+      {
+        question: "What types of massage are available in Preston?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Preston?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  sunderland: {
+    intro:
+      "Looking for a massage therapist in Sunderland? Browse qualified practitioners across the city, from Roker and Seaburn to Ashbrooke and Hendon, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Sunderland is a coastal city on the River Wear, with sandy beaches at one end and a working river heritage at the other, so massage is easy to find close to home. Whether you are near the beach at Roker or Seaburn, around Ashbrooke, in Hendon, or towards Fulwell and Millfield, you will find massage therapists in Sunderland within easy reach.\n\nSunderland's historic shipbuilding heritage on the Wear still shapes the city's identity, while Nissan's Sunderland plant, the UK's largest car factory, is a major employer whose shift workers often book deep tissue or remedial massage to manage physical strain. The University of Sunderland brings a steady stream of students booking treatment for study-related tension, and Sunderland AFC fans around the Stadium of Light add to demand for sports massage. For relaxation, a Swedish or hot stone session near Roker Beach or Seaburn seafront is a popular way to unwind.\n\nTherapists across Sunderland offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Ashbrooke, Roker and the city centre, while others provide mobile massage in Sunderland, visiting homes across Seaburn, Hendon, Fulwell and beyond.\n\nThe directory also covers nearby areas including Washington, Houghton-le-Spring, South Shields and Durham, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Sunderland?",
+        answer:
+          "A one-hour massage in Sunderland usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Sunderland?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Sunderland, visiting homes in areas such as Roker, Ashbrooke, Seaburn and Hendon. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I work shifts at the Nissan plant or in manufacturing, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and irregular sleep patterns that come with shift-based manufacturing work. Many Sunderland therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Sunderland?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Sunderland?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  norwich: {
+    intro:
+      "Looking for a massage therapist in Norwich? Find qualified practitioners across the city, from the Golden Triangle and Norwich Lanes to Thorpe Hamlet and Eaton, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Norwich is a medieval cathedral city in the heart of Norfolk, with a compact centre and leafy suburbs, so massage is easy to find close to home. Whether you are in the popular Golden Triangle, around the historic Norwich Lanes, in Thorpe Hamlet, or out towards Eaton and Sprowston, you will find massage therapists in Norwich within easy reach.\n\nThe University of East Anglia brings a large student population that keeps deep tissue and sports massage in steady demand, while Norwich's long-standing role as a major insurance and financial-services hub, rooted in the history of Norwich Union, fills the centre with desk-based workers booking deep tissue or remedial massage for neck and shoulder tension. Norwich City FC fans around Carrow Road add to demand for sports massage, and a relaxing Swedish or hot stone session near Norwich Cathedral or the market is a popular way to unwind.\n\nTherapists across Norwich offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the Golden Triangle, the Lanes and the city centre, while others provide mobile massage in Norwich, visiting homes across Thorpe Hamlet, Eaton, Sprowston and beyond.\n\nThe directory also covers nearby areas including Wymondham, Costessey, Thorpe St Andrew and Diss, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Norwich?",
+        answer:
+          "A one-hour massage in Norwich typically costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Norwich?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Norwich, visiting homes in areas such as the Golden Triangle, Thorpe Hamlet, Eaton and Sprowston. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in insurance or finance in Norwich, which massage helps with desk tension?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that comes with long hours at a desk, common across Norwich's insurance and financial-services sector. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in Norwich?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Norwich?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  reading: {
+    intro:
+      "Looking for a massage therapist in Reading? Browse qualified practitioners across the city, from Caversham and Tilehurst to Earley and Woodley, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Reading is a major Thames Valley town at the meeting point of the Thames and Kennet, with well-known neighbourhoods on both sides of the river, so massage is easy to find close to home. Whether you are in Caversham north of the Thames, around Tilehurst, in Earley or Whitley, or out towards Lower Earley and Woodley, you will find massage therapists in Reading within easy reach.\n\nReading sits at the heart of the Thames Valley tech and business corridor, home to major UK offices for companies including Microsoft and Oracle, and its large office-based workforce keeps deep tissue and remedial massage in steady demand for desk-bound tension. With fast trains into London Paddington in around 25 to 30 minutes, many commuters book similar treatment, while the University of Reading brings a steady stream of students. For relaxation, a Swedish or hot stone session near Forbury Gardens or the Reading Abbey ruins is a popular way to unwind.\n\nTherapists across Reading offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Caversham, the town centre and Tilehurst, while others provide mobile massage in Reading, visiting homes across Earley, Woodley, Lower Earley and beyond.\n\nThe directory also covers nearby areas including Caversham, Wokingham, Woodley and Henley-on-Thames, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Reading?",
+        answer:
+          "A one-hour massage in Reading usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Reading?",
+        answer:
+          "Yes. Many therapists offer mobile massage across Reading, visiting homes in areas such as Caversham, Tilehurst, Earley and Woodley. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I commute to London or work in tech in Reading, which massage helps?",
+        answer:
+          "For commuters and desk-based tech and office workers, deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up over the week. Many Reading therapists focus on this kind of work, ideal for a reset close to home rather than travelling further.",
+      },
+      {
+        question: "What types of massage are available in Reading?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Reading?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
 };
