@@ -26,6 +26,7 @@ export const manualPosts: ManualPost[] = [
     category: "Pricing & Guides",
     publishedAt: "2026-06-25",
     readingTime: 6,
+    image: "/blog/how-much-does-a-massage-cost-uk.png",
     html: `
 <p>A one-hour massage in the UK typically costs somewhere between <strong>£35 and £90</strong>, depending on the treatment, the therapist's experience, and whether you're visiting a clinic, a studio, or booking a mobile massage at home.</p>
 
@@ -97,6 +98,7 @@ export const manualPosts: ManualPost[] = [
     category: "Treatment Guides",
     publishedAt: "2026-06-28",
     readingTime: 6,
+    image: "/blog/deep-tissue-vs-swedish-massage.png",
     html: `
 <p>The short answer: <strong>Swedish massage</strong> is for general relaxation and stress relief using long, flowing strokes at light-to-medium pressure. <strong>Deep tissue massage</strong> is for tackling specific muscle tension, knots and chronic tightness using slower, firmer pressure aimed at deeper muscle layers.</p>
 
@@ -157,6 +159,7 @@ export const manualPosts: ManualPost[] = [
     category: "Treatment Guides",
     publishedAt: "2026-07-01",
     readingTime: 5,
+    image: "/blog/sports-massage-vs-deep-tissue-massage.png",
     html: `
 <p><strong>Sports massage</strong> is built around physical activity — preparing muscles before exercise, aiding recovery after it, and helping prevent or manage sports-related injuries. <strong>Deep tissue massage</strong> uses similar firm, targeted pressure, but it isn't tied to exercise — it's aimed at general chronic tension and tightness in daily life, whether or not you're active.</p>
 
@@ -212,6 +215,7 @@ export const manualPosts: ManualPost[] = [
     category: "Wellness Tips",
     publishedAt: "2026-07-03",
     readingTime: 6,
+    image: "/blog/best-massage-for-lower-back-pain.png",
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If your lower back pain is severe, follows an injury, spreads down your leg, or comes with numbness, tingling or weakness, see a GP or physiotherapist before booking a massage.</p>
 
@@ -274,6 +278,7 @@ export const manualPosts: ManualPost[] = [
     category: "Wellness Tips",
     publishedAt: "2026-07-06",
     readingTime: 5,
+    image: "/blog/how-often-should-you-get-a-massage.png",
     html: `
 <p>There's no single correct frequency — it depends on why you're getting a massage in the first place. As a rough starting point: <strong>every 4–6 weeks</strong> works well for general wellbeing and stress relief, <strong>every 1–2 weeks</strong> is more typical when actively managing chronic pain or tension, and athletes in heavy training often book around key sessions or events rather than on a fixed schedule.</p>
 
@@ -325,6 +330,7 @@ export const manualPosts: ManualPost[] = [
     category: "Getting Started",
     publishedAt: "2026-07-09",
     readingTime: 6,
+    image: "/blog/what-to-expect-first-massage-appointment.png",
     html: `
 <p>If you've never had a professional massage before, a bit of nervousness is completely normal. Here's exactly what to expect, from booking to walking out, so there are no surprises.</p>
 
