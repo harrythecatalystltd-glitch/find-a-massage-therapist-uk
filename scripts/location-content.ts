@@ -1572,4 +1572,174 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  oxford: {
+    intro:
+      "Looking for a massage therapist in Oxford? Find qualified practitioners across the city, from Jericho and Summertown to Cowley and Headington, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Oxford is a historic university city built around its ancient colleges and the River Isis, with a spread of distinct neighbourhoods, so massage is easy to find close to home. Whether you are in creative Jericho, leafy Summertown, busy Cowley, or out towards Headington and Iffley, you will find massage therapists in Oxford within easy reach.\n\nThe University of Oxford and Oxford Brookes University bring a large student population that keeps deep tissue and sports massage in steady demand, while the John Radcliffe and Churchill hospitals fill the city with shift-working NHS staff who book treatment around irregular hours. The Mini plant at Cowley and the city's growing bioscience and tech cluster add plenty of physically demanding and desk-based work alike, and a relaxing Swedish or hot stone session near Christ Church Meadow or Port Meadow is a popular way to unwind.\n\nTherapists across Oxford offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios in Jericho, Summertown and the city centre, while others provide mobile massage in Oxford, visiting homes across Cowley, Headington, Iffley and beyond.\n\nThe directory also covers nearby areas including Abingdon, Witney, Bicester and Kidlington, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Oxford?",
+        answer:
+          "A one-hour massage in Oxford usually costs around £35 to £75, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Oxford?",
+        answer:
+          "Yes. Many therapists offer mobile massage across Oxford, visiting homes in areas such as Jericho, Summertown, Cowley and Headington. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I work shifts at the hospital or the Mini plant, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and irregular sleep patterns that come with shift-based hospital or manufacturing work. Many Oxford therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Oxford?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Oxford?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  cambridge: {
+    intro:
+      "Looking for a massage therapist in Cambridge? Browse qualified practitioners across the city, from Mill Road and Chesterton to Newnham and Trumpington, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Cambridge is a historic university city built around the River Cam and its famous college Backs, with a spread of distinct neighbourhoods, so massage is easy to find close to home. Whether you are on buzzy Mill Road, in Chesterton, around leafy Newnham, or out towards Trumpington and Cherry Hinton, you will find massage therapists in Cambridge within easy reach.\n\nThe University of Cambridge and Anglia Ruskin University bring a large student population that keeps deep tissue and sports massage in steady demand, while Cambridge's role as the heart of 'Silicon Fen', home to the Cambridge Science Park, the Biomedical Campus and major life-science employers, fills the city with high-pressure knowledge-economy workers who book deep tissue or remedial massage for stress and desk-related tension. Fast trains into London add plenty of commuters to the mix, and a relaxing Swedish or hot stone session near Midsummer Common or the Backs is a popular way to unwind.\n\nTherapists across Cambridge offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and studios on Mill Road, in Chesterton and the city centre, while others provide mobile massage in Cambridge, visiting homes across Newnham, Trumpington, Cherry Hinton and beyond.\n\nThe directory also covers nearby areas including Ely, Newmarket, Huntingdon and Royston, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Cambridge?",
+        answer:
+          "A one-hour massage in Cambridge usually costs around £35 to £75, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Cambridge?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Cambridge, visiting homes in areas such as Mill Road, Chesterton, Newnham and Trumpington. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in tech or research in Cambridge, which massage helps with stress?",
+        answer:
+          "Deep tissue or Swedish massage is popular with Cambridge's research, tech and life-science workforce for easing the tension that comes with long, high-pressure hours at a desk or in a lab. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in Cambridge?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Cambridge?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  york: {
+    intro:
+      "Looking for a massage therapist in York? Find qualified practitioners across the city, from Clifton and Acomb to Fulford and Heworth, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "York is a historic walled city built around its Minster and the River Ouse, with well-known neighbourhoods spread just outside the city walls, so massage is easy to find close to home. Whether you are in Clifton, around Bishopthorpe or Fulford, out in Acomb, or towards Heworth and Haxby, you will find massage therapists in York within easy reach.\n\nThe University of York and York St John University bring a steady stream of students booking treatment for study-related tension, while York's status as one of England's most-visited heritage cities, built around the Minster, the City Walls and the Shambles, means plenty of hospitality and retail shift workers who book deep tissue or remedial massage to manage the physical strain of being on their feet all day. York Racecourse adds a busy seasonal events calendar, and a relaxing Swedish or hot stone session near the City Walls or the River Ouse is a popular way to unwind.\n\nTherapists across York offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in Clifton, Bishopthorpe and the city centre, while others provide mobile massage in York, visiting homes across Acomb, Heworth, Haxby and beyond.\n\nThe directory also covers nearby areas including Selby, Malton, Wetherby and Tadcaster, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in York?",
+        answer:
+          "A one-hour massage in York typically costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in York?",
+        answer:
+          "Yes. Several therapists offer mobile massage across York, visiting homes in areas such as Clifton, Acomb, Fulford and Heworth. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality or retail in York, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the leg, foot and back strain that comes with long shifts on your feet, common across York's busy tourism, hospitality and retail sector. Many local therapists focus on exactly this kind of treatment.",
+      },
+      {
+        question: "What types of massage are available in York?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in York?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  exeter: {
+    intro:
+      "Looking for a massage therapist in Exeter? Browse qualified practitioners across the city, from St Leonard's and Heavitree to Topsham and Pinhoe, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Exeter is a historic cathedral city on the River Exe, and a gateway to Devon and the wider South West, with a spread of well-known neighbourhoods, so massage is easy to find close to home. Whether you are in St Leonard's, around Heavitree or St Thomas, near the quay at Topsham, or out towards Exwick and Pinhoe, you will find massage therapists in Exeter within easy reach.\n\nThe University of Exeter brings a large and growing student population that keeps deep tissue and sports massage in steady demand, while Exeter Chiefs fans at Sandy Park and Exeter City fans at St James Park add to demand for sports massage from the city's strong rugby and football scene. The Met Office, headquartered in Exeter with round-the-clock forecasting operations, is a major shift-working employer, and a relaxing Swedish or hot stone session near Exeter Quay or Northernhay Gardens is a popular way to unwind.\n\nTherapists across Exeter offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in St Leonard's, Heavitree and the city centre, while others provide mobile massage in Exeter, visiting homes across Topsham, Exwick, Pinhoe and beyond.\n\nThe directory also covers nearby areas including Exmouth, Crediton, Newton Abbot and Honiton, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Exeter?",
+        answer:
+          "A one-hour massage in Exeter usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Exeter?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Exeter, visiting homes in areas such as St Leonard's, Heavitree, Topsham and Pinhoe. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I play or watch rugby at Sandy Park, which massage helps?",
+        answer:
+          "Sports massage or deep tissue is usually the best choice for players and active fans alike, easing tight muscles and supporting recovery. With Exeter's strong rugby and football scene, many local therapists offer sports massage aimed at active clients.",
+      },
+      {
+        question: "What types of massage are available in Exeter?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Exeter?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "derry-londonderry": {
+    intro:
+      "Looking for a massage therapist in Derry~Londonderry? Find qualified practitioners across the city, from the Cityside and Waterside to the Bogside and Culmore, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Derry~Londonderry is a historic walled city on the River Foyle, split between the Cityside and the Waterside and linked by the Peace Bridge, so massage is easy to find close to home. Whether you are near the historic City Walls, in the Bogside or the Fountain, around Strand Road, or out towards Culmore, you will find massage therapists in Derry~Londonderry within easy reach.\n\nUlster University's Magee campus brings a steady stream of students booking treatment for study-related tension, while the city's status as a major heritage and political-history destination, built around the Walls, the Bogside murals and the Museum of Free Derry, means plenty of tourism and hospitality shift workers who book deep tissue or remedial massage to manage the strain of being on their feet all day. Derry City FC fans around the Brandywell add to demand for sports massage, and a relaxing Swedish or hot stone session near the Peace Bridge or the Guildhall is a popular way to unwind.\n\nTherapists across Derry~Londonderry offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons on the Cityside and around Strand Road, while others provide mobile massage in Derry~Londonderry, visiting homes across the Waterside, Culmore and beyond.\n\nThe directory also covers nearby areas including Strabane, Limavady, Eglinton and Coleraine, so you can compare practitioners near you. Each listing links directly to the therapist, where you can check treatments, qualifications and booking details.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Derry~Londonderry?",
+        answer:
+          "A one-hour massage in Derry~Londonderry usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Derry~Londonderry?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Derry~Londonderry, visiting homes on both the Cityside and the Waterside, as well as out towards Culmore. Each listing shows the areas covered, so check before booking.",
+      },
+      {
+        question: "I'm a student at Magee, which massage helps with study stress?",
+        answer:
+          "Deep tissue or Swedish massage is popular with students for easing tension from long study sessions and desk work, while sports massage suits those training or playing university sport. Several therapists near the Magee campus and city centre offer student-friendly appointments.",
+      },
+      {
+        question: "What types of massage are available in Derry~Londonderry?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Derry~Londonderry?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
 };
