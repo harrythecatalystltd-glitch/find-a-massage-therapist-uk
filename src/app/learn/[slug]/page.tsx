@@ -3,8 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { getBlogPostBySlug } from "@/lib/blog";
+import { manualPosts } from "@/lib/manual-posts";
 
 export const revalidate = 3600;
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.findamassagetherapist.co.uk";
 
 export async function generateMetadata({
   params,
@@ -16,10 +20,25 @@ export async function generateMetadata({
   if (!resolved) return {};
 
   if (resolved.type === "manual") {
+    const { post } = resolved;
+    const imageUrl = post.image ? `${SITE_URL}${post.image}` : undefined;
     return {
-      title: resolved.post.title,
-      description: resolved.post.description,
+      title: post.title,
+      description: post.description,
       alternates: { canonical: `/learn/${slug}/` },
+      openGraph: {
+        type: "article",
+        url: `${SITE_URL}/learn/${slug}/`,
+        title: post.title,
+        description: post.description,
+        images: imageUrl ? [{ url: imageUrl }] : undefined,
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.title,
+        description: post.description,
+        images: imageUrl ? [imageUrl] : undefined,
+      },
     };
   }
 
@@ -44,14 +63,32 @@ export default async function LearnPostPage({
 
   if (resolved.type === "manual") {
     const post = resolved.post;
+    const relatedPosts = (post.related ?? [])
+      .map((s) => manualPosts.find((p) => p.slug === s))
+      .filter((p): p is NonNullable<typeof p> => p != null);
 
     const jsonLd = {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       headline: post.title,
       description: post.description,
-      image: post.image,
+      image: post.image ? `${SITE_URL}${post.image}` : undefined,
       datePublished: post.publishedAt,
+    };
+
+    const breadcrumbJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+        { "@type": "ListItem", position: 2, name: "Learn", item: `${SITE_URL}/learn/` },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: post.title,
+          item: `${SITE_URL}/learn/${slug}/`,
+        },
+      ],
     };
 
     const faqJsonLd =
@@ -72,6 +109,10 @@ export default async function LearnPostPage({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
         {faqJsonLd && (
           <script
@@ -102,6 +143,19 @@ export default async function LearnPostPage({
         <section className="section loc-seo">
           <div className="container">
             <div className="loc-prose" dangerouslySetInnerHTML={{ __html: post.html }} />
+
+            {relatedPosts.length > 0 && (
+              <div style={{ marginTop: "3rem" }}>
+                <h2>Related guides</h2>
+                <div className="town-links">
+                  {relatedPosts.map((rp) => (
+                    <Link key={rp.slug} href={`/learn/${rp.slug}/`}>
+                      {rp.title}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {post.faqs && post.faqs.length > 0 && (
               <div style={{ marginTop: "3rem" }}>

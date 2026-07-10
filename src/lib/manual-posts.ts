@@ -10,6 +10,8 @@ export type ManualPost = {
   image?: string;
   html: string;
   faqs?: Faq[];
+  /** Slugs of other manual posts to cross-link in "Related guides". */
+  related?: string[];
 };
 
 /**
@@ -25,8 +27,13 @@ export const manualPosts: ManualPost[] = [
       "A one-hour massage in the UK typically costs £35 to £90. See what drives the price, typical rates by treatment type, and how to compare therapists fairly.",
     category: "Pricing & Guides",
     publishedAt: "2026-06-25",
-    readingTime: 6,
+    readingTime: 9,
     image: "/blog/how-much-does-a-massage-cost-uk.webp",
+    related: [
+      "what-to-expect-first-massage-appointment",
+      "how-often-should-you-get-a-massage",
+      "deep-tissue-vs-swedish-massage",
+    ],
     html: `
 <p>A one-hour massage in the UK typically costs somewhere between <strong>£35 and £90</strong>, depending on the treatment, the therapist's experience, and whether you're visiting a clinic, a studio, or booking a mobile massage at home.</p>
 
@@ -59,13 +66,24 @@ export const manualPosts: ManualPost[] = [
 <h3>Where you're seen</h3>
 <p>Clinic and studio visits are usually the cheapest option, since the therapist isn't paying travel time. Mobile massage (the therapist comes to you) typically costs a bit more to cover that travel, but saves you the trip.</p>
 
+<h2>How package and membership pricing works</h2>
+<p>Many therapists and studios offer a discount for booking multiple sessions upfront — a common structure is buying five sessions and getting a sixth free, or a rolling monthly membership with one or two sessions included. This usually only makes sense if you already know you want to book regularly (see our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often you should get a massage</a>), since the saving comes from committing in advance, not from the first visit.</p>
+<p>If you're trying a therapist for the first time, it's generally worth paying for a single session before committing to a package — even a well-reviewed therapist might not be the right fit for what you need.</p>
+
+<h2>Does health insurance or an NHS referral ever cover it?</h2>
+<p>The NHS doesn't typically fund massage as a standalone relaxation treatment, though remedial or manual therapy techniques are sometimes included as part of NHS physiotherapy if you've been referred for a specific injury.</p>
+<p>Privately, some employer health cash plans (the kind that reimburse dental, optical and complementary therapy costs) include an annual allowance that covers a portion of massage therapy — it's worth checking your policy documents or asking your HR team, since this is easy to miss and can meaningfully offset the cost of regular sessions.</p>
+
+<h2>How this compares to other treatments</h2>
+<p>For context, private physiotherapy in the UK typically runs £40–£70 a session, and private chiropractic care is similar, often £40–£75. Massage sits in a comparable range for the more clinical treatments (deep tissue, remedial, sports) but is usually the more affordable option for general relaxation work like Swedish massage.</p>
+
 <h2>Is a more expensive massage actually better?</h2>
 <p>Not automatically — but price is a reasonable proxy for experience and demand. A therapist who's fully booked weeks in advance at a higher rate is usually good at what they do. That said, plenty of excellent, well-qualified therapists charge mid-range prices simply because they're newer to a local area, not because they're less skilled.</p>
 
 <p>The better filter is qualifications, insurance, and what other clients say — not just the number on the price list.</p>
 
 <h2>How to compare therapists properly</h2>
-<p>Rather than booking on price alone, check that the therapist is qualified and insured, confirm they offer the specific treatment you need, and read their listing for anything relevant to you (pregnancy-safe, sports injury experience, home visits available). You can browse and compare therapists by treatment and location on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+<p>Rather than booking on price alone, check that the therapist is qualified and insured, confirm they offer the specific treatment you need, and read their listing for anything relevant to you (pregnancy-safe, sports injury experience, home visits available). If you've never booked with them before, read our guide to <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at your first appointment</a> so there are no surprises. You can browse and compare therapists by treatment and location on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
 `,
     faqs: [
       {
@@ -88,6 +106,16 @@ export const manualPosts: ManualPost[] = [
         answer:
           "It's not expected the way it is in some countries, but it's appreciated for independent therapists, particularly if you're a regular client. There's no fixed rule — a few pounds or rounding up the bill is common practice.",
       },
+      {
+        question: "Does health insurance cover massage in the UK?",
+        answer:
+          "The NHS doesn't usually fund massage as a standalone treatment, though it's sometimes included within NHS physiotherapy for a specific injury. Privately, some employer health cash plans include an annual complementary therapy allowance that covers part of the cost — check your policy or ask HR.",
+      },
+      {
+        question: "Is it cheaper to book a package of sessions?",
+        answer:
+          "Often, yes — many therapists offer a discount for booking several sessions upfront, such as a free session after five paid ones. It's usually best to try a single session first to confirm the therapist is the right fit before committing to a package.",
+      },
     ],
   },
   {
@@ -97,8 +125,13 @@ export const manualPosts: ManualPost[] = [
       "Swedish massage relaxes; deep tissue targets muscle tension and knots. Here's exactly how they differ and how to pick the right one for what you're feeling.",
     category: "Treatment Guides",
     publishedAt: "2026-06-28",
-    readingTime: 6,
+    readingTime: 8,
     image: "/blog/deep-tissue-vs-swedish-massage.webp",
+    related: [
+      "sports-massage-vs-deep-tissue-massage",
+      "how-much-does-a-massage-cost-uk",
+      "best-massage-for-lower-back-pain",
+    ],
     html: `
 <p>The short answer: <strong>Swedish massage</strong> is for general relaxation and stress relief using long, flowing strokes at light-to-medium pressure. <strong>Deep tissue massage</strong> is for tackling specific muscle tension, knots and chronic tightness using slower, firmer pressure aimed at deeper muscle layers.</p>
 
@@ -114,19 +147,27 @@ export const manualPosts: ManualPost[] = [
 <p>It can feel more intense than Swedish massage, sometimes uncomfortable in the moment on a particularly tight spot, though a good therapist works within your pain tolerance and checks in as they go. Some soreness afterwards, similar to a hard gym session, is normal and usually settles within a day or two.</p>
 <p>Browse <a href="/massage/deep-tissue/">deep tissue massage therapists</a> on the directory.</p>
 
+<h2>What a typical session looks like for each</h2>
+<p>A Swedish massage session tends to move at a consistent, even pace across the whole body — back, legs, arms, shoulders, sometimes the scalp — so no single area gets much more than a few minutes. It's built around rhythm rather than problem-solving.</p>
+<p>A deep tissue session usually starts with a few minutes of lighter strokes to warm the muscles up, then spends the bulk of the hour concentrated on one or two problem areas rather than the whole body. If you tell the therapist where it's tight before you start, they'll plan the session around that, which means deep tissue is often less "full body" than people expect.</p>
+
 <h2>Side by side</h2>
 <ul>
 <li><strong>Pressure:</strong> Swedish is light-to-medium. Deep tissue is firm to very firm.</li>
 <li><strong>Goal:</strong> Swedish relaxes the whole body. Deep tissue targets a specific problem area.</li>
 <li><strong>Best for:</strong> Swedish suits stress, poor sleep, general tension. Deep tissue suits knots, chronic tightness, and recovery from physical strain.</li>
 <li><strong>Feel afterwards:</strong> Swedish leaves you loose and relaxed. Deep tissue can leave you slightly sore, like after exercise.</li>
+<li><strong>Typical price:</strong> Deep tissue usually costs a little more than Swedish, reflecting the more targeted, technical work — see our full <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage pricing guide</a>.</li>
 </ul>
+
+<h2>When to avoid firm pressure</h2>
+<p>Deep tissue's firm pressure isn't right for every situation. If you're pregnant, book a therapist trained specifically in <a href="/massage/pregnancy-massage/">pregnancy massage</a> rather than a standard deep tissue session. If you've had recent surgery, a recent injury, or you're on blood-thinning medication, tell the therapist before you start — they may need to use lighter pressure or avoid certain areas entirely. When in doubt, mention any medical conditions or medications at the consultation stage, not partway through the massage.</p>
 
 <h2>Can you combine the two?</h2>
 <p>Yes, and most experienced therapists will naturally blend techniques within one session anyway — starting with lighter Swedish strokes to warm the muscles up, then working more firmly into any areas that need it. When you book, it's worth telling the therapist what you're hoping to get out of the session so they can pitch the pressure correctly from the start.</p>
 
 <h2>Which one should you book?</h2>
-<p>If you're mainly after stress relief, better sleep, or simply want to unwind, start with Swedish. If you've got a specific area that's tight, knotted, or has been bothering you for weeks (a stiff neck, sore lower back, tense shoulders), deep tissue is the more direct route. Not sure? Say so when you book — most therapists are happy to combine both in one appointment. Compare therapists offering both treatments on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+<p>If you're mainly after stress relief, better sleep, or simply want to unwind, start with Swedish. If you've got a specific area that's tight, knotted, or has been bothering you for weeks (a stiff neck, sore lower back, tense shoulders), deep tissue is the more direct route — see our dedicated guide to the <a href="/learn/best-massage-for-lower-back-pain/">best massage for lower back pain</a> if that's your main concern. Not sure? Say so when you book — most therapists are happy to combine both in one appointment. Compare therapists offering both treatments on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
 `,
     faqs: [
       {
@@ -149,6 +190,16 @@ export const manualPosts: ManualPost[] = [
         answer:
           "If you can point to a specific area that feels tight, knotted, or has been bothering you for a while, deep tissue is usually the better fit. If it's more general tension or you just want to relax, Swedish massage is the gentler starting point.",
       },
+      {
+        question: "Is deep tissue massage safe during pregnancy?",
+        answer:
+          "Standard deep tissue massage isn't recommended during pregnancy, particularly the firm pressure and certain positions used. Book a therapist trained specifically in pregnancy massage instead — they'll know which techniques and positions are safe at each stage.",
+      },
+      {
+        question: "How long should a Swedish or deep tissue massage last?",
+        answer:
+          "60 minutes is the most common length for both and is enough time for a full-body Swedish session or a focused deep tissue session on one or two areas. 90 minutes gives more room for a full-body deep tissue treatment, or a more thorough Swedish massage.",
+      },
     ],
   },
   {
@@ -158,8 +209,13 @@ export const manualPosts: ManualPost[] = [
       "Sports massage and deep tissue massage overlap, but they're not the same. Here's how they differ, and which one fits your training, injury or recovery needs.",
     category: "Treatment Guides",
     publishedAt: "2026-07-01",
-    readingTime: 5,
+    readingTime: 7,
     image: "/blog/sports-massage-vs-deep-tissue-massage.webp",
+    related: [
+      "deep-tissue-vs-swedish-massage",
+      "best-massage-for-lower-back-pain",
+      "how-often-should-you-get-a-massage",
+    ],
     html: `
 <p><strong>Sports massage</strong> is built around physical activity — preparing muscles before exercise, aiding recovery after it, and helping prevent or manage sports-related injuries. <strong>Deep tissue massage</strong> uses similar firm, targeted pressure, but it isn't tied to exercise — it's aimed at general chronic tension and tightness in daily life, whether or not you're active.</p>
 
@@ -180,8 +236,23 @@ export const manualPosts: ManualPost[] = [
 <p>Deep tissue massage isn't linked to a training schedule. It's aimed at chronic tension built up from daily life — a desk job, poor posture, stress held in the shoulders, or old tightness that's just never fully resolved. The techniques (slow strokes, firm pressure, working into deeper muscle layers) are very similar to sports massage, but the session is planned around your day-to-day tension rather than a training or competition cycle.</p>
 <p>Browse <a href="/massage/deep-tissue/">deep tissue massage therapists</a> on the directory.</p>
 
+<h2>Pre-event, post-event and maintenance: how timing changes the session</h2>
+<p>Sports massage isn't one fixed treatment — a good therapist adjusts it based on where you are in your training cycle:</p>
+<ul>
+<li><strong>Pre-event (hours before):</strong> short, brisk, stimulating work — typically 15–20 minutes, avoiding deep pressure that could leave muscles feeling flat right before you perform.</li>
+<li><strong>Post-event (immediately after):</strong> deliberately gentler at first, since muscles are often inflamed from exertion. Deeper recovery work usually waits 48 hours or more.</li>
+<li><strong>Maintenance (during a training block):</strong> the closest to a standard deep tissue session — regular, firmer work to manage tightness and imbalances before they become an injury.</li>
+</ul>
+
 <h2>So which one should you book?</h2>
-<p>If your tightness is linked to training, sport, or physical activity — book sports massage, ideally with a therapist who understands your sport or activity. If your tightness is more about daily life — sitting at a desk, stress, general stiffness with no clear training cause — deep tissue is the more natural fit. If you're genuinely unsure, it's worth knowing that many therapists list both, so you can ask them directly which approach suits what you're describing.</p>
+<p>If your tightness is linked to training, sport, or physical activity — book sports massage, ideally with a therapist who understands your sport or activity, and be clear about where you are in your training or event schedule. If your tightness is more about daily life — sitting at a desk, stress, general stiffness with no clear training cause — deep tissue is the more natural fit, or if the tightness is specifically in your lower back, see our guide to the <a href="/learn/best-massage-for-lower-back-pain/">best massage for lower back pain</a>. If you're genuinely unsure, it's worth knowing that many therapists list both, so you can ask them directly which approach suits what you're describing.</p>
+
+<h2>What's normal to feel afterwards</h2>
+<p>Some next-day soreness after either treatment is normal, similar to the day after a hard workout (often called DOMS — delayed onset muscle soreness). It typically peaks within 24–48 hours and eases on its own. Drinking water and light movement usually helps it settle faster than resting completely still. Sharp pain, swelling, or soreness that gets worse rather than better after a couple of days isn't normal — get that checked rather than assuming it will pass.</p>
+
+<h2>Finding a therapist who understands your sport</h2>
+<p>If you play a specific sport regularly, it's worth looking for a therapist with experience in it — a runner's tight calves and a rower's shoulder tension need quite different attention, even though both fall under "sports massage." Many therapist listings mention the sports or activities they specialise in, so check before booking if this matters to you.</p>
+
 <p>Compare therapists offering either (or both) treatments on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
 `,
     faqs: [
@@ -205,6 +276,16 @@ export const manualPosts: ManualPost[] = [
         answer:
           "Both are useful for different reasons. Before activity, a lighter session can help prepare muscles. After activity, a deeper session supports recovery and can reduce next-day soreness. Ask your therapist to tailor the session to your timing.",
       },
+      {
+        question: "How soon after a race or match should I get a sports massage?",
+        answer:
+          "Immediately afterwards, keep it light — muscles are often inflamed from exertion straight after competing. Many therapists recommend waiting 48 hours or so before a deeper recovery session, though a very gentle session sooner can still help circulation.",
+      },
+      {
+        question: "Can sports massage improve performance, not just recovery?",
+        answer:
+          "Regular sports massage through a training block can help manage the small imbalances and tight spots that build up with repetitive training, which may indirectly support performance by reducing the risk of those issues becoming a limiting injury. It's best thought of as supporting consistent training, rather than a direct performance boost on its own.",
+      },
     ],
   },
   {
@@ -214,12 +295,20 @@ export const manualPosts: ManualPost[] = [
       "Deep tissue, remedial and sports massage can all help with lower back tension. Here's which one fits your pain, and when to see a GP or physio instead.",
     category: "Wellness Tips",
     publishedAt: "2026-07-03",
-    readingTime: 6,
+    readingTime: 8,
     image: "/blog/best-massage-for-lower-back-pain.webp",
+    related: [
+      "deep-tissue-vs-swedish-massage",
+      "sports-massage-vs-deep-tissue-massage",
+      "how-often-should-you-get-a-massage",
+    ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If your lower back pain is severe, follows an injury, spreads down your leg, or comes with numbness, tingling or weakness, see a GP or physiotherapist before booking a massage.</p>
 
 <p>For everyday muscular tightness and tension in the lower back — the kind that builds up from sitting, poor posture, lifting, or general stress — massage can genuinely help. The right treatment depends on what's actually causing the tension.</p>
+
+<h2>Common everyday causes of lower back tightness</h2>
+<p>Most lower back tension that responds well to massage has a fairly ordinary cause: long hours sitting at a desk, a long commute or drive, lifting or bending awkwardly, sleeping in an unsupportive position, or simply carrying stress in the muscles around the spine and hips. Recognising which of these applies to you is useful — it helps your therapist target the right area, and it often points to a simple daily-life change (a better chair, more movement breaks, a different pillow) that helps alongside the massage itself.</p>
 
 <h2>The massage types that typically help</h2>
 
@@ -230,7 +319,10 @@ export const manualPosts: ManualPost[] = [
 <p>Better suited if your back pain has a specific cause — an old strain, a recurring issue, or tightness clearly linked to posture or a past injury. Remedial therapists are trained to assess the pattern behind the pain, not just work the surface tension. See <a href="/massage/remedial-massage/">remedial massage therapists</a>.</p>
 
 <h3>Sports massage</h3>
-<p>Worth considering if your back pain is linked to training, lifting, running or another physical activity. It's built around identifying and easing the muscular imbalances that repetitive movement or exercise can cause in the lower back and hips. See <a href="/massage/sports-massage/">sports massage therapists</a>.</p>
+<p>Worth considering if your back pain is linked to training, lifting, running or another physical activity. It's built around identifying and easing the muscular imbalances that repetitive movement or exercise can cause in the lower back and hips — see our full comparison of <a href="/learn/sports-massage-vs-deep-tissue-massage/">sports massage vs deep tissue massage</a>. See <a href="/massage/sports-massage/">sports massage therapists</a>.</p>
+
+<h2>Other professionals worth considering</h2>
+<p>Massage isn't always the right first step. If your back pain seems linked to joint alignment, posture built up over years, or you suspect something more structural, an <a href="/massage/osteopathy/">osteopath</a> is trained specifically to assess and treat that. If it's tied to a diagnosed injury or you've been told you need a structured rehab plan, a <a href="/massage/physiotherapy/">physiotherapist</a> is usually the better starting point, sometimes alongside massage rather than instead of it.</p>
 
 <h2>What tends to make lower back pain worse</h2>
 <ul>
@@ -238,6 +330,9 @@ export const manualPosts: ManualPost[] = [
 <li><strong>Massage directly on the spine.</strong> A properly trained therapist works the muscles either side of the spine, not directly on the vertebrae.</li>
 <li><strong>Ignoring pain that's getting worse, not better, after a session.</strong> Mild soreness for a day or so is normal. Sharper or worsening pain isn't — stop and get it checked.</li>
 </ul>
+
+<h2>Self-care between sessions</h2>
+<p>Gentle movement generally helps everyday back tightness more than complete rest — staying lightly active, rather than lying still for long periods, tends to keep things from stiffening up further. Simple additions between massage sessions — a short daily stretch routine, a hot water bottle or heat pack on tight areas, and paying attention to how you sit and lift — often extend the benefit of each session rather than starting from scratch every time.</p>
 
 <h2>What to tell your therapist before you start</h2>
 <p>Always mention: how long you've had the pain, whether it came on suddenly or built up gradually, whether it spreads anywhere else (like down a leg), and anything a GP or physio has already told you about it. This lets them choose the right pressure and technique, and avoid anything that isn't appropriate for your specific pain.</p>
@@ -268,6 +363,16 @@ export const manualPosts: ManualPost[] = [
         answer:
           "Gentle self-massage or stretching is generally fine for everyday tightness, but it won't replace a proper assessment. If the pain persists beyond a few days or is affecting how you move, it's worth booking a qualified therapist rather than continuing to self-treat.",
       },
+      {
+        question: "Can osteopathy or physiotherapy help more than massage for back pain?",
+        answer:
+          "For structural, postural or joint-related back pain, an osteopath is trained to assess and treat causes that massage alone won't address. For a diagnosed injury or a formal rehab plan, a physiotherapist is usually the better starting point, often working alongside massage rather than replacing it.",
+      },
+      {
+        question: "Is it normal for lower back pain to feel different straight after a massage?",
+        answer:
+          "Mild, dull soreness in the treated area for a day or so is common and normal, similar to post-exercise soreness. If the pain sharpens, spreads further down a leg, or is clearly worse rather than just tender, stop and seek medical advice rather than continuing with massage.",
+      },
     ],
   },
   {
@@ -277,8 +382,13 @@ export const manualPosts: ManualPost[] = [
       "There's no single right answer — it depends on your goal. Here's a realistic guide to massage frequency for stress relief, chronic pain, and active training.",
     category: "Wellness Tips",
     publishedAt: "2026-07-06",
-    readingTime: 5,
+    readingTime: 7,
     image: "/blog/how-often-should-you-get-a-massage.webp",
+    related: [
+      "how-much-does-a-massage-cost-uk",
+      "best-massage-for-lower-back-pain",
+      "sports-massage-vs-deep-tissue-massage",
+    ],
     html: `
 <p>There's no single correct frequency — it depends on why you're getting a massage in the first place. As a rough starting point: <strong>every 4–6 weeks</strong> works well for general wellbeing and stress relief, <strong>every 1–2 weeks</strong> is more typical when actively managing chronic pain or tension, and athletes in heavy training often book around key sessions or events rather than on a fixed schedule.</p>
 
@@ -286,10 +396,21 @@ export const manualPosts: ManualPost[] = [
 <p>If you're getting massages simply to unwind and keep general tension in check, once every four to six weeks is a common, sustainable rhythm. It's frequent enough to notice a real difference in how you feel, without it becoming an expensive habit you can't keep up. <a href="/massage/swedish-massage/">Swedish massage</a> suits this kind of regular, general upkeep well.</p>
 
 <h2>For chronic tension or ongoing pain</h2>
-<p>If you're dealing with a specific, recurring issue — tight shoulders from a desk job, a lower back that flares up, a knee or hip that's always a bit stiff — more frequent sessions closer together (weekly or fortnightly) for the first few weeks tends to make more of a dent than occasional one-off appointments. Once things settle, you can usually stretch the gap out to monthly maintenance. <a href="/massage/deep-tissue/">Deep tissue</a> or <a href="/massage/remedial-massage/">remedial massage</a> are the treatments best suited to this approach.</p>
+<p>If you're dealing with a specific, recurring issue — tight shoulders from a desk job, a lower back that flares up, a knee or hip that's always a bit stiff — more frequent sessions closer together (weekly or fortnightly) for the first few weeks tends to make more of a dent than occasional one-off appointments. Once things settle, you can usually stretch the gap out to monthly maintenance. <a href="/massage/deep-tissue/">Deep tissue</a> or <a href="/massage/remedial-massage/">remedial massage</a> are the treatments best suited to this approach — if lower back pain specifically is the issue, our <a href="/learn/best-massage-for-lower-back-pain/">guide to the best massage for lower back pain</a> covers this in more depth.</p>
 
 <h2>For athletes and regular training</h2>
-<p>If you train regularly, frequency is usually tied to your training and competition calendar rather than the calendar month — for example, a session shortly before a big event, another shortly after for recovery, plus regular maintenance sessions every couple of weeks through a heavy training block. <a href="/massage/sports-massage/">Sports massage</a> therapists are used to working around a training schedule like this.</p>
+<p>If you train regularly, frequency is usually tied to your training and competition calendar rather than the calendar month — for example, a session shortly before a big event, another shortly after for recovery, plus regular maintenance sessions every couple of weeks through a heavy training block. <a href="/massage/sports-massage/">Sports massage</a> therapists are used to working around a training schedule like this, and our <a href="/learn/sports-massage-vs-deep-tissue-massage/">sports massage vs deep tissue massage</a> guide explains how the timing changes the treatment.</p>
+
+<h2>Frequency for specific life stages</h2>
+<p>A few situations call for their own rhythm rather than the general rules above:</p>
+<ul>
+<li><strong>Pregnancy:</strong> many people find a session every 3–4 weeks through the second and third trimesters helpful, though this should always be led by a therapist trained in pregnancy massage and adjusted to how you're feeling.</li>
+<li><strong>Post-injury recovery:</strong> often more frequent to begin with (sometimes weekly) as part of a broader rehab plan, then tapering off as the area improves — usually alongside guidance from a physio.</li>
+<li><strong>Desk-job posture maintenance:</strong> fortnightly to monthly is a common rhythm for people managing ongoing neck, shoulder or lower back tightness from long hours at a screen.</li>
+</ul>
+
+<h2>Can you have too much massage?</h2>
+<p>It's uncommon to cause harm with sensible pressure, but there's a point of diminishing returns for general relaxation — most people don't notice extra benefit from weekly sessions unless they're actively working through a specific issue or training block. If you notice you're consistently sore, bruised, or dreading sessions rather than looking forward to them, that's usually a sign to space them out rather than push through.</p>
 
 <h2>Signs you might need one sooner than planned</h2>
 <ul>
@@ -300,7 +421,7 @@ export const manualPosts: ManualPost[] = [
 </ul>
 
 <h2>Budget-friendly ways to stay consistent</h2>
-<p>If regular sessions aren't affordable every few weeks, a slightly longer, well-targeted session every couple of months is generally more useful than very short, infrequent ones. It's also worth telling your therapist what's changed since your last visit — that lets them focus the time on what actually needs it, rather than a generic full-body session.</p>
+<p>If regular sessions aren't affordable every few weeks, a slightly longer, well-targeted session every couple of months is generally more useful than very short, infrequent ones. It's also worth telling your therapist what's changed since your last visit — that lets them focus the time on what actually needs it, rather than a generic full-body session. See our full <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage pricing guide</a> for ways to reduce the cost of staying consistent, including package pricing.</p>
 
 <p>Find a therapist to build a regular rhythm with on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
 `,
@@ -320,6 +441,21 @@ export const manualPosts: ManualPost[] = [
         answer:
           "It varies by person and by what the massage is targeting, but general relaxation effects often ease off within a couple of weeks, which is part of why monthly sessions are a common baseline for ongoing wellbeing.",
       },
+      {
+        question: "Should massage frequency change during pregnancy?",
+        answer:
+          "Many people find a session every 3–4 weeks through the second and third trimesters helpful, but this should be guided by a therapist trained specifically in pregnancy massage, who can adjust frequency and technique to how each trimester feels.",
+      },
+      {
+        question: "How do I know if I'm overdoing it?",
+        answer:
+          "If you're consistently sore for longer than usual, bruising easily, or starting to dread sessions rather than look forward to them, that's a sign to space bookings out. Sensible pressure at a sustainable frequency shouldn't leave you feeling worse.",
+      },
+      {
+        question: "Does the type of massage affect how often I should book?",
+        answer:
+          "Yes — gentler treatments like Swedish massage are easy to have more often since they're less physically demanding on the body, while firmer treatments like deep tissue or remedial massage usually need a few more days between sessions to let the muscles recover properly.",
+      },
     ],
   },
   {
@@ -329,10 +465,21 @@ export const manualPosts: ManualPost[] = [
       "Nervous about your first massage? Here's exactly what happens before, during and after — what to wear, what they'll ask, and what's completely normal.",
     category: "Getting Started",
     publishedAt: "2026-07-09",
-    readingTime: 6,
+    readingTime: 9,
     image: "/blog/what-to-expect-first-massage-appointment.webp",
+    related: [
+      "how-much-does-a-massage-cost-uk",
+      "deep-tissue-vs-swedish-massage",
+      "how-often-should-you-get-a-massage",
+    ],
     html: `
 <p>If you've never had a professional massage before, a bit of nervousness is completely normal. Here's exactly what to expect, from booking to walking out, so there are no surprises.</p>
+
+<h2>Common first-timer nerves (and why they're normal)</h2>
+<p>Most first-timers worry about the same handful of things: feeling self-conscious about their body, not knowing the "right" way to lie down or breathe, worrying about being ticklish, or not knowing how to say something feels uncomfortable without sounding rude. All of this is completely normal, and qualified therapists see it constantly — you're not expected to know the etiquette in advance. If anything feels off, saying so plainly ("that's a bit too firm" or "can we skip that area") is exactly what's expected, not awkward.</p>
+
+<h2>Questions worth asking before you book</h2>
+<p>A few quick questions before booking can save any confusion on the day: is the therapist qualified and insured, does the treatment you're booking match what you're hoping for (see our guide to <a href="/learn/deep-tissue-vs-swedish-massage/">Swedish vs deep tissue massage</a> if you're not sure), roughly what the session costs including any extras, and what their cancellation policy is. Most of this is usually covered on the therapist's listing, but it's fine to ask directly if it isn't.</p>
 
 <h2>Before the session</h2>
 <p>Most therapists will ask you to fill in a short consultation form, either online in advance or on paper when you arrive. It usually covers your medical history, any injuries or conditions, medications, and what you're hoping to get from the session (relaxation, a specific area of tension, recovery from activity). Answer this honestly — it's how the therapist decides what pressure and technique are appropriate for you, not a formality.</p>
@@ -346,6 +493,9 @@ export const manualPosts: ManualPost[] = [
 
 <h2>After the massage</h2>
 <p>You might feel a bit sleepy, light-headed, or simply very relaxed immediately afterwards — take a moment before getting up. Drinking water afterwards is commonly recommended. For deep tissue or sports massage in particular, mild soreness for a day or so afterwards is normal, similar to how you'd feel after a workout, and usually settles on its own.</p>
+
+<h2>Giving feedback for next time</h2>
+<p>If something about the session wasn't quite right — too firm, too gentle, missed the area that actually needed attention — it's worth mentioning, either at the end of the session or when you next book. A good therapist wants that feedback, since it means your next appointment can be tailored more precisely. This is also a good time to ask how often you should realistically come back — see our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often you should get a massage</a> for general guidance.</p>
 
 <h2>What's normal, and what isn't</h2>
 <p>Normal: feeling deeply relaxed, mild next-day soreness after firmer treatments, and a professional, straightforward atmosphere throughout. Not normal: sharp pain during the session, feeling pressured to remove more clothing than you're comfortable with, or a therapist ignoring your feedback about pressure. Any qualified, professional therapist will take your comfort seriously — if something doesn't feel right, you're entitled to stop the session at any point.</p>
@@ -373,6 +523,16 @@ export const manualPosts: ManualPost[] = [
         question: "Can I ask the therapist to stop or change the pressure during the massage?",
         answer:
           "Yes, always. Speaking up during the session if something's too firm, too light, or uncomfortable is completely normal and expected — it's the only way the therapist can adjust to suit you.",
+      },
+      {
+        question: "What if I don't like the therapist or the massage?",
+        answer:
+          "You're entitled to say so, ask for changes during the session, or simply not rebook if it isn't the right fit. Not every therapist suits every person, and trying someone else is completely normal — there's no obligation to continue with a therapist who isn't working for you.",
+      },
+      {
+        question: "Do I need to book a specific treatment, or can I just ask for 'a massage'?",
+        answer:
+          "You can simply ask for general relaxation and let the therapist recommend an approach, though naming a treatment (like Swedish or deep tissue) or describing what you're hoping for helps them prepare the right session in advance. If you're unsure which to pick, Swedish massage is the most common starting point for first-timers.",
       },
     ],
   },
