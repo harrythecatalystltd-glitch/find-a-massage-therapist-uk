@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { getBlogPosts } from "@/lib/seobot";
+import { getAllBlogPosts } from "@/lib/blog";
 
 export const revalidate = 3600;
 
@@ -21,7 +21,7 @@ export default async function LearnPage({
 }) {
   const { page: pageParam } = await searchParams;
   const page = Math.max(1, Number(pageParam) || 1);
-  const { articles, total } = await getBlogPosts(page - 1, PAGE_SIZE);
+  const { posts: articles, total } = await getAllBlogPosts(page - 1, PAGE_SIZE);
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
 
   return (
@@ -63,7 +63,7 @@ export default async function LearnPage({
                     <p className="therapist-loc">{post.readingTime} min read</p>
                     {post.category && (
                       <div className="tag-row">
-                        <span className="tag">{post.category.title}</span>
+                        <span className="tag">{post.category}</span>
                       </div>
                     )}
                     <Link className="btn btn-ghost" href={`/learn/${post.slug}/`}>

@@ -4,7 +4,7 @@ import {
   getApprovedSlugs,
   getTreatmentTypes,
 } from "@/lib/queries";
-import { getBlogPosts } from "@/lib/seobot";
+import { getAllBlogPosts } from "@/lib/blog";
 
 function siteUrl() {
   const url = process.env.NEXT_PUBLIC_SITE_URL;
@@ -30,7 +30,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     getAllLocations(),
     getTreatmentTypes(),
     getApprovedSlugs(),
-    getBlogPosts(0, Number.MAX_SAFE_INTEGER),
+    getAllBlogPosts(0, Number.MAX_SAFE_INTEGER),
   ]);
 
   const entries: MetadataRoute.Sitemap = STATIC_PATHS.map((path) => ({
@@ -59,7 +59,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   }
 
-  for (const post of blog.articles) {
+  for (const post of blog.posts) {
     entries.push({
       url: `${base}/learn/${post.slug}/`,
       changeFrequency: "monthly",
