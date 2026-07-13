@@ -3612,4 +3612,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  redditch: {
+    intro:
+      "Looking for a massage therapist in Redditch? Find qualified practitioners across the town, from Church Hill and Winyates to Matchborough and Batchley, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Redditch is a Worcestershire new town with a long needle-making heritage, built around a modern centre and a series of well-planned residential neighbourhoods. Whether you are near the town centre, north around Church Hill and Winyates, south towards Matchborough and Woodrow, or east near Batchley and Headless Cross, you will find massage therapists in Redditch within easy reach.\n\nRedditch's manufacturing and logistics employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and running clubs around Arrow Valley Park add to demand for sports massage, while a relaxing Swedish or hot stone session near the lake and country park is a popular way to unwind after a busy week.\n\nTherapists across Redditch offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Church Hill, while others provide mobile massage in Redditch, visiting homes across Winyates, Matchborough, Batchley and beyond.\n\nThe directory also covers nearby Bromsgrove, Birmingham, Worcester and the wider Worcestershire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Redditch?",
+        answer:
+          "A one-hour massage in Redditch usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Redditch?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Redditch and the surrounding areas, including Church Hill, Winyates, Matchborough and Batchley. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Redditch, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Redditch therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Redditch?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Redditch?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  bromsgrove: {
+    intro:
+      "Looking for a massage therapist in Bromsgrove? Browse qualified practitioners across the town, from Charford and Sidemoor to Aston Fields and Catshill, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Bromsgrove is a Worcestershire market town on the edge of the Lickey Hills, with a historic High Street and a spread of residential neighbourhoods reaching out towards the surrounding countryside. Whether you are near the town centre, south around Charford and Sidemoor, east towards Aston Fields, or north near Catshill and Marlbrook, you will find massage therapists in Bromsgrove within easy reach.\n\nWalkers and cyclists exploring the Lickey Hills often book sports massage for recovery, while commuters travelling into Birmingham add to demand for deep tissue or remedial massage to ease desk-related tension. Local gyms and sports clubs add further demand, and a relaxing Swedish or hot stone session near Sanders Park is a popular way to unwind after a busy week.\n\nTherapists across Bromsgrove offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Sidemoor, while others provide mobile massage in Bromsgrove, visiting homes across Charford, Aston Fields, Catshill and beyond.\n\nCoverage also extends to nearby Redditch, Birmingham, Droitwich and the wider Worcestershire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Bromsgrove?",
+        answer:
+          "Most massage therapists in Bromsgrove charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Bromsgrove?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Bromsgrove, visiting homes in areas such as Charford, Sidemoor, Aston Fields and Catshill. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I walk or cycle in the Lickey Hills near Bromsgrove, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, runs or rides in the Lickey Hills. Many Bromsgrove therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Bromsgrove?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Bromsgrove?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  nuneaton: {
+    intro:
+      "Looking for a massage therapist in Nuneaton? Find qualified practitioners across the town, from Camp Hill and Attleborough to Stockingford and Bulkington, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Nuneaton is a Warwickshire town best known as the birthplace of author George Eliot, with a busy centre around Riversley Park and a spread of residential neighbourhoods. Whether you are near the town centre and Riversley Park, south around Camp Hill and Attleborough, west towards Stockingford, or east near Bulkington, you will find massage therapists in Nuneaton within easy reach.\n\nNuneaton's logistics and distribution sites close to the M6 and A5 mean many clients book deep tissue or remedial massage to manage the physical demands of warehouse and driving work. Local football supporters and gym-goers add to demand for sports massage, while a relaxing Swedish or hot stone session near Riversley Park or Pool Bank Nature Reserve is a popular way to unwind.\n\nTherapists across Nuneaton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Camp Hill, while others provide mobile massage in Nuneaton, visiting homes across Attleborough, Stockingford, Bulkington and beyond.\n\nThe directory also covers nearby Bedworth, Coventry, Hinckley and the wider Warwickshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Nuneaton?",
+        answer:
+          "A one-hour massage in Nuneaton usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Nuneaton?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Nuneaton and the surrounding areas, including Camp Hill, Attleborough, Stockingford and Bulkington. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or drive for a living around Nuneaton, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the back, shoulder and leg strain that comes with warehouse work and long spells of driving. Many Nuneaton therapists are used to treating clients in these roles, so check their listing for evening or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Nuneaton?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Nuneaton?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  tamworth: {
+    intro:
+      "Looking for a massage therapist in Tamworth? Browse qualified practitioners across the town, from Wilnecote and Amington to Belgrave and Glascote, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Tamworth is a Staffordshire town built around its Norman castle and the rivers Tame and Anker, with a busy centre and a spread of residential neighbourhoods reaching out towards the surrounding countryside. Whether you are near the town centre and Castle Grounds, south around Wilnecote and Amington, north towards Belgrave, or east near Glascote and Stonydelph, you will find massage therapists in Tamworth within easy reach.\n\nTamworth's logistics and distribution sites close to the M42 and A5 mean many clients book deep tissue or remedial massage to manage the physical demands of warehouse and driving work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Castle Grounds or Ankerside is a popular way to unwind after a busy week.\n\nTherapists across Tamworth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Amington, while others provide mobile massage in Tamworth, visiting homes across Wilnecote, Belgrave, Glascote and beyond.\n\nCoverage also extends to nearby Lichfield, Sutton Coldfield, Atherstone and the wider Staffordshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Tamworth?",
+        answer:
+          "Most massage therapists in Tamworth charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Tamworth?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Tamworth, visiting homes in areas such as Wilnecote, Amington, Belgrave and Glascote. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Tamworth, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Tamworth therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Tamworth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Tamworth?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  cannock: {
+    intro:
+      "Looking for a massage therapist in Cannock? Find qualified practitioners across the town, from Chadsmoor and Heath Hayes to Hednesford and Bridgtown, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Cannock is a Staffordshire town on the edge of Cannock Chase, an Area of Outstanding Natural Beauty, with a compact centre and a spread of residential neighbourhoods reaching towards the forest. Whether you are near the town centre, east around Chadsmoor and Heath Hayes, north towards Hednesford, or west near Bridgtown, you will find massage therapists in Cannock within easy reach.\n\nWalkers, cyclists and mountain bikers exploring Cannock Chase often book sports massage for recovery, while the town's logistics and distribution sites close to the M6 Toll mean many clients turn to deep tissue or remedial massage to manage physically demanding shift work. A relaxing Swedish or hot stone session near Cannock Park or the Chase is a popular way to unwind after a busy week.\n\nTherapists across Cannock offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Heath Hayes, while others provide mobile massage in Cannock, visiting homes across Chadsmoor, Hednesford, Bridgtown and beyond.\n\nThe directory also covers nearby Rugeley, Lichfield, Walsall and the wider Staffordshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Cannock?",
+        answer:
+          "A one-hour massage in Cannock usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Cannock?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Cannock and the surrounding areas, including Chadsmoor, Heath Hayes, Hednesford and Bridgtown. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I cycle or walk on Cannock Chase, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, runs or mountain bike rides on Cannock Chase. Many Cannock therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Cannock?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Cannock?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "burton-upon-trent": {
+    intro:
+      "Looking for a massage therapist in Burton upon Trent? Browse qualified practitioners across the town, from Winshill and Stapenhill to Horninglow and Branston, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Burton upon Trent is a Staffordshire town famous for its brewing heritage, sitting on the River Trent with a busy centre and a spread of residential neighbourhoods on both banks. Whether you are near the town centre, east around Winshill, south towards Stapenhill and Branston, or north near Horninglow, you will find massage therapists in Burton upon Trent within easy reach.\n\nThe town's brewing and manufacturing employers, along with large logistics sites close to the A38 and A50, mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Burton Albion supporters at the Pirelli Stadium and local gym-goers add to demand for sports massage, while a relaxing Swedish or hot stone session near Stapenhill Gardens or the Trent riverside is a popular way to unwind.\n\nTherapists across Burton upon Trent offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Stapenhill, while others provide mobile massage in Burton upon Trent, visiting homes across Winshill, Horninglow, Branston and beyond.\n\nCoverage also extends to nearby Derby, Lichfield, Ashby-de-la-Zouch and the wider Staffordshire and Derbyshire border, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Burton upon Trent?",
+        answer:
+          "Most massage therapists in Burton upon Trent charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Burton upon Trent?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Burton upon Trent, visiting homes in areas such as Winshill, Stapenhill, Horninglow and Branston. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work shifts in brewing or manufacturing around Burton upon Trent, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based brewing and manufacturing work. Many Burton upon Trent therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Burton upon Trent?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Burton upon Trent?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  loughborough: {
+    intro:
+      "Looking for a massage therapist in Loughborough? Find qualified practitioners across the town, from Shelthorpe and Ashby Road to Woodhouse Eaves and Quorn, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Loughborough is a Leicestershire town internationally known for its sporting excellence, home to Loughborough University's renowned sport science facilities, with a busy centre and a spread of residential neighbourhoods reaching towards Charnwood Forest. Whether you are near the town centre and market, south around Shelthorpe, west towards Ashby Road, or north near Quorn and Woodhouse Eaves, you will find massage therapists in Loughborough within easy reach.\n\nWith so many elite athletes training at the University's sports facilities alongside a large student population, Loughborough has a strong culture of sports and deep tissue massage for training and recovery. Local gyms and running clubs exploring Charnwood Forest add further demand, while a relaxing Swedish or hot stone session near Queen's Park is a popular way to unwind.\n\nTherapists across Loughborough offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Shelthorpe, while others provide mobile massage in Loughborough, visiting homes across Ashby Road, Quorn, Woodhouse Eaves and beyond.\n\nThe directory also covers nearby Leicester, Shepshed, Sileby and the wider Leicestershire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Loughborough?",
+        answer:
+          "A one-hour massage in Loughborough typically costs around £35 to £70, with the exact price depending on the treatment type, the therapist's experience and whether you visit a clinic or book a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available across Loughborough?",
+        answer:
+          "Yes. Several therapists provide mobile massage in Loughborough and the surrounding areas, including Shelthorpe, Ashby Road, Quorn and Woodhouse Eaves. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I train at Loughborough University's sports facilities, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to muscle recovery and reducing tightness after intensive training. Many Loughborough therapists are experienced in working with athletes and students, so check their listing for availability around training schedules.",
+      },
+      {
+        question: "What types of massage are available in Loughborough?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Loughborough?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  mansfield: {
+    intro:
+      "Looking for a massage therapist in Mansfield? Browse qualified practitioners across the town, from Berry Hill and Ravensdale to Pleasley and Forest Town, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Mansfield is a Nottinghamshire market town on the edge of Sherwood Forest, with a busy centre and a spread of residential neighbourhoods reaching out towards the forest and former coalfield villages. Whether you are near the town centre, west around Berry Hill and Ravensdale, north towards Pleasley, or east near Forest Town, you will find massage therapists in Mansfield within easy reach.\n\nMansfield's post-mining heritage and its logistics and manufacturing employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Mansfield Town supporters at Field Mill and local gym-goers add to demand for sports massage, while a relaxing Swedish or hot stone session near the Sherwood Forest fringes or Titchfield Park is a popular way to unwind.\n\nTherapists across Mansfield offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Berry Hill, while others provide mobile massage in Mansfield, visiting homes across Ravensdale, Pleasley, Forest Town and beyond.\n\nCoverage also extends to nearby Nottingham, Sutton-in-Ashfield, Newark-on-Trent and the wider Nottinghamshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Mansfield?",
+        answer:
+          "Most massage therapists in Mansfield charge around £30 to £60 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Mansfield?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Mansfield, visiting homes in areas such as Berry Hill, Ravensdale, Pleasley and Forest Town. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Mansfield, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Mansfield therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Mansfield?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Mansfield?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "newark-on-trent": {
+    intro:
+      "Looking for a massage therapist in Newark-on-Trent? Find qualified practitioners across the market town, from Balderton and Farndon to Beacon Hill and Winthorpe, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Newark-on-Trent is a historic Nottinghamshire market town built around its Norman castle and the River Trent, with a well-preserved centre and a spread of residential neighbourhoods. Whether you are near the town centre and Castle Grounds, south around Balderton, west towards Farndon, or north near Beacon Hill and Winthorpe, you will find massage therapists in Newark-on-Trent within easy reach.\n\nNewark's agricultural and logistics heritage, along with sites close to the A1 and A46, means many clients book deep tissue or remedial massage to manage physically demanding work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Castle Grounds or Trent riverside is a popular way to unwind after a busy week.\n\nTherapists across Newark-on-Trent offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Balderton, while others provide mobile massage in Newark-on-Trent, visiting homes across Farndon, Beacon Hill, Winthorpe and beyond.\n\nThe directory also covers nearby Grantham, Lincoln, Southwell and the wider Nottinghamshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Newark-on-Trent?",
+        answer:
+          "A one-hour massage in Newark-on-Trent usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Newark-on-Trent?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Newark-on-Trent and the surrounding areas, including Balderton, Farndon, Beacon Hill and Winthorpe. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in agriculture or logistics around Newark-on-Trent, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding agricultural and logistics work. Many Newark-on-Trent therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Newark-on-Trent?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Newark-on-Trent?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  grantham: {
+    intro:
+      "Looking for a massage therapist in Grantham? Browse qualified practitioners across the market town, from Harlaxton and Barrowby to Earlesfield and Manthorpe, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Grantham is a historic Lincolnshire market town, known as the birthplace of Sir Isaac Newton, with a well-preserved centre and a spread of residential neighbourhoods reaching out towards the surrounding countryside. Whether you are near the town centre, west around Harlaxton and Barrowby, south towards Earlesfield, or north near Manthorpe and Londonthorpe, you will find massage therapists in Grantham within easy reach.\n\nGrantham's logistics and distribution sites close to the A1 mean many clients book deep tissue or remedial massage to manage the physical demands of warehouse and driving work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Wyndham Park or the Grantham Canal is a popular way to unwind after a busy week.\n\nTherapists across Grantham offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Barrowby, while others provide mobile massage in Grantham, visiting homes across Harlaxton, Earlesfield, Manthorpe and beyond.\n\nCoverage also extends to nearby Newark-on-Trent, Sleaford, Bourne and the wider Lincolnshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Grantham?",
+        answer:
+          "Most massage therapists in Grantham charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Grantham?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Grantham, visiting homes in areas such as Harlaxton, Barrowby, Earlesfield and Manthorpe. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work in a warehouse or drive for a living around Grantham, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the back, shoulder and leg strain that comes with warehouse work and long spells of driving. Many Grantham therapists are used to treating clients in these roles, so check their listing for evening or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Grantham?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Grantham?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
