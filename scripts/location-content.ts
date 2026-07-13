@@ -4292,4 +4292,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  sittingbourne: {
+    intro:
+      "Looking for a massage therapist in Sittingbourne? Browse qualified practitioners across the town, from Milton Regis and Kemsley to Bapchild and Murston.",
+    body:
+      "Sittingbourne is a Kent town with a paper-making heritage, sitting on Milton Creek with a busy centre and a spread of residential neighbourhoods reaching out towards the Swale. Whether you are near the town centre, north around Milton Regis and Kemsley, east towards Bapchild, or south near Murston, you will find massage therapists in Sittingbourne within easy reach.\n\nSittingbourne's logistics and manufacturing employers close to the A2 and M2 mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Milton Creek Country Park is a popular way to unwind after a busy week.\n\nTherapists across Sittingbourne offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Milton Regis, while others provide mobile massage in Sittingbourne, visiting homes across Kemsley, Bapchild, Murston and beyond.\n\nThe directory also covers nearby Faversham, Sheerness, Maidstone and the wider Kent area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Sittingbourne?",
+        answer:
+          "A one-hour massage in Sittingbourne usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Sittingbourne?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Sittingbourne and the surrounding areas, including Milton Regis, Kemsley, Bapchild and Murston. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Sittingbourne, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Sittingbourne therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Sittingbourne?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Sittingbourne?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  gillingham: {
+    intro:
+      "Looking for a massage therapist in Gillingham? Find qualified practitioners across the Medway town, from Rainham and Twydall to Hempstead and Wigmore.",
+    body:
+      "Gillingham is one of the Medway towns in Kent, with a busy high street and a spread of residential neighbourhoods reaching out towards the Medway estuary. Whether you are near the town centre, east around Rainham, south towards Hempstead and Wigmore, or west near Twydall, you will find massage therapists in Gillingham within easy reach.\n\nGillingham FC supporters at Priestfield Stadium and local gym-goers add to demand for sports massage, while the Medway towns' industrial and logistics heritage means many clients also book deep tissue or remedial massage to manage physically demanding shift work. A relaxing Swedish or hot stone session near Gillingham Park or the Medway waterfront is a popular way to unwind after a busy week.\n\nTherapists across Gillingham offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Rainham, while others provide mobile massage in Gillingham, visiting homes across Twydall, Hempstead, Wigmore and beyond.\n\nCoverage also extends to nearby Chatham, Rochester, Sittingbourne and the wider Medway and Kent area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Gillingham?",
+        answer:
+          "Most massage therapists in Gillingham charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Gillingham?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Gillingham, visiting homes in areas such as Rainham, Twydall, Hempstead and Wigmore. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I watch or play football at Priestfield Stadium, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to muscle recovery and reducing tightness after training or match day. Many Gillingham therapists are used to working with footballers and active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Gillingham?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Gillingham?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  dartford: {
+    intro:
+      "Looking for a massage therapist in Dartford? Browse qualified practitioners across the town, from Temple Hill and Wilmington to Joyce Green and Stone.",
+    body:
+      "Dartford sits where the River Darent meets the Thames, best known for the Dartford Crossing, with a historic centre and a spread of residential neighbourhoods. Whether you are near the town centre, south around Temple Hill and Wilmington, east towards Stone and Greenhithe, or near Joyce Green, you will find massage therapists in Dartford within easy reach.\n\nDartford's logistics and retail employers, including the large distribution sites near the Crossing and Bluewater, mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Commuters travelling into London often turn to deep tissue for desk-related tension, while a relaxing Swedish or hot stone session near Central Park is a popular way to unwind.\n\nTherapists across Dartford offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Wilmington, while others provide mobile massage in Dartford, visiting homes across Temple Hill, Stone, Greenhithe and beyond.\n\nThe directory also covers nearby Gravesend, Bexleyheath, Swanley and the wider Kent and southeast London border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Dartford?",
+        answer:
+          "A one-hour massage in Dartford typically costs around £35 to £70, with the exact price depending on the treatment type, the therapist's experience and whether you visit a clinic or book a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available across Dartford?",
+        answer:
+          "Yes. Several therapists provide mobile massage in Dartford and the surrounding areas, including Temple Hill, Wilmington, Stone and Greenhithe. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in logistics or retail near the Dartford Crossing or Bluewater, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding logistics and retail work. Many Dartford therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Dartford?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Dartford?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  gravesend: {
+    intro:
+      "Looking for a massage therapist in Gravesend? Find qualified practitioners across the town, from Northfleet and Windmill Hill to Riverview Park and Istead Rise.",
+    body:
+      "Gravesend is a historic Kent town on the Thames Estuary, with a riverside promenade and pier and a spread of residential neighbourhoods reaching inland. Whether you are near the town centre and riverside, west around Northfleet, north towards Windmill Hill, or south near Riverview Park and Istead Rise, you will find massage therapists in Gravesend within easy reach.\n\nCommuters travelling into London from the nearby Ebbsfleet International and Gravesend stations often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while Northfleet's industrial and logistics sites mean many clients also turn to deep tissue for physically demanding shift work. A relaxing Swedish or hot stone session near the Thames riverside or Woodlands Park is a popular way to unwind.\n\nTherapists across Gravesend offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Northfleet, while others provide mobile massage in Gravesend, visiting homes across Windmill Hill, Riverview Park, Istead Rise and beyond.\n\nCoverage also extends to nearby Dartford, Rochester, Meopham and the wider North Kent area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Gravesend?",
+        answer:
+          "Most massage therapists in Gravesend charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Gravesend?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Gravesend, visiting homes in areas such as Northfleet, Windmill Hill, Riverview Park and Istead Rise. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I commute into London from Gravesend or Ebbsfleet, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many Gravesend therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Gravesend?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Gravesend?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  ashford: {
+    intro:
+      "Looking for a massage therapist in Ashford? Browse qualified practitioners across the town, from Kennington and Willesborough to Stanhope and Park Farm.",
+    body:
+      "Ashford is a fast-growing Kent town known for Ashford International station and its Eurostar links, with a busy centre and a spread of residential neighbourhoods reaching out towards the Weald. Whether you are near the town centre, north around Kennington, east towards Willesborough, or south near Stanhope and Park Farm, you will find massage therapists in Ashford within easy reach.\n\nAshford's role as a major logistics hub close to the M20 and Channel Tunnel means many clients book deep tissue or remedial massage to manage the physical demands of warehouse and driving work. Commuters using the high-speed rail link into London often turn to deep tissue for desk-related tension, while a relaxing Swedish or hot stone session near Victoria Park is a popular way to unwind.\n\nTherapists across Ashford offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Kennington, while others provide mobile massage in Ashford, visiting homes across Willesborough, Stanhope, Park Farm and beyond.\n\nThe directory also covers nearby Canterbury, Maidstone, Folkestone and the wider Kent area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Ashford?",
+        answer:
+          "A one-hour massage in Ashford usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Ashford?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Ashford and the surrounding areas, including Kennington, Willesborough, Stanhope and Park Farm. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or drive for a living around Ashford, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the back, shoulder and leg strain that comes with warehouse work and long spells of driving. Many Ashford therapists are used to treating clients in these roles, so check their listing for evening or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Ashford?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Ashford?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  tonbridge: {
+    intro:
+      "Looking for a massage therapist in Tonbridge? Find qualified practitioners across the town, from Higham Wood and Trench to Vauxhall and East Peckham.",
+    body:
+      "Tonbridge is a historic Kent town on the River Medway, home to a Norman castle and a well-preserved High Street, with a spread of residential neighbourhoods reaching towards the Weald. Whether you are near the town centre and Castle Grounds, north around Higham Wood, east towards Vauxhall, or south near Trench, you will find massage therapists in Tonbridge within easy reach.\n\nCommuters travelling into London on the fast rail links often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while local rowing and sports clubs on the Medway add to demand for sports massage. A relaxing Swedish or hot stone session near the Castle Grounds or Haysden Country Park is a popular way to unwind after a busy week.\n\nTherapists across Tonbridge offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Higham Wood, while others provide mobile massage in Tonbridge, visiting homes across Trench, Vauxhall, East Peckham and beyond.\n\nCoverage also extends to nearby Tunbridge Wells, Sevenoaks, Maidstone and the wider Kent area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Tonbridge?",
+        answer:
+          "Most massage therapists in Tonbridge charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Tonbridge?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Tonbridge, visiting homes in areas such as Higham Wood, Trench, Vauxhall and East Peckham. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I row or train on the Medway in Tonbridge, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to the shoulder, back and forearm strain that comes with rowing and other water-based training. Many Tonbridge therapists are used to treating clients involved in these activities, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Tonbridge?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Tonbridge?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "tunbridge-wells": {
+    intro:
+      "Looking for a massage therapist in Tunbridge Wells? Browse qualified practitioners across the spa town, from Southborough and Rusthall to St John's and High Brooms.",
+    body:
+      "Royal Tunbridge Wells is a Kent spa town famous for the Pantiles colonnade and its Georgian and Victorian architecture, with a busy centre and a spread of affluent residential neighbourhoods. Whether you are near the town centre and Pantiles, west around Rusthall, north towards Southborough and St John's, or east near High Brooms, you will find massage therapists in Tunbridge Wells within easy reach.\n\nCommuters travelling into London on the fast rail links often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while the town's spa heritage means relaxation-focused Swedish and hot stone massage remain especially popular. Local gyms and sports clubs add further demand for sports massage, and a relaxing session near Calverley Grounds or the Common is a favourite way to unwind.\n\nTherapists across Tunbridge Wells offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and the Pantiles, while others provide mobile massage in Tunbridge Wells, visiting homes across Southborough, Rusthall, St John's and beyond.\n\nThe directory also covers nearby Tonbridge, Sevenoaks, Crowborough and the wider Kent and Sussex border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Tunbridge Wells?",
+        answer:
+          "A one-hour massage in Tunbridge Wells typically costs around £40 to £80, with the exact price depending on the treatment type, the therapist's experience and whether you visit a clinic or book a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available across Tunbridge Wells?",
+        answer:
+          "Yes. Several therapists provide mobile massage in Tunbridge Wells and the surrounding areas, including Southborough, Rusthall, St John's and High Brooms. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I commute into London from Tunbridge Wells, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many Tunbridge Wells therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Tunbridge Wells?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments in keeping with the town's spa heritage, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Tunbridge Wells?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  chatham: {
+    intro:
+      "Looking for a massage therapist in Chatham? Find qualified practitioners across the Medway town, from Luton and Walderslade to Chatham Maritime and Weedswood.",
+    body:
+      "Chatham is one of the Medway towns, with a naval heritage centred on the Historic Dockyard and a spread of residential neighbourhoods reaching up towards the Kent countryside. Whether you are near the town centre and Dockyard, north around Chatham Maritime, east towards Luton and Weedswood, or south near Walderslade, you will find massage therapists in Chatham within easy reach.\n\nThe University of Kent's Medway campus and Chatham's logistics and industrial sites mean therapists see a broad client base, from students booking relaxation treatments to shift workers booking deep tissue or remedial massage for physically demanding work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Great Lines Heritage Park is a popular way to unwind.\n\nTherapists across Chatham offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Chatham Maritime, while others provide mobile massage in Chatham, visiting homes across Luton, Walderslade, Weedswood and beyond.\n\nCoverage also extends to nearby Gillingham, Rochester, Sittingbourne and the wider Medway area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Chatham?",
+        answer:
+          "Most massage therapists in Chatham charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Chatham?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Chatham, visiting homes in areas such as Luton, Walderslade, Chatham Maritime and Weedswood. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm a student at the Medway campus in Chatham, which massage suits a student budget?",
+        answer:
+          "Many therapists in Chatham offer standard Swedish or deep tissue sessions that suit a range of budgets, and some may offer shorter appointment lengths at a lower price. Check individual listings for pricing and any student-friendly options.",
+      },
+      {
+        question: "What types of massage are available in Chatham?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Chatham?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  folkestone: {
+    intro:
+      "Looking for a massage therapist in Folkestone? Browse qualified practitioners across the town, from Cheriton and Sandgate to Hythe Road and Cherry Garden.",
+    body:
+      "Folkestone is a Kent coastal town and the UK terminal for the Channel Tunnel, with a regenerated harbour area and a spread of residential neighbourhoods along the White Cliffs coast. Whether you are near the town centre and Harbour Arm, west around Sandgate, north towards Cheriton, or east near Cherry Garden, you will find massage therapists in Folkestone within easy reach.\n\nFolkestone's logistics and cross-Channel freight employers close to the Eurotunnel terminal mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. The town's creative and hospitality regeneration around the Harbour Arm and Old High Street also drives demand for treatments among staff, while a relaxing Swedish or hot stone session along The Leas seafront is a popular way to unwind.\n\nTherapists across Folkestone offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Sandgate, while others provide mobile massage in Folkestone, visiting homes across Cheriton, Hythe Road, Cherry Garden and beyond.\n\nThe directory also covers nearby Hythe, Dover, Ashford and the wider East Kent coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Folkestone?",
+        answer:
+          "A one-hour massage in Folkestone usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Folkestone?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Folkestone and the surrounding areas, including Cheriton, Sandgate, Hythe Road and Cherry Garden. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in freight or logistics near the Eurotunnel terminal, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based freight and logistics work. Many Folkestone therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Folkestone?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Folkestone?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  canterbury: {
+    intro:
+      "Looking for a massage therapist in Canterbury? Find qualified practitioners across the cathedral city, from Sturry and Wincheap to Hales Place and Thanington.",
+    body:
+      "Canterbury is a UNESCO World Heritage cathedral city, home to Canterbury Cathedral and a well-preserved medieval centre within the old city walls. Whether you are near the city centre and Cathedral, north around Sturry, south towards Wincheap and Thanington, or east near Hales Place, you will find massage therapists in Canterbury within easy reach.\n\nWith three universities, including the University of Kent and Canterbury Christ Church University, the city has a large student population alongside its historic tourism trade, giving therapists a broad client base for both relaxation and recovery treatments. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Westgate Gardens or the River Stour is a popular way to unwind.\n\nTherapists across Canterbury offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the city centre and Wincheap, while others provide mobile massage in Canterbury, visiting homes across Sturry, Hales Place, Thanington and beyond.\n\nCoverage also extends to nearby Whitstable, Herne Bay, Ashford and the wider East Kent area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Canterbury?",
+        answer:
+          "Most massage therapists in Canterbury charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Canterbury?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Canterbury, visiting homes in areas such as Sturry, Wincheap, Hales Place and Thanington. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm a student at the University of Kent or Christ Church, which massage suits a student budget?",
+        answer:
+          "Many therapists in Canterbury offer standard Swedish or deep tissue sessions that suit a range of budgets, and some may offer shorter appointment lengths at a lower price. Check individual listings for pricing and any student-friendly options.",
+      },
+      {
+        question: "What types of massage are available in Canterbury?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Canterbury?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a city-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
