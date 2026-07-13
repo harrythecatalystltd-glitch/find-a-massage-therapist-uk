@@ -4632,4 +4632,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  margate: {
+    intro:
+      "Looking for a massage therapist in Margate? Browse qualified practitioners across the seaside town, from Cliftonville and Westbrook to the Old Town and Garlinge.",
+    body:
+      "Margate is a Kent seaside town that has become known for its creative regeneration around Turner Contemporary and the Old Town, alongside its long sandy beach and Dreamland amusement park. Whether you are near the seafront and Old Town, east around Cliftonville, west towards Westbrook, or south near Garlinge, you will find massage therapists in Margate within easy reach.\n\nThe town's growing creative, hospitality and tourism trade means many staff work long shifts on their feet, driving demand for deep tissue and remedial massage to manage the physical strain. Visitors and residents along the seafront frequently book a relaxing Swedish or hot stone session, while local gyms and sports clubs add to demand for sports massage.\n\nTherapists across Margate offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the Old Town and seafront, while others provide mobile massage in Margate, visiting homes across Cliftonville, Westbrook, Garlinge and beyond.\n\nCoverage also extends to nearby Broadstairs, Ramsgate, Herne Bay and the wider East Kent coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Margate?",
+        answer:
+          "Most massage therapists in Margate charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Margate?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Margate, visiting homes in areas such as Cliftonville, Westbrook, the Old Town and Garlinge. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the leg, back and shoulder strain that comes with long shifts on your feet in hotels, bars and restaurants. Many Margate therapists are used to treating hospitality staff, so check their listing for evening or early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in Margate?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the therapists listed. Some specialise in relaxation treatments for visitors, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Margate?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether a seafront clinic or a home visit suits you best. Reading the listing description helps you find the right match, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  ramsgate: {
+    intro:
+      "Looking for a massage therapist in Ramsgate? Find qualified practitioners across the town, from the Royal Harbour and Pegwell Bay to Newington and Dumpton.",
+    body:
+      "Ramsgate is a Kent coastal town built around the UK's only Royal Harbour, with a marina, sandy beaches and a spread of residential neighbourhoods reaching inland. Whether you are near the harbour and town centre, south towards Pegwell Bay, west around Newington, or east near Dumpton, you will find massage therapists in Ramsgate within easy reach.\n\nSailors and watersports enthusiasts using the marina often book sports or deep tissue massage for recovery, while the town's hospitality and tourism trade drives demand for treatments among staff on their feet through the season. A relaxing Swedish or hot stone session near the harbour or Ramsgate Main Sands is a popular way to unwind.\n\nTherapists across Ramsgate offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the harbour and town centre, while others provide mobile massage in Ramsgate, visiting homes across Pegwell Bay, Newington, Dumpton and beyond.\n\nThe directory also covers nearby Broadstairs, Margate, Sandwich and the wider East Kent coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Ramsgate?",
+        answer:
+          "A one-hour massage in Ramsgate usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Ramsgate?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Ramsgate and the surrounding areas, including Pegwell Bay, Newington and Dumpton. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I sail or use the marina in Ramsgate, which massage helps?",
+        answer:
+          "Sports massage and deep tissue are well suited to the shoulder, back and forearm strain that comes with sailing and other watersports. Many Ramsgate therapists are used to treating clients involved in these activities, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Ramsgate?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Ramsgate?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  deal: {
+    intro:
+      "Looking for a massage therapist in Deal? Browse qualified practitioners across the seaside town, from Walmer and Mongeham to Sholden and the seafront.",
+    body:
+      "Deal is a historic Kent seaside town known for its Tudor castle and shingle beach, with a well-preserved seafront and a spread of residential neighbourhoods reaching inland. Whether you are near the seafront and town centre, south around Walmer, west towards Mongeham, or north near Sholden, you will find massage therapists in Deal within easy reach.\n\nThe town's tourism and hospitality trade means many staff work long shifts on their feet through the season, driving demand for deep tissue and remedial massage. Visitors and residents along the seafront frequently book a relaxing Swedish or hot stone session, while walkers on the coastal paths add to demand for sports massage.\n\nTherapists across Deal offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Deal, visiting homes across Walmer, Mongeham, Sholden and beyond.\n\nCoverage also extends to nearby Sandwich, Dover, Kingsdown and the wider East Kent coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Deal?",
+        answer:
+          "Most massage therapists in Deal charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Deal?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Deal, visiting homes in areas such as Walmer, Mongeham and Sholden. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I walk the coastal paths near Deal, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks along the Kent coast. Many Deal therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Deal?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Deal?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a seafront clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  faversham: {
+    intro:
+      "Looking for a massage therapist in Faversham? Find qualified practitioners across the market town, from Ospringe and Davington to Preston Street and the Creek.",
+    body:
+      "Faversham is a historic Kent market town with a well-preserved centre and Britain's oldest brewery, Shepherd Neame, sitting alongside Faversham Creek. Whether you are near the town centre and Creek, west around Ospringe, north towards Davington, or south near Preston Street, you will find massage therapists in Faversham within easy reach.\n\nFaversham's brewing and food-production heritage, along with its logistics sites close to the M2, means many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Creek or Stonebridge Pond is a popular way to unwind.\n\nTherapists across Faversham offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Ospringe, while others provide mobile massage in Faversham, visiting homes across Davington, Preston Street and beyond.\n\nThe directory also covers nearby Sittingbourne, Whitstable, Canterbury and the wider Kent area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Faversham?",
+        answer:
+          "A one-hour massage in Faversham usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Faversham?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Faversham and the surrounding areas, including Ospringe, Davington and Preston Street. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in brewing or food production around Faversham, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based brewing and food-production work. Many Faversham therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Faversham?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Faversham?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  whitstable: {
+    intro:
+      "Looking for a massage therapist in Whitstable? Browse qualified practitioners across the harbour town, from Tankerton and Chestfield to Seasalter and the harbour.",
+    body:
+      "Whitstable is a Kent coastal town famous for its oysters and colourful seafront cottages, with a working harbour and a spread of residential neighbourhoods along the coast. Whether you are near the harbour and town centre, east around Tankerton, west towards Seasalter, or south near Chestfield, you will find massage therapists in Whitstable within easy reach.\n\nThe town's fishing heritage and busy tourism and hospitality trade mean therapists see a broad client base, from staff working long shifts on their feet to visitors booking a relaxing Swedish or hot stone session as part of a break. Walkers and cyclists exploring the coastal path add to demand for sports massage.\n\nTherapists across Whitstable offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the harbour and town centre, while others provide mobile massage in Whitstable, visiting homes across Tankerton, Seasalter, Chestfield and beyond.\n\nCoverage also extends to nearby Herne Bay, Canterbury, Faversham and the wider North Kent coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Whitstable?",
+        answer:
+          "Most massage therapists in Whitstable charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Whitstable?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Whitstable, visiting homes in areas such as Tankerton, Seasalter and Chestfield. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the leg, back and shoulder strain that comes with long shifts on your feet in restaurants, bars and oyster bars. Many Whitstable therapists are used to treating hospitality staff, so check their listing for evening or early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in Whitstable?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Whitstable?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a harbourside clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "herne-bay": {
+    intro:
+      "Looking for a massage therapist in Herne Bay? Find qualified practitioners across the seaside town, from Studd Hill and Greenhill to Reculver and Beltinge.",
+    body:
+      "Herne Bay is a Kent seaside town with a long seafront promenade and Central Bandstand, and a spread of residential neighbourhoods reaching towards the historic Reculver Towers. Whether you are near the seafront and town centre, east around Beltinge and Reculver, west towards Studd Hill, or south near Greenhill, you will find massage therapists in Herne Bay within easy reach.\n\nThe town's tourism and hospitality trade drives demand for deep tissue and remedial massage among staff on their feet through the season, while visitors and residents along the seafront frequently book a relaxing Swedish or hot stone session. Walkers on the coastal path towards Reculver add to demand for sports massage.\n\nTherapists across Herne Bay offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Herne Bay, visiting homes across Studd Hill, Greenhill, Beltinge and beyond.\n\nThe directory also covers nearby Whitstable, Canterbury, Margate and the wider North Kent coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Herne Bay?",
+        answer:
+          "A one-hour massage in Herne Bay usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Herne Bay?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Herne Bay and the surrounding areas, including Studd Hill, Greenhill and Beltinge. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk the coastal path towards Reculver, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks along the Herne Bay and Reculver coast. Many therapists here are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Herne Bay?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Herne Bay?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a seafront clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  sevenoaks: {
+    intro:
+      "Looking for a massage therapist in Sevenoaks? Browse qualified practitioners across the town, from Riverhead and Dunton Green to Weald and Otford.",
+    body:
+      "Sevenoaks is an affluent Kent commuter town best known for Knole House and its surrounding parkland, with a well-preserved High Street and a spread of leafy residential neighbourhoods. Whether you are near the town centre and Knole, north around Riverhead and Dunton Green, south towards Weald, or west near Otford, you will find massage therapists in Sevenoaks within easy reach.\n\nCommuters travelling into central London on the fast rail links often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while local gyms and sports clubs add to demand for sports massage. A relaxing Swedish or hot stone session near Knole Park or the Vine is a popular way to unwind after a busy week.\n\nTherapists across Sevenoaks offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Riverhead, while others provide mobile massage in Sevenoaks, visiting homes across Dunton Green, Weald, Otford and beyond.\n\nCoverage also extends to nearby Tonbridge, Tunbridge Wells, Orpington and the wider Kent area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Sevenoaks?",
+        answer:
+          "Most massage therapists in Sevenoaks charge around £40 to £80 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Sevenoaks?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Sevenoaks, visiting homes in areas such as Riverhead, Dunton Green, Weald and Otford. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I commute into London from Sevenoaks, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many Sevenoaks therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Sevenoaks?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Sevenoaks?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  swanley: {
+    intro:
+      "Looking for a massage therapist in Swanley? Find qualified practitioners across the town, from Hextable and White Oak to Swanley Village and Crockenhill.",
+    body:
+      "Swanley is a Kent town close to the M25 and Bluewater, with a compact centre around Swanley Park and a spread of residential neighbourhoods. Whether you are near the town centre and Swanley Park, east around Hextable, west towards White Oak, or south near Crockenhill, you will find massage therapists in Swanley within easy reach.\n\nSwanley's logistics and retail employers close to the M25 and Bluewater mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Commuters travelling into London often turn to deep tissue for desk-related tension, while a relaxing Swedish or hot stone session near Swanley Park lake is a popular way to unwind.\n\nTherapists across Swanley offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Hextable, while others provide mobile massage in Swanley, visiting homes across White Oak, Swanley Village, Crockenhill and beyond.\n\nThe directory also covers nearby Dartford, Sidcup, Orpington and the wider Kent and southeast London border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Swanley?",
+        answer:
+          "A one-hour massage in Swanley usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Swanley?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Swanley and the surrounding areas, including Hextable, White Oak and Crockenhill. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in logistics or retail near Bluewater, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding logistics and retail work. Many Swanley therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Swanley?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Swanley?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  sheerness: {
+    intro:
+      "Looking for a massage therapist in Sheerness? Browse qualified practitioners across the Isle of Sheppey, from Minster and Halfway Houses to Blue Town and Sheerness beach.",
+    body:
+      "Sheerness is a Kent port town on the Isle of Sheppey, with a naval and dockyard heritage and a spread of residential neighbourhoods along the Thames Estuary. Whether you are near the town centre and seafront, west around Blue Town, east towards Minster, or south near Halfway Houses, you will find massage therapists in Sheerness within easy reach.\n\nThe town's port, logistics and industrial employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the seafront is a popular way to unwind after a busy week.\n\nTherapists across Sheerness offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Minster, while others provide mobile massage in Sheerness, visiting homes across Blue Town, Halfway Houses and beyond.\n\nThe directory also covers nearby Sittingbourne, Faversham, Queenborough and the wider Isle of Sheppey and Kent area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Sheerness?",
+        answer:
+          "A one-hour massage in Sheerness usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Sheerness?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Sheerness and the surrounding areas, including Minster, Blue Town and Halfway Houses. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in the port or in logistics around Sheerness, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding port and logistics work. Many Sheerness therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Sheerness?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Sheerness?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  edenbridge: {
+    intro:
+      "Looking for a massage therapist in Edenbridge? Find qualified practitioners across the market town, from Crockham Hill and Marlpit Hill to the town centre and Four Elms.",
+    body:
+      "Edenbridge is a small Kent market town on the River Eden, close to the Surrey and Sussex borders, with a historic High Street and a spread of residential neighbourhoods reaching into the surrounding countryside. Whether you are near the town centre, north around Marlpit Hill, west towards Crockham Hill, or south near Four Elms, you will find massage therapists in Edenbridge within easy reach.\n\nCommuters travelling into London often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while walkers exploring the surrounding countryside near Hever Castle add to demand for sports massage. A relaxing Swedish or hot stone session near the River Eden or the Recreation Ground is a popular way to unwind after a busy week.\n\nTherapists across Edenbridge offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre, while others provide mobile massage in Edenbridge, visiting homes across Marlpit Hill, Crockham Hill, Four Elms and beyond.\n\nCoverage also extends to nearby Sevenoaks, East Grinstead, Oxted and the wider Kent, Surrey and Sussex border, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Edenbridge?",
+        answer:
+          "Most massage therapists in Edenbridge charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Edenbridge?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Edenbridge, visiting homes in areas such as Marlpit Hill, Crockham Hill and Four Elms. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I commute into London from Edenbridge, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many Edenbridge therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Edenbridge?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Edenbridge?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
