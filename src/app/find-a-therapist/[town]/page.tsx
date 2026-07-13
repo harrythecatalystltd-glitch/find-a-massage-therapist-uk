@@ -18,6 +18,16 @@ const SITE_URL =
 
 type Faq = { question: string; answer: string };
 
+// Google truncates meta descriptions around 155-160 characters; intro_copy runs
+// longer since it also serves as the on-page lead paragraph, so cut it down for
+// the tag rather than let it get chopped off mid-sentence in search results.
+function truncateDescription(text: string, max = 155): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max);
+  const lastSpace = cut.lastIndexOf(" ");
+  return `${cut.slice(0, lastSpace > 0 ? lastSpace : max)}…`;
+}
+
 function parseFaqs(raw: unknown): Faq[] {
   if (!Array.isArray(raw)) return [];
   return raw.filter(
@@ -42,12 +52,27 @@ export async function generateMetadata({
   const { town } = await params;
   const location = await getLocationBySlug(town);
   if (!location) return {};
-  return {
-    title: `Massage Therapists in ${location.town}`,
-    description:
-      location.intro_copy ??
+  const title = `Massage Therapists in ${location.town}`;
+  const description = truncateDescription(
+    location.intro_copy ??
       `Find qualified, insured massage therapists in ${location.town} and nearby areas.`,
+  );
+  const url = `${SITE_URL}/find-a-therapist/${location.slug}/`;
+  return {
+    title,
+    description,
     alternates: { canonical: `/find-a-therapist/${location.slug}/` },
+    openGraph: {
+      type: "website",
+      url,
+      title: `${title} | Find a Massage Therapist UK`,
+      description,
+    },
+    twitter: {
+      card: "summary",
+      title: `${title} | Find a Massage Therapist UK`,
+      description,
+    },
   };
 }
 
