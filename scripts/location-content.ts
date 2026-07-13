@@ -3272,4 +3272,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  wellingborough: {
+    intro:
+      "Looking for a massage therapist in Wellingborough? Find qualified practitioners across the town, from Castle Fields and Redwell to Queensway and Finedon, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Wellingborough is a Northamptonshire market town with a shoemaking heritage, a compact centre and a spread of residential neighbourhoods reaching out towards the River Nene. Whether you are near the town centre, south around Castle Fields and Redwell, east towards Queensway and Finedon, or west near Croyland and Hemmingwell, you will find massage therapists in Wellingborough within easy reach.\n\nWellingborough's logistics and distribution sites close to the A45 and A509 mean many clients book deep tissue or remedial massage to manage the physical demands of warehouse and driving work. Local gyms and running clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Swanspool Gardens is a popular way to unwind after a busy week.\n\nTherapists across Wellingborough offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Redwell, while others provide mobile massage in Wellingborough, visiting homes across Queensway, Finedon, Hemmingwell and beyond.\n\nThe directory also covers nearby Kettering, Northampton, Rushden and the wider Northamptonshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Wellingborough?",
+        answer:
+          "A one-hour massage in Wellingborough usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Wellingborough?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Wellingborough and the surrounding areas, including Castle Fields, Redwell, Queensway and Finedon. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or drive for a living around Wellingborough, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the back, shoulder and leg strain that comes with warehouse work and long spells of driving. Many Wellingborough therapists are used to treating clients in these roles, so check their listing for evening or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Wellingborough?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Wellingborough?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  scunthorpe: {
+    intro:
+      "Looking for a massage therapist in Scunthorpe? Browse qualified practitioners across the town, from Ashby and Crosby to Frodingham and Bottesford, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Scunthorpe is a North Lincolnshire industrial town built around its steelworks, with a busy centre and a spread of residential neighbourhoods reaching out towards the surrounding countryside. Whether you are near the town centre, south around Ashby and Crosby, east towards Frodingham, or west near Bottesford and Yaddlethorpe, you will find massage therapists in Scunthorpe within easy reach.\n\nSteelworking and manufacturing remain a major source of local employment, and many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Scunthorpe United supporters and local gym-goers add to demand for sports massage, while a relaxing Swedish or hot stone session near Central Park is a popular way to unwind after a busy week.\n\nTherapists across Scunthorpe offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Ashby, while others provide mobile massage in Scunthorpe, visiting homes across Crosby, Frodingham, Bottesford and beyond.\n\nCoverage also extends to nearby Grimsby, Doncaster, Gainsborough and the wider North Lincolnshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Scunthorpe?",
+        answer:
+          "Most massage therapists in Scunthorpe charge around £30 to £60 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Scunthorpe?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Scunthorpe, visiting homes in areas such as Ashby, Crosby, Frodingham and Bottesford. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work shifts at the steelworks or in manufacturing around Scunthorpe, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based industrial work. Many Scunthorpe therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Scunthorpe?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Scunthorpe?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  dewsbury: {
+    intro:
+      "Looking for a massage therapist in Dewsbury? Find qualified practitioners across the town, from Ravensthorpe and Savile Town to Chickenley and Earlsheaton, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Dewsbury is a West Yorkshire mill town with a strong textile heritage, home to the striking Dewsbury Minster and a spread of well-known neighbourhoods. Whether you are near the town centre, west around Ravensthorpe and Savile Town, east towards Chickenley and Earlsheaton, or south near Thornhill, you will find massage therapists in Dewsbury within easy reach.\n\nDewsbury's manufacturing and logistics employers keep demand steady for deep tissue and remedial massage among shift workers, while local gyms and sports clubs add to demand for sports massage. A relaxing Swedish or hot stone session near Crow Nest Park is a popular way to unwind after a busy week.\n\nTherapists across Dewsbury offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Ravensthorpe, while others provide mobile massage in Dewsbury, visiting homes across Savile Town, Chickenley, Earlsheaton and beyond.\n\nThe directory also covers nearby Wakefield, Batley, Huddersfield and the wider West Yorkshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Dewsbury?",
+        answer:
+          "A one-hour massage in Dewsbury usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Dewsbury?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Dewsbury and the surrounding areas, including Ravensthorpe, Savile Town, Chickenley and Earlsheaton. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing around Dewsbury, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing work. Many Dewsbury therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Dewsbury?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Dewsbury?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "st-albans": {
+    intro:
+      "Looking for a massage therapist in St Albans? Browse qualified practitioners across the cathedral city, from Marshalswick and Fleetville to Sopwell and London Colney, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "St Albans is a historic Hertfordshire cathedral city built on the site of Roman Verulamium, with a well-preserved centre and a spread of leafy residential neighbourhoods. Whether you are near the Cathedral and market centre, east around Marshalswick and Fleetville, south towards Sopwell and London Colney, or west near St Michael's and Chiswell Green, you will find massage therapists in St Albans within easy reach.\n\nCommuters travelling into central London each day often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while local gyms and running clubs around Verulamium Park add to demand for sports massage. A relaxing Swedish or hot stone session near the Cathedral or Verulamium Park is a popular way to unwind after a busy week.\n\nTherapists across St Albans offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the city centre and Marshalswick, while others provide mobile massage in St Albans, visiting homes across Fleetville, Sopwell, London Colney and beyond.\n\nCoverage also extends to nearby Watford, Hemel Hempstead, Harpenden and the wider Hertfordshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in St Albans?",
+        answer:
+          "Most massage therapists in St Albans charge around £35 to £75 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in St Albans?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across St Albans, visiting homes in areas such as Marshalswick, Fleetville, Sopwell and London Colney. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I commute into London from St Albans, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many St Albans therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in St Albans?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in St Albans?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a city-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  guildford: {
+    intro:
+      "Looking for a massage therapist in Guildford? Find qualified practitioners across the town, from Stoughton and Merrow to Onslow Village and Burpham, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Guildford is a historic Surrey town on the River Wey, home to a Norman castle and the University of Surrey, with a busy centre and a spread of affluent residential neighbourhoods. Whether you are near the town centre and High Street, north around Stoughton and Bellfields, east towards Merrow and Burpham, or west near Onslow Village, you will find massage therapists in Guildford within easy reach.\n\nCommuters travelling into London on the fast rail links often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while the University of Surrey brings a steady flow of students and staff looking for both relaxation and recovery treatments. Local gyms and sports clubs add further demand for sports massage, and a relaxing Swedish or hot stone session near the River Wey or Guildford Castle grounds is a popular way to unwind.\n\nTherapists across Guildford offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Stoughton, while others provide mobile massage in Guildford, visiting homes across Merrow, Onslow Village, Burpham and beyond.\n\nThe directory also covers nearby Woking, Godalming, Farnham and the wider Surrey area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Guildford?",
+        answer:
+          "A one-hour massage in Guildford typically costs around £40 to £80, with the exact price depending on the treatment type, the therapist's experience and whether you visit a clinic or book a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available across Guildford?",
+        answer:
+          "Yes. Several therapists provide mobile massage in Guildford and the surrounding areas, including Stoughton, Merrow, Onslow Village and Burpham. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I commute into London from Guildford, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many Guildford therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Guildford?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Guildford?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  aylesbury: {
+    intro:
+      "Looking for a massage therapist in Aylesbury? Browse qualified practitioners across the town, from Fairford Leys and Bedgrove to Watermead and Haydon Hill, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Aylesbury is the county town of Buckinghamshire, with a historic centre and a series of newer residential developments spreading out towards the surrounding countryside. Whether you are near the town centre, west around Fairford Leys and Bedgrove, north towards Watermead and Berryfields, or east near Haydon Hill and Elm Farm, you will find massage therapists in Aylesbury within easy reach.\n\nAylesbury's logistics and distribution sites and its position on the fast rail line into London mean many clients book deep tissue or remedial massage, whether to manage physically demanding shift work or desk-related tension. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Vale Park or Waterside is a popular way to unwind after a busy week.\n\nTherapists across Aylesbury offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Bedgrove, while others provide mobile massage in Aylesbury, visiting homes across Fairford Leys, Watermead, Haydon Hill and beyond.\n\nCoverage also extends to nearby Amersham, Buckingham, Leighton Buzzard and the wider Buckinghamshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Aylesbury?",
+        answer:
+          "Most massage therapists in Aylesbury charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Aylesbury?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Aylesbury, visiting homes in areas such as Fairford Leys, Bedgrove, Watermead and Haydon Hill. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I commute into London from Aylesbury, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many Aylesbury therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Aylesbury?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Aylesbury?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  bedford: {
+    intro:
+      "Looking for a massage therapist in Bedford? Find qualified practitioners across the town, from Kempston and Brickhill to Goldington and Biddenham, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Bedford sits on the River Great Ouse, with an attractive Embankment, a busy town centre and a spread of residential neighbourhoods reaching out into rural Bedfordshire. Whether you are near the town centre and Embankment, west around Kempston and Biddenham, east towards Goldington and Putnoe, or south near Brickhill, you will find massage therapists in Bedford within easy reach.\n\nCommuters travelling into London on the Thameslink line often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while Bedford Blues rugby supporters and members of local rowing clubs on the Great Ouse add to demand for sports massage. A relaxing Swedish or hot stone session along the Embankment or in Russell Park is a popular way to unwind after a busy week.\n\nTherapists across Bedford offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Kempston, while others provide mobile massage in Bedford, visiting homes across Brickhill, Goldington, Biddenham and beyond.\n\nThe directory also covers nearby Milton Keynes, Luton, St Neots and the wider Bedfordshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Bedford?",
+        answer:
+          "A one-hour massage in Bedford typically costs around £35 to £70, with the exact price depending on the treatment type, the therapist's experience and whether you visit a clinic or book a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available across Bedford?",
+        answer:
+          "Yes. Several therapists provide mobile massage in Bedford and the surrounding areas, including Kempston, Brickhill, Goldington and Biddenham. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I row or train on the Great Ouse in Bedford, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to the shoulder, back and forearm strain that comes with rowing and other water-based training. Many Bedford therapists are used to treating clients involved in these activities, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Bedford?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Bedford?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  salisbury: {
+    intro:
+      "Looking for a massage therapist in Salisbury? Browse qualified practitioners across the cathedral city, from Bemerton and Harnham to Bishopdown and Laverstock, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Salisbury is a historic Wiltshire cathedral city, home to the tallest spire in the UK and close to Stonehenge, with a compact centre and a spread of residential neighbourhoods reaching out towards the water meadows. Whether you are near the Cathedral Close and city centre, south around Harnham, west towards Bemerton, or east near Bishopdown and Laverstock, you will find massage therapists in Salisbury within easy reach.\n\nSalisbury's military connections, with nearby Army bases on Salisbury Plain, mean many clients book sports or deep tissue massage for training and recovery, while office workers in the city centre often turn to deep tissue or remedial massage for desk-related tension. A relaxing Swedish or hot stone session near the water meadows or Cathedral Close is a popular way to unwind after a busy week.\n\nTherapists across Salisbury offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the city centre and Harnham, while others provide mobile massage in Salisbury, visiting homes across Bemerton, Bishopdown, Laverstock and beyond.\n\nCoverage also extends to nearby Amesbury, Wilton, Shaftesbury and the wider Wiltshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Salisbury?",
+        answer:
+          "Most massage therapists in Salisbury charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Salisbury?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Salisbury, visiting homes in areas such as Harnham, Bemerton, Bishopdown and Laverstock. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm in the military and train regularly near Salisbury Plain, which massage helps?",
+        answer:
+          "Sports massage and deep tissue are well suited to muscle recovery and reducing tightness after physical training. Many Salisbury therapists are used to working with service personnel and athletes, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Salisbury?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Salisbury?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a city-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  yeovil: {
+    intro:
+      "Looking for a massage therapist in Yeovil? Find qualified practitioners across the town, from Preston Plucknett and Mudford to Pen Mill and Larkhill, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Yeovil is a Somerset town known for its aerospace and defence industry, home to Leonardo Helicopters, with a busy centre and a spread of residential neighbourhoods reaching out towards the surrounding countryside. Whether you are near the town centre, west around Preston Plucknett, north towards Mudford, or east near Pen Mill and Larkhill, you will find massage therapists in Yeovil within easy reach.\n\nYeovil's engineering and manufacturing employers mean many clients book deep tissue or remedial massage to manage the physical demands and shift patterns of skilled industrial work. Yeovil Town supporters at Huish Park and local gym-goers add to demand for sports massage, while a relaxing Swedish or hot stone session near Ninesprings or Yeovil Country Park is a popular way to unwind.\n\nTherapists across Yeovil offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Preston Plucknett, while others provide mobile massage in Yeovil, visiting homes across Mudford, Pen Mill, Larkhill and beyond.\n\nThe directory also covers nearby Yeovilton, Sherborne, Crewkerne and the wider Somerset area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Yeovil?",
+        answer:
+          "A one-hour massage in Yeovil usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Yeovil?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Yeovil and the surrounding areas, including Preston Plucknett, Mudford, Pen Mill and Larkhill. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in engineering or manufacturing around Yeovil, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding engineering and manufacturing work. Many Yeovil therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Yeovil?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Yeovil?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  taunton: {
+    intro:
+      "Looking for a massage therapist in Taunton? Browse qualified practitioners across the county town, from Bishops Hull and Priorswood to Comeytrowe and Wellington Road, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Taunton is Somerset's county town, sitting on the River Tone with the Blackdown Hills and Quantocks nearby, and a spread of residential neighbourhoods around a historic centre. Whether you are near the town centre and Vivary Park, west around Bishops Hull, north towards Priorswood, or south near Comeytrowe, you will find massage therapists in Taunton within easy reach.\n\nSomerset County Cricket Club supporters at the County Ground and members of local gyms and running clubs add to demand for sports massage, while walkers and cyclists exploring the Quantocks and Blackdown Hills often book massage for recovery. Office workers in the town centre frequently turn to deep tissue or remedial massage for desk-related tension, and a relaxing Swedish or hot stone session near Vivary Park is a popular way to unwind.\n\nTherapists across Taunton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Bishops Hull, while others provide mobile massage in Taunton, visiting homes across Priorswood, Comeytrowe and beyond.\n\nCoverage also extends to nearby Wellington, Bridgwater, Minehead and the wider Somerset area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Taunton?",
+        answer:
+          "Most massage therapists in Taunton charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Taunton?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Taunton, visiting homes in areas such as Bishops Hull, Priorswood and Comeytrowe. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I walk or cycle in the Quantocks or Blackdown Hills near Taunton, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, runs or rides in the Quantocks and Blackdown Hills. Many Taunton therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Taunton?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Taunton?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
