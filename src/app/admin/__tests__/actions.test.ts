@@ -4,7 +4,8 @@ vi.mock("next/cache", () => ({ revalidatePath: vi.fn() }));
 
 const sendApprovedEmail = vi.fn().mockResolvedValue(undefined);
 const sendDashboardInviteEmail = vi.fn().mockResolvedValue(undefined);
-vi.mock("@/lib/email", () => ({ sendApprovedEmail, sendDashboardInviteEmail }));
+const sendListingAddedNoticeEmail = vi.fn().mockResolvedValue(undefined);
+vi.mock("@/lib/email", () => ({ sendApprovedEmail, sendDashboardInviteEmail, sendListingAddedNoticeEmail }));
 
 const createAdminClient = vi.fn();
 vi.mock("@/lib/supabase/admin", () => ({ createAdminClient }));
@@ -27,6 +28,8 @@ function buildSupabaseMock({
     email: string | null;
     town: string | null;
     owner_user_id?: string | null;
+    source?: string | null;
+    slug?: string | null;
   };
   existingSlugs?: string[];
   existingTowns?: string[];
@@ -65,6 +68,7 @@ describe("approveListing", () => {
     locationsUpsert.mockClear();
     sendApprovedEmail.mockClear();
     sendDashboardInviteEmail.mockClear();
+    sendListingAddedNoticeEmail.mockClear();
     createUser.mockClear();
     generateLink.mockClear();
   });
@@ -147,6 +151,47 @@ describe("approveListing", () => {
       "Some Clinic",
       expect.stringContaining("/auth/confirm?token_hash=hashed-abc&type=recovery"),
     );
+  });
+
+  it("reuses a pre-set slug instead of regenerating one (research-outreach imports arrive pre-slugged)", async () => {
+    createAdminClient.mockReturnValue(
+      buildSupabaseMock({
+        listing: {
+          business_name: "Some Clinic",
+          email: "hi@example.com",
+          town: "Manchester",
+          source: "research_outreach",
+          slug: "some-clinic",
+        },
+        existingTowns: ["Manchester"],
+      }),
+    );
+    const { approveListing } = await import("@/app/admin/actions");
+    await approveListing("listing-8");
+
+    expect(listingsUpdate).toHaveBeenCalledWith(
+      expect.objectContaining({ status: "approved", slug: "some-clinic" }),
+    );
+    expect(sendListingAddedNoticeEmail).toHaveBeenCalledWith("hi@example.com", "Some Clinic", "some-clinic");
+  });
+
+  it("sends the research-outreach notice email instead of 'approved' for source: research_outreach", async () => {
+    createAdminClient.mockReturnValue(
+      buildSupabaseMock({
+        listing: {
+          business_name: "Some Clinic",
+          email: "hi@example.com",
+          town: "Manchester",
+          source: "research_outreach",
+        },
+        existingTowns: ["Manchester"],
+      }),
+    );
+    const { approveListing } = await import("@/app/admin/actions");
+    await approveListing("listing-7");
+
+    expect(sendListingAddedNoticeEmail).toHaveBeenCalledWith("hi@example.com", "Some Clinic", "some-clinic");
+    expect(sendApprovedEmail).not.toHaveBeenCalled();
   });
 
   it("does not re-provision a dashboard login when the listing already has an owner", async () => {

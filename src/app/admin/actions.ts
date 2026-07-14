@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
 import { uniqueSlug, slugify } from "@/lib/slug";
-import { sendApprovedEmail, sendDashboardInviteEmail } from "@/lib/email";
+import { sendApprovedEmail, sendDashboardInviteEmail, sendListingAddedNoticeEmail } from "@/lib/email";
 
 /** Ensure a location page exists for this town so the listing is discoverable,
  * even if it's a new town nobody has seeded a page for yet. Matches the same
@@ -63,14 +63,20 @@ export async function approveListing(id: string) {
 
   const { data: listing } = await supabase
     .from("listings")
-    .select("business_name, email, town, owner_user_id")
+    .select("business_name, email, town, owner_user_id, source, slug")
     .eq("id", id)
     .single();
   if (!listing) return;
 
-  const { data: existing } = await supabase.from("listings").select("slug").not("slug", "is", null);
-  const taken = new Set((existing ?? []).map((row) => row.slug as string));
-  const slug = uniqueSlug(listing.business_name, taken);
+  // Only research-outreach imports arrive with a slug already set (assigned at import
+  // time, e.g. for the logo storage path) — reuse it rather than regenerating, since
+  // regenerating would see the row's own slug as "taken" and bump it to a "-2" suffix.
+  let slug = listing.slug;
+  if (!slug) {
+    const { data: existing } = await supabase.from("listings").select("slug").not("slug", "is", null);
+    const taken = new Set((existing ?? []).map((row) => row.slug as string));
+    slug = uniqueSlug(listing.business_name, taken);
+  }
 
   await ensureLocationForTown(supabase, listing.town);
 
@@ -80,7 +86,11 @@ export async function approveListing(id: string) {
     .eq("id", id);
 
   if (listing.email) {
-    await sendApprovedEmail(listing.email, listing.business_name, slug);
+    if (listing.source === "research_outreach") {
+      await sendListingAddedNoticeEmail(listing.email, listing.business_name, slug);
+    } else {
+      await sendApprovedEmail(listing.email, listing.business_name, slug);
+    }
 
     if (!listing.owner_user_id) {
       await provisionDashboardLogin(supabase, id, listing.email, listing.business_name);

@@ -86,6 +86,28 @@ export async function sendTierChangedEmail(to: string, businessName: string, tie
   await client().email.send(params);
 }
 
+/** For listings we researched and added ourselves (source: "research_outreach"), rather than
+ * ones the business submitted — sent instead of sendApprovedEmail, since "your listing has
+ * been approved" copy assumes they applied. */
+export async function sendListingAddedNoticeEmail(to: string, businessName: string, slug: string) {
+  const profileUrl = `${siteUrl()}/therapist/${slug}`;
+  const params = new EmailParams()
+    .setFrom(fromSender())
+    .setTo([new Recipient(to)])
+    .setSubject(`${businessName} has been added to Find a Massage Therapist UK`)
+    .setHtml(
+      `<p>We found <strong>${businessName}</strong> and added it to Find a Massage Therapist UK, a directory that helps people find trusted, insured massage therapists. This isn't spam and it costs nothing.</p>` +
+        `<p><strong>Don't want to be listed?</strong> Just reply <strong>NO</strong> to this email and we'll remove it straight away, no questions asked.</p>` +
+        `<p>Your listing is live now: <a href="${profileUrl}">${profileUrl}</a></p>` +
+        `<p>You'll get a short follow-up email soon with a link to activate your own dashboard login, so you can edit your listing yourself.</p>`,
+    )
+    .setText(
+      `We added ${businessName} to Find a Massage Therapist UK: ${profileUrl}\n\n` +
+        `Don't want to be listed? Reply NO and we'll remove it.`,
+    );
+  await client().email.send(params);
+}
+
 export async function sendApprovedEmail(to: string, businessName: string, slug: string) {
   const profileUrl = `${siteUrl()}/therapist/${slug}`;
   const params = new EmailParams()

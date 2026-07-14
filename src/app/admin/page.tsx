@@ -11,7 +11,7 @@ async function getVerifiedListings() {
   const { data } = await supabase
     .from("listings")
     .select(
-      "id, business_name, email, town, listing_type, address, service_area, website_url, verified_at, listing_treatment_types ( treatment_types ( name ) )",
+      "id, business_name, email, town, listing_type, address, service_area, website_url, summary, logo_url, verified_at, listing_treatment_types ( treatment_types ( name ) )",
     )
     .eq("status", "verified")
     .order("verified_at", { ascending: true });
@@ -54,30 +54,41 @@ export default async function AdminPage() {
                   .filter(Boolean)
                   .join(", ");
                 return (
-                  <article className="loc-cta" key={listing.id} style={{ textAlign: "left" }}>
-                    <h3>{listing.business_name}</h3>
-                    <p>
-                      {listing.town} &middot; {listing.listing_type}
-                      {listing.listing_type === "clinic" ? ` · ${listing.address ?? ""}` : ` · ${listing.service_area ?? ""}`}
-                    </p>
-                    <p>
-                      <a href={listing.website_url ?? "#"} target="_blank" rel="noopener noreferrer">
-                        {listing.website_url}
-                      </a>{" "}
-                      &middot; {listing.email}
-                    </p>
-                    {treatments && <p className="tag-row">{treatments}</p>}
-                    <div style={{ display: "flex", gap: "0.75rem", marginTop: "1rem" }}>
-                      <form action={approveListing.bind(null, listing.id)}>
-                        <button type="submit" className="btn btn-primary">
-                          Approve
-                        </button>
-                      </form>
-                      <form action={rejectListing.bind(null, listing.id)}>
-                        <button type="submit" className="btn btn-ghost">
-                          Reject
-                        </button>
-                      </form>
+                  <article
+                    className="loc-cta"
+                    key={listing.id}
+                    style={{ textAlign: "left", display: "flex", gap: "1rem" }}
+                  >
+                    {listing.logo_url && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={listing.logo_url} alt="" width={56} height={56} style={{ borderRadius: 8, objectFit: "contain" }} />
+                    )}
+                    <div>
+                      <h3>{listing.business_name}</h3>
+                      <p>
+                        {listing.town} &middot; {listing.listing_type}
+                        {listing.listing_type === "clinic" ? ` · ${listing.address ?? ""}` : ` · ${listing.service_area ?? ""}`}
+                      </p>
+                      <p>
+                        <a href={listing.website_url ?? "#"} target="_blank" rel="noopener noreferrer">
+                          {listing.website_url}
+                        </a>{" "}
+                        &middot; {listing.email}
+                      </p>
+                      {listing.summary && <p>{listing.summary}</p>}
+                      {treatments && <p className="tag-row">{treatments}</p>}
+                      <div style={{ display: "flex", gap: "0.75rem", marginTop: "1rem" }}>
+                        <form action={approveListing.bind(null, listing.id)}>
+                          <button type="submit" className="btn btn-primary">
+                            Approve
+                          </button>
+                        </form>
+                        <form action={rejectListing.bind(null, listing.id)}>
+                          <button type="submit" className="btn btn-ghost">
+                            Reject
+                          </button>
+                        </form>
+                      </div>
                     </div>
                   </article>
                 );
