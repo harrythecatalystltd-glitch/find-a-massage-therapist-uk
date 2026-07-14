@@ -6672,4 +6672,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  "kings-lynn": {
+    intro:
+      "Looking for a massage therapist in King's Lynn? Find qualified practitioners across the historic port town, from South Lynn and Gaywood to North Lynn and Springwood.",
+    body:
+      "King's Lynn is a historic Norfolk port town on the Great Ouse, with a well-preserved medieval centre around the Tuesday Market Place and a spread of residential neighbourhoods. Whether you are near the town centre and quaysides, south around South Lynn, east towards Gaywood, or near North Lynn and Springwood, you will find massage therapists in King's Lynn within easy reach.\n\nThe town's port, logistics and food-processing employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Walks park or the riverside is a popular way to unwind.\n\nTherapists across King's Lynn offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Gaywood, while others provide mobile massage in King's Lynn, visiting homes across South Lynn, North Lynn, Springwood and beyond.\n\nThe directory also covers nearby Downham Market, Hunstanton, Swaffham and the wider West Norfolk area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in King's Lynn?",
+        answer:
+          "A one-hour massage in King's Lynn usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across King's Lynn?",
+        answer:
+          "Yes. Several therapists offer mobile massage in King's Lynn and the surrounding areas, including South Lynn, Gaywood, North Lynn and Springwood. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in the port or in food processing around King's Lynn, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding port and food-processing work. Many King's Lynn therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in King's Lynn?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in King's Lynn?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "great-yarmouth": {
+    intro:
+      "Looking for a massage therapist in Great Yarmouth? Browse qualified practitioners across the seaside resort, from Gorleston and Caister to the Golden Mile and Southtown.",
+    body:
+      "Great Yarmouth is a Norfolk seaside resort with a long Golden Mile seafront, a fishing heritage and a spread of residential neighbourhoods. Whether you are near the seafront and town centre, south around Gorleston, north towards Caister-on-Sea, or across the river in Southtown, you will find massage therapists in Great Yarmouth within easy reach.\n\nThe town's large tourism and hospitality trade means many staff work long shifts on their feet through the season, driving demand for deep tissue and remedial massage to manage the physical strain. Visitors staying along the seafront frequently book a relaxing Swedish or hot stone session, while local gyms and sports clubs add to demand for sports massage.\n\nTherapists across Great Yarmouth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Great Yarmouth, visiting homes across Gorleston, Caister-on-Sea, Southtown and beyond.\n\nCoverage also extends to nearby Lowestoft, Norwich, Acle and the wider East Norfolk coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Great Yarmouth?",
+        answer:
+          "Most massage therapists in Great Yarmouth charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Great Yarmouth?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Great Yarmouth, visiting homes in areas such as Gorleston, Caister-on-Sea and Southtown. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the leg, back and shoulder strain that comes with long shifts on your feet in hotels, bars and restaurants. Many Great Yarmouth therapists are used to treating hospitality staff, so check their listing for evening or early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in Great Yarmouth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the therapists listed. Some specialise in relaxation treatments for visitors, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Great Yarmouth?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether a seafront clinic or a home visit suits you best. Reading the listing description helps you find the right match, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "bury-st-edmunds": {
+    intro:
+      "Looking for a massage therapist in Bury St Edmunds? Find qualified practitioners across the market town, from Moreton Hall and Westgate to the Abbey Gardens and Southgate.",
+    body:
+      "Bury St Edmunds is a Suffolk market town built around its ruined Abbey and Georgian centre, home to the Greene King brewery, with a spread of residential neighbourhoods. Whether you are near the town centre and Abbey Gardens, east around Moreton Hall, west towards Westgate, or near Southgate, you will find massage therapists in Bury St Edmunds within easy reach.\n\nThe town's brewing and logistics employers close to the A14 mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Office workers in the town centre often turn to deep tissue for desk-related tension, while a relaxing Swedish or hot stone session near the Abbey Gardens is a popular way to unwind.\n\nTherapists across Bury St Edmunds offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Moreton Hall, while others provide mobile massage in Bury St Edmunds, visiting homes across Westgate, Southgate and beyond.\n\nThe directory also covers nearby Newmarket, Stowmarket, Sudbury and the wider Suffolk area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Bury St Edmunds?",
+        answer:
+          "A one-hour massage in Bury St Edmunds usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Bury St Edmunds?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Bury St Edmunds and the surrounding areas, including Moreton Hall, Westgate and Southgate. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in brewing or logistics around Bury St Edmunds, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based brewing and logistics work. Many Bury St Edmunds therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Bury St Edmunds?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Bury St Edmunds?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  ely: {
+    intro:
+      "Looking for a massage therapist in Ely? Browse qualified practitioners across the Cathedral city, from Chettisham and Stretham Road to Barton Road and the riverside.",
+    body:
+      "Ely is a small Cambridgeshire city rising out of the Fens, known as the Ship of the Fens for its striking Cathedral, with a compact centre and a spread of residential neighbourhoods. Whether you are near the Cathedral and city centre, north around Chettisham, south towards Barton Road, or near the Great Ouse riverside, you will find massage therapists in Ely within easy reach.\n\nCommuters travelling into Cambridge and London often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while local gyms and rowing clubs on the Great Ouse add to demand for sports massage. A relaxing Swedish or hot stone session near the riverside or Cherry Hill Park is a popular way to unwind after a busy week.\n\nTherapists across Ely offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the city centre and Chettisham, while others provide mobile massage in Ely, visiting homes across Barton Road and beyond.\n\nThe directory also covers nearby Cambridge, Newmarket, Soham and the wider Cambridgeshire Fens, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Ely?",
+        answer:
+          "A one-hour massage in Ely usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Ely?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Ely and the surrounding areas, including Chettisham and Barton Road. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I row or train on the Great Ouse in Ely, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to the shoulder, back and forearm strain that comes with rowing and other water-based training. Many Ely therapists are used to treating clients involved in these activities, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Ely?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Ely?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a city-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  wisbech: {
+    intro:
+      "Looking for a massage therapist in Wisbech? Find qualified practitioners across the Fens town, from North Brink and the Crescent to Waldersea and Elm.",
+    body:
+      "Wisbech is known as the Capital of the Fens, a Cambridgeshire market town with striking Georgian architecture along the North Brink and a spread of residential neighbourhoods across the surrounding farmland. Whether you are near the town centre and North Brink, north around Waldersea, south towards Elm, or near the Crescent, you will find massage therapists in Wisbech within easy reach.\n\nThe town's agricultural and food-processing industries provide plenty of physically demanding work, and many clients book deep tissue or remedial massage to manage the muscle strain that comes with it. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Nene riverside is a popular way to unwind.\n\nTherapists across Wisbech offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and North Brink, while others provide mobile massage in Wisbech, visiting homes across Waldersea, Elm, the Crescent and beyond.\n\nThe directory also covers nearby King's Lynn, Peterborough, Spalding and the wider Cambridgeshire Fens, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Wisbech?",
+        answer:
+          "A one-hour massage in Wisbech usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Wisbech?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Wisbech and the surrounding areas, including North Brink, Waldersea and Elm. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in agriculture or food processing around Wisbech, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding agricultural and food-processing work. Many Wisbech therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Wisbech?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Wisbech?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  newmarket: {
+    intro:
+      "Looking for a massage therapist in Newmarket? Browse qualified practitioners across the home of horseracing, from the Rowley Mile and Studlands Park to Exning Road and the Heath.",
+    body:
+      "Newmarket is a Suffolk town known worldwide as the home of horseracing, with racing yards and gallops surrounding the town and a spread of residential neighbourhoods. Whether you are near the town centre and racecourses, north around Exning Road, south towards Studlands Park, or near the Heath, you will find massage therapists in Newmarket within easy reach.\n\nThe racing industry is the town's largest employer, and many clients, from stable staff to jockeys, book sports or deep tissue massage to manage the physical demands of working with horses and to aid recovery. Local gyms and sports clubs add further demand, while a relaxing Swedish or hot stone session is a popular way for residents to unwind.\n\nTherapists across Newmarket offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Studlands Park, while others provide mobile massage in Newmarket, visiting homes and yards across Exning Road, the Heath and beyond.\n\nThe directory also covers nearby Bury St Edmunds, Ely, Cambridge and the wider Suffolk and Cambridgeshire border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Newmarket?",
+        answer:
+          "A one-hour massage in Newmarket usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Newmarket?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Newmarket and the surrounding areas, including Studlands Park, Exning Road and the Heath. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a racing yard around Newmarket, which massage helps with the physical strain?",
+        answer:
+          "Deep tissue and sports massage are well suited to easing the back, shoulder and grip strain that comes with working around horses and racing yards. Many Newmarket therapists are used to treating stable staff and jockeys, so check their listing for early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in Newmarket?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Newmarket?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  sudbury: {
+    intro:
+      "Looking for a massage therapist in Sudbury? Find qualified practitioners across the market town, from Great Cornard and Waldingfield Road to Chilton and Ballingdon.",
+    body:
+      "Sudbury is a Suffolk market town on the River Stour, birthplace of the painter Thomas Gainsborough, with a historic centre and a spread of residential neighbourhoods. Whether you are near the town centre, south around Great Cornard, north towards Chilton, or across the river in Ballingdon, you will find massage therapists in Sudbury within easy reach.\n\nSudbury's manufacturing and logistics employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Stour riverside or Friars Meadow is a popular way to unwind.\n\nTherapists across Sudbury offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Great Cornard, while others provide mobile massage in Sudbury, visiting homes across Chilton, Ballingdon and beyond.\n\nThe directory also covers nearby Colchester, Bury St Edmunds, Halstead and the wider Suffolk and Essex border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Sudbury?",
+        answer:
+          "A one-hour massage in Sudbury usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Sudbury?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Sudbury and the surrounding areas, including Great Cornard, Chilton and Ballingdon. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Sudbury, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Sudbury therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Sudbury?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Sudbury?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  felixstowe: {
+    intro:
+      "Looking for a massage therapist in Felixstowe? Browse qualified practitioners across the port town, from Trimley and Walton to the seafront and Old Felixstowe.",
+    body:
+      "Felixstowe is home to the UK's largest container port, with a traditional seafront promenade and a spread of residential neighbourhoods reaching inland. Whether you are near the seafront and town centre, west around Walton, north towards Trimley, or near Old Felixstowe, you will find massage therapists in Felixstowe within easy reach.\n\nThe port is the town's largest employer, and many clients book deep tissue or remedial massage to manage the physical demands of shift-based logistics and dock work. Visitors and residents along the seafront frequently book a relaxing Swedish or hot stone session, while local gyms and sports clubs add to demand for sports massage.\n\nTherapists across Felixstowe offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Felixstowe, visiting homes across Walton, Trimley, Old Felixstowe and beyond.\n\nThe directory also covers nearby Ipswich, Woodbridge, Harwich and the wider Suffolk coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Felixstowe?",
+        answer:
+          "A one-hour massage in Felixstowe usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Felixstowe?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Felixstowe and the surrounding areas, including Walton, Trimley and Old Felixstowe. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work at the port or in logistics around Felixstowe, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding port and logistics work. Many Felixstowe therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Felixstowe?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Felixstowe?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  lowestoft: {
+    intro:
+      "Looking for a massage therapist in Lowestoft? Find qualified practitioners across England's most easterly town, from Oulton Broad and Pakefield to Kirkley and Gunton.",
+    body:
+      "Lowestoft is a Suffolk coastal town with a fishing heritage and a gateway position on the Norfolk Broads at Oulton Broad, plus a spread of residential neighbourhoods. Whether you are near the seafront and town centre, south around Pakefield, west towards Oulton Broad, or near Kirkley and Gunton, you will find massage therapists in Lowestoft within easy reach.\n\nThe town's fishing and offshore energy industries provide plenty of physically demanding work, and many clients book deep tissue or remedial massage to manage the muscle strain that comes with it. Boaters using Oulton Broad and the Broads network often book sports massage for recovery, while a relaxing Swedish or hot stone session near the seafront is a popular way to unwind.\n\nTherapists across Lowestoft offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Lowestoft, visiting homes across Pakefield, Oulton Broad, Kirkley and beyond.\n\nCoverage also extends to nearby Great Yarmouth, Beccles, Southwold and the wider Suffolk coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Lowestoft?",
+        answer:
+          "Most massage therapists in Lowestoft charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Lowestoft?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Lowestoft, visiting homes in areas such as Pakefield, Oulton Broad, Kirkley and Gunton. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work in fishing or the offshore energy sector around Lowestoft, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding fishing and offshore energy work. Many Lowestoft therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Lowestoft?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Lowestoft?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a seafront clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  thetford: {
+    intro:
+      "Looking for a massage therapist in Thetford? Browse qualified practitioners across the forest town, from Redcastle Furze and Abbey to Barnham Cross and the town centre.",
+    body:
+      "Thetford is a Norfolk market town on the edge of Thetford Forest, the largest lowland pine forest in England, with a historic centre and a spread of residential neighbourhoods. Whether you are near the town centre and Ancient House, north around Redcastle Furze, south towards Barnham Cross, or near the Abbey ruins, you will find massage therapists in Thetford within easy reach.\n\nWalkers and cyclists exploring Thetford Forest often book sports massage for recovery, while the town's logistics and manufacturing employers close to the A11 mean many clients also turn to deep tissue or remedial massage for physically demanding shift work. A relaxing Swedish or hot stone session near the Nun's Bridges or the Little Ouse riverside is a popular way to unwind.\n\nTherapists across Thetford offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Redcastle Furze, while others provide mobile massage in Thetford, visiting homes across Barnham Cross and beyond.\n\nThe directory also covers nearby Bury St Edmunds, Diss, Brandon and the wider Norfolk and Suffolk border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Thetford?",
+        answer:
+          "A one-hour massage in Thetford usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Thetford?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Thetford and the surrounding areas, including Redcastle Furze, Abbey and Barnham Cross. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk or cycle in Thetford Forest, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, runs or rides in Thetford Forest. Many Thetford therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Thetford?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Thetford?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
 };
