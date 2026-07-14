@@ -5992,4 +5992,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  darlington: {
+    intro:
+      "Looking for a massage therapist in Darlington? Find qualified practitioners across the railway town, from Cockerton and Faverdale to Harrowgate Hill and Eastbourne.",
+    body:
+      "Darlington is a County Durham town known as the birthplace of the railways, with a historic centre around the Head of Steam museum and a spread of residential neighbourhoods. Whether you are near the town centre and South Park, west around Cockerton and Faverdale, north towards Harrowgate Hill, or east near Eastbourne, you will find massage therapists in Darlington within easy reach.\n\nDarlington's manufacturing and logistics sites close to the A1(M) mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near South Park is a popular way to unwind after a busy week.\n\nTherapists across Darlington offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Cockerton, while others provide mobile massage in Darlington, visiting homes across Faverdale, Harrowgate Hill, Eastbourne and beyond.\n\nThe directory also covers nearby Stockton-on-Tees, Durham, Bishop Auckland and the wider County Durham area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Darlington?",
+        answer:
+          "A one-hour massage in Darlington usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Darlington?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Darlington and the surrounding areas, including Cockerton, Faverdale, Harrowgate Hill and Eastbourne. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Darlington, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Darlington therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Darlington?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Darlington?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  hartlepool: {
+    intro:
+      "Looking for a massage therapist in Hartlepool? Browse qualified practitioners across the town, from the Headland and Seaton Carew to Owton Manor and Hart.",
+    body:
+      "Hartlepool is a County Durham port town with a strong maritime heritage, home to the historic quayside and HMS Trincomalee, with a spread of residential neighbourhoods along the coast. Whether you are near the town centre and marina, north around the Headland, south towards Seaton Carew, or near Owton Manor and Hart, you will find massage therapists in Hartlepool within easy reach.\n\nThe town's port, logistics and manufacturing employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the marina or Seaton Carew seafront is a popular way to unwind.\n\nTherapists across Hartlepool offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and the Headland, while others provide mobile massage in Hartlepool, visiting homes across Seaton Carew, Owton Manor, Hart and beyond.\n\nCoverage also extends to nearby Stockton-on-Tees, Peterlee, Billingham and the wider Teesside area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Hartlepool?",
+        answer:
+          "Most massage therapists in Hartlepool charge around £30 to £60 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Hartlepool?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Hartlepool, visiting homes in areas such as the Headland, Seaton Carew, Owton Manor and Hart. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work in the port or in logistics around Hartlepool, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding port and logistics work. Many Hartlepool therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Hartlepool?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Hartlepool?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  gateshead: {
+    intro:
+      "Looking for a massage therapist in Gateshead? Find qualified practitioners across the Tyneside town, from Low Fell and Team Valley to Felling and Bensham.",
+    body:
+      "Gateshead sits across the Tyne from Newcastle, home to the Angel of the North and the BALTIC arts centre, with a spread of residential neighbourhoods reaching up from the Quays. Whether you are near the Quays and town centre, south around Low Fell and Team Valley, east towards Felling, or near Bensham, you will find massage therapists in Gateshead within easy reach.\n\nThe Team Valley trading estate and Gateshead's logistics employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Quays or Saltwell Park is a popular way to unwind after a busy week.\n\nTherapists across Gateshead offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Low Fell, while others provide mobile massage in Gateshead, visiting homes across Team Valley, Felling, Bensham and beyond.\n\nThe directory also covers nearby Newcastle, Sunderland, Chester-le-Street and the wider Tyne and Wear area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Gateshead?",
+        answer:
+          "A one-hour massage in Gateshead usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Gateshead?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Gateshead and the surrounding areas, including Low Fell, Team Valley, Felling and Bensham. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre on Team Valley, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Gateshead therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Gateshead?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Gateshead?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "south-shields": {
+    intro:
+      "Looking for a massage therapist in South Shields? Browse qualified practitioners across the seaside town, from Ocean Road and Westoe to Marsden and Cleadon.",
+    body:
+      "South Shields sits where the River Tyne meets the North Sea, with a sandy beach, Roman fort and a spread of residential neighbourhoods. Whether you are near the seafront and Ocean Road, south around Westoe, further south towards Marsden, or near Cleadon, you will find massage therapists in South Shields within easy reach.\n\nThe town's tourism and hospitality trade around the seafront drives demand for deep tissue and remedial massage among staff on their feet through the season, while visitors and residents frequently book a relaxing Swedish or hot stone session. Walkers on the coastal path towards Marsden add to demand for sports massage.\n\nTherapists across South Shields offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and Ocean Road, while others provide mobile massage in South Shields, visiting homes across Westoe, Marsden, Cleadon and beyond.\n\nCoverage also extends to nearby Sunderland, North Shields, Jarrow and the wider Tyne and Wear coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in South Shields?",
+        answer:
+          "Most massage therapists in South Shields charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in South Shields?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across South Shields, visiting homes in areas such as Westoe, Marsden and Cleadon. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the leg, back and shoulder strain that comes with long shifts on your feet in hotels, bars and restaurants. Many South Shields therapists are used to treating hospitality staff, so check their listing for evening or early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in South Shields?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the therapists listed. Some specialise in relaxation treatments for visitors, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in South Shields?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether a seafront clinic or a home visit suits you best. Reading the listing description helps you find the right match, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  washington: {
+    intro:
+      "Looking for a massage therapist in Washington? Find qualified practitioners across the new town, from Concord and Usworth to Sulgrave and Albany.",
+    body:
+      "Washington is a Tyne and Wear new town with historic ties to the family of George Washington, built around a series of self-contained residential districts. Whether you are near the town centre and Galleries, north around Concord and Usworth, south towards Sulgrave, or near Albany, you will find massage therapists in Washington within easy reach.\n\nWashington's manufacturing and logistics employers, including large automotive and distribution sites, mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Washington Wetland Centre is a popular way to unwind.\n\nTherapists across Washington offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Concord, while others provide mobile massage in Washington, visiting homes across Usworth, Sulgrave, Albany and beyond.\n\nThe directory also covers nearby Sunderland, Gateshead, Chester-le-Street and the wider Tyne and Wear area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Washington?",
+        answer:
+          "A one-hour massage in Washington usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Washington?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Washington and the surrounding areas, including Concord, Usworth, Sulgrave and Albany. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Washington, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Washington therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Washington?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Washington?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "stockton-on-tees": {
+    intro:
+      "Looking for a massage therapist in Stockton-on-Tees? Browse qualified practitioners across the town, from Norton and Fairfield to Hardwick and Thornaby.",
+    body:
+      "Stockton-on-Tees sits on the River Tees, with one of the widest high streets in England and a spread of residential neighbourhoods reaching across the river to Thornaby. Whether you are near the town centre and riverside, north around Norton, west towards Fairfield, or south near Hardwick and Thornaby, you will find massage therapists in Stockton-on-Tees within easy reach.\n\nTeesside University's Stockton campus and the town's manufacturing and logistics employers mean therapists see a broad client base, from students booking relaxation treatments to shift workers booking deep tissue or remedial massage for physically demanding work. Local gyms and sports clubs add to demand for sports massage, and a relaxing Swedish or hot stone session near Preston Park or the Tees riverside is a popular way to unwind.\n\nTherapists across Stockton-on-Tees offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Norton, while others provide mobile massage in Stockton-on-Tees, visiting homes across Fairfield, Hardwick, Thornaby and beyond.\n\nCoverage also extends to nearby Middlesbrough, Darlington, Billingham and the wider Teesside area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Stockton-on-Tees?",
+        answer:
+          "Most massage therapists in Stockton-on-Tees charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Stockton-on-Tees?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Stockton-on-Tees, visiting homes in areas such as Norton, Fairfield, Hardwick and Thornaby. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm a student at Teesside University's Stockton campus, which massage suits a student budget?",
+        answer:
+          "Many therapists in Stockton-on-Tees offer standard Swedish or deep tissue sessions that suit a range of budgets, and some may offer shorter appointment lengths at a lower price. Check individual listings for pricing and any student-friendly options.",
+      },
+      {
+        question: "What types of massage are available in Stockton-on-Tees?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Stockton-on-Tees?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  blyth: {
+    intro:
+      "Looking for a massage therapist in Blyth? Find qualified practitioners across the Northumberland port town, from Newsham and Cowpen to Kitty Brewster and Bebside.",
+    body:
+      "Blyth is a Northumberland port town with a long beach and a growing role as an offshore wind energy hub, alongside a spread of residential neighbourhoods. Whether you are near the town centre and quayside, north around Newsham, south towards Cowpen, or near Kitty Brewster and Bebside, you will find massage therapists in Blyth within easy reach.\n\nThe port and offshore energy sector are a growing source of local employment, and many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Ridley Park or the beach is a popular way to unwind.\n\nTherapists across Blyth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Newsham, while others provide mobile massage in Blyth, visiting homes across Cowpen, Kitty Brewster, Bebside and beyond.\n\nThe directory also covers nearby Cramlington, Ashington, Whitley Bay and the wider Northumberland coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Blyth?",
+        answer:
+          "A one-hour massage in Blyth usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Blyth?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Blyth and the surrounding areas, including Newsham, Cowpen, Kitty Brewster and Bebside. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in the port or offshore energy sector around Blyth, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding port and offshore energy work. Many Blyth therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Blyth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Blyth?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  consett: {
+    intro:
+      "Looking for a massage therapist in Consett? Browse qualified practitioners across the town, from Moorside and Leadgate to Blackhill and Delves Lane.",
+    body:
+      "Consett is a former steel town in County Durham, sitting high in the Pennine foothills with a spread of residential neighbourhoods and the Consett and Sunderland Railway Path running through it. Whether you are near the town centre, south around Moorside and Leadgate, north towards Blackhill, or near Delves Lane, you will find massage therapists in Consett within easy reach.\n\nWalkers and cyclists using the old railway path often book sports massage for recovery, while the town's manufacturing and logistics employers mean many clients also turn to deep tissue or remedial massage for physically demanding shift work. A relaxing Swedish or hot stone session near the Snow's Green area or Hownsgill Park is a popular way to unwind.\n\nTherapists across Consett offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Leadgate, while others provide mobile massage in Consett, visiting homes across Moorside, Blackhill, Delves Lane and beyond.\n\nCoverage also extends to nearby Durham, Stanley, Lanchester and the wider County Durham area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Consett?",
+        answer:
+          "Most massage therapists in Consett charge around £30 to £60 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Consett?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Consett, visiting homes in areas such as Moorside, Leadgate, Blackhill and Delves Lane. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I cycle or walk the old railway path near Consett, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks or rides on the Consett and Sunderland Railway Path. Many Consett therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Consett?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Consett?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "chester-le-street": {
+    intro:
+      "Looking for a massage therapist in Chester-le-Street? Find qualified practitioners across the town, from Pelton and Grange Villa to Waldridge and Great Lumley.",
+    body:
+      "Chester-le-Street is a County Durham town on the River Wear, home to the Riverside cricket ground and Lumley Castle, with a spread of residential neighbourhoods. Whether you are near the town centre and Riverside, west around Pelton, north towards Grange Villa, or near Waldridge and Great Lumley, you will find massage therapists in Chester-le-Street within easy reach.\n\nDurham County Cricket Club supporters at the Riverside and local gym-goers add to demand for sports massage, while the town's logistics sites close to the A1(M) mean many clients also book deep tissue or remedial massage for shift-based work. A relaxing Swedish or hot stone session near Lumley Castle or the Riverside is a popular way to unwind.\n\nTherapists across Chester-le-Street offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Pelton, while others provide mobile massage in Chester-le-Street, visiting homes across Grange Villa, Waldridge, Great Lumley and beyond.\n\nThe directory also covers nearby Durham, Gateshead, Washington and the wider County Durham area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Chester-le-Street?",
+        answer:
+          "A one-hour massage in Chester-le-Street usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Chester-le-Street?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Chester-le-Street and the surrounding areas, including Pelton, Grange Villa, Waldridge and Great Lumley. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I watch cricket at the Riverside or play sport around Chester-le-Street, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to muscle recovery and reducing tightness after training or match day. Many Chester-le-Street therapists are used to working with athletes and active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Chester-le-Street?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Chester-le-Street?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "berwick-upon-tweed": {
+    intro:
+      "Looking for a massage therapist in Berwick-upon-Tweed? Browse qualified practitioners across England's northernmost town, from Tweedmouth and Spittal to the town walls and Highcliffe.",
+    body:
+      "Berwick-upon-Tweed sits at the mouth of the River Tweed close to the Scottish border, with Elizabethan town walls and a spread of residential neighbourhoods either side of the river. Whether you are near the town centre and walls, south across the river in Tweedmouth, near the coast at Spittal, or near Highcliffe, you will find massage therapists in Berwick-upon-Tweed within easy reach.\n\nThe town's fishing and agricultural heritage, along with its tourism trade linked to the historic walls and nearby coastline, means therapists see a broad client base, from staff on their feet through the season to those managing physically demanding work. A relaxing Swedish or hot stone session near the town walls or Spittal beach is a popular way to unwind.\n\nTherapists across Berwick-upon-Tweed offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Tweedmouth, while others provide mobile massage in Berwick-upon-Tweed, visiting homes across Spittal, Highcliffe and beyond.\n\nCoverage also extends to nearby Eyemouth, Alnwick, Kelso and the wider Northumberland and Scottish Borders area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Berwick-upon-Tweed?",
+        answer:
+          "Most massage therapists in Berwick-upon-Tweed charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Berwick-upon-Tweed?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Berwick-upon-Tweed, visiting homes in areas such as Tweedmouth, Spittal and Highcliffe. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work in fishing or agriculture around Berwick-upon-Tweed, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding fishing and agricultural work. Many Berwick-upon-Tweed therapists are used to working around irregular hours, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Berwick-upon-Tweed?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Berwick-upon-Tweed?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
