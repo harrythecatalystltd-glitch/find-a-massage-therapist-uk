@@ -7352,4 +7352,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  totnes: {
+    intro:
+      "Looking for a massage therapist in Totnes? Browse qualified practitioners across the market town, from Bridgetown and Follaton to Dartington and Castle Street.",
+    body:
+      "Totnes is a Devon market town on the River Dart, known for its independent shops and alternative culture, with a historic castle and a spread of residential neighbourhoods. Whether you are near the town centre and Castle Street, east across the river in Bridgetown, west towards Follaton, or near Dartington, you will find massage therapists in Totnes within easy reach.\n\nThe town's wellness-minded community means a wide range of massage styles are well established, from classic Swedish and deep tissue to more specialist remedial and lymphatic drainage work. Walkers and paddlers on the Dart add to demand for sports massage, while a relaxing session near Vire Island or the Dart riverside is a popular way to unwind.\n\nTherapists across Totnes offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Bridgetown, while others provide mobile massage in Totnes, visiting homes across Follaton, Dartington and beyond.\n\nThe directory also covers nearby Newton Abbot, Dartmouth, Kingsbridge and the wider South Devon area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Totnes?",
+        answer:
+          "A one-hour massage in Totnes usually costs around £35 to £75, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Totnes?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Totnes and the surrounding areas, including Bridgetown, Follaton and Dartington. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I paddle or row on the River Dart, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to the shoulder, back and forearm strain that comes with paddling, rowing and other water-based activity. Many Totnes therapists are used to treating clients involved in these activities, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Totnes?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation and wellness-focused treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Totnes?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  dawlish: {
+    intro:
+      "Looking for a massage therapist in Dawlish? Find qualified practitioners across the seaside town, from Dawlish Warren and Cockwood to Holcombe and Old Town Street.",
+    body:
+      "Dawlish is a Devon seaside town famous for its town brook, black swans and the sea-wall railway line, with a spread of residential neighbourhoods reaching along the coast. Whether you are near the town centre and The Lawn, north around Dawlish Warren, south towards Holcombe, or near Cockwood, you will find massage therapists in Dawlish within easy reach.\n\nThe town's tourism and hospitality trade means many staff work long shifts on their feet through the season, driving demand for deep tissue and remedial massage to manage the physical strain. Visitors and residents along the seafront frequently book a relaxing Swedish or hot stone session, while walkers on the coastal path add to demand for sports massage.\n\nTherapists across Dawlish offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Dawlish, visiting homes across Dawlish Warren, Holcombe, Cockwood and beyond.\n\nThe directory also covers nearby Teignmouth, Exeter, Starcross and the wider South Devon coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Dawlish?",
+        answer:
+          "A one-hour massage in Dawlish usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Dawlish?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Dawlish and the surrounding areas, including Dawlish Warren, Holcombe and Cockwood. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the leg, back and shoulder strain that comes with long shifts on your feet in hotels, bars and restaurants. Many Dawlish therapists are used to treating hospitality staff, so check their listing for evening or early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in Dawlish?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Dawlish?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a seafront clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  teignmouth: {
+    intro:
+      "Looking for a massage therapist in Teignmouth? Browse qualified practitioners across the estuary town, from Bishopsteignton and West Lawn to the seafront and Landscore.",
+    body:
+      "Teignmouth is a Devon seaside town at the mouth of the River Teign, with Georgian architecture, a working harbour and a spread of residential neighbourhoods. Whether you are near the seafront and pier, west around West Lawn, north towards Bishopsteignton, or near Landscore, you will find massage therapists in Teignmouth within easy reach.\n\nThe town's tourism and hospitality trade means many staff work long shifts on their feet through the season, driving demand for deep tissue and remedial massage to manage the physical strain. Sailors and watersports enthusiasts using the estuary often book sports massage for recovery, while a relaxing Swedish or hot stone session along the seafront is a popular way to unwind.\n\nTherapists across Teignmouth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Teignmouth, visiting homes across West Lawn, Bishopsteignton, Landscore and beyond.\n\nCoverage also extends to nearby Shaldon, Dawlish, Newton Abbot and the wider South Devon coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Teignmouth?",
+        answer:
+          "Most massage therapists in Teignmouth charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Teignmouth?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Teignmouth, visiting homes in areas such as West Lawn, Bishopsteignton and Landscore. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I sail or use the Teign estuary, which massage helps?",
+        answer:
+          "Sports massage and deep tissue are well suited to the shoulder, back and forearm strain that comes with sailing and other watersports. Many Teignmouth therapists are used to treating clients involved in these activities, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Teignmouth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Teignmouth?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a seafront clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "newton-abbot": {
+    intro:
+      "Looking for a massage therapist in Newton Abbot? Find qualified practitioners across the market town, from Bradley Barton and Highweek to Wolborough and Decoy.",
+    body:
+      "Newton Abbot is a South Devon market town with a racecourse and railway heritage, sitting at the head of the Teign estuary with a spread of residential neighbourhoods. Whether you are near the town centre and racecourse, north around Highweek, south towards Wolborough, or near Bradley Barton and Decoy, you will find massage therapists in Newton Abbot within easy reach.\n\nThe town's logistics and manufacturing employers close to the A38 mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Racecourse visitors and local gyms add to demand for both relaxation and sports massage, while a relaxing Swedish or hot stone session near Decoy Country Park is a popular way to unwind.\n\nTherapists across Newton Abbot offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Highweek, while others provide mobile massage in Newton Abbot, visiting homes across Wolborough, Bradley Barton, Decoy and beyond.\n\nThe directory also covers nearby Torquay, Teignmouth, Totnes and the wider South Devon area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Newton Abbot?",
+        answer:
+          "A one-hour massage in Newton Abbot usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Newton Abbot?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Newton Abbot and the surrounding areas, including Highweek, Wolborough, Bradley Barton and Decoy. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Newton Abbot, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Newton Abbot therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Newton Abbot?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Newton Abbot?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  sidmouth: {
+    intro:
+      "Looking for a massage therapist in Sidmouth? Browse qualified practitioners across the Regency resort, from Sidford and Sidbury to Connaught Gardens and the seafront.",
+    body:
+      "Sidmouth is a Devon seaside town on the Jurassic Coast, known for its Regency architecture and elegant seafront, with a spread of residential neighbourhoods. Whether you are near the seafront and Connaught Gardens, north around Sidford, further north towards Sidbury, or near the town centre, you will find massage therapists in Sidmouth within easy reach.\n\nThe town's large retirement population and steady tourism trade mean therapists see a broad client base, from residents managing everyday aches and pains with deep tissue or remedial massage to visitors booking a relaxing Swedish or hot stone session. Walkers on the Jurassic Coast path add to demand for sports massage.\n\nTherapists across Sidmouth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Sidmouth, visiting homes across Sidford, Sidbury and beyond.\n\nCoverage also extends to nearby Budleigh Salterton, Seaton, Exmouth and the wider East Devon coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Sidmouth?",
+        answer:
+          "Most massage therapists in Sidmouth charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Sidmouth?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Sidmouth, visiting homes in areas such as Sidford and Sidbury. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I walk the Jurassic Coast path near Sidmouth, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks along the Jurassic Coast. Many Sidmouth therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Sidmouth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Sidmouth?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a seafront clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "budleigh-salterton": {
+    intro:
+      "Looking for a massage therapist in Budleigh Salterton? Find qualified practitioners across the seaside town, from East Budleigh Road and Otterton to the seafront and West Hill.",
+    body:
+      "Budleigh Salterton is a quiet Devon seaside town on the Jurassic Coast, near the mouth of the River Otter, with a spread of residential neighbourhoods. Whether you are near the seafront and town centre, north around East Budleigh Road, west towards Otterton, or near West Hill, you will find massage therapists in Budleigh Salterton within easy reach.\n\nThe town's large retirement population and quieter pace mean therapists see a broad client base, from residents managing everyday aches and pains with deep tissue or remedial massage to visitors booking a relaxing Swedish or hot stone session. Walkers on the Jurassic Coast path and around the Otter estuary add to demand for sports massage.\n\nTherapists across Budleigh Salterton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the seafront and town centre, while others provide mobile massage in Budleigh Salterton, visiting homes across East Budleigh Road, Otterton, West Hill and beyond.\n\nThe directory also covers nearby Exmouth, Sidmouth, Exeter and the wider East Devon coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Budleigh Salterton?",
+        answer:
+          "A one-hour massage in Budleigh Salterton usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Budleigh Salterton?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Budleigh Salterton and the surrounding areas, including East Budleigh Road, Otterton and West Hill. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk the Jurassic Coast path near Budleigh Salterton, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks along the Jurassic Coast and around the Otter estuary. Many Budleigh Salterton therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Budleigh Salterton?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Budleigh Salterton?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a seafront clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  padstow: {
+    intro:
+      "Looking for a massage therapist in Padstow? Browse qualified practitioners across the fishing port, from Prideaux Place and the Camel Trail to Treator and Trevone.",
+    body:
+      "Padstow is a Cornish fishing port at the mouth of the River Camel, well known for its harbour, seafood restaurants and the Camel Trail, with a spread of residential neighbourhoods. Whether you are near the harbour and town centre, near Prideaux Place, north towards Treator, or near Trevone, you will find massage therapists in Padstow within easy reach.\n\nCyclists and walkers using the Camel Trail often book sports massage for recovery, while the town's large tourism and hospitality trade means many staff work long shifts on their feet through the season. A relaxing Swedish or hot stone session near the harbour is a popular way for visitors and residents to unwind.\n\nTherapists across Padstow offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the harbour and town centre, while others provide mobile massage in Padstow, visiting homes across Prideaux Place, Treator, Trevone and beyond.\n\nCoverage also extends to nearby Wadebridge, Rock, Newquay and the wider North Cornwall coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Padstow?",
+        answer:
+          "Most massage therapists in Padstow charge around £35 to £75 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at my holiday let in Padstow?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Padstow, visiting homes and holiday accommodation in areas such as Prideaux Place, Treator and Trevone. Check each listing to confirm the areas covered and whether they visit holiday lets.",
+      },
+      {
+        question: "I cycle the Camel Trail near Padstow, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long rides on the Camel Trail. Many Padstow therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Padstow?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the therapists listed. Some specialise in relaxation treatments for visitors, while others focus on sports recovery. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Padstow?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether a harbourside clinic or a home visit suits you best. Reading the listing description helps you find the right match, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  wadebridge: {
+    intro:
+      "Looking for a massage therapist in Wadebridge? Find qualified practitioners across the market town, from the Camel Trail and Egloshayle to Trevanson and Gonvena Hill.",
+    body:
+      "Wadebridge is a Cornish market town on the River Camel, a popular hub for the Camel Trail cycling and walking route, with a spread of residential neighbourhoods. Whether you are near the town centre and Camel Trail, south around Egloshayle, west towards Trevanson, or near Gonvena Hill, you will find massage therapists in Wadebridge within easy reach.\n\nCyclists and walkers using the Camel Trail often book sports massage for recovery, while local gyms and sports clubs add further demand. A relaxing Swedish or hot stone session near the Camel riverside is a popular way to unwind after a busy week.\n\nTherapists across Wadebridge offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Egloshayle, while others provide mobile massage in Wadebridge, visiting homes across Trevanson, Gonvena Hill and beyond.\n\nThe directory also covers nearby Padstow, Bodmin, Rock and the wider North Cornwall coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Wadebridge?",
+        answer:
+          "A one-hour massage in Wadebridge usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Wadebridge?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Wadebridge and the surrounding areas, including Egloshayle, Trevanson and Gonvena Hill. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I cycle the Camel Trail through Wadebridge, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long rides on the Camel Trail. Many Wadebridge therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Wadebridge?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Wadebridge?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  launceston: {
+    intro:
+      "Looking for a massage therapist in Launceston? Browse qualified practitioners across the gateway to Cornwall, from St Stephens and Newport to Pennygillam and the town centre.",
+    body:
+      "Launceston is a historic walled Cornish town known as the Gateway to Cornwall, with a Norman castle and a spread of residential neighbourhoods near the Devon border. Whether you are near the town centre and castle, west around St Stephens, south towards Newport, or near Pennygillam, you will find massage therapists in Launceston within easy reach.\n\nLaunceston's logistics and manufacturing employers close to the A30 mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the castle grounds is a popular way to unwind.\n\nTherapists across Launceston offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and St Stephens, while others provide mobile massage in Launceston, visiting homes across Newport, Pennygillam and beyond.\n\nThe directory also covers nearby Bude, Tavistock, Callington and the wider Cornwall and Devon border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Launceston?",
+        answer:
+          "A one-hour massage in Launceston usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Launceston?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Launceston and the surrounding areas, including St Stephens, Newport and Pennygillam. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Launceston, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Launceston therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Launceston?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Launceston?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  brixham: {
+    intro:
+      "Looking for a massage therapist in Brixham? Find qualified practitioners across the fishing port, from Broadsands and Churston to Berry Head and the harbour.",
+    body:
+      "Brixham is a working Devon fishing port on the English Riviera, home to one of the UK's most valuable fish markets, with a spread of residential neighbourhoods along the coast. Whether you are near the harbour and town centre, north around Churston, south towards Berry Head, or near Broadsands, you will find massage therapists in Brixham within easy reach.\n\nThe fishing fleet and the town's tourism trade mean therapists see a broad client base, from fishing crews managing physically demanding work to visitors booking a relaxing Swedish or hot stone session as part of a break. Walkers on the coastal path towards Berry Head add to demand for sports massage.\n\nTherapists across Brixham offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the harbour and town centre, while others provide mobile massage in Brixham, visiting homes across Churston, Berry Head, Broadsands and beyond.\n\nCoverage also extends to nearby Paignton, Torquay, Kingswear and the wider Torbay area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Brixham?",
+        answer:
+          "Most massage therapists in Brixham charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Brixham?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Brixham, visiting homes in areas such as Churston, Berry Head and Broadsands. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work on the fishing boats in Brixham, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding fishing work. Many Brixham therapists are used to working around irregular hours, so check their listing for early or late availability.",
+      },
+      {
+        question: "What types of massage are available in Brixham?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Brixham?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a harbourside clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
