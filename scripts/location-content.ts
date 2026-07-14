@@ -6332,4 +6332,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  harrogate: {
+    intro:
+      "Looking for a massage therapist in Harrogate? Find qualified practitioners across the spa town, from Bilton and Starbeck to Jennyfields and Pannal.",
+    body:
+      "Harrogate is a North Yorkshire spa town famous for its Victorian architecture, the Stray parkland and Betty's Tea Rooms, with a spread of residential neighbourhoods reaching towards the Dales. Whether you are near the town centre and Stray, north around Bilton and Starbeck, east towards Jennyfields, or south near Pannal, you will find massage therapists in Harrogate within easy reach.\n\nThe town's spa heritage means relaxation-focused Swedish and hot stone massage remain especially popular, while the busy conference and exhibition centre brings a steady flow of business visitors booking treatments to unwind. Local gyms and sports clubs add to demand for sports massage, and a relaxing session near Valley Gardens or RHS Harlow Carr is a favourite way to switch off.\n\nTherapists across Harrogate offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Bilton, while others provide mobile massage in Harrogate, visiting homes across Starbeck, Jennyfields, Pannal and beyond.\n\nThe directory also covers nearby Knaresborough, Ripon, Wetherby and the wider North Yorkshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Harrogate?",
+        answer:
+          "A one-hour massage in Harrogate typically costs around £40 to £80, with the exact price depending on the treatment type, the therapist's experience and whether you visit a clinic or book a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available across Harrogate?",
+        answer:
+          "Yes. Several therapists provide mobile massage in Harrogate and the surrounding areas, including Bilton, Starbeck, Jennyfields and Pannal. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I'm visiting Harrogate for a conference, can I book a massage at my hotel?",
+        answer:
+          "Many therapists in Harrogate offer mobile visits to hotels near the conference centre. Check individual listings to confirm whether a therapist visits hotels and what notice they need.",
+      },
+      {
+        question: "What types of massage are available in Harrogate?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments in keeping with the town's spa heritage, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Harrogate?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  scarborough: {
+    intro:
+      "Looking for a massage therapist in Scarborough? Browse qualified practitioners across the seaside resort, from North Bay and South Bay to Falsgrave and Scalby.",
+    body:
+      "Scarborough is a North Yorkshire seaside resort built around two curving bays and a hilltop castle, with a spread of residential neighbourhoods reaching inland. Whether you are near the town centre and harbour, north around North Bay and Scalby, south towards South Bay, or near Falsgrave, you will find massage therapists in Scarborough within easy reach.\n\nThe town's large tourism and hospitality trade means many staff work long shifts on their feet through the season, driving demand for deep tissue and remedial massage to manage the physical strain. Visitors staying near the bays frequently book a relaxing Swedish or hot stone session, while walkers on the coastal paths add to demand for sports massage.\n\nTherapists across Scarborough offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the town centre and North Bay, while others provide mobile massage in Scarborough, visiting homes across South Bay, Falsgrave, Scalby and beyond.\n\nCoverage also extends to nearby Whitby, Filey, Bridlington and the wider North Yorkshire coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Scarborough?",
+        answer:
+          "Most massage therapists in Scarborough charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Scarborough?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Scarborough, visiting homes in areas such as North Bay, South Bay, Falsgrave and Scalby. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the leg, back and shoulder strain that comes with long shifts on your feet in hotels, bars and restaurants. Many Scarborough therapists are used to treating hospitality staff, so check their listing for evening or early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in Scarborough?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the therapists listed. Some specialise in relaxation treatments for visitors, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Scarborough?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether a town-centre clinic or a home visit suits you best. Reading the listing description helps you find the right match, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  doncaster: {
+    intro:
+      "Looking for a massage therapist in Doncaster? Find qualified practitioners across the town, from Hexthorpe and Balby to Wheatley and Bessacarr.",
+    body:
+      "Doncaster is a South Yorkshire town with a strong railway and racing heritage, home to Doncaster Racecourse and a spread of residential neighbourhoods. Whether you are near the town centre and racecourse, south around Hexthorpe and Balby, east towards Wheatley, or near Bessacarr, you will find massage therapists in Doncaster within easy reach.\n\nDoncaster's major logistics and distribution hub status close to the M18 and A1(M) means many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Racecourse visitors and local gyms add to demand for both relaxation and sports massage, while a relaxing Swedish or hot stone session near Elmfield Park is a popular way to unwind.\n\nTherapists across Doncaster offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Balby, while others provide mobile massage in Doncaster, visiting homes across Hexthorpe, Wheatley, Bessacarr and beyond.\n\nThe directory also covers nearby Rotherham, Barnsley, Retford and the wider South Yorkshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Doncaster?",
+        answer:
+          "A one-hour massage in Doncaster usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Doncaster?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Doncaster and the surrounding areas, including Hexthorpe, Balby, Wheatley and Bessacarr. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Doncaster, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Doncaster therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Doncaster?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Doncaster?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  selby: {
+    intro:
+      "Looking for a massage therapist in Selby? Browse qualified practitioners across the market town, from Barlby and Brayton to Thorpe Willoughby and the Abbey.",
+    body:
+      "Selby is a North Yorkshire market town on the River Ouse, with a historic Abbey and a spread of residential neighbourhoods reaching towards the surrounding farmland. Whether you are near the town centre and Abbey, east around Barlby, south towards Brayton, or near Thorpe Willoughby, you will find massage therapists in Selby within easy reach.\n\nSelby's logistics and manufacturing employers close to the M62 mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Ouse riverside is a popular way to unwind after a busy week.\n\nTherapists across Selby offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Barlby, while others provide mobile massage in Selby, visiting homes across Brayton, Thorpe Willoughby and beyond.\n\nThe directory also covers nearby York, Goole, Pontefract and the wider North Yorkshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Selby?",
+        answer:
+          "A one-hour massage in Selby usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Selby?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Selby and the surrounding areas, including Barlby, Brayton and Thorpe Willoughby. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Selby, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Selby therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Selby?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Selby?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  keighley: {
+    intro:
+      "Looking for a massage therapist in Keighley? Find qualified practitioners across the town, from Ingrow and Riddlesden to Fell Lane and Utley.",
+    body:
+      "Keighley is a West Yorkshire town at the gateway to Haworth and Brontë country, with a historic centre and a spread of residential neighbourhoods reaching towards the Worth Valley. Whether you are near the town centre, south around Ingrow, north towards Riddlesden, or near Fell Lane and Utley, you will find massage therapists in Keighley within easy reach.\n\nWalkers exploring the Worth Valley and Haworth Moor often book sports massage for recovery, while Keighley's manufacturing and logistics employers mean many clients also turn to deep tissue or remedial massage for physically demanding shift work. A relaxing Swedish or hot stone session near Cliffe Castle Park is a popular way to unwind after a busy week.\n\nTherapists across Keighley offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Ingrow, while others provide mobile massage in Keighley, visiting homes across Riddlesden, Fell Lane, Utley and beyond.\n\nCoverage also extends to nearby Bradford, Skipton, Haworth and the wider West Yorkshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Keighley?",
+        answer:
+          "Most massage therapists in Keighley charge around £30 to £60 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Keighley?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Keighley, visiting homes in areas such as Ingrow, Riddlesden, Fell Lane and Utley. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I walk on Haworth Moor or the Worth Valley near Keighley, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks in the Worth Valley and on Haworth Moor. Many Keighley therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Keighley?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Keighley?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  huddersfield: {
+    intro:
+      "Looking for a massage therapist in Huddersfield? Browse qualified practitioners across the town, from Lindley and Almondbury to Marsh and Newsome.",
+    body:
+      "Huddersfield is a West Yorkshire town with a strong textile heritage, home to the University of Huddersfield and a spread of residential neighbourhoods across the surrounding hills. Whether you are near the town centre, west around Lindley and Marsh, south towards Almondbury and Newsome, or near the university, you will find massage therapists in Huddersfield within easy reach.\n\nHuddersfield Town supporters at the John Smith's Stadium and the university's students and staff add to demand for both sports and relaxation massage, while the town's manufacturing and logistics employers mean many clients also book deep tissue or remedial massage for shift-based work. A relaxing Swedish or hot stone session near Greenhead Park is a popular way to unwind.\n\nTherapists across Huddersfield offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Lindley, while others provide mobile massage in Huddersfield, visiting homes across Almondbury, Marsh, Newsome and beyond.\n\nThe directory also covers nearby Halifax, Wakefield, Dewsbury and the wider West Yorkshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Huddersfield?",
+        answer:
+          "A one-hour massage in Huddersfield usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Huddersfield?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Huddersfield and the surrounding areas, including Lindley, Almondbury, Marsh and Newsome. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I'm a student at the University of Huddersfield, which massage suits a student budget?",
+        answer:
+          "Many therapists in Huddersfield offer standard Swedish or deep tissue sessions that suit a range of budgets, and some may offer shorter appointment lengths at a lower price. Check individual listings for pricing and any student-friendly options.",
+      },
+      {
+        question: "What types of massage are available in Huddersfield?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Huddersfield?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  ripon: {
+    intro:
+      "Looking for a massage therapist in Ripon? Find qualified practitioners across one of England's oldest cities, from the Cathedral and Market Square to Bondgate and Ure Bank.",
+    body:
+      "Ripon is a small North Yorkshire city known for its Cathedral and the nightly hornblower tradition in the Market Square, with a spread of residential neighbourhoods along the River Ure. Whether you are near the Cathedral and town centre, east around Bondgate, north towards Ure Bank, or near the racecourse, you will find massage therapists in Ripon within easy reach.\n\nWalkers and visitors exploring nearby Fountains Abbey and the Yorkshire Dales often book sports or deep tissue massage for recovery, while local gyms and sports clubs add further demand. A relaxing Swedish or hot stone session near Spa Gardens or the Ure riverside is a popular way to unwind after a busy week.\n\nTherapists across Ripon offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the city centre and Bondgate, while others provide mobile massage in Ripon, visiting homes across Ure Bank and beyond.\n\nThe directory also covers nearby Harrogate, Thirsk, Masham and the wider North Yorkshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Ripon?",
+        answer:
+          "A one-hour massage in Ripon usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Ripon?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Ripon and the surrounding areas, including Bondgate and Ure Bank. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk near Fountains Abbey or in the Dales close to Ripon, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks around Fountains Abbey and the Yorkshire Dales. Many Ripon therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Ripon?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Ripon?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city-centre clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  whitby: {
+    intro:
+      "Looking for a massage therapist in Whitby? Browse qualified practitioners across the fishing port, from the East Cliff and West Cliff to Ruswarp and Sandsend.",
+    body:
+      "Whitby is a North Yorkshire fishing port and seaside town, famous for its Abbey ruins and the 199 steps, with a spread of residential neighbourhoods on both sides of the River Esk. Whether you are near the harbour and town centre, up on the East Cliff near the Abbey, west around the West Cliff, or near Ruswarp and Sandsend, you will find massage therapists in Whitby within easy reach.\n\nThe town's fishing heritage and busy tourism trade mean therapists see a broad client base, from fishing crews managing physically demanding work to visitors booking a relaxing Swedish or hot stone session as part of a break. Walkers on the Cleveland Way add to demand for sports massage.\n\nTherapists across Whitby offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the harbour and town centre, while others provide mobile massage in Whitby, visiting homes across Ruswarp, Sandsend and beyond.\n\nCoverage also extends to nearby Scarborough, Robin Hood's Bay, Guisborough and the wider North Yorkshire coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Whitby?",
+        answer:
+          "Most massage therapists in Whitby charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Whitby?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Whitby, visiting homes in areas such as the East Cliff, West Cliff, Ruswarp and Sandsend. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work on the fishing boats in Whitby, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding fishing work. Many Whitby therapists are used to working around irregular hours, so check their listing for early or late availability.",
+      },
+      {
+        question: "What types of massage are available in Whitby?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Whitby?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a harbourside clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  skipton: {
+    intro:
+      "Looking for a massage therapist in Skipton? Find qualified practitioners across the Dales gateway, from Aireville and Gargrave Road to Broughton Road and Skipton Woods.",
+    body:
+      "Skipton is a North Yorkshire market town known as the Gateway to the Dales, with a historic castle and canal basin and a spread of residential neighbourhoods. Whether you are near the town centre and canal, north around Aireville, west towards Gargrave Road, or near Broughton Road, you will find massage therapists in Skipton within easy reach.\n\nWalkers and cyclists exploring the Yorkshire Dales often book sports massage for recovery, while local gyms and sports clubs add further demand. A relaxing Swedish or hot stone session near Aireville Park or the Leeds-Liverpool Canal is a popular way to unwind after a busy week.\n\nTherapists across Skipton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Aireville, while others provide mobile massage in Skipton, visiting homes across Gargrave Road, Broughton Road and beyond.\n\nThe directory also covers nearby Settle, Ilkley, Keighley and the wider Yorkshire Dales area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Skipton?",
+        answer:
+          "A one-hour massage in Skipton usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Skipton?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Skipton and the surrounding areas, including Aireville, Gargrave Road and Broughton Road. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk or cycle in the Yorkshire Dales near Skipton, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, runs or rides in the Yorkshire Dales. Many Skipton therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Skipton?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Skipton?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  beverley: {
+    intro:
+      "Looking for a massage therapist in Beverley? Browse qualified practitioners across the market town, from Molescroft and Woodmansey to Beverley Minster and Westwood.",
+    body:
+      "Beverley is an East Yorkshire market town known for its Minster and Westwood common, with a well-preserved centre and a spread of residential neighbourhoods. Whether you are near the town centre and Minster, north around Molescroft, south towards Woodmansey, or near Westwood, you will find massage therapists in Beverley within easy reach.\n\nBeverley's racecourse and local gyms and sports clubs add to demand for sports massage, while office workers and residents commuting into nearby Hull often turn to deep tissue or remedial massage for desk-related tension. A relaxing Swedish or hot stone session near Westwood or the Minster is a popular way to unwind after a busy week.\n\nTherapists across Beverley offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Molescroft, while others provide mobile massage in Beverley, visiting homes across Woodmansey, Westwood and beyond.\n\nCoverage also extends to nearby Hull, Driffield, Market Weighton and the wider East Yorkshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Beverley?",
+        answer:
+          "Most massage therapists in Beverley charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Beverley?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Beverley, visiting homes in areas such as Molescroft, Woodmansey and Westwood. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I commute into Hull from Beverley, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular commuting and desk work. Many Beverley therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Beverley?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Beverley?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
