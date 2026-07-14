@@ -7012,4 +7012,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  "st-ives": {
+    intro:
+      "Looking for a massage therapist in St Ives? Browse qualified practitioners across the Cornish artist town, from Carbis Bay and Halsetown to Porthmeor and the harbour.",
+    body:
+      "St Ives is a Cornish coastal town famous for its artist colony and golden beaches, home to Tate St Ives and the Barbara Hepworth Museum, with a spread of residential neighbourhoods. Whether you are near the harbour and town centre, east around Carbis Bay, south towards Halsetown, or near Porthmeor Beach, you will find massage therapists in St Ives within easy reach.\n\nSurfers using Porthmeor Beach often book sports or deep tissue massage for shoulder and back recovery, while the town's large tourism and hospitality trade means many staff work long shifts on their feet through the season. A relaxing Swedish or hot stone session is a popular way for visitors and residents to unwind.\n\nTherapists across St Ives offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the harbour and town centre, while others provide mobile massage in St Ives, visiting homes and holiday lets across Carbis Bay, Halsetown and beyond.\n\nCoverage also extends to nearby Penzance, Hayle, Camborne and the wider West Cornwall coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in St Ives?",
+        answer:
+          "Most massage therapists in St Ives charge around £35 to £75 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at my holiday let in St Ives?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across St Ives, visiting homes and holiday accommodation in areas such as Carbis Bay and Halsetown. Check each listing to confirm the areas covered and whether they visit holiday lets.",
+      },
+      {
+        question: "I surf at Porthmeor Beach, which massage helps with shoulder and back tightness?",
+        answer:
+          "Sports massage and deep tissue are well suited to the shoulder, back and forearm strain that comes with surfing and other watersports. Many St Ives therapists are used to treating surfers, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in St Ives?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the therapists listed. Some specialise in relaxation treatments for visitors, while others focus on sports recovery. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in St Ives?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether a town-centre clinic or a home visit suits you best. Reading the listing description helps you find the right match, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  bude: {
+    intro:
+      "Looking for a massage therapist in Bude? Find qualified practitioners across the surf town, from Summerleaze and Crooklets to Flexbury and Poughill.",
+    body:
+      "Bude is a Cornish coastal town popular with surfers, with a historic canal and long sandy beaches, plus a spread of residential neighbourhoods. Whether you are near the town centre and canal, west around Summerleaze and Crooklets, north towards Flexbury, or near Poughill, you will find massage therapists in Bude within easy reach.\n\nSurfers using Crooklets and Summerleaze beaches often book sports or deep tissue massage for shoulder and back recovery, while the town's tourism and hospitality trade drives demand for treatments among staff on their feet through the season. A relaxing Swedish or hot stone session near the canal or seafront is a popular way to unwind.\n\nTherapists across Bude offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Summerleaze, while others provide mobile massage in Bude, visiting homes across Flexbury, Poughill and beyond.\n\nThe directory also covers nearby Boscastle, Holsworthy, Launceston and the wider North Cornwall and Devon border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Bude?",
+        answer:
+          "A one-hour massage in Bude usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Bude?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Bude and the surrounding areas, including Summerleaze, Crooklets, Flexbury and Poughill. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I surf at Crooklets or Summerleaze, which massage helps with shoulder and back tightness?",
+        answer:
+          "Sports massage and deep tissue are well suited to the shoulder, back and forearm strain that comes with surfing and other watersports. Many Bude therapists are used to treating surfers, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Bude?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Bude?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  camborne: {
+    intro:
+      "Looking for a massage therapist in Camborne? Browse qualified practitioners across the mining heritage town, from Tuckingmill and Beacon to Treswithian and Pengegon.",
+    body:
+      "Camborne is a Cornish town at the heart of the county's tin and copper mining heritage, part of a UNESCO World Heritage mining landscape, with a spread of residential neighbourhoods. Whether you are near the town centre, north around Tuckingmill, south towards Beacon, or near Treswithian and Pengegon, you will find massage therapists in Camborne within easy reach.\n\nThe town's manufacturing and logistics employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Killivose or the town park is a popular way to unwind after a busy week.\n\nTherapists across Camborne offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Tuckingmill, while others provide mobile massage in Camborne, visiting homes across Beacon, Treswithian, Pengegon and beyond.\n\nThe directory also covers nearby Redruth, Hayle, Truro and the wider West Cornwall area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Camborne?",
+        answer:
+          "A one-hour massage in Camborne usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Camborne?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Camborne and the surrounding areas, including Tuckingmill, Beacon, Treswithian and Pengegon. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Camborne, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Camborne therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Camborne?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Camborne?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  redruth: {
+    intro:
+      "Looking for a massage therapist in Redruth? Find qualified practitioners across the town, from Pool and Carn Brea to Tolgus and Lanner.",
+    body:
+      "Redruth sits at the centre of Cornwall's historic mining district, with the Carn Brea monument overlooking the town and a spread of residential neighbourhoods. Whether you are near the town centre, east around Pool, south towards Carn Brea, or near Tolgus and Lanner, you will find massage therapists in Redruth within easy reach.\n\nWalkers exploring Carn Brea and the surrounding mining heritage trails often book sports massage for recovery, while the town's manufacturing and logistics employers mean many clients also turn to deep tissue or remedial massage for physically demanding shift work. A relaxing Swedish or hot stone session near the town park is a popular way to unwind.\n\nTherapists across Redruth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Pool, while others provide mobile massage in Redruth, visiting homes across Carn Brea, Tolgus, Lanner and beyond.\n\nCoverage also extends to nearby Camborne, Truro, Falmouth and the wider West Cornwall area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Redruth?",
+        answer:
+          "Most massage therapists in Redruth charge around £30 to £60 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Redruth?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Redruth, visiting homes in areas such as Pool, Carn Brea, Tolgus and Lanner. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I walk on Carn Brea near Redruth, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks on Carn Brea and the surrounding mining heritage trails. Many Redruth therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Redruth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Redruth?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  helston: {
+    intro:
+      "Looking for a massage therapist in Helston? Browse qualified practitioners across the market town, from Penrose and Trevenson to Meneage Street and Godolphin.",
+    body:
+      "Helston is a Cornish market town best known for the Furry Dance festival, sitting at the gateway to the Lizard Peninsula with a spread of residential neighbourhoods. Whether you are near the town centre and Meneage Street, north around Trevenson, south towards Penrose, or near Godolphin, you will find massage therapists in Helston within easy reach.\n\nWalkers and visitors exploring the Lizard Peninsula's coastal paths often book sports or deep tissue massage for recovery, while local gyms and sports clubs add further demand. A relaxing Swedish or hot stone session near Penrose or Loe Pool is a popular way to unwind after a busy week.\n\nTherapists across Helston offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Trevenson, while others provide mobile massage in Helston, visiting homes across Penrose, Godolphin and beyond.\n\nThe directory also covers nearby Falmouth, Penzance, Porthleven and the wider Lizard Peninsula, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Helston?",
+        answer:
+          "A one-hour massage in Helston usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Helston?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Helston and the surrounding areas, including Trevenson, Penrose and Godolphin. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk the coastal paths on the Lizard Peninsula, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks on the Lizard Peninsula's coastal paths. Many Helston therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Helston?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Helston?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  liskeard: {
+    intro:
+      "Looking for a massage therapist in Liskeard? Find qualified practitioners across the market town, from Lux Park and Lamellion to Dean and the Parade.",
+    body:
+      "Liskeard is a Cornish market town at the gateway to Bodmin Moor and the Looe Valley, with a historic centre and a spread of residential neighbourhoods. Whether you are near the town centre and Parade, north around Lux Park, south towards Lamellion, or near Dean, you will find massage therapists in Liskeard within easy reach.\n\nWalkers and cyclists exploring Bodmin Moor and the Looe Valley often book sports massage for recovery, while local gyms and sports clubs add further demand. A relaxing Swedish or hot stone session near Lux Park or the Parade is a popular way to unwind after a busy week.\n\nTherapists across Liskeard offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Lux Park, while others provide mobile massage in Liskeard, visiting homes across Lamellion, Dean and beyond.\n\nThe directory also covers nearby Looe, Bodmin, Saltash and the wider East Cornwall area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Liskeard?",
+        answer:
+          "A one-hour massage in Liskeard usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Liskeard?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Liskeard and the surrounding areas, including Lux Park, Lamellion and Dean. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk or cycle on Bodmin Moor near Liskeard, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, runs or rides on Bodmin Moor and in the Looe Valley. Many Liskeard therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Liskeard?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Liskeard?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  tavistock: {
+    intro:
+      "Looking for a massage therapist in Tavistock? Browse qualified practitioners across the stannary town, from Whitchurch and Pennygillam to Abbey Bridge and West Down.",
+    body:
+      "Tavistock is a historic Devon stannary town on the edge of Dartmoor, with a well-preserved Pannier Market and Abbey ruins, plus a spread of residential neighbourhoods. Whether you are near the town centre and Abbey, south around Whitchurch, north towards Pennygillam, or near West Down, you will find massage therapists in Tavistock within easy reach.\n\nWalkers and cyclists exploring Dartmoor often book sports massage for recovery, while local gyms and sports clubs add further demand. A relaxing Swedish or hot stone session near the Meadows or the River Tavy is a popular way to unwind after a busy week.\n\nTherapists across Tavistock offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Whitchurch, while others provide mobile massage in Tavistock, visiting homes across Pennygillam, West Down and beyond.\n\nThe directory also covers nearby Plymouth, Okehampton, Yelverton and the wider Dartmoor area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Tavistock?",
+        answer:
+          "A one-hour massage in Tavistock usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Tavistock?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Tavistock and the surrounding areas, including Whitchurch, Pennygillam and West Down. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk or cycle on Dartmoor near Tavistock, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, runs or rides on Dartmoor. Many Tavistock therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Tavistock?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Tavistock?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  okehampton: {
+    intro:
+      "Looking for a massage therapist in Okehampton? Find qualified practitioners across the Dartmoor gateway town, from Simmons Park and Fairplace to East Street and North Road.",
+    body:
+      "Okehampton is a Devon market town on the northern edge of Dartmoor National Park, with a historic castle and a spread of residential neighbourhoods. Whether you are near the town centre and East Street, south around Simmons Park, north towards North Road, or near Fairplace, you will find massage therapists in Okehampton within easy reach.\n\nWalkers, climbers and cyclists heading onto Dartmoor often book sports massage for recovery, while local gyms and sports clubs add further demand. A relaxing Swedish or hot stone session near Simmons Park or the East and West Okement rivers is a popular way to unwind after a busy week.\n\nTherapists across Okehampton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Fairplace, while others provide mobile massage in Okehampton, visiting homes across Simmons Park, North Road and beyond.\n\nThe directory also covers nearby Tavistock, Crediton, Exeter and the wider Dartmoor area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Okehampton?",
+        answer:
+          "A one-hour massage in Okehampton usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Okehampton?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Okehampton and the surrounding areas, including Simmons Park, Fairplace and North Road. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk or climb on Dartmoor near Okehampton, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, climbs or rides on Dartmoor. Many Okehampton therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Okehampton?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Okehampton?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  bideford: {
+    intro:
+      "Looking for a massage therapist in Bideford? Browse qualified practitioners across the Little White Town, from East-the-Water and Northam to Westward Ho! and Abbotsham.",
+    body:
+      "Bideford is a North Devon town on the River Torridge, known as the Little White Town for its harbourside houses, with a spread of residential neighbourhoods reaching towards the coast. Whether you are near the town centre and quay, east across the bridge in East-the-Water, north towards Northam, or near Westward Ho!, you will find massage therapists in Bideford within easy reach.\n\nWalkers and cyclists using the Tarka Trail, along with surfers heading to Westward Ho!, often book sports or deep tissue massage for recovery. Local gyms and sports clubs add further demand, while a relaxing Swedish or hot stone session near the quay or Victoria Park is a popular way to unwind after a busy week.\n\nTherapists across Bideford offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and East-the-Water, while others provide mobile massage in Bideford, visiting homes across Northam, Westward Ho!, Abbotsham and beyond.\n\nCoverage also extends to nearby Barnstaple, Great Torrington, Appledore and the wider North Devon coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Bideford?",
+        answer:
+          "Most massage therapists in Bideford charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Bideford?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Bideford, visiting homes in areas such as East-the-Water, Northam, Westward Ho! and Abbotsham. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I cycle the Tarka Trail or surf at Westward Ho!, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long rides on the Tarka Trail or sessions surfing at Westward Ho!. Many Bideford therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Bideford?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Bideford?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  ilfracombe: {
+    intro:
+      "Looking for a massage therapist in Ilfracombe? Find qualified practitioners across the seaside resort, from the harbour and Hele to Slade and Highfield.",
+    body:
+      "Ilfracombe is a North Devon seaside resort with a working harbour, dramatic coastal scenery and a spread of residential neighbourhoods across its hills. Whether you are near the harbour and town centre, east around Hele, south towards Slade, or near Highfield, you will find massage therapists in Ilfracombe within easy reach.\n\nThe town's tourism and hospitality trade means many staff work long shifts on their feet through the season, driving demand for deep tissue and remedial massage to manage the physical strain. Visitors staying near the harbour frequently book a relaxing Swedish or hot stone session, while walkers on the coastal paths add to demand for sports massage.\n\nTherapists across Ilfracombe offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons near the harbour and town centre, while others provide mobile massage in Ilfracombe, visiting homes across Hele, Slade, Highfield and beyond.\n\nThe directory also covers nearby Barnstaple, Woolacombe, Combe Martin and the wider North Devon coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Ilfracombe?",
+        answer:
+          "A one-hour massage in Ilfracombe usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Ilfracombe?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Ilfracombe and the surrounding areas, including Hele, Slade and Highfield. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the leg, back and shoulder strain that comes with long shifts on your feet in hotels, bars and restaurants. Many Ilfracombe therapists are used to treating hospitality staff, so check their listing for evening or early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in Ilfracombe?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Ilfracombe?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a harbourside clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
 };
