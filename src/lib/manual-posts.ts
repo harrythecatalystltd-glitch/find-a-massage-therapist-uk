@@ -214,7 +214,7 @@ export const manualPosts: ManualPost[] = [
     related: [
       "deep-tissue-vs-swedish-massage",
       "best-massage-for-lower-back-pain",
-      "how-often-should-you-get-a-massage",
+      "how-to-sleep-after-shoulder-surgery",
     ],
     html: `
 <p><strong>Sports massage</strong> is built around physical activity — preparing muscles before exercise, aiding recovery after it, and helping prevent or manage sports-related injuries. <strong>Deep tissue massage</strong> uses similar firm, targeted pressure, but it isn't tied to exercise — it's aimed at general chronic tension and tightness in daily life, whether or not you're active.</p>
@@ -300,7 +300,7 @@ export const manualPosts: ManualPost[] = [
     related: [
       "deep-tissue-vs-swedish-massage",
       "sports-massage-vs-deep-tissue-massage",
-      "how-often-should-you-get-a-massage",
+      "how-to-sleep-after-shoulder-surgery",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If your lower back pain is severe, follows an injury, spreads down your leg, or comes with numbness, tingling or weakness, see a GP or physiotherapist before booking a massage.</p>
@@ -533,6 +533,99 @@ export const manualPosts: ManualPost[] = [
         question: "Do I need to book a specific treatment, or can I just ask for 'a massage'?",
         answer:
           "You can simply ask for general relaxation and let the therapist recommend an approach, though naming a treatment (like Swedish or deep tissue) or describing what you're hoping for helps them prepare the right session in advance. If you're unsure which to pick, Swedish massage is the most common starting point for first-timers.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-sleep-after-shoulder-surgery",
+    title: "How to Sleep After Shoulder Surgery (Positions, Pillows and What Actually Helps)",
+    description:
+      "The safest sleeping positions after shoulder surgery, whether you actually need a special pillow, and how massage fits into recovery, based on NHS guidance.",
+    category: "Wellness Tips",
+    publishedAt: "2026-07-14",
+    readingTime: 8,
+    image: "/blog/how-to-sleep-after-shoulder-surgery.webp",
+    related: [
+      "best-massage-for-lower-back-pain",
+      "sports-massage-vs-deep-tissue-massage",
+      "how-often-should-you-get-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> Always follow the specific instructions your surgeon or physiotherapist gives you — they know your repair and your recovery plan better than any general guide can.</p>
+
+<p>Sleep is one of the hardest parts of the first few weeks after shoulder surgery. Rolling onto the wrong side, or losing your pillow support in the night, can undo the careful positioning your surgical team told you to keep. Here's what actually helps, based on NHS post-surgery guidance.</p>
+
+<p><strong>TL;DR:</strong> Sleep on your back or your unoperated side, not on the operated shoulder, for around six weeks (your surgeon will confirm the exact timeframe). Wear your sling at night if you've been told to. A pillow under your upper arm, or hugged in front of you if you're on your side, stops you rolling onto the repair. A dedicated recovery pillow like the <a href="https://rehabmarket.co.uk/products/shoulder-sleeper-pillow" target="_blank" rel="sponsored noopener noreferrer">Shoulder Sleeper Pillow</a> can make that positioning easier to hold all night, though a stack of ordinary pillows works too if you're not ready to buy one. Soft tissue massage often becomes part of recovery once your surgeon clears it, usually alongside physiotherapy rather than instead of it.</p>
+
+<h2>How long do you actually need to sleep carefully?</h2>
+<p>NHS guidance generally asks patients not to lie directly on the operated shoulder for around six weeks after surgery. That figure varies by procedure. Rotator cuff repairs and shoulder replacements tend to sit at the more cautious end, while a straightforward decompression may ease sooner. Your surgeon will give you a number specific to your repair. Treat any generic online figure, including this one, as a starting point to confirm, not a fixed rule.</p>
+
+<h2>The safest sleeping positions after shoulder surgery</h2>
+<p>Two positions come up consistently in NHS post-surgery advice:</p>
+<ul>
+<li><strong>On your back:</strong> the most commonly recommended position in the early weeks. Rest your operated arm on a pillow under the upper arm and elbow, so the shoulder isn't pulling downward all night.</li>
+<li><strong>On your unoperated side:</strong> hug a pillow in front of you to support the operated arm, and tuck another pillow along your back. That back pillow is what actually stops you rolling forward onto the repair once you're asleep and not thinking about it.</li>
+</ul>
+<p>Sleeping on the operated shoulder itself is the position to avoid. It's also the one people slip into without noticing, which is why the pillow behind your back matters as much as the one supporting your arm.</p>
+
+<h2>Do you need to wear your sling at night?</h2>
+<p>If your surgeon sent you home with a sling, the general instruction is to keep wearing it at night for the first five to six weeks, not just during the day. It's an easy step to skip once you're tired and just want to get comfortable, but it's doing the same job while you sleep that it does while you're up and about: keeping the joint from moving into a position it isn't ready for yet.</p>
+
+<h2>Do you actually need a special recovery pillow?</h2>
+<p>Not strictly. A stack of two or three ordinary pillows, arranged the way described above, does the same basic job. The trade-off is that ordinary pillows shift overnight, so you can wake up having lost the position you fell asleep in, particularly in the first couple of weeks when you're moving less and adjusting yourself is harder.</p>
+<p>This is the gap dedicated recovery pillows are built to close. The <a href="https://rehabmarket.co.uk/products/shoulder-sleeper-pillow" target="_blank" rel="sponsored noopener noreferrer">Shoulder Sleeper Pillow</a> from <a href="https://rehabmarket.co.uk/" target="_blank" rel="sponsored noopener noreferrer">RehabMarket</a>, for example, uses an adjustable strap system to hold the arm and shoulder in position through the night, plus a raised arm bar that's specifically there to stop you rolling onto the surgical side without noticing. It's built around the same positioning principles as the NHS advice above, just held in place rather than relying on pillows staying where you put them. It comes in two sizes based on your height and arm length, and RehabMarket also sell a separate <a href="https://rehabmarket.co.uk/products/shoulder-sleeper-cover" target="_blank" rel="sponsored noopener noreferrer">washable cover</a> for it.</p>
+<p>Whether that's worth it over a DIY pillow setup really comes down to how much the first few weeks of disrupted sleep are affecting you, and whether you'd rather buy the certainty than keep re-propping pillows at 3am.</p>
+
+<h2>What about heat and cold therapy?</h2>
+<p>Swelling and stiffness in the first days and weeks are normal, and cold therapy is commonly used to manage both, alongside whatever your surgical team has already advised. A reusable wrap, like the <a href="https://rehabmarket.co.uk/collections/hot-cold-therapy" target="_blank" rel="sponsored noopener noreferrer">Easy Ice Knee</a> style hot and cold wraps RehabMarket also stock, is a low-effort way to keep that going at home without constantly refilling ice bags. Follow whatever timing your physio gives you for how long and how often to apply it, since this varies by procedure.</p>
+
+<h2>Where massage fits into shoulder surgery recovery</h2>
+<p>Soft tissue massage is a genuine part of many rotator cuff and shoulder surgery rehab plans, but it isn't something to arrange independently in the first few weeks. It's usually introduced by your physiotherapist once your surgeon has confirmed the repair can tolerate it, as part of a wider plan that also includes guided exercises and stretching to rebuild range of motion and strength.</p>
+<p>Once you're cleared for it, massage can help reduce the stiffness and swelling that build up around a healing joint, and ease some of the compensating tension that shows up elsewhere (the neck and upper back are common spots) from weeks of favouring one side. A <a href="/massage/sports-massage/">sports massage</a> or <a href="/massage/remedial-massage/">remedial massage</a> therapist experienced with post-surgical clients is generally the better fit than a general relaxation massage at this stage, since the session needs to work around the repair, not just the sore spot. If your recovery is being led by a physiotherapist, it's worth checking with them before booking, so massage complements the rehab plan rather than working against it.</p>
+<p>You can browse qualified, insured therapists who list sports and remedial massage on our <a href="/find-a-therapist">massage therapist directory</a> once you're ready.</p>
+
+<h2>Everyday things that make the first few weeks easier</h2>
+<ul>
+<li><strong>Prop yourself up before you try to sit up.</strong> Rolling to your side first, then pushing up with your unaffected arm, puts far less strain on the shoulder than sitting straight up from lying flat.</li>
+<li><strong>Take pain relief before bed, not after you're already uncomfortable.</strong> It's easier to stay ahead of the pain than to catch up with it once you're lying down and it's harder to move around.</li>
+<li><strong>Keep a water bottle and anything you need overnight within reach of your unaffected arm.</strong> Reaching across your body for something on the wrong side is an easy way to strain the repair without meaning to.</li>
+</ul>
+
+<h2>When to call your surgeon or GP instead of pushing through</h2>
+<p>Some discomfort and disrupted sleep is a normal part of the first few weeks. It's not normal if you notice increasing pain rather than gradual improvement, redness, warmth or discharge around the wound, a fever, or new numbness, tingling or weakness in your hand or fingers. Any of those are reasons to contact your surgical team promptly rather than waiting it out or working around it with pillows.</p>
+
+<p>Sleep tends to get easier as the weeks go on and your body settles into the routine. If you're building a wider recovery plan that includes massage once you're cleared for it, compare qualified, insured sports and remedial massage therapists on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+`,
+    faqs: [
+      {
+        question: "How long do I need to avoid sleeping on my operated shoulder?",
+        answer:
+          "NHS guidance generally suggests around six weeks, but this varies by the type of surgery and by patient. Your surgeon will give you a timeframe specific to your repair, and that always takes priority over general guidance.",
+      },
+      {
+        question: "Can I sleep on my back after shoulder surgery?",
+        answer:
+          "Yes, this is usually one of the recommended positions, with a pillow supporting the upper arm and elbow. Sleeping on your unoperated side, with a pillow hugged in front for support, is the other commonly recommended option.",
+      },
+      {
+        question: "Do I need to wear my sling in bed?",
+        answer:
+          "If you've been sent home with a sling, the general instruction is to keep wearing it overnight for the first five to six weeks, not just during the day, unless your surgeon has told you otherwise.",
+      },
+      {
+        question: "Do I actually need a special recovery pillow after shoulder surgery?",
+        answer:
+          "Not strictly. A stack of ordinary pillows arranged to support the arm and stop you rolling onto the operated side works too. A dedicated recovery pillow mainly helps because it holds that position through the night, rather than shifting the way loose pillows can.",
+      },
+      {
+        question: "When can massage help with shoulder surgery recovery?",
+        answer:
+          "Usually once your surgeon or physiotherapist has confirmed the repair is ready for it, as part of a wider rehab plan alongside guided exercises. It's not something to arrange independently in the first few weeks. Once cleared, sports or remedial massage can help with stiffness and compensating tension elsewhere in the body.",
+      },
+      {
+        question: "How long does full shoulder surgery recovery usually take?",
+        answer:
+          "It depends heavily on the procedure. A smaller, less complex repair might feel largely settled within around four months, while a larger repair can take closer to a year before a full return to high-level activity.",
       },
     ],
   },
