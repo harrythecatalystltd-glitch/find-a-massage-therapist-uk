@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { getMassageTools } from "@/lib/queries";
 
@@ -47,9 +48,19 @@ export default async function MassageToolsPage() {
                 return (
                   <article className="therapist-card" key={tool.id}>
                     <div className="therapist-photo">
-                      <span className="photo-fallback" aria-hidden="true">
-                        {tool.business_name.charAt(0)}
-                      </span>
+                      {tool.logo_url ? (
+                        <Image
+                          src={tool.logo_url}
+                          alt={`${tool.business_name} logo`}
+                          width={400}
+                          height={300}
+                          unoptimized
+                        />
+                      ) : (
+                        <span className="photo-fallback" aria-hidden="true">
+                          {tool.business_name.charAt(0)}
+                        </span>
+                      )}
                       {discount && <span className="badge-tier">{discount}</span>}
                     </div>
                     <div className="therapist-body">
