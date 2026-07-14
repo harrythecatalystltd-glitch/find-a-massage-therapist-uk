@@ -7692,4 +7692,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  southport: {
+    intro:
+      "Looking for a massage therapist in Southport? Browse qualified practitioners across the seaside resort, from Birkdale and Ainsdale to Churchtown and Kew.",
+    body:
+      "Southport is a Merseyside seaside resort known for its elegant Lord Street boulevard and long sandy beach, with a spread of residential neighbourhoods reaching towards the golf coast. Whether you are near the town centre and Lord Street, south around Birkdale and Ainsdale, north towards Churchtown, or near Kew, you will find massage therapists in Southport within easy reach.\n\nThe town's golf heritage, including Royal Birkdale, and its tourism trade mean therapists see a broad client base, from golfers managing shoulder and back tightness to hospitality staff on their feet through the season. A relaxing Swedish or hot stone session near the Marine Lake or Victoria Park is a popular way to unwind.\n\nTherapists across Southport offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Birkdale, while others provide mobile massage in Southport, visiting homes across Ainsdale, Churchtown, Kew and beyond.\n\nThe directory also covers nearby Formby, Ormskirk, Preston and the wider Merseyside and Lancashire coast, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Southport?",
+        answer:
+          "A one-hour massage in Southport usually costs around £30 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Southport?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Southport and the surrounding areas, including Birkdale, Ainsdale, Churchtown and Kew. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I golf regularly around Southport, which massage helps with shoulder and back tightness?",
+        answer:
+          "Deep tissue and sports massage are well suited to easing the shoulder, back and hip tightness that comes with regular golf. Many Southport therapists are used to treating golfers, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Southport?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Southport?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "st-helens": {
+    intro:
+      "Looking for a massage therapist in St Helens? Find qualified practitioners across the town, from Rainhill and Eccleston to Thatto Heath and Sutton.",
+    body:
+      "St Helens is a Merseyside town with a glass-making heritage, home to the World of Glass museum and a spread of residential neighbourhoods. Whether you are near the town centre, east around Rainhill, west towards Eccleston, or near Thatto Heath and Sutton, you will find massage therapists in St Helens within easy reach.\n\nSt Helens RFC supporters and local gyms add to demand for sports massage, while the town's manufacturing and logistics employers mean many clients also book deep tissue or remedial massage for shift-based work. A relaxing Swedish or hot stone session near Taylor Park is a popular way to unwind after a busy week.\n\nTherapists across St Helens offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Rainhill, while others provide mobile massage in St Helens, visiting homes across Eccleston, Thatto Heath, Sutton and beyond.\n\nThe directory also covers nearby Liverpool, Warrington, Wigan and the wider Merseyside area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in St Helens?",
+        answer:
+          "A one-hour massage in St Helens usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across St Helens?",
+        answer:
+          "Yes. Several therapists offer mobile massage in St Helens and the surrounding areas, including Rainhill, Eccleston, Thatto Heath and Sutton. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I watch or play rugby league around St Helens, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to muscle recovery and reducing tightness after training or match day. Many St Helens therapists are used to working with rugby players and active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in St Helens?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in St Helens?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  crewe: {
+    intro:
+      "Looking for a massage therapist in Crewe? Browse qualified practitioners across the railway town, from Wistaston and Shavington to Crewe Green and Wychwood Park.",
+    body:
+      "Crewe is a Cheshire town built around its railway junction, home to Crewe Alexandra FC and a spread of residential neighbourhoods. Whether you are near the town centre, west around Wistaston, south towards Shavington, or near Crewe Green, you will find massage therapists in Crewe within easy reach.\n\nCrewe's manufacturing and logistics employers, including the nearby Bentley Motors plant, mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Queens Park is a popular way to unwind.\n\nTherapists across Crewe offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Wistaston, while others provide mobile massage in Crewe, visiting homes across Shavington, Crewe Green and beyond.\n\nThe directory also covers nearby Nantwich, Sandbach, Middlewich and the wider Cheshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Crewe?",
+        answer:
+          "A one-hour massage in Crewe usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Crewe?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Crewe and the surrounding areas, including Wistaston, Shavington and Crewe Green. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing around Crewe, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing work. Many Crewe therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Crewe?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Crewe?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  northwich: {
+    intro:
+      "Looking for a massage therapist in Northwich? Find qualified practitioners across the salt town, from Winnington and Castle to Leftwich and Rudheath.",
+    body:
+      "Northwich is a Cheshire town built on its salt-mining heritage, sitting where the Weaver and Dane rivers meet, with a spread of residential neighbourhoods. Whether you are near the town centre, north around Winnington and Castle, south towards Leftwich, or near Rudheath, you will find massage therapists in Northwich within easy reach.\n\nNorthwich's manufacturing and logistics employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the Weaver riverside or Marbury Country Park is a popular way to unwind.\n\nTherapists across Northwich offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Winnington, while others provide mobile massage in Northwich, visiting homes across Castle, Leftwich, Rudheath and beyond.\n\nThe directory also covers nearby Winsford, Middlewich, Knutsford and the wider Cheshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Northwich?",
+        answer:
+          "A one-hour massage in Northwich usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Northwich?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Northwich and the surrounding areas, including Winnington, Castle, Leftwich and Rudheath. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Northwich, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Northwich therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Northwich?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Northwich?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "ellesmere-port": {
+    intro:
+      "Looking for a massage therapist in Ellesmere Port? Browse qualified practitioners across the town, from Whitby and Great Sutton to Stanney and Rossmore.",
+    body:
+      "Ellesmere Port is a Cheshire town on the Manchester Ship Canal, home to the Blue Planet Aquarium and Cheshire Oaks Designer Outlet, with a spread of residential neighbourhoods. Whether you are near the town centre, east around Whitby, south towards Great Sutton, or near Stanney and Rossmore, you will find massage therapists in Ellesmere Port within easy reach.\n\nThe town's manufacturing and logistics employers, including large sites close to the M53 and Cheshire Oaks, mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near the canal or Rivacre Valley is a popular way to unwind.\n\nTherapists across Ellesmere Port offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Whitby, while others provide mobile massage in Ellesmere Port, visiting homes across Great Sutton, Stanney, Rossmore and beyond.\n\nThe directory also covers nearby Chester, Runcorn, Neston and the wider Cheshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Ellesmere Port?",
+        answer:
+          "A one-hour massage in Ellesmere Port usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Ellesmere Port?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Ellesmere Port and the surrounding areas, including Whitby, Great Sutton, Stanney and Rossmore. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Ellesmere Port, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Ellesmere Port therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Ellesmere Port?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Ellesmere Port?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  runcorn: {
+    intro:
+      "Looking for a massage therapist in Runcorn? Find qualified practitioners across the town, from Halton and Castlefields to Murdishaw and Norton.",
+    body:
+      "Runcorn is a Cheshire new town on the River Mersey, linked to Widnes by the Silver Jubilee Bridge, with a spread of residential neighbourhoods. Whether you are near the town centre and Bridgewater Canal, north around Halton and Castlefields, south towards Murdishaw, or near Norton, you will find massage therapists in Runcorn within easy reach.\n\nRuncorn's manufacturing and logistics employers, including large sites close to the M56 and M62, mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Norton Priory or the canal is a popular way to unwind.\n\nTherapists across Runcorn offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Halton, while others provide mobile massage in Runcorn, visiting homes across Castlefields, Murdishaw, Norton and beyond.\n\nThe directory also covers nearby Widnes, Warrington, Frodsham and the wider Cheshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Runcorn?",
+        answer:
+          "A one-hour massage in Runcorn usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Runcorn?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Runcorn and the surrounding areas, including Halton, Castlefields, Murdishaw and Norton. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Runcorn, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Runcorn therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Runcorn?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Runcorn?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  widnes: {
+    intro:
+      "Looking for a massage therapist in Widnes? Browse qualified practitioners across the town, from Farnworth and Appleton to Ditton and Hough Green.",
+    body:
+      "Widnes is a Cheshire town on the River Mersey, with a chemical industry heritage and a spread of residential neighbourhoods linked to Runcorn by the Silver Jubilee Bridge. Whether you are near the town centre, north around Farnworth, south towards Appleton, or near Ditton and Hough Green, you will find massage therapists in Widnes within easy reach.\n\nWidnes Vikings supporters and local gyms add to demand for sports massage, while the town's chemical and logistics employers mean many clients also book deep tissue or remedial massage for shift-based work. A relaxing Swedish or hot stone session near Victoria Park or Spike Island is a popular way to unwind after a busy week.\n\nTherapists across Widnes offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Farnworth, while others provide mobile massage in Widnes, visiting homes across Appleton, Ditton, Hough Green and beyond.\n\nThe directory also covers nearby Runcorn, Warrington, St Helens and the wider Cheshire and Merseyside border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Widnes?",
+        answer:
+          "A one-hour massage in Widnes usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Widnes?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Widnes and the surrounding areas, including Farnworth, Appleton, Ditton and Hough Green. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I watch or play rugby league around Widnes, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to muscle recovery and reducing tightness after training or match day. Many Widnes therapists are used to working with rugby players and active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Widnes?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Widnes?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  macclesfield: {
+    intro:
+      "Looking for a massage therapist in Macclesfield? Find qualified practitioners across the silk town, from Hurdsfield and Tytherington to Broken Cross and Upton Priory.",
+    body:
+      "Macclesfield is a Cheshire town with a silk-weaving heritage, sitting on the edge of the Peak District with a spread of residential neighbourhoods. Whether you are near the town centre and Silk Museum, north around Hurdsfield, east towards Tytherington, or near Broken Cross, you will find massage therapists in Macclesfield within easy reach.\n\nWalkers and cyclists exploring the Peak District and Macclesfield Forest often book sports massage for recovery, while the town's manufacturing and pharmaceutical employers mean many clients also turn to deep tissue or remedial massage for shift-based work. A relaxing Swedish or hot stone session near West Park is a popular way to unwind.\n\nTherapists across Macclesfield offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Hurdsfield, while others provide mobile massage in Macclesfield, visiting homes across Tytherington, Broken Cross, Upton Priory and beyond.\n\nThe directory also covers nearby Wilmslow, Congleton, Buxton and the wider Cheshire and Peak District border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Macclesfield?",
+        answer:
+          "A one-hour massage in Macclesfield usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Macclesfield?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Macclesfield and the surrounding areas, including Hurdsfield, Tytherington, Broken Cross and Upton Priory. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk or cycle in the Peak District near Macclesfield, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, runs or rides in the Peak District and Macclesfield Forest. Many Macclesfield therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Macclesfield?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Macclesfield?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  altrincham: {
+    intro:
+      "Looking for a massage therapist in Altrincham? Browse qualified practitioners across the market town, from Hale and Broadheath to Timperley and Bowdon.",
+    body:
+      "Altrincham is an affluent Greater Manchester market town known for its revitalised market hall, with a spread of leafy residential neighbourhoods. Whether you are near the town centre and market, east around Hale, west towards Broadheath, or near Timperley and Bowdon, you will find massage therapists in Altrincham within easy reach.\n\nCommuters travelling into Manchester on the Metrolink often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while local gyms and sports clubs add to demand for sports massage. A relaxing Swedish or hot stone session near Stamford Park or the Bridgewater Canal is a popular way to unwind after a busy week.\n\nTherapists across Altrincham offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Hale, while others provide mobile massage in Altrincham, visiting homes across Broadheath, Timperley, Bowdon and beyond.\n\nThe directory also covers nearby Sale, Wilmslow, Stockport and the wider Greater Manchester and Cheshire border, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Altrincham?",
+        answer:
+          "A one-hour massage in Altrincham typically costs around £40 to £80, with the exact price depending on the treatment type, the therapist's experience and whether you visit a clinic or book a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available across Altrincham?",
+        answer:
+          "Yes. Several therapists provide mobile massage in Altrincham and the surrounding areas, including Hale, Broadheath, Timperley and Bowdon. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I commute into Manchester from Altrincham, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular commuting and desk work. Many Altrincham therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Altrincham?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Altrincham?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "barrow-in-furness": {
+    intro:
+      "Looking for a massage therapist in Barrow-in-Furness? Find qualified practitioners across the shipbuilding town, from Walney Island and Vickerstown to Hawcoat and Roose.",
+    body:
+      "Barrow-in-Furness is a Cumbrian shipbuilding town on the edge of the Furness peninsula, with a strong industrial heritage and a spread of residential neighbourhoods. Whether you are near the town centre and docks, west across the channel on Walney Island, north around Hawcoat, or near Roose, you will find massage therapists in Barrow-in-Furness within easy reach.\n\nThe shipyard is the town's largest employer, and many clients book deep tissue or remedial massage to manage the physical demands and shift patterns of skilled industrial work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Furness Abbey or Walney Island's nature reserve is a popular way to unwind.\n\nTherapists across Barrow-in-Furness offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Vickerstown, while others provide mobile massage in Barrow-in-Furness, visiting homes across Walney Island, Hawcoat, Roose and beyond.\n\nThe directory also covers nearby Ulverston, Dalton-in-Furness, Kendal and the wider South Cumbria area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Barrow-in-Furness?",
+        answer:
+          "A one-hour massage in Barrow-in-Furness usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Barrow-in-Furness?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Barrow-in-Furness and the surrounding areas, including Walney Island, Vickerstown, Hawcoat and Roose. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts at the shipyard in Barrow-in-Furness, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based shipbuilding and industrial work. Many Barrow-in-Furness therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Barrow-in-Furness?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Barrow-in-Furness?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
 };
