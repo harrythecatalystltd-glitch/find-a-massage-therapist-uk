@@ -5312,4 +5312,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  wrexham: {
+    intro:
+      "Looking for a massage therapist in Wrexham? Find qualified practitioners across North Wales' largest town, from Acton and Rhosddu to Caia Park and Rhosnesni.",
+    body:
+      "Wrexham is North Wales' largest town, with a historic centre around St Giles' Church and a spread of residential neighbourhoods reaching towards the Welsh borders. Whether you are near the town centre, north around Acton and Rhosddu, east towards Caia Park, or south near Rhosnesni, you will find massage therapists in Wrexham within easy reach.\n\nWrexham AFC supporters at the Racecourse Ground and local gym-goers add to demand for sports massage, while the town's manufacturing and logistics employers mean many clients also book deep tissue or remedial massage to manage physically demanding shift work. A relaxing Swedish or hot stone session near Bellevue Park is a popular way to unwind after a busy week.\n\nTherapists across Wrexham offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Rhosddu, while others provide mobile massage in Wrexham, visiting homes across Caia Park, Rhosnesni and beyond.\n\nThe directory also covers nearby Chester, Mold, Llangollen and the wider North Wales border area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Wrexham?",
+        answer:
+          "A one-hour massage in Wrexham usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Wrexham?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Wrexham and the surrounding areas, including Acton, Rhosddu, Caia Park and Rhosnesni. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I watch or play football at the Racecourse Ground, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to muscle recovery and reducing tightness after training or match day. Many Wrexham therapists are used to working with footballers and active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Wrexham?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Wrexham?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  bangor: {
+    intro:
+      "Looking for a massage therapist in Bangor? Browse qualified practitioners across the Gwynedd city, from Upper Bangor and Maesgeirchen to Menai Bridge and the harbour.",
+    body:
+      "Bangor is a small Welsh city on the Menai Strait, home to Bangor University and a historic Cathedral, with a spread of residential neighbourhoods close to Snowdonia. Whether you are near the city centre and High Street, north around Upper Bangor, east towards Menai Bridge, or south near Maesgeirchen, you will find massage therapists in Bangor within easy reach.\n\nBangor University's students and staff bring a steady flow of clients for both relaxation and recovery treatments, while walkers and climbers heading into Snowdonia often book sports or deep tissue massage for recovery. A relaxing Swedish or hot stone session near the Menai Strait or Garth Pier is a popular way to unwind.\n\nTherapists across Bangor offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the city centre and Upper Bangor, while others provide mobile massage in Bangor, visiting homes across Menai Bridge, Maesgeirchen and beyond.\n\nCoverage also extends to nearby Caernarfon, Conwy, Llandudno and the wider North Wales coast and Snowdonia area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Bangor?",
+        answer:
+          "Most massage therapists in Bangor charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Bangor?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Bangor, visiting homes in areas such as Upper Bangor, Menai Bridge and Maesgeirchen. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I walk or climb in Snowdonia near Bangor, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, climbs or rides in Snowdonia. Many Bangor therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Bangor?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Bangor?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a city-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  aberystwyth: {
+    intro:
+      "Looking for a massage therapist in Aberystwyth? Find qualified practitioners across the seafront town, from the harbour and Penparcau to Llanbadarn Fawr and the Old College.",
+    body:
+      "Aberystwyth is a Ceredigion coastal town on Cardigan Bay, home to Aberystwyth University and a well-known seafront promenade, with a spread of residential neighbourhoods reaching inland. Whether you are near the town centre and seafront, south around Penparcau, east towards Llanbadarn Fawr, or near the harbour, you will find massage therapists in Aberystwyth within easy reach.\n\nAberystwyth University's students and staff bring a steady flow of clients for both relaxation and recovery treatments, while the town's tourism trade along the seafront adds demand for treatments among hospitality staff. A relaxing Swedish or hot stone session near the promenade or Constitution Hill is a popular way to unwind.\n\nTherapists across Aberystwyth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and near the seafront, while others provide mobile massage in Aberystwyth, visiting homes across Penparcau, Llanbadarn Fawr and beyond.\n\nThe directory also covers nearby Machynlleth, Cardigan, Newtown and the wider Mid Wales area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Aberystwyth?",
+        answer:
+          "A one-hour massage in Aberystwyth usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Aberystwyth?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Aberystwyth and the surrounding areas, including Penparcau, Llanbadarn Fawr and the harbour area. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I'm a student at Aberystwyth University, which massage suits a student budget?",
+        answer:
+          "Many therapists in Aberystwyth offer standard Swedish or deep tissue sessions that suit a range of budgets, and some may offer shorter appointment lengths at a lower price. Check individual listings for pricing and any student-friendly options.",
+      },
+      {
+        question: "What types of massage are available in Aberystwyth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Aberystwyth?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  llandudno: {
+    intro:
+      "Looking for a massage therapist in Llandudno? Browse qualified practitioners across North Wales' largest resort, from Craig-y-Don and West Shore to the Great Orme and town centre.",
+    body:
+      "Llandudno is North Wales' largest seaside resort, with a Victorian promenade curving between the Great Orme and Little Orme, and a spread of residential neighbourhoods. Whether you are near the promenade and town centre, east around Craig-y-Don, west towards West Shore, or up near the Great Orme, you will find massage therapists in Llandudno within easy reach.\n\nThe town's strong tourism and hospitality trade means many staff work long shifts on their feet through the season, driving demand for deep tissue and remedial massage to manage the physical strain. Visitors staying along the promenade frequently book a relaxing Swedish or hot stone session, while walkers on the Great Orme add to demand for sports massage.\n\nTherapists across Llandudno offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics, salons and hotel spas near the promenade and town centre, while others provide mobile massage in Llandudno, visiting homes across Craig-y-Don, West Shore and beyond.\n\nCoverage also extends to nearby Conwy, Colwyn Bay, Rhyl and the wider North Wales coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Llandudno?",
+        answer:
+          "Most massage therapists in Llandudno charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic, hotel spa or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at my hotel or home in Llandudno?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Llandudno, visiting hotels and homes in areas such as Craig-y-Don and West Shore. Check each listing to confirm the areas covered and whether they visit hotels.",
+      },
+      {
+        question: "I'm on my feet all day working in hospitality, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to the leg, back and shoulder strain that comes with long shifts on your feet in hotels, bars and restaurants. Many Llandudno therapists are used to treating hospitality staff, so check their listing for evening or early-morning availability.",
+      },
+      {
+        question: "What types of massage are available in Llandudno?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the therapists listed. Some specialise in relaxation treatments for visitors, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Llandudno?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether a promenade clinic, hotel spa or home visit suits you best. Reading the listing description helps you find the right match, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  "merthyr-tydfil": {
+    intro:
+      "Looking for a massage therapist in Merthyr Tydfil? Find qualified practitioners across the Valleys town, from Gurnos and Dowlais to Georgetown and Treharris.",
+    body:
+      "Merthyr Tydfil sits at the head of the South Wales Valleys, with an industrial ironworks heritage centred on Cyfarthfa Castle and a spread of residential neighbourhoods across the surrounding hills. Whether you are near the town centre and Cyfarthfa Park, north around Dowlais, south towards Georgetown, or near Treharris, you will find massage therapists in Merthyr Tydfil within easy reach.\n\nThe town's manufacturing and logistics employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Cyfarthfa Park is a popular way to unwind after a busy week.\n\nTherapists across Merthyr Tydfil offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Gurnos, while others provide mobile massage in Merthyr Tydfil, visiting homes across Dowlais, Georgetown, Treharris and beyond.\n\nThe directory also covers nearby Aberdare, Pontypridd, Ebbw Vale and the wider South Wales Valleys, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Merthyr Tydfil?",
+        answer:
+          "A one-hour massage in Merthyr Tydfil usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Merthyr Tydfil?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Merthyr Tydfil and the surrounding areas, including Gurnos, Dowlais, Georgetown and Treharris. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Merthyr Tydfil, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Merthyr Tydfil therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Merthyr Tydfil?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Merthyr Tydfil?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  barry: {
+    intro:
+      "Looking for a massage therapist in Barry? Browse qualified practitioners across the Vale of Glamorgan town, from Barry Island and Cadoxton to Colcot and Court Road.",
+    body:
+      "Barry is a Vale of Glamorgan seaside town, well known for Barry Island and its beaches, with a working docks heritage and a spread of residential neighbourhoods. Whether you are near the town centre and Barry Island, south around Cadoxton, north towards Colcot, or near Court Road, you will find massage therapists in Barry within easy reach.\n\nThe town's tourism trade around Barry Island drives demand for treatments among hospitality staff, while the docks and logistics sites mean many clients also book deep tissue or remedial massage for physically demanding work. A relaxing Swedish or hot stone session near the seafront is a popular way for visitors and residents to unwind.\n\nTherapists across Barry offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Barry Island, while others provide mobile massage in Barry, visiting homes across Cadoxton, Colcot, Court Road and beyond.\n\nCoverage also extends to nearby Cardiff, Penarth, Bridgend and the wider Vale of Glamorgan, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Barry?",
+        answer:
+          "Most massage therapists in Barry charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Barry?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Barry, visiting homes in areas such as Cadoxton, Colcot and Court Road. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work in the docks or in logistics around Barry, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding dock and logistics work. Many Barry therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Barry?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Barry?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  bridgend: {
+    intro:
+      "Looking for a massage therapist in Bridgend? Find qualified practitioners across the town, from Brackla and Coity to Pencoed and Pen-y-fai.",
+    body:
+      "Bridgend is a South Wales market town midway between Cardiff and Swansea, with a busy centre and a spread of residential neighbourhoods reaching towards the coast and valleys. Whether you are near the town centre, east around Brackla, north towards Coity, or west near Pencoed and Pen-y-fai, you will find massage therapists in Bridgend within easy reach.\n\nBridgend's large retail and logistics sites, including the Designer Outlet and nearby industrial estates, mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Newbridge Fields is a popular way to unwind.\n\nTherapists across Bridgend offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Brackla, while others provide mobile massage in Bridgend, visiting homes across Coity, Pencoed, Pen-y-fai and beyond.\n\nThe directory also covers nearby Porthcawl, Neath, Port Talbot and the wider South Wales area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Bridgend?",
+        answer:
+          "A one-hour massage in Bridgend usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Bridgend?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Bridgend and the surrounding areas, including Brackla, Coity, Pencoed and Pen-y-fai. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work in retail or logistics near the Designer Outlet, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding retail and logistics work. Many Bridgend therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Bridgend?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Bridgend?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  neath: {
+    intro:
+      "Looking for a massage therapist in Neath? Browse qualified practitioners across the town, from Cimla and Bryncoch to Neath Abbey and Skewen.",
+    body:
+      "Neath is a South Wales town on the River Neath, with a historic abbey and a spread of residential neighbourhoods reaching towards the Vale of Neath. Whether you are near the town centre, east around Cimla, north towards Bryncoch, or south near Neath Abbey and Skewen, you will find massage therapists in Neath within easy reach.\n\nThe town's manufacturing and logistics employers close to the M4 mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Gnoll Country Park is a popular way to unwind after a busy week.\n\nTherapists across Neath offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Cimla, while others provide mobile massage in Neath, visiting homes across Bryncoch, Neath Abbey, Skewen and beyond.\n\nCoverage also extends to nearby Swansea, Port Talbot, Pontardawe and the wider South Wales area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Neath?",
+        answer:
+          "Most massage therapists in Neath charge around £30 to £60 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Neath?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Neath, visiting homes in areas such as Cimla, Bryncoch, Neath Abbey and Skewen. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work shifts in manufacturing around Neath, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing work. Many Neath therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Neath?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Neath?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "port-talbot": {
+    intro:
+      "Looking for a massage therapist in Port Talbot? Find qualified practitioners across the town, from Sandfields and Margam to Aberavon seafront and Baglan.",
+    body:
+      "Port Talbot is a South Wales town best known for its steelworks, with a long sandy beach at Aberavon and a spread of residential neighbourhoods. Whether you are near the town centre, south around Sandfields and Aberavon, east towards Margam, or near Baglan, you will find massage therapists in Port Talbot within easy reach.\n\nThe steelworks and surrounding industrial sites are a major source of local employment, and many clients book deep tissue or remedial massage to manage the physical demands and shift patterns of the work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Aberavon seafront is a popular way to unwind.\n\nTherapists across Port Talbot offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Sandfields, while others provide mobile massage in Port Talbot, visiting homes across Margam, Baglan and beyond.\n\nThe directory also covers nearby Neath, Bridgend, Swansea and the wider South Wales area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Port Talbot?",
+        answer:
+          "A one-hour massage in Port Talbot usually costs around £30 to £60, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Port Talbot?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Port Talbot and the surrounding areas, including Sandfields, Margam and Baglan. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts at the steelworks around Port Talbot, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based steelworks and industrial work. Many Port Talbot therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Port Talbot?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Port Talbot?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  pontypridd: {
+    intro:
+      "Looking for a massage therapist in Pontypridd? Browse qualified practitioners across the Valleys town, from Treforest and Graigwen to Rhydyfelin and Cilfynydd.",
+    body:
+      "Pontypridd sits where the Taff and Rhondda valleys meet, with a historic market town centre and a spread of residential neighbourhoods across the surrounding hills. Whether you are near the town centre and Ynysangharad Park, south around Treforest, north towards Graigwen, or near Rhydyfelin and Cilfynydd, you will find massage therapists in Pontypridd within easy reach.\n\nThe University of South Wales campus at Treforest brings a steady flow of students and staff looking for both relaxation and recovery treatments, while local gyms and rugby clubs add to demand for sports massage. A relaxing Swedish or hot stone session near Ynysangharad War Memorial Park is a popular way to unwind after a busy week.\n\nTherapists across Pontypridd offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Treforest, while others provide mobile massage in Pontypridd, visiting homes across Graigwen, Rhydyfelin, Cilfynydd and beyond.\n\nCoverage also extends to nearby Cardiff, Merthyr Tydfil, Caerphilly and the wider South Wales Valleys, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Pontypridd?",
+        answer:
+          "Most massage therapists in Pontypridd charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Pontypridd?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Pontypridd, visiting homes in areas such as Treforest, Graigwen, Rhydyfelin and Cilfynydd. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I'm a student at the University of South Wales in Treforest, which massage suits a student budget?",
+        answer:
+          "Many therapists in Pontypridd offer standard Swedish or deep tissue sessions that suit a range of budgets, and some may offer shorter appointment lengths at a lower price. Check individual listings for pricing and any student-friendly options.",
+      },
+      {
+        question: "What types of massage are available in Pontypridd?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Pontypridd?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
