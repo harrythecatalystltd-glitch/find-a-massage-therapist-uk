@@ -5652,4 +5652,344 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  inverness: {
+    intro:
+      "Looking for a massage therapist in Inverness? Find qualified practitioners across the Highland capital, from Culloden and Drakies to Merkinch and the Ness banks.",
+    body:
+      "Inverness is the capital of the Scottish Highlands, sitting on the River Ness with a compact centre and a spread of residential neighbourhoods reaching towards Loch Ness and the surrounding hills. Whether you are near the town centre and Ness banks, east around Culloden and Drakies, west towards Merkinch, or south near the castle, you will find massage therapists in Inverness within easy reach.\n\nWalkers and climbers heading into the Highlands often book sports or deep tissue massage for recovery, while the town's tourism trade drives demand for treatments among hospitality staff. Local gyms and sports clubs add further demand, and a relaxing Swedish or hot stone session near the Ness Islands is a popular way to unwind.\n\nTherapists across Inverness offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Drakies, while others provide mobile massage in Inverness, visiting homes across Culloden, Merkinch and beyond.\n\nThe directory also covers nearby Nairn, Dingwall, Aviemore and the wider Highland area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Inverness?",
+        answer:
+          "A one-hour massage in Inverness usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Inverness?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Inverness and the surrounding areas, including Culloden, Drakies and Merkinch. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I walk or climb in the Highlands near Inverness, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to easing tight muscles and aiding recovery after long walks, climbs or rides in the Highlands. Many Inverness therapists are used to treating active clients, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Inverness?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Inverness?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  perth: {
+    intro:
+      "Looking for a massage therapist in Perth? Browse qualified practitioners across the Fair City, from Kinnoull and Cherrybank to Letham and Bridgend.",
+    body:
+      "Perth sits on the River Tay in central Scotland, with a compact centre and a spread of residential neighbourhoods reaching towards the surrounding countryside. Whether you are near the town centre, east around Kinnoull, west towards Cherrybank, or north near Letham and Bridgend, you will find massage therapists in Perth within easy reach.\n\nPerth's logistics and distribution sites close to the M90 mean many clients book deep tissue or remedial massage to manage physically demanding shift work, while office workers in the town centre often turn to deep tissue for desk-related tension. Local gyms and sports clubs add to demand for sports massage, and a relaxing Swedish or hot stone session near the North Inch or South Inch parks is a popular way to unwind.\n\nTherapists across Perth offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Kinnoull, while others provide mobile massage in Perth, visiting homes across Cherrybank, Letham, Bridgend and beyond.\n\nCoverage also extends to nearby Dundee, Stirling, Perthshire and the wider central Scotland area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Perth?",
+        answer:
+          "Most massage therapists in Perth charge around £35 to £70 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Perth?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Perth, visiting homes in areas such as Kinnoull, Cherrybank, Letham and Bridgend. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work in a warehouse or distribution centre around Perth, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain that comes with physically demanding warehouse and distribution work. Many Perth therapists are used to working around shift patterns, so check their listing for early, late or weekend availability.",
+      },
+      {
+        question: "What types of massage are available in Perth?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Perth?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  stirling: {
+    intro:
+      "Looking for a massage therapist in Stirling? Find qualified practitioners across the historic city, from Bridge of Allan and Causewayhead to Cornton and Raploch.",
+    body:
+      "Stirling is a historic Scottish city built around its hilltop castle, with the University of Stirling nearby and a spread of residential neighbourhoods reaching towards the Trossachs. Whether you are near the city centre and castle, north around Bridge of Allan and Causewayhead, west towards Raploch, or near Cornton, you will find massage therapists in Stirling within easy reach.\n\nThe University of Stirling's students, staff and sporting facilities bring a steady flow of clients for both relaxation and sports recovery treatments, while walkers and cyclists exploring the nearby Trossachs add further demand for sports massage. A relaxing Swedish or hot stone session near the King's Park or the River Forth is a popular way to unwind.\n\nTherapists across Stirling offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the city centre and Bridge of Allan, while others provide mobile massage in Stirling, visiting homes across Causewayhead, Cornton, Raploch and beyond.\n\nThe directory also covers nearby Falkirk, Dunblane, Alloa and the wider central Scotland area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Stirling?",
+        answer:
+          "A one-hour massage in Stirling usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Stirling?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Stirling and the surrounding areas, including Bridge of Allan, Causewayhead, Cornton and Raploch. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I train at the University of Stirling's sports facilities, which massage helps recovery?",
+        answer:
+          "Sports massage and deep tissue are well suited to muscle recovery and reducing tightness after intensive training. Many Stirling therapists are experienced in working with athletes and students, so check their listing for availability around training schedules.",
+      },
+      {
+        question: "What types of massage are available in Stirling?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Stirling?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a city-centre clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  ayr: {
+    intro:
+      "Looking for a massage therapist in Ayr? Browse qualified practitioners across the Ayrshire coast, from Alloway and Doonfoot to Prestwick and Newton-on-Ayr.",
+    body:
+      "Ayr is a Scottish seaside town on the Ayrshire coast, with a long sandy beach, a well-known racecourse and a spread of residential neighbourhoods. Whether you are near the town centre and seafront, south around Alloway and Doonfoot, north towards Prestwick, or near Newton-on-Ayr, you will find massage therapists in Ayr within easy reach.\n\nAyr United supporters and local golf and racing enthusiasts add to demand for sports massage, while the town's tourism and hospitality trade drives demand for treatments among staff on their feet through the season. A relaxing Swedish or hot stone session along the seafront is a popular way for visitors and residents to unwind.\n\nTherapists across Ayr offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Alloway, while others provide mobile massage in Ayr, visiting homes across Doonfoot, Prestwick, Newton-on-Ayr and beyond.\n\nCoverage also extends to nearby Troon, Prestwick, Kilmarnock and the wider Ayrshire coast, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Ayr?",
+        answer:
+          "Most massage therapists in Ayr charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Ayr?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Ayr, visiting homes in areas such as Alloway, Doonfoot, Prestwick and Newton-on-Ayr. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I golf regularly around Ayr, which massage helps with shoulder and back tightness?",
+        answer:
+          "Deep tissue and sports massage are well suited to easing the shoulder, back and hip tightness that comes with regular golf. Many Ayr therapists are used to treating golfers, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Ayr?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Ayr?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a seafront clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  paisley: {
+    intro:
+      "Looking for a massage therapist in Paisley? Find qualified practitioners across the Renfrewshire town, from Ferguslie Park and Foxbar to Ralston and Glenburn.",
+    body:
+      "Paisley is a large Renfrewshire town with a historic abbey and a textile heritage that gave the world the Paisley pattern, close to Glasgow and Glasgow Airport. Whether you are near the town centre and Abbey, west around Ferguslie Park and Foxbar, east towards Ralston, or south near Glenburn, you will find massage therapists in Paisley within easy reach.\n\nUniversity of the West of Scotland's Paisley campus brings a steady flow of students and staff looking for both relaxation and recovery treatments, while the town's proximity to Glasgow Airport and logistics sites means many clients also book deep tissue or remedial massage for shift-based work. A relaxing Swedish or hot stone session near Barshaw Park is a popular way to unwind.\n\nTherapists across Paisley offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Ralston, while others provide mobile massage in Paisley, visiting homes across Ferguslie Park, Foxbar, Glenburn and beyond.\n\nThe directory also covers nearby Glasgow, Renfrew, Johnstone and the wider Renfrewshire area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Paisley?",
+        answer:
+          "A one-hour massage in Paisley usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Paisley?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Paisley and the surrounding areas, including Ferguslie Park, Foxbar, Ralston and Glenburn. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I work shifts near Glasgow Airport or in logistics around Paisley, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based airport and logistics work. Many Paisley therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Paisley?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in Paisley?",
+        answer:
+          "Check the therapist is qualified and insured, confirm they offer the treatment you want, and decide whether a town clinic or a home visit suits you. Read the listing to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  "east-kilbride": {
+    intro:
+      "Looking for a massage therapist in East Kilbride? Browse qualified practitioners across the new town, from The Village and Calderwood to Westwood and Hairmyres.",
+    body:
+      "East Kilbride is Scotland's largest new town, built around a modern centre with well-planned residential neighbourhoods reaching towards the Lanarkshire countryside. Whether you are near the town centre and Calderglen Country Park, near The Village and Calderwood, west towards Westwood, or near Hairmyres, you will find massage therapists in East Kilbride within easy reach.\n\nThe town's technology and business park employers mean many clients book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while local gyms and sports clubs add to demand for sports massage. A relaxing Swedish or hot stone session near Calderglen Country Park is a popular way to unwind after a busy week.\n\nTherapists across East Kilbride offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and The Village, while others provide mobile massage in East Kilbride, visiting homes across Calderwood, Westwood, Hairmyres and beyond.\n\nCoverage also extends to nearby Glasgow, Hamilton, Blantyre and the wider South Lanarkshire area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in East Kilbride?",
+        answer:
+          "Most massage therapists in East Kilbride charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in East Kilbride?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across East Kilbride, visiting homes in areas such as The Village, Calderwood, Westwood and Hairmyres. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work at a business park in East Kilbride and sit at a desk all day, which massage helps?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from desk-based office work. Many East Kilbride therapists focus on this kind of work, offering a convenient reset close to your workplace or home.",
+      },
+      {
+        question: "What types of massage are available in East Kilbride?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the listed therapists. The treatments each practitioner offers are shown on their profile.",
+      },
+      {
+        question: "How do I choose a massage therapist in East Kilbride?",
+        answer:
+          "Look for proper qualifications and insurance, confirm they offer the treatment you need, and consider which area and format suits you. Use the listing details to compare, then contact the therapist directly to book.",
+      },
+    ],
+  },
+
+  livingston: {
+    intro:
+      "Looking for a massage therapist in Livingston? Find qualified practitioners across the new town, from Craigshill and Deans to Dedridge and Howden.",
+    body:
+      "Livingston is a West Lothian new town midway between Edinburgh and Glasgow, with a modern centre around the Designer Outlet and a spread of well-planned residential neighbourhoods. Whether you are near the town centre, north around Craigshill and Deans, south towards Dedridge, or near Howden, you will find massage therapists in Livingston within easy reach.\n\nCommuters travelling into Edinburgh often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while the town's logistics and technology employers mean many clients also turn to deep tissue for shift-based work. A relaxing Swedish or hot stone session near Almondvale Park or the Almond Valley is a popular way to unwind.\n\nTherapists across Livingston offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Deans, while others provide mobile massage in Livingston, visiting homes across Craigshill, Dedridge, Howden and beyond.\n\nThe directory also covers nearby Edinburgh, Bathgate, Broxburn and the wider West Lothian area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Livingston?",
+        answer:
+          "A one-hour massage in Livingston usually costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Livingston?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Livingston and the surrounding areas, including Craigshill, Deans, Dedridge and Howden. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I commute into Edinburgh from Livingston, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many Livingston therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Livingston?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Livingston?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  falkirk: {
+    intro:
+      "Looking for a massage therapist in Falkirk? Browse qualified practitioners across the town, from Camelon and Bainsford to Grangemouth and Larbert.",
+    body:
+      "Falkirk is a central Scotland town famous for the Falkirk Wheel and the Kelpies, with a busy centre and a spread of residential neighbourhoods along the Forth and Clyde Canal. Whether you are near the town centre and Callendar Park, west around Camelon, south towards Bainsford, or near Grangemouth and Larbert, you will find massage therapists in Falkirk within easy reach.\n\nThe petrochemical and industrial sites around Grangemouth are a major source of local employment, and many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session near Callendar Park or the Kelpies is a popular way to unwind.\n\nTherapists across Falkirk offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Camelon, while others provide mobile massage in Falkirk, visiting homes across Bainsford, Grangemouth, Larbert and beyond.\n\nCoverage also extends to nearby Stirling, Linlithgow, Cumbernauld and the wider central Scotland area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Falkirk?",
+        answer:
+          "Most massage therapists in Falkirk charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Falkirk?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Falkirk, visiting homes in areas such as Camelon, Bainsford, Grangemouth and Larbert. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work shifts at Grangemouth or in industry around Falkirk, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based industrial and petrochemical work. Many Falkirk therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Falkirk?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Falkirk?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  dunfermline: {
+    intro:
+      "Looking for a massage therapist in Dunfermline? Find qualified practitioners across the former Scottish capital, from Abbeyview and Woodmill to Rosyth and Halbeath.",
+    body:
+      "Dunfermline is a historic Fife town and former capital of Scotland, home to Dunfermline Abbey and Andrew Carnegie's birthplace, with a spread of residential neighbourhoods reaching towards the Firth of Forth. Whether you are near the town centre and Abbey, south around Rosyth, east towards Halbeath, or near Abbeyview and Woodmill, you will find massage therapists in Dunfermline within easy reach.\n\nCommuters travelling into Edinburgh across the Forth often book deep tissue or remedial massage to ease desk-related neck and shoulder tension, while the naval base at Rosyth and local logistics sites mean many clients also book deep tissue for physically demanding shift work. A relaxing Swedish or hot stone session near Pittencrieff Park is a popular way to unwind.\n\nTherapists across Dunfermline offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Abbeyview, while others provide mobile massage in Dunfermline, visiting homes across Woodmill, Rosyth, Halbeath and beyond.\n\nThe directory also covers nearby Kirkcaldy, Edinburgh, Kincardine and the wider Fife area, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Dunfermline?",
+        answer:
+          "A one-hour massage in Dunfermline usually costs around £30 to £65, depending on the treatment, the therapist's experience and whether it is a clinic or home visit. Check the therapist's listing for current prices.",
+      },
+      {
+        question: "Is mobile massage available across Dunfermline?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Dunfermline and the surrounding areas, including Abbeyview, Woodmill, Rosyth and Halbeath. Each listing shows the areas covered, so check before booking a home visit.",
+      },
+      {
+        question: "I commute into Edinburgh from Dunfermline, which massage helps with the strain?",
+        answer:
+          "Deep tissue or remedial massage is well suited to easing the neck, shoulder and back tension that builds up from regular rail commuting and desk work. Many Dunfermline therapists focus on this kind of work, offering a convenient reset close to home.",
+      },
+      {
+        question: "What types of massage are available in Dunfermline?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in relaxation treatments, while others focus on clinical and remedial work. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Dunfermline?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
+
+  kirkcaldy: {
+    intro:
+      "Looking for a massage therapist in Kirkcaldy? Browse qualified practitioners across the Fife town, from Dysart and Pathhead to Linktown and Gallatown.",
+    body:
+      "Kirkcaldy is a Fife coastal town known as the Lang Toun for its long High Street, with a spread of residential neighbourhoods along the Firth of Forth. Whether you are near the town centre and esplanade, east around Dysart and Pathhead, south towards Linktown, or near Gallatown, you will find massage therapists in Kirkcaldy within easy reach.\n\nThe town's manufacturing and logistics employers mean many clients book deep tissue or remedial massage to manage the physical demands of shift-based work. Local gyms and sports clubs add to demand for sports massage, while a relaxing Swedish or hot stone session along the esplanade or near Ravenscraig Park is a popular way to unwind.\n\nTherapists across Kirkcaldy offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and salons in the town centre and Pathhead, while others provide mobile massage in Kirkcaldy, visiting homes across Dysart, Linktown, Gallatown and beyond.\n\nCoverage also extends to nearby Dunfermline, Glenrothes, St Andrews and the wider Fife area, so it is easy to compare practitioners close to you. Each listing links directly to the therapist so you can check their qualifications, treatments and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Kirkcaldy?",
+        answer:
+          "Most massage therapists in Kirkcaldy charge around £30 to £65 for a one-hour treatment, depending on the type of massage, the therapist's experience and whether it is a clinic or mobile appointment. Always check the therapist's own listing for current prices.",
+      },
+      {
+        question: "Can I book a mobile massage at home in Kirkcaldy?",
+        answer:
+          "Yes. A number of therapists offer mobile massage across Kirkcaldy, visiting homes in areas such as Dysart, Pathhead, Linktown and Gallatown. Check each listing to confirm the areas a therapist covers.",
+      },
+      {
+        question: "I work shifts in manufacturing or logistics around Kirkcaldy, which massage helps?",
+        answer:
+          "Deep tissue and remedial massage are well suited to easing the muscle strain and disrupted sleep patterns that come with shift-based manufacturing and logistics work. Many Kirkcaldy therapists are used to working around shift patterns, so check their listing for availability.",
+      },
+      {
+        question: "What types of massage are available in Kirkcaldy?",
+        answer:
+          "You will find sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage among the practitioners listed. Some specialise in clinical and rehabilitation work, while others focus on relaxation. The treatments each therapist offers are shown on their listing.",
+      },
+      {
+        question: "How do I choose a massage therapist in Kirkcaldy?",
+        answer:
+          "Look for relevant qualifications and insurance, check that the therapist offers the treatment you need, and consider whether you prefer a town-centre clinic or a home visit. Reading the description on each listing helps you find someone who matches what you are looking for, then you can contact them directly to book.",
+      },
+    ],
+  },
 };
