@@ -8032,4 +8032,106 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  chorlton: {
+    intro:
+      "Looking for a massage therapist in Chorlton? Browse qualified practitioners across Chorlton-cum-Hardy and the surrounding south Manchester neighbourhoods, from sports and deep tissue to relaxation and pregnancy massage.",
+    body:
+      "Chorlton is one of south Manchester's most popular neighbourhoods, built around the independent cafes and bars of Beech Road, the open space of Chorlton Green, and the Metrolink tram line into the city centre four miles north. Whether you are near the Water Park and the Mersey Valley to the south, close to Wilbraham Road and Chorlton Park, or over towards Whalley Range, you will find massage therapists in Chorlton within easy reach.\n\nA large number of Chorlton residents commute into Manchester city centre for work, and deep tissue and remedial massage are popular choices for easing the neck and shoulder tension that comes with desk-based jobs and daily tram or cycle commutes. The Mersey Valley's cycle paths and Chorlton Water Park also draw a steady stream of runners and cyclists who book sports massage to aid recovery, while a relaxing Swedish or hot stone treatment is a favourite way to unwind after a busy week around Beech Road.\n\nTherapists across Chorlton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and treatment rooms close to Barlow Moor Road and the Green, while others provide mobile massage in Chorlton, visiting homes across Whalley Range, Chorlton Park and the wider area.\n\nCoverage also extends into central Manchester and neighbouring Didsbury and Fallowfield, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Chorlton?",
+        answer:
+          "A one-hour massage in Chorlton typically costs around £35 to £75, depending on the treatment, the therapist's experience and whether it is a clinic appointment or a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available in Chorlton?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Chorlton and nearby Whalley Range, Chorlton Park and Didsbury. Each listing shows the areas a therapist covers, so check before booking a home visit.",
+      },
+      {
+        question: "I run or cycle around Chorlton Water Park and the Mersey Valley, which massage helps?",
+        answer:
+          "Sports massage or deep tissue is usually the best choice for tired legs after running or cycling the Mersey Valley paths. Both help ease muscle tightness and support recovery, and several Chorlton therapists work regularly with local runners and cyclists.",
+      },
+      {
+        question: "What types of massage can I book in Chorlton?",
+        answer:
+          "Practitioners across Chorlton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. The specific treatments each therapist provides are shown on their listing.",
+      },
+      {
+        question: "How do I find the right massage therapist in Chorlton?",
+        answer:
+          "Check that the therapist is qualified and insured, offers the treatment you are looking for, and works in a way that suits you, whether that is a clinic near Beech Road or a home visit. Read the listing, then contact the therapist directly to arrange your massage.",
+      },
+    ],
+  },
+
+  urmston: {
+    intro:
+      "Looking for a massage therapist in Urmston? Browse qualified practitioners across Urmston and the wider Trafford area, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Urmston is a residential town in Trafford, built around Flixton Road and a compact town centre with its own market, and well connected to Manchester city centre by the Liverpool railway line. Whether you are near the town centre, over towards Flixton and the Chassen Road area, or close to Davyhulme and Trafford General Hospital, you will find massage therapists in Urmston within easy reach.\n\nMany Urmston residents commute into Manchester or Trafford Park for work, and deep tissue and remedial massage are popular for relieving the neck, shoulder and lower back tension that comes with regular travel and desk-based jobs. The town's parks and sports clubs also support a good number of active clients booking sports massage for training and match recovery, while a relaxing Swedish or hot stone session is a common way to unwind after a busy week.\n\nTherapists across Urmston offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and treatment rooms near the town centre and Flixton Road, while others provide mobile massage in Urmston, visiting homes across Flixton, Davyhulme and the surrounding streets.\n\nCoverage also extends into nearby Stretford, Sale and Manchester city centre, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Urmston?",
+        answer:
+          "A one-hour massage in Urmston typically costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic appointment or a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available in Urmston?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Urmston and the surrounding areas, including Flixton, Davyhulme and Chassen Road. Each listing shows the areas a therapist covers, so check before booking a home visit.",
+      },
+      {
+        question: "I commute daily and get tense shoulders, which massage helps?",
+        answer:
+          "Deep tissue or remedial massage is usually the best choice for easing tight neck and shoulder muscles from regular commuting and desk work. Many Urmston therapists offer both, so check each listing for the specific techniques used.",
+      },
+      {
+        question: "What types of massage can I book in Urmston?",
+        answer:
+          "Practitioners across Urmston offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. The specific treatments each therapist provides are shown on their listing.",
+      },
+      {
+        question: "How do I find the right massage therapist in Urmston?",
+        answer:
+          "Check that the therapist is qualified and insured, offers the treatment you are looking for, and works in a way that suits you, whether that is a town-centre clinic or a home visit. Read the listing, then contact the therapist directly to arrange your massage.",
+      },
+    ],
+  },
+
+  swinton: {
+    intro:
+      "Looking for a massage therapist in Swinton? Browse qualified practitioners across Swinton and the wider Salford area, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Swinton is a town in Salford, centred on Chorley Road and the town precinct, with good links into both Salford and Manchester city centres via the M60 motorway and local bus routes. Whether you are near the town centre, over towards Pendlebury, or close to Clifton Country Park to the north, you will find massage therapists in Swinton within easy reach.\n\nSwinton has a mix of local employment and commuters travelling into Salford and Manchester, and deep tissue and remedial massage are popular for easing the tension that builds up from desk-based work and regular driving on the M60. Clifton Country Park and the local sports clubs also bring in clients looking for sports massage to support training and recovery, while a relaxing Swedish or hot stone session is a popular way to unwind at the end of the week.\n\nTherapists across Swinton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and treatment rooms near Chorley Road and the town centre, while others provide mobile massage in Swinton, visiting homes across Pendlebury and the surrounding streets.\n\nCoverage also extends into nearby Salford, Eccles and Manchester city centre, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Swinton?",
+        answer:
+          "A one-hour massage in Swinton typically costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic appointment or a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available in Swinton?",
+        answer:
+          "Yes. Several therapists offer mobile massage in Swinton and the surrounding areas, including Pendlebury and towards Clifton. Each listing shows the areas a therapist covers, so check before booking a home visit.",
+      },
+      {
+        question: "I drive a lot for work around the M60, which massage helps?",
+        answer:
+          "Deep tissue or remedial massage is usually the best choice for easing the neck, shoulder and lower back tension that comes with long spells of driving. Many Swinton therapists offer both, so check each listing for the specific techniques used.",
+      },
+      {
+        question: "What types of massage can I book in Swinton?",
+        answer:
+          "Practitioners across Swinton offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. The specific treatments each therapist provides are shown on their listing.",
+      },
+      {
+        question: "How do I find the right massage therapist in Swinton?",
+        answer:
+          "Check that the therapist is qualified and insured, offers the treatment you are looking for, and works in a way that suits you, whether that is a town-centre clinic or a home visit. Read the listing, then contact the therapist directly to arrange your massage.",
+      },
+    ],
+  },
 };
