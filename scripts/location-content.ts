@@ -8134,4 +8134,38 @@ export const LOCATION_CONTENT: Record<string, LocationContent> = {
       },
     ],
   },
+
+  "stanningley-pudsey": {
+    intro:
+      "Looking for a massage therapist in Stanningley or Pudsey? Find qualified practitioners on the western edge of Leeds, covering sports, deep tissue, relaxation and pregnancy massage.",
+    body:
+      "Stanningley and Pudsey sit between Leeds and Bradford, with the Stanningley bypass and Leeds-Bradford rail line making both easy to reach from across West Yorkshire. Whether you are near the shops and viaduct on Stanningley's Town Street, over in Pudsey town centre around the Owl and Lowtown, or out towards Farsley and Bramley, you will find massage therapists in the area within easy reach.\n\nMany clients here commute into Leeds or Bradford for work, and deep tissue or remedial massage is a popular way to ease the neck and shoulder tension that builds up from desk-based jobs and the daily drive along the bypass. The area's sports clubs and gyms, along with runners and cyclists using the Leeds-Bradford cycle routes, also create steady demand for sports massage aimed at recovery and injury prevention, while a relaxing Swedish or hot stone session is a popular way to unwind at the weekend.\n\nTherapists across Stanningley and Pudsey offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. Some work from clinics and treatment rooms near Town Street and Lowtown, while others provide mobile massage across Stanningley and Pudsey, visiting homes in Farsley, Bramley and the surrounding streets.\n\nCoverage also extends into nearby Leeds, Bradford, Farsley and Horsforth, so it is easy to compare practitioners close to you. Every listing links directly to the therapist, where you can check their treatments, training and how to book.",
+    faqs: [
+      {
+        question: "How much does a massage cost in Stanningley or Pudsey?",
+        answer:
+          "A one-hour massage in the Stanningley and Pudsey area typically costs around £35 to £70, depending on the treatment, the therapist's experience and whether it is a clinic appointment or a home visit. Check the therapist's listing for their current rates.",
+      },
+      {
+        question: "Is mobile massage available in Stanningley and Pudsey?",
+        answer:
+          "Yes. Several therapists offer mobile massage across Stanningley and Pudsey and the surrounding areas, including Farsley, Bramley and towards Horsforth. Each listing shows the areas a therapist covers, so check before booking a home visit.",
+      },
+      {
+        question: "I get sore from sport or the daily commute, which massage helps?",
+        answer:
+          "Sports massage or deep tissue is usually the best choice for muscle recovery after training, while deep tissue or remedial massage tends to suit the neck and shoulder tension that comes with commuting and desk work. Many therapists in the area offer both, so check each listing for the techniques they use.",
+      },
+      {
+        question: "What types of massage can I book in Stanningley and Pudsey?",
+        answer:
+          "Practitioners across the area offer sports massage, deep tissue, Swedish, remedial, pregnancy, hot stone and lymphatic drainage. The specific treatments each therapist provides are shown on their listing.",
+      },
+      {
+        question: "How do I find the right massage therapist in Stanningley or Pudsey?",
+        answer:
+          "Check that the therapist is qualified and insured, offers the treatment you are looking for, and works in a way that suits you, whether that is a local clinic or a home visit. Read the listing, then contact the therapist directly to arrange your massage.",
+      },
+    ],
+  },
 };
