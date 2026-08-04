@@ -85,15 +85,24 @@ export async function approveListing(id: string) {
     .update({ status: "approved", slug, approved_at: new Date().toISOString() })
     .eq("id", id);
 
+  // Mail is best-effort: the status update above has already committed, so letting a
+  // MailerSend outage (or a spent daily quota) throw here would 500 the admin page and
+  // skip revalidatePath, leaving the listing live but un-notified and login-less. Swallow
+  // it instead — owner_user_id stays null, which is what
+  // scripts/backfill-outreach-notices.ts looks for when re-sending.
   if (listing.email) {
-    if (listing.source === "research_outreach") {
-      await sendListingAddedNoticeEmail(listing.email, listing.business_name, slug);
-    } else {
-      await sendApprovedEmail(listing.email, listing.business_name, slug);
-    }
+    try {
+      if (listing.source === "research_outreach") {
+        await sendListingAddedNoticeEmail(listing.email, listing.business_name, slug);
+      } else {
+        await sendApprovedEmail(listing.email, listing.business_name, slug);
+      }
 
-    if (!listing.owner_user_id) {
-      await provisionDashboardLogin(supabase, id, listing.email, listing.business_name);
+      if (!listing.owner_user_id) {
+        await provisionDashboardLogin(supabase, id, listing.email, listing.business_name);
+      }
+    } catch (e) {
+      console.error(`approveListing: notifying ${listing.business_name} failed, needs backfill`, e);
     }
   }
 
