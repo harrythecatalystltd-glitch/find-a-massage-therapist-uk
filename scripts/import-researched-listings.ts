@@ -27,8 +27,8 @@ type Candidate = {
   service_area?: string;
   summary: string;
   qualifications: string;
-  insured: true; // research criteria: only include candidates whose site states this
-  insurance_provider: string;
+  insured?: boolean; // only set when the site actually states it — otherwise left false
+  insurance_provider?: string;
   phone?: string;
   treatments: string[]; // treatment_types.slug values only
 };
@@ -155,8 +155,8 @@ async function main() {
       service_area: c.service_area,
       summary: c.summary,
       qualifications: c.qualifications,
-      insured: c.insured,
-      insurance_provider: c.insurance_provider,
+      insured: c.insured ?? false,
+      insurance_provider: c.insurance_provider ?? null,
       phone: c.phone,
       logo_url,
       source: "research_outreach",
