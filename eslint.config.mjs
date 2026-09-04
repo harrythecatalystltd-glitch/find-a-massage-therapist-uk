@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored skill checkouts, gitignored and not ours to lint.
+    "superpowers/**",
+    "ui-ux-skill/**",
   ]),
 ]);
 
