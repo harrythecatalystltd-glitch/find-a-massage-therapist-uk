@@ -26,10 +26,10 @@ If you reorder, keep that spread.
 
 | # | Status | Slug | Working title | Primary keyword | Type | Category | Internal links |
 |---|--------|------|---------------|-----------------|------|----------|----------------|
-| 1 | pending | does-massage-help-sciatica | Does Massage Help Sciatica? What Actually Works | massage for sciatica | Condition | Wellness Tips | remedial-massage, deep-tissue, find-a-therapist, best-massage-for-lower-back-pain |
-| 2 | pending | what-is-remedial-massage | What Is Remedial Massage and Do You Need It? | what is remedial massage | Treatment | Treatment Guides | remedial-massage, deep-tissue, sports-massage, find-a-therapist |
-| 3 | pending | how-to-check-a-massage-therapist-is-qualified | How to Check a Massage Therapist Is Qualified and Insured | qualified massage therapist uk | Practical | Getting Started | find-a-therapist, what-to-expect-first-massage-appointment, faq |
-| 4 | pending | is-pregnancy-massage-safe | Is Pregnancy Massage Safe? Trimesters, Positions and What to Check | is pregnancy massage safe | Audience | Wellness Tips | pregnancy-massage, find-a-therapist, how-often-should-you-get-a-massage |
+| 1 | done 2026-09-04 | does-massage-help-sciatica | Does Massage Help Sciatica? What Actually Works | massage for sciatica | Condition | Wellness Tips | remedial-massage, deep-tissue, find-a-therapist, best-massage-for-lower-back-pain |
+| 2 | done 2026-09-04 | what-is-remedial-massage | What Is Remedial Massage and Do You Need It? | what is remedial massage | Treatment | Treatment Guides | remedial-massage, deep-tissue, sports-massage, find-a-therapist |
+| 3 | done 2026-09-04 | how-to-check-a-massage-therapist-is-qualified | How to Check a Massage Therapist Is Qualified and Insured | qualified massage therapist uk | Practical | Getting Started | find-a-therapist, what-to-expect-first-massage-appointment, faq |
+| 4 | done 2026-09-04 | is-pregnancy-massage-safe | Is Pregnancy Massage Safe? Trimesters, Positions and What to Check | is pregnancy massage safe | Audience | Wellness Tips | pregnancy-massage, find-a-therapist, how-often-should-you-get-a-massage |
 | 5 | pending | massage-for-neck-and-shoulder-tension | Massage for Neck and Shoulder Tension (Desk Work Edition) | massage for neck and shoulder pain | Condition | Wellness Tips | deep-tissue, remedial-massage, find-a-therapist |
 | 6 | pending | what-is-lymphatic-drainage-massage | What Is Lymphatic Drainage Massage and Does It Actually Work? | lymphatic drainage massage | Treatment | Treatment Guides | lymphatic-drainage, swedish-massage, find-a-therapist |
 | 7 | pending | what-to-wear-to-a-massage | What to Wear to a Massage (and What to Take Off) | what to wear to a massage | Practical | Getting Started | what-to-expect-first-massage-appointment, find-a-therapist |

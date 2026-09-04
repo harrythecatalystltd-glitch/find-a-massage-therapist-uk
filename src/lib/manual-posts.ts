@@ -129,7 +129,7 @@ export const manualPosts: ManualPost[] = [
     image: "/blog/deep-tissue-vs-swedish-massage.webp",
     related: [
       "sports-massage-vs-deep-tissue-massage",
-      "how-much-does-a-massage-cost-uk",
+      "what-is-remedial-massage",
       "best-massage-for-lower-back-pain",
     ],
     html: `
@@ -300,7 +300,7 @@ export const manualPosts: ManualPost[] = [
     related: [
       "deep-tissue-vs-swedish-massage",
       "sports-massage-vs-deep-tissue-massage",
-      "how-to-sleep-after-shoulder-surgery",
+      "does-massage-help-sciatica",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If your lower back pain is severe, follows an injury, spreads down your leg, or comes with numbness, tingling or weakness, see a GP or physiotherapist before booking a massage.</p>
@@ -387,7 +387,7 @@ export const manualPosts: ManualPost[] = [
     related: [
       "how-much-does-a-massage-cost-uk",
       "best-massage-for-lower-back-pain",
-      "sports-massage-vs-deep-tissue-massage",
+      "is-pregnancy-massage-safe",
     ],
     html: `
 <p>There's no single correct frequency — it depends on why you're getting a massage in the first place. As a rough starting point: <strong>every 4–6 weeks</strong> works well for general wellbeing and stress relief, <strong>every 1–2 weeks</strong> is more typical when actively managing chronic pain or tension, and athletes in heavy training often book around key sessions or events rather than on a fixed schedule.</p>
@@ -470,7 +470,7 @@ export const manualPosts: ManualPost[] = [
     related: [
       "how-much-does-a-massage-cost-uk",
       "deep-tissue-vs-swedish-massage",
-      "how-often-should-you-get-a-massage",
+      "how-to-check-a-massage-therapist-is-qualified",
     ],
     html: `
 <p>If you've never had a professional massage before, a bit of nervousness is completely normal. Here's exactly what to expect, from booking to walking out, so there are no surprises.</p>
@@ -626,6 +626,432 @@ export const manualPosts: ManualPost[] = [
         question: "How long does full shoulder surgery recovery usually take?",
         answer:
           "It depends heavily on the procedure. A smaller, less complex repair might feel largely settled within around four months, while a larger repair can take closer to a year before a full return to high-level activity.",
+      },
+    ],
+  },
+  {
+    slug: "does-massage-help-sciatica",
+    title: "Does Massage Help Sciatica? What Actually Works",
+    description:
+      "Massage can ease sciatica pain, but NICE backs it only alongside exercise. What helps, what to avoid, and the symptoms that mean you go to A&E today.",
+    category: "Wellness Tips",
+    publishedAt: "2026-09-04",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "best-massage-for-lower-back-pain",
+      "what-is-remedial-massage",
+      "how-often-should-you-get-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If a GP, physiotherapist or consultant has given you instructions for your back, theirs come first.</p>
+
+<p>Sciatica pain runs from your lower back down through your buttock and into your leg. It can burn, ache or feel like electricity. So the obvious question is whether someone rubbing the muscles around it will do anything useful.</p>
+
+<p><strong>Short answer:</strong> often yes, for the muscle tension part of the problem. Massage is included in NHS and <a href="https://www.nice.org.uk/guidance/ng59/chapter/recommendations" target="_blank" rel="noopener noreferrer">NICE guidance</a> for low back pain with sciatica, but only as part of a package that includes exercise. It is not offered as a treatment on its own, and it does not fix the disc or the nerve compression causing the pain.</p>
+
+<h2>What sciatica actually is (and why it changes the answer)</h2>
+<p>Sciatica is a symptom, not a diagnosis. It means the sciatic nerve is being irritated or compressed somewhere along its path. The usual culprits are a bulging disc in the lower back, narrowing of the spinal canal, or a tight muscle in the buttock pressing on the nerve.</p>
+<p>That last one matters here. If your pain is driven mostly by muscle tightness around the nerve, hands-on work has something to grip onto. If a disc is pressing directly on the nerve root, massage can make the surrounding area feel better while doing nothing at all to the disc.</p>
+<p>Neither you nor your therapist can tell those apart by feel alone. That is the honest reason massage sits inside a wider plan rather than replacing one.</p>
+
+<h2>Does massage help sciatica, according to the guidance?</h2>
+<p>NICE recommends considering manual therapy, which includes massage, for managing low back pain with or without sciatica. The recommendation comes with a condition attached: it should be part of a treatment package that also includes exercise. Massage on its own is not what the guidance supports.</p>
+<p>In practice that means the best result usually comes from combining hands-on work with the movement and strengthening a physiotherapist gives you. Free NHS <a href="/massage/physiotherapy/">physiotherapy</a> is available for sciatica, though waiting times vary a lot by area, which is why plenty of people pay privately for the manual therapy side while they wait.</p>
+<p>What massage realistically gives you: less muscle guarding, easier movement, and a break from pain that helps you actually do the exercises. What it does not give you: a repaired disc.</p>
+
+<h2>Which type of massage suits sciatica pain?</h2>
+<p>Three of the treatments on this site come up most often for nerve-related back and leg pain.</p>
+<ul>
+<li><strong><a href="/massage/remedial-massage/">Remedial massage</a></strong> is usually the best starting point. Remedial therapists assess before they treat, so the session is built around why your leg hurts rather than just where.</li>
+<li><strong><a href="/massage/deep-tissue/">Deep tissue massage</a></strong> suits people whose sciatica sits on top of long-standing tightness through the lower back, glutes and hamstrings.</li>
+<li><strong><a href="/massage/sports-massage/">Sports massage</a></strong> tends to fit if your symptoms flare with training or a specific activity, and you want the pattern behind that looked at.</li>
+</ul>
+<p>Our guide to the <a href="/learn/best-massage-for-lower-back-pain/">best massage for lower back pain</a> goes into how these three differ if you are torn between them.</p>
+
+<h2>What a good session should feel like</h2>
+<p>Firm pressure on tight glutes and lower back muscles is normal and often welcome. Sharp, shooting or electric pain down the leg is not. That sensation means the nerve itself is being provoked, and it is a signal to speak up immediately rather than breathe through it.</p>
+<p>A therapist who knows what they are doing will ask where the pain travels to, whether anything makes it worse, and whether you have seen anyone about it. They will usually work around the area rather than digging directly into the most painful spot, and they should be comfortable saying that something is outside their scope.</p>
+<p>Tell them at the start if you have had a scan, a diagnosis, or numbness anywhere. It changes how they work.</p>
+
+<h2>How long sciatica normally takes to settle</h2>
+<p>Most sciatica improves without surgery. NHS guidance suggests the biggest change usually comes in the first couple of weeks, with most cases improving within about six weeks. Some take up to twelve weeks, and a minority grumble on for months, coming and going.</p>
+<p>If you are six weeks in with no improvement, or things are getting worse rather than better, that is the point to go back to a healthcare professional instead of booking another massage.</p>
+
+<h2>Red flags: stop and get help today</h2>
+<p>A small number of back problems are emergencies. Get to A&E or call 999 if you notice any of these, whether or not you have a massage booked:</p>
+<ul>
+<li>Numbness or altered feeling around your genitals, inner thighs or bottom, including when you wipe</li>
+<li>Difficulty passing urine, losing control of your bladder, or leaking from your bowels</li>
+<li>Weakness or sciatica pain in <strong>both</strong> legs, especially if it came on suddenly</li>
+<li>Loss of sexual sensation</li>
+</ul>
+<p>These can point to cauda equina syndrome, where the bundle of nerves at the base of the spine is compressed. It needs treating within hours, not days. The <a href="https://www.nhs.uk/conditions/sciatica/" target="_blank" rel="noopener noreferrer">NHS sciatica page</a> lists the same warnings. No massage therapist should treat you while any of them is going on.</p>
+
+<h2>What helps between appointments</h2>
+<p>Rest is not the answer it feels like. Current NHS advice for sciatica is to keep moving as normally as your pain allows, because prolonged bed rest tends to stiffen everything and slow recovery.</p>
+<p>Gentle walking, changing position often if you sit for work, and the specific exercises your physio gives you will do more over six weeks than any single treatment. Heat helps some people with the muscle spasm side of it. Strong painkillers bought over the counter are worth discussing with a pharmacist rather than stacking up on your own.</p>
+
+<h2>What a sensible six weeks looks like</h2>
+<p>People tend to either book nothing or book everything at once. A middle path works better.</p>
+<p>In the first week or two, while pain is at its sharpest, focus on staying mobile and getting assessed by a GP or physiotherapist. Hands-on work is often uncomfortable at this stage and gives little back.</p>
+<p>From roughly week two onwards, once the fiercest pain has eased, massage starts to earn its place. A session every one to two weeks alongside your exercises is a common pattern, with the gaps widening as things improve. Our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often to get a massage</a> covers how to judge that spacing.</p>
+<p>By week six you should be able to see a trend. Improving, even slowly, means carry on. Static or worse means go back to a clinician rather than booking a seventh session and hoping.</p>
+
+<h2>Booking sensibly</h2>
+<p>If your sciatica is settling and you want help with the muscle tension around it, look for a therapist who lists remedial or deep tissue work and mentions experience with back and nerve pain. Ask before you book whether they have worked with sciatica, and tell them what your GP or physio has said.</p>
+<p>You can compare qualified, insured therapists near you on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+`,
+    faqs: [
+      {
+        question: "Can massage make sciatica worse?",
+        answer:
+          "It can if the pressure provokes the nerve directly, which usually feels sharp or electric rather than firm. Speak up during the session rather than pushing through it. A therapist should work around an irritated nerve, not into it, and should stop if symptoms travel further down your leg.",
+      },
+      {
+        question: "How many massage sessions will I need for sciatica?",
+        answer:
+          "There is no set number. Many people notice a difference in muscle tension after one or two sessions, but sciatica itself usually takes weeks to settle. If you have had several sessions with no change at all, that is a sign to go back to your GP or physiotherapist rather than book more.",
+      },
+      {
+        question: "Is massage or physiotherapy better for sciatica?",
+        answer:
+          "Physiotherapy is the treatment the NHS offers, because exercise is the part with the strongest evidence behind it. Massage works best alongside it rather than instead of it. If you can only choose one, start with physiotherapy and add hands-on work for the muscle tension.",
+      },
+      {
+        question: "Should I get a massage during a sciatica flare-up?",
+        answer:
+          "Usually wait until the sharpest phase has passed. During an acute flare the area is highly sensitive and hands-on work is often uncomfortable for little gain. Gentle movement and the advice from your GP tend to help more in those first days.",
+      },
+      {
+        question: "Which massage is best for sciatic nerve pain?",
+        answer:
+          "Remedial massage is the usual starting point, because the therapist assesses the pattern behind your pain before treating it. Deep tissue suits long-standing tightness through the back and glutes, and sports massage fits if symptoms flare with training.",
+      },
+      {
+        question: "When should I see a doctor about sciatica instead?",
+        answer:
+          "Go to A&E or call 999 if you have numbness around your genitals or bottom, trouble controlling your bladder or bowels, or weakness in both legs. See your GP if pain has not improved after about six weeks, or if it is getting steadily worse.",
+      },
+    ],
+  },
+  {
+    slug: "what-is-remedial-massage",
+    title: "What Is Remedial Massage and Do You Need It?",
+    description:
+      "Remedial massage starts with an assessment, not oil. Here is what happens in a session, how it differs from deep tissue, and when it is worth the extra cost.",
+    category: "Treatment Guides",
+    publishedAt: "2026-09-04",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "deep-tissue-vs-swedish-massage",
+      "sports-massage-vs-deep-tissue-massage",
+      "best-massage-for-lower-back-pain",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you are under the care of a GP, physiotherapist or consultant, follow what they have told you.</p>
+
+<p>Most massage starts with you face down and the therapist getting to work. Remedial massage starts with questions.</p>
+
+<p><strong>TL;DR:</strong> remedial massage is assessment-led treatment for a specific problem. The therapist works out why an area hurts or will not move properly, then treats that, often across several sessions with homework in between. It costs a little more than a standard massage, usually £45 to £75 an hour, and it suits a recurring or stubborn issue rather than a stressful week.</p>
+
+<h2>What remedial massage actually is</h2>
+<p>Remedial massage is sometimes called medical massage, though nobody in the UK uses that term officially. The defining feature is the order of operations: assess, then treat, then reassess.</p>
+<p>A remedial therapist is trained to look at how you move, where the restriction sits, and which muscles are compensating for something else. The tight spot you point at is often not where the problem started. Shoulder pain that comes from a stiff upper back, or a sore hamstring that traces back to how you sit, are the everyday examples.</p>
+<p>That is the real difference from a relaxation treatment. You are not paying for an hour of pleasant pressure. You are paying for someone to work out a pattern.</p>
+
+<h2>How it differs from deep tissue and sports massage</h2>
+<p>These three overlap enough that plenty of therapists offer all of them, and the labels get used loosely across the industry. The useful distinctions:</p>
+<ul>
+<li><strong><a href="/massage/deep-tissue/">Deep tissue massage</a></strong> describes pressure and depth. It works into the deeper layers of muscle, usually across a broad area, to release long-standing tightness.</li>
+<li><strong><a href="/massage/sports-massage/">Sports massage</a></strong> describes context. It is built around training, performance and recovery, whether or not you compete at anything.</li>
+<li><strong><a href="/massage/remedial-massage/">Remedial massage</a></strong> describes an approach. Depth varies, the area varies, and the session is shaped by what the assessment found.</li>
+</ul>
+<p>Put simply, deep tissue tells you how it will feel, sports massage tells you who it is for, and remedial tells you how the therapist will think. Our guide to <a href="/learn/sports-massage-vs-deep-tissue-massage/">sports massage versus deep tissue</a> covers that first pair in more detail, and <a href="/learn/deep-tissue-vs-swedish-massage/">deep tissue versus Swedish</a> is worth reading if you are choosing between firm and gentle.</p>
+
+<h2>What actually happens in a remedial session</h2>
+<p>Expect the first appointment to run differently from a spa treatment.</p>
+<ul>
+<li><strong>A conversation first.</strong> What hurts, how long it has been going on, what makes it better or worse, what you do all day, what you have already tried.</li>
+<li><strong>Some movement testing.</strong> Bending, reaching, rotating. The therapist is watching where the movement stops and what compensates.</li>
+<li><strong>Treatment on the table.</strong> This might be deep work, but it might also be slow, precise or surprisingly gentle depending on what they found.</li>
+<li><strong>A recheck.</strong> Testing the same movement again to see whether anything changed.</li>
+<li><strong>Something to do at home.</strong> A stretch, a strengthening exercise, or a change to how you sit or lift.</li>
+</ul>
+<p>That last part is the bit people skip and then wonder why the tightness returns by Wednesday. Remedial work assumes you will do something between appointments.</p>
+
+<h2>What people book it for</h2>
+<p>The common reasons are recurring rather than one-off. Long-running lower back tightness, a neck and shoulder pattern that comes back every few weeks, an old injury that never quite settled, restricted movement in a shoulder or hip, or headaches linked to jaw and neck tension.</p>
+<p>A typical example: someone books because their right shoulder has ached for months. The assessment finds the shoulder itself moves fine, but the upper back barely rotates, so the shoulder has been doing two jobs. Treatment goes to the upper back, and the homework is a rotation drill. The shoulder was the symptom, not the cause.</p>
+<p>Our guide on the <a href="/learn/best-massage-for-lower-back-pain/">best massage for lower back pain</a> covers where remedial fits against the alternatives for that particular problem.</p>
+
+<h2>How often, and for how long</h2>
+<p>Remedial work is usually a short course rather than a standing appointment. Three to six sessions over six to eight weeks is a common shape, starting weekly or fortnightly and spacing out as things settle.</p>
+<p>You should feel some change within the first two or three sessions. Not a total fix, but something measurable: further range of movement, a longer gap before the ache returns, easier mornings. If nothing has shifted at all by session three, the plan needs changing or the problem needs a different professional.</p>
+<p>Some people then keep a maintenance session every four to six weeks, particularly if their job or sport keeps reloading the same area. That is a choice rather than a requirement, and our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often to get a massage</a> goes into how to decide.</p>
+
+<h2>When it is not the right choice</h2>
+<p>Remedial massage is not automatically the better option just because it costs more.</p>
+<p>If you want to switch off and feel calmer, <a href="/massage/swedish-massage/">Swedish massage</a> does that job better and costs less. If you have a diagnosed injury, a recent operation, or a condition being managed by a clinician, start with <a href="/massage/physiotherapy/">physiotherapy</a> and add massage once you have been cleared for it. If your pain is severe, spreading, or came with numbness, weakness or unexplained weight loss, see a GP before booking any hands-on treatment.</p>
+<p>A good remedial therapist will tell you this themselves and refer you on. Being told you are not the right client is a sign of a professional, not a lost sale.</p>
+
+<h2>What it costs</h2>
+<p>Remedial massage typically runs £45 to £75 an hour in the UK, sitting above Swedish and roughly level with sports massage. Cities push toward the top of that range and beyond.</p>
+<p>Initial appointments are sometimes longer and priced higher, because the assessment takes time. Some therapists build the first session around 75 or 90 minutes for that reason. Our <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage price guide</a> has the full picture across treatments.</p>
+<p>One thing worth checking before you pay: some employer health cash plans reimburse part of the cost of remedial or sports massage each year, where they will not cover a relaxation treatment. It is easy to miss and can take a real chunk off a course of sessions.</p>
+
+<h2>Checking your therapist is trained for it</h2>
+<p>Massage therapy is not regulated by law in the UK, and "remedial" is not a protected term. Anyone can print it on a price list.</p>
+<p>What separates a genuine remedial therapist is training in assessment, usually at Level 4 or 5 alongside a Level 3 massage qualification, plus voluntary registration with a body such as the <a href="https://www.cnhc.org.uk/" target="_blank" rel="noopener noreferrer">CNHC</a> or the FHT. Both keep public registers you can search. Our guide to <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">checking a therapist is qualified and insured</a> walks through exactly what to look for.</p>
+<p>When you are ready to book, you can filter for therapists offering remedial work on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+`,
+    faqs: [
+      {
+        question: "Is remedial massage the same as deep tissue massage?",
+        answer:
+          "No. Deep tissue describes the pressure used, while remedial describes an approach that begins with assessment. A remedial session might involve deep pressure, or it might not, depending on what the therapist finds when they test your movement.",
+      },
+      {
+        question: "Does remedial massage hurt?",
+        answer:
+          "It can be uncomfortable in specific spots, but it should never be sharp or unbearable. Effective remedial work is often slower and more precise than deep tissue rather than simply harder, and you should always be able to ask for less pressure.",
+      },
+      {
+        question: "How many remedial massage sessions will I need?",
+        answer:
+          "For a recurring problem, three to six sessions over several weeks is common, with the gaps widening as things improve. A therapist who cannot explain roughly how many they expect, or who books you in indefinitely with no reassessment, is worth questioning.",
+      },
+      {
+        question: "How much does remedial massage cost in the UK?",
+        answer:
+          "Usually £45 to £75 for an hour, with cities at the higher end. First appointments sometimes cost more because the assessment adds time, and some therapists run the initial session at 75 or 90 minutes for that reason.",
+      },
+      {
+        question: "Can remedial massage replace physiotherapy?",
+        answer:
+          "No. If you have a diagnosed injury or a condition under clinical care, physiotherapy leads and massage supports it. Remedial massage works well alongside a rehab plan, and a good therapist will refer you on rather than treat something outside their scope.",
+      },
+      {
+        question: "What qualifications should a remedial massage therapist have?",
+        answer:
+          "A Level 3 massage diploma as a minimum, plus further training in assessment, typically at Level 4 or 5. Look for voluntary registration with the CNHC, FHT or a similar body, since the title itself is not protected in the UK.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-check-a-massage-therapist-is-qualified",
+    title: "How to Check a Massage Therapist Is Qualified and Insured",
+    description:
+      "Massage is not regulated by law in the UK, so anyone can advertise it. Here are the registers to search, the insurance to ask about, and the red flags.",
+    category: "Getting Started",
+    publishedAt: "2026-09-04",
+    readingTime: 6,
+    image: "/blog/covers/therapist-welcome-room.webp",
+    related: [
+      "what-to-expect-first-massage-appointment",
+      "what-is-remedial-massage",
+      "how-much-does-a-massage-cost-uk",
+    ],
+    html: `
+<p>Here is the part most people do not realise until they go looking: in the UK, nobody has to be qualified to call themselves a massage therapist.</p>
+
+<p><strong>TL;DR:</strong> massage therapy is not regulated by law, so the checks are on you. Look for a Level 3 diploma as the minimum, search for the therapist on the CNHC or FHT public register, and confirm they hold both public liability and professional indemnity insurance. Two minutes of checking rules out almost everyone you would want to avoid.</p>
+
+<h2>Massage is not regulated by law in the UK</h2>
+<p>Physiotherapists, osteopaths and chiropractors have protected titles. Using one without being registered is against the law.</p>
+<p>Massage therapy sits outside that. There is no Act of Parliament requiring a massage therapist to hold a qualification, register with anyone, or meet any training standard. What exists instead is voluntary self-regulation, where the good therapists opt in to being held to a standard and the rest simply do not.</p>
+<p>This is not a reason to be nervous about booking. Most working therapists are properly trained and take it seriously. It just means the reassurance you might assume is built in is not, and the checking falls to you.</p>
+
+<h2>The qualification to look for</h2>
+<p>A <strong>Level 3 Diploma</strong> in massage therapy is the recognised floor. Most insurers, employers and professional bodies treat it as the minimum to practise, so a therapist without one usually cannot get insured in the first place.</p>
+<p>Above that, Level 4 and Level 5 qualifications cover assessment and clinical reasoning. These matter if you are booking for a specific problem rather than general tension, which is why they show up on <a href="/learn/what-is-remedial-massage/">remedial massage</a> and <a href="/massage/sports-massage/">sports massage</a> profiles more than relaxation ones.</p>
+<p>Specialisms are separate again. Pregnancy massage, oncology massage and lymphatic drainage all need their own additional training on top of a general qualification.</p>
+
+<h2>The registers you can actually search</h2>
+<p>Three names cover most of the profession, and all of them publish a searchable register:</p>
+<ul>
+<li><strong><a href="https://www.cnhc.org.uk/" target="_blank" rel="noopener noreferrer">CNHC</a></strong>, the Complementary and Natural Healthcare Council. Set up with government support, and the one many NHS services check for when referring privately.</li>
+<li><strong><a href="https://www.fht.org.uk/" target="_blank" rel="noopener noreferrer">FHT</a></strong>, the Federation of Holistic Therapists. Members are trained, qualified and insured as a condition of membership.</li>
+<li><strong>SMA</strong>, the Sports Massage Association, for sports and soft tissue therapists specifically.</li>
+</ul>
+<p>Registration with any of these means someone has checked the qualification and the insurance, and that the therapist has agreed to a code of conduct and a complaints process. That last part is what you are really buying: somewhere to go if something goes wrong.</p>
+<p>Search the register by name rather than trusting a logo on a website. Logos are easy to copy and memberships lapse.</p>
+
+<h2>Insurance: two types, both worth having</h2>
+<p>Ask about both, because they cover different things:</p>
+<ul>
+<li><strong>Public liability</strong> covers you if you are injured by something in the treatment space. The classic is tripping over equipment or a table collapsing.</li>
+<li><strong>Professional indemnity</strong> covers you if the treatment itself causes harm. This is the one that matters most and the one people forget to ask about.</li>
+</ul>
+<p>A qualified therapist will answer this question in one sentence without any awkwardness. Insurance is a routine cost of doing the job, not a sensitive subject.</p>
+
+<h2>What to ask before you book</h2>
+<p>You do not need an interview. Five short questions cover it:</p>
+<ul>
+<li>What qualification do you hold, and at what level?</li>
+<li>Are you registered with the CNHC, FHT or SMA?</li>
+<li>Do you hold public liability and professional indemnity insurance?</li>
+<li>Have you treated this particular problem before?</li>
+<li>What does the first session involve, and what does it cost?</li>
+</ul>
+<p>Most of this is usually on a therapist's listing or website already. Asking directly is normal and nobody reputable will find it rude. Our guide to <a href="/learn/what-to-expect-first-massage-appointment/">what happens at a first massage appointment</a> covers the rest of the etiquette.</p>
+<p>Two things people ask about that are not standard requirements: a DBS check is not needed for massage therapists working with adults, and there is no legal obligation to hold a first aid certificate, though plenty of good therapists do both. Their absence is not a red flag on its own. What matters far more is the qualification, the registration and the insurance, because those are the three things somebody independent has actually checked.</p>
+
+<h2>Red flags worth walking away from</h2>
+<p>Vagueness is the main one. A therapist who will not name their qualification, dodges the insurance question, or answers "I have been doing this twenty years" instead of either, has told you what you need to know.</p>
+<p>Others: no written cancellation or pricing policy, pressure to buy a block of sessions before you have had one, claims that massage will cure a medical condition, or any suggestion that you skip or delay NHS treatment in favour of theirs. Massage helps with plenty of things. It does not cure disease, and anyone saying otherwise is selling.</p>
+<p>Discomfort about the setting counts too. You should be able to ask who else will be on site, what you will be asked to remove, and how draping works, and get a straight answer. Draping means you stay covered by a towel or sheet throughout, with only the area being worked on uncovered. That is the professional standard across the UK, and a therapist who treats the question as odd is telling you their standard is different.</p>
+
+<h2>Extra checks for mobile and home visits</h2>
+<p>If the therapist is coming to your home, or you are going to theirs rather than a clinic, the same checks apply plus a few more.</p>
+<p>Confirm their insurance covers mobile work, since some policies are written for a fixed premises only. Ask what they bring and what you need to provide, so you are not improvising with a dining chair. Agree the price, the parking situation and the cancellation terms in writing before the day.</p>
+<p>Tell someone where you are going or who is coming, particularly for a first appointment with someone new. This is ordinary caution rather than suspicion, and no professional will think twice about it. A therapist who pushes back on any of this, or who will only communicate through a social media account with no business name attached, is not worth the risk.</p>
+
+<h2>Checking a directory listing</h2>
+<p>On this site, therapists list their qualifications, treatments, insurance details and areas covered on their own profile. Read that first: it usually answers three of the five questions above before you contact anyone.</p>
+<p>Then verify independently. Search the name on the CNHC or FHT register, and if anything on the listing and the register does not match, ask about it before booking. Our <a href="/faq">FAQ page</a> covers how listings work, and you can compare therapists in your area on the <a href="/find-a-therapist">massage therapist directory</a>. Prices vary quite a bit by region, which our <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage price guide</a> breaks down.</p>
+`,
+    faqs: [
+      {
+        question: "Do massage therapists need a licence in the UK?",
+        answer:
+          "Not a national one. Massage therapy is not regulated by law, so there is no legal requirement to hold a qualification. Some local councils operate their own registration schemes for massage premises, but these vary by area and are not a national standard.",
+      },
+      {
+        question: "What qualification should a massage therapist have?",
+        answer:
+          "A Level 3 Diploma in massage therapy is the accepted minimum, and most insurers will not cover a therapist without one. Level 4 and Level 5 qualifications add assessment and clinical reasoning, which matters if you are booking for a specific injury or problem.",
+      },
+      {
+        question: "How do I check if a massage therapist is registered?",
+        answer:
+          "Search the public register on the CNHC or FHT website by the therapist's name. Both bodies verify qualifications and insurance before accepting members. Do not rely on a logo shown on a website, since memberships can lapse without the logo coming down.",
+      },
+      {
+        question: "What insurance should a massage therapist have?",
+        answer:
+          "Both public liability, which covers accidents in the treatment space, and professional indemnity, which covers harm caused by the treatment itself. Ask about both. Any qualified therapist will answer without hesitation, because insurance is a normal cost of the job.",
+      },
+      {
+        question: "Is it rude to ask a therapist about their qualifications?",
+        answer:
+          "Not at all, and professionals expect it. You are asking someone to work on your body, often alone in a private room. A therapist who is offended by a straightforward question about training or insurance has answered a different question for you.",
+      },
+      {
+        question: "What should I do if something goes wrong during a massage?",
+        answer:
+          "Say so immediately and ask the therapist to stop. Afterwards, if the issue is serious, raise it with their professional body, since registered therapists sign up to a code of conduct and a complaints process. This is one of the main reasons to book someone who is registered.",
+      },
+    ],
+  },
+  {
+    slug: "is-pregnancy-massage-safe",
+    title: "Is Pregnancy Massage Safe? Trimesters, Positions and What to Check",
+    description:
+      "When pregnancy massage is considered safe, why most therapists wait until 12 weeks, how you will be positioned, and the symptoms that mean call your midwife.",
+    category: "Wellness Tips",
+    publishedAt: "2026-09-04",
+    readingTime: 6,
+    image: "/blog/covers/towels-oils-flatlay.webp",
+    related: [
+      "how-to-check-a-massage-therapist-is-qualified",
+      "what-to-expect-first-massage-appointment",
+      "how-often-should-you-get-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> Your midwife or maternity team knows your pregnancy. Anything they tell you overrides anything you read here, including this article.</p>
+
+<p>Backache, swollen ankles and a body that will not get comfortable at night make massage sound appealing during pregnancy. The worry is whether it is a good idea at all.</p>
+
+<p><strong>TL;DR:</strong> pregnancy massage is generally considered safe in a low-risk pregnancy when it is done by a therapist with specific pregnancy training. Most UK therapists will not treat you in the first trimester, and from around the second trimester you are positioned on your side rather than face down or flat on your back. Check with your midwife first if your pregnancy has any complications at all.</p>
+
+<h2>The short answer, with the conditions attached</h2>
+<p>For an uncomplicated, low-risk pregnancy, gentle massage from a trained therapist is widely offered and generally regarded as safe. Plenty of NHS maternity units are relaxed about it.</p>
+<p>The conditions matter more than the headline. The therapist needs pregnancy-specific training, not just a general massage qualification. The positioning has to change as you get further along. And any complication in your pregnancy shifts the answer from "generally fine" to "ask your midwife first".</p>
+
+<h2>Trimester by trimester</h2>
+<h3>First trimester (weeks 1 to 12)</h3>
+<p>Most UK therapists decline to treat in the first trimester, and many insurers will not cover it. This is caution rather than evidence of harm. Miscarriage is most common in these weeks, and no therapist wants a client wondering whether a massage was to blame for something that was already happening.</p>
+<p>If you want treatment before 12 weeks, speak to your midwife or GP first and expect to be told to wait.</p>
+<h3>Second trimester (weeks 13 to 27)</h3>
+<p>This is when most pregnancy massage happens. Sickness has usually settled, the bump is manageable, and back and hip aches are starting. Sessions are normally done side-lying with pillows.</p>
+<h3>Third trimester (weeks 28 onwards)</h3>
+<p>Still commonly offered, with more support and gentler pressure. Many therapists will treat right up to the due date, though some ask for written approval from your midwife after a certain week. Swelling, pelvic pain and sleep problems are the usual reasons people book at this stage.</p>
+
+<h2>How you will actually be positioned</h2>
+<p>Not face down. Bump-hole tables and inflatable cushions exist, but most trained therapists avoid them because they can put an unhelpful strain on your lower back and offer no real advantage.</p>
+<p>Side-lying is the standard. You lie on your side with pillows supporting your bump, your top leg and your head, and the therapist works your back, hips, shoulders and legs from there. It is more comfortable than it sounds, and it is usually the position you already sleep in by then.</p>
+<p>Lying flat on your back for any length of time is generally avoided in later pregnancy, since the weight of the uterus can press on a major vein and make you feel faint. A trained therapist will prop you at an angle instead, or work you seated.</p>
+<p>Expect to change sides partway through, and say if you need a break to move or use the toilet. Nobody minds. Getting comfortable takes a few minutes at the start of the session, and that time is part of the treatment rather than a waste of it.</p>
+
+<h2>Check with your midwife first if any of these apply</h2>
+<p>Ask before booking, and expect the therapist to ask you the same things:</p>
+<ul>
+<li>A pregnancy classed as high risk, or a history of miscarriage or preterm labour</li>
+<li>Pre-eclampsia, or pregnancy-related high blood pressure</li>
+<li>Placenta praevia or any bleeding</li>
+<li>Gestational diabetes needing medication</li>
+<li>Significant or sudden swelling</li>
+<li>A heart, kidney or blood clotting condition</li>
+</ul>
+<p>None of these is automatically a no. They are the situations where a therapist needs medical approval before putting hands on you, and a good one will insist on it.</p>
+
+<h2>When to skip the massage and get medical advice now</h2>
+<p>Contact your midwife or maternity unit straight away, rather than going to your appointment, if you notice:</p>
+<ul>
+<li>A severe headache, vision changes, or sudden swelling of your face, hands or feet, which can point to <a href="https://www.nhs.uk/conditions/pre-eclampsia/" target="_blank" rel="noopener noreferrer">pre-eclampsia</a></li>
+<li>A hot, swollen, painful calf, which can indicate a blood clot. Massage over a suspected clot is genuinely dangerous</li>
+<li>Vaginal bleeding, fluid loss, or regular tightenings before 37 weeks</li>
+<li>Reduced or changed movements from your baby</li>
+</ul>
+<p>Cancel and call. Any professional therapist would far rather lose the booking.</p>
+
+<h2>What it helps with, and what it will not do</h2>
+<p>People book pregnancy massage for lower back and hip ache, tight shoulders from changed posture, swollen legs and feet, and difficulty sleeping. Those are reasonable expectations, and short-term relief from muscular aches is the most consistent thing it offers.</p>
+<p>Be careful with bigger claims. Massage does not treat pregnancy complications, will not turn a breech baby, and is not a way to bring on labour, whatever you read about pressure points. Anyone advertising induction massage is making a promise they cannot keep.</p>
+<p>Swelling is worth a specific note. Mild ankle and foot swelling is common in pregnancy and gentle work can feel good. Sudden swelling, particularly in your face or hands, is one of the warning signs above and needs your midwife, not a massage.</p>
+
+<h2>What training the therapist needs</h2>
+<p>Pregnancy massage is a specialism with its own qualification on top of a general massage diploma. It covers positioning, which areas to work more gently, the contraindications above, and when to refer you back to your midwife.</p>
+<p>A general <a href="/massage/swedish-massage/">Swedish massage</a> qualification alone is not enough, and a therapist who says "yes, that is fine" without asking how many weeks you are has told you something. Ask directly what pregnancy training they hold and whether their insurance covers prenatal work. Our guide to <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">checking a therapist is qualified and insured</a> covers how to verify the answer on a public register.</p>
+<p>You can find therapists who list <a href="/massage/pregnancy-massage/">pregnancy massage</a> as a treatment on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+
+<h2>What it costs and what to expect</h2>
+<p>Pregnancy massage usually runs £45 to £70 an hour in the UK, a little above a standard relaxation treatment, reflecting the extra training and setup. Our <a href="/learn/how-much-does-a-massage-cost-uk/">massage price guide</a> has the wider comparison.</p>
+<p>Sessions are often 60 minutes and tend to be gentler than you might expect. Deep pressure on the legs is generally avoided because of clot risk, and pressure is lighter overall. If you have never had a massage before, <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at a first appointment</a> covers the rest.</p>
+<p>Tell the therapist how many weeks you are when you book, not when you arrive. It changes how they prepare the room.</p>
+`,
+    faqs: [
+      {
+        question: "Can you have a massage in the first trimester?",
+        answer:
+          "Most UK therapists decline before 12 weeks, and many insurers will not cover it. This is precaution rather than proven risk, since early miscarriage is most common in this period. If you want treatment before then, speak to your midwife or GP first.",
+      },
+      {
+        question: "What position will I be in for a pregnancy massage?",
+        answer:
+          "Side-lying, with pillows supporting your bump, top leg and head. Trained therapists avoid face-down tables with bump holes, and avoid having you flat on your back for long in later pregnancy because of pressure on a major vein.",
+      },
+      {
+        question: "Is pregnancy massage safe in the third trimester?",
+        answer:
+          "It is commonly offered right up to the due date in a low-risk pregnancy, with gentler pressure and more support. Some therapists ask for written approval from your midwife after a certain point, particularly if there are any complications.",
+      },
+      {
+        question: "When should I avoid massage during pregnancy?",
+        answer:
+          "Skip it and contact your midwife if you have a severe headache, vision changes, sudden swelling, a hot or painful calf, bleeding, fluid loss, tightenings before 37 weeks, or reduced movements. Massage over a suspected blood clot is genuinely unsafe.",
+      },
+      {
+        question: "Does a pregnancy massage therapist need special training?",
+        answer:
+          "Yes. Pregnancy massage is a specialism with its own qualification covering positioning, pressure and contraindications. Ask what pregnancy training the therapist holds and whether their insurance covers prenatal work before you book.",
+      },
+      {
+        question: "How much does pregnancy massage cost in the UK?",
+        answer:
+          "Usually £45 to £70 for an hour, slightly above a standard relaxation massage because of the extra training and the setup involved. Prices sit at the higher end in London and other major cities.",
       },
     ],
   },
