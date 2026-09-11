@@ -212,9 +212,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 7,
     image: "/blog/sports-massage-vs-deep-tissue-massage.webp",
     related: [
-      "deep-tissue-vs-swedish-massage",
       "best-massage-for-lower-back-pain",
       "how-to-sleep-after-shoulder-surgery",
+      "massage-for-runners",
     ],
     html: `
 <p><strong>Sports massage</strong> is built around physical activity — preparing muscles before exercise, aiding recovery after it, and helping prevent or manage sports-related injuries. <strong>Deep tissue massage</strong> uses similar firm, targeted pressure, but it isn't tied to exercise — it's aimed at general chronic tension and tightness in daily life, whether or not you're active.</p>
@@ -468,9 +468,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 9,
     image: "/blog/what-to-expect-first-massage-appointment.webp",
     related: [
-      "how-much-does-a-massage-cost-uk",
       "deep-tissue-vs-swedish-massage",
       "how-to-check-a-massage-therapist-is-qualified",
+      "what-to-wear-to-a-massage",
     ],
     html: `
 <p>If you've never had a professional massage before, a bit of nervousness is completely normal. Here's exactly what to expect, from booking to walking out, so there are no surprises.</p>
@@ -745,9 +745,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/treatment-room-back-massage.webp",
     related: [
-      "deep-tissue-vs-swedish-massage",
       "sports-massage-vs-deep-tissue-massage",
       "best-massage-for-lower-back-pain",
+      "massage-for-neck-and-shoulder-tension",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you are under the care of a GP, physiotherapist or consultant, follow what they have told you.</p>
@@ -955,9 +955,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/towels-oils-flatlay.webp",
     related: [
-      "how-to-check-a-massage-therapist-is-qualified",
       "what-to-expect-first-massage-appointment",
       "how-often-should-you-get-a-massage",
+      "what-is-lymphatic-drainage-massage",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> Your midwife or maternity team knows your pregnancy. Anything they tell you overrides anything you read here, including this article.</p>
@@ -1052,6 +1052,371 @@ export const manualPosts: ManualPost[] = [
         question: "How much does pregnancy massage cost in the UK?",
         answer:
           "Usually £45 to £70 for an hour, slightly above a standard relaxation massage because of the extra training and the setup involved. Prices sit at the higher end in London and other major cities.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-neck-and-shoulder-tension",
+    title: "Massage for Neck and Shoulder Tension (Desk Work Edition)",
+    description:
+      "Why desk work tightens your neck and shoulders, which type of massage actually helps, and how often to book it before the pain becomes constant.",
+    category: "Wellness Tips",
+    publishedAt: "2026-09-11",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "what-is-remedial-massage",
+      "deep-tissue-vs-swedish-massage",
+      "best-massage-for-lower-back-pain",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If a GP or physiotherapist has already given you a plan for your neck or shoulders, follow that first.</p>
+
+<p>Massage will not fix a job that keeps your head forward and your shoulders hunched for eight hours a day. It can loosen the muscles that job keeps tightening, though, and for most people that is enough to break the cycle before it turns into constant pain.</p>
+
+<p><strong>TL;DR:</strong> desk-related neck and shoulder tension usually comes from the same small group of muscles staying switched on all day. Deep tissue or remedial massage, booked regularly rather than as an occasional treat, tends to help more than a single session. Pair it with a few changes to how you sit, and most people feel a real difference within two or three weeks.</p>
+
+<h2>What is actually causing the tension?</h2>
+<p>Sitting at a screen pulls your head forward and rounds your shoulders. Your neck and upper back muscles, mainly the trapezius and the muscles running along your shoulder blade, have to work constantly just to hold your head up in that position.</p>
+<p>Muscles that stay switched on all day do not get a chance to recover the way they would during normal movement. Over weeks, that shows up as tightness, a dull ache between the shoulder blades, or a band of pain across the top of your shoulders.</p>
+<p>Screen height, chair support and how often you get up all play a part. So does stress, which tends to settle in the same muscles and make them harder to release.</p>
+<p>Laptop use makes this worse than a desktop setup, since a laptop screen sits lower, pulling your neck further down. If you work from a laptop most of the day, propping it up on a stand and using a separate keyboard removes a big part of the problem before you ever book a massage.</p>
+
+<h2>Is it linked to the headaches you keep getting too?</h2>
+<p>Often, yes. Tight muscles at the base of your skull and across the top of your shoulders can refer pain up into your head, producing what feels like a tension headache rather than a neck problem.</p>
+<p>If your headaches tend to start at the back of your head or base of your skull on a long screen day, and ease over the weekend, the tension in your neck and shoulders is a reasonable place to start looking, alongside checking your screen setup.</p>
+
+<h2>Does massage actually help, and which type?</h2>
+<p>Yes, for this specific kind of tension, most people get real relief from massage. <a href="/massage/deep-tissue/">Deep tissue massage</a> works well because it targets the deeper layers of the trapezius and the muscles around the shoulder blade that a lighter massage will not reach.</p>
+<p><a href="/massage/remedial-massage/">Remedial massage</a> is worth booking if the tension has been building for months or if you also get headaches from it, since a remedial therapist will assess your posture and movement, not just the sore spot itself.</p>
+<p>If your neck and shoulders are tender rather than tight, a firmer style can feel worse before it feels better. <a href="/massage/swedish-massage/">Swedish massage</a> is a gentler starting point if deep pressure has not suited you before.</p>
+<p>Trigger point work, where the therapist holds steady pressure on a specific tight spot rather than working the whole muscle, is often what actually shifts a stubborn knot between your shoulder blades.</p>
+
+<h2>What you can do between sessions</h2>
+<p>A few small changes make the massage last longer instead of undoing it by Friday.</p>
+<ul>
+<li><strong>Raise your screen</strong> so the top of it sits at eye level, so you are not tipping your head forward or down for hours.</li>
+<li><strong>Get up every 45 to 60 minutes</strong>, even for two minutes. Movement resets the muscles that have been holding a static position.</li>
+<li><strong>Do a chin tuck</strong>: gently draw your chin back, as if making a double chin, and hold for a few seconds. Repeat 10 times, a few times a day.</li>
+<li><strong>Roll your shoulders back and down</strong> deliberately every time you notice you have crept forward towards the screen.</li>
+</ul>
+<p>None of this replaces massage if the tension is already established, but it does mean you are not creating fresh tightness the moment you leave the treatment room.</p>
+<p>A cheap laptop stand and separate keyboard cost less than a single massage session and often do more for prevention than any stretch. If your employer runs a display screen equipment assessment, ask for one. It exists specifically to catch setup problems like a screen sitting too low or too far away.</p>
+
+<h2>How often should you book if the tension keeps coming back?</h2>
+<p>A single massage will loosen things up for a few days, then a desk job will usually pull you straight back to where you started. For tension that is genuinely tied to your work, most people do better with a session every three to four weeks than an occasional one-off when things get bad.</p>
+<p>If you are dealing with a flare-up rather than ongoing background tension, closer together, weekly for two or three weeks, then spacing out, tends to work better than one big session. See our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often you should get a massage</a> for more on setting a realistic schedule.</p>
+<p>Think of it the same way as any other maintenance task tied to a repetitive job. A physical job that strains the same joints gets ongoing physiotherapy support, not a single fix. A desk job that strains the same few muscles benefits from the same logic, just applied to massage instead.</p>
+
+<h2>When to see a doctor or physio instead</h2>
+<p>Most desk-related neck and shoulder tension is muscular and responds well to massage, stretching and better setup. Occasionally it is a sign of something that needs a different kind of attention.</p>
+<p>According to <a href="https://www.nhs.uk/conditions/neck-pain/" target="_blank" rel="noopener noreferrer">NHS guidance on neck pain</a>, you should get checked by a GP if pain does not ease after a few weeks of self-care, or if it started after an injury such as a fall or a car accident.</p>
+<p>Get help straight away, rather than booking a massage, if you have numbness, tingling or weakness running down an arm, pain that wakes you at night, or a fever alongside the neck pain. These are not signs that more pressure will fix.</p>
+<p>A good remedial or deep tissue therapist will ask about these symptoms before they start work anyway, since a proper massage always begins with a short conversation about what is actually going on, not straight onto the table.</p>
+
+<p>If your tension is the ordinary desk-job kind, our <a href="/find-a-therapist">directory of massage therapists</a> lets you filter by deep tissue and remedial specialists near you, so you can book someone set up for exactly this.</p>
+`,
+    faqs: [
+      {
+        question: "Can massage really fix neck pain caused by sitting at a desk all day?",
+        answer:
+          "It will not fix the desk job itself, but it does loosen the muscles that job keeps tightening. Combined with a better screen height and regular breaks, most people find the tension stops building back up so quickly.",
+      },
+      {
+        question: "How often should I get a massage for ongoing neck and shoulder tension?",
+        answer:
+          "Every three to four weeks tends to work well for background tension tied to work. If you are in the middle of a bad flare-up, weekly sessions for two or three weeks, then spacing out, usually settles things faster than one big session.",
+      },
+      {
+        question: "Is deep tissue or remedial massage better for desk-related tension?",
+        answer:
+          "Deep tissue suits straightforward muscle tightness that has not been going on too long. Remedial massage is the better choice if the tension has built up over months or comes with headaches, since it starts with an assessment of your posture, not just the sore spot.",
+      },
+      {
+        question: "Can stress make neck and shoulder tension worse even with a good desk setup?",
+        answer:
+          "Yes. Stress tends to settle in exactly the same muscles that desk posture affects, the trapezius and the muscles around the shoulder blades, which is why tension can stay high even on days when your setup has been fine.",
+      },
+      {
+        question: "What stretches help between massage sessions?",
+        answer:
+          "A gentle chin tuck, drawing your chin back as if making a double chin and holding for a few seconds, is one of the simplest. Rolling your shoulders back and down through the day and getting up every 45 to 60 minutes both help too.",
+      },
+      {
+        question: "When should I see a doctor instead of booking another massage?",
+        answer:
+          "If pain has not eased after a few weeks of self-care, started after an injury, or comes with numbness, tingling or weakness down an arm, see a GP rather than booking another session. Pain that wakes you at night or comes with a fever also needs medical attention, not more pressure.",
+      },
+    ],
+  },
+  {
+    slug: "what-is-lymphatic-drainage-massage",
+    title: "What Is Lymphatic Drainage Massage and Does It Actually Work?",
+    description:
+      "What lymphatic drainage massage actually does, where the evidence is strong, where it is thin, and who should check with a doctor before booking.",
+    category: "Treatment Guides",
+    publishedAt: "2026-09-11",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "is-pregnancy-massage-safe",
+      "what-is-remedial-massage",
+      "how-often-should-you-get-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have or have had cancer treatment, heart failure, kidney disease or a blood clot, check with your specialist team before booking, since some of these are reasons to avoid this treatment.</p>
+
+<p>Lymphatic drainage massage is a very light, rhythmic massage designed to move fluid through your lymphatic system rather than to work into muscle. It genuinely helps some people, and does very little for others, and which group you are in depends almost entirely on why you are booking it.</p>
+
+<p><strong>TL;DR:</strong> lymphatic drainage massage has real, evidence-backed use for managing swelling after surgery or cancer treatment, where it is usually called manual lymphatic drainage and delivered by a specially trained therapist. For general puffiness, bloating or "detox", the evidence is thin. It is pleasant and relaxing either way, but be clear on which outcome you are actually paying for.</p>
+
+<h2>What is lymphatic drainage massage, and how is it different from a normal massage?</h2>
+<p>Your lymphatic system is a network of thin vessels that carries fluid, waste and immune cells around your body, sitting just under your skin. Unlike your blood, it has no central pump, so it relies partly on muscle movement and partly on the natural rhythm of the vessels themselves.</p>
+<p><a href="/massage/lymphatic-drainage/">Lymphatic drainage massage</a> uses very light, slow, stretching strokes in a specific direction, towards working lymph nodes, to encourage that fluid to move. It is much gentler than <a href="/massage/deep-tissue/">deep tissue massage</a>, and if it hurts or leaves bruising, it is being done too hard.</p>
+<p>A normal relaxation or deep tissue massage aims to release muscle. Lymphatic drainage massage barely touches muscle at all. The therapist's hands stay on the surface, using a rhythmic stretch-and-release motion that is closer to smoothing skin than kneading, since pressing too firmly can actually collapse the very small vessels it is trying to move fluid through.</p>
+
+<h2>Does it actually work?</h2>
+<p>For a specific, well-documented use, yes. Manual lymphatic drainage is a recognised part of managing lymphoedema, a build-up of fluid that can follow surgery or radiotherapy, particularly after breast cancer treatment where lymph nodes have been removed.</p>
+<p>The <a href="https://www.nhs.uk/conditions/lymphoedema/treatment/" target="_blank" rel="noopener noreferrer">NHS page on lymphoedema treatment</a> lists manual lymphatic drainage as one part of a wider approach that also includes compression, skin care and exercise. It is not offered as a stand-alone fix, and NHS lymphoedema clinics use it within that fuller plan rather than as a one-off spa treatment.</p>
+<p>For everyday puffiness, post-flight ankles, or claims about flushing toxins and aiding weight loss, the evidence is much weaker. It may leave you feeling lighter and more relaxed, which is a real benefit, but it is not a medically proven route to detoxing or fat loss.</p>
+<p>Be wary of any clinic that markets it mainly as a slimming or detox treatment. Your liver and kidneys already handle filtering waste from your body, and a gentle skin-level massage does not meaningfully change that process, however good the marketing sounds.</p>
+
+<h2>Who tends to book it, and why</h2>
+<ul>
+<li><strong>People managing lymphoedema</strong> after cancer treatment or surgery, usually as part of NHS or specialist private care, not a general spa list.</li>
+<li><strong>People recovering from cosmetic surgery</strong>, where some swelling is expected and a gentle massage can make the early weeks more comfortable.</li>
+<li><strong>Pregnant or postnatal clients</strong> with swollen ankles and feet, where light lymphatic work is often more comfortable than deeper massage. See our guide on <a href="/learn/is-pregnancy-massage-safe/">pregnancy massage safety</a> for what is appropriate at each stage.</li>
+<li><strong>People who simply enjoy it</strong>, as a very gentle, low-pressure alternative to <a href="/massage/swedish-massage/">Swedish massage</a>, without expecting a medical result.</li>
+<li><strong>People managing chronic venous insufficiency</strong>, a circulation condition affecting the veins in the legs, where gentle lymphatic work is sometimes recommended alongside compression stockings and advice from a vascular specialist.</li>
+</ul>
+
+<h2>What a session actually involves</h2>
+<p>You stay clothed or lightly draped, and the therapist uses light, repetitive stretching movements rather than kneading. Sessions often run 45 to 60 minutes, and pressure should stay light throughout, more like smoothing skin than working muscle.</p>
+<p>Because the pressure is so light, many people expect it to feel like nothing is happening. Most clients describe it as deeply relaxing rather than therapeutic in the moment, with any reduction in swelling becoming noticeable over the hours and days afterwards rather than immediately on the table.</p>
+<p>A trained lymphatic drainage therapist will ask about your medical history before starting, because there are genuine reasons to avoid it. Untreated infection, active cancer that has not been cleared for this treatment, heart failure and deep vein thrombosis are all reasons a responsible therapist will decline or refer you back to your medical team first.</p>
+<p>Expect fairly detailed questions at a first appointment, more than you would get for a standard relaxation massage. That is a sign of a properly trained therapist, not an inconvenience, since this is one of the few massage types with real medical contraindications attached to it.</p>
+
+<h2>Can you do a version of it yourself at home?</h2>
+<p>To an extent, yes. NHS lymphoedema clinics teach patients a simplified version called simple lymphatic drainage, a gentle self-massage combined with breathing exercises, usually shown by a lymphoedema nurse specialist as part of ongoing management rather than a one-off.</p>
+<p>This is not the same as booking a full manual lymphatic drainage session with a therapist, and it is not something to start on your own for a medical condition without being shown the correct technique first. For general at-home comfort, such as tired, swollen ankles after a long flight, gentle upward stroking towards your knee, done lightly for a few minutes, is a reasonable and low-risk starting point.</p>
+
+<h2>What it costs and how to book it well</h2>
+<p>Expect to pay roughly £45 to £80 for a session in the UK, similar to or slightly above a standard massage, reflecting the specific training involved. If you are booking for lymphoedema management rather than general relaxation, ask specifically whether the therapist holds a manual lymphatic drainage qualification, not just a general massage certificate.</p>
+<p>You can browse therapists who list lymphatic drainage as a specialism, alongside their other qualifications, on our <a href="/find-a-therapist">directory of massage therapists</a>.</p>
+<p>If you are booking after surgery, check with your surgeon first about how soon you can start, since timing varies by procedure and by how your recovery is going. Most cosmetic surgery clinics have their own guidance on when lymphatic massage can safely begin, and that instruction takes priority over any general timeline you read elsewhere, including here.</p>
+
+<p>If swelling or fluid retention is new, one-sided, painful, or came on suddenly, treat that as a reason to see your GP before booking any massage, not after.</p>
+`,
+    faqs: [
+      {
+        question: "Does lymphatic drainage massage help with weight loss?",
+        answer:
+          "No credible evidence supports that in healthy people. It may leave you feeling lighter and less puffy afterwards, but that is fluid movement and relaxation, not fat loss, and your liver and kidneys already handle filtering waste on their own.",
+      },
+      {
+        question: "Is lymphatic drainage massage the same as a normal massage?",
+        answer:
+          "No. It uses much lighter pressure and slower, stretching strokes aimed at the surface of your skin rather than your muscles. If a session leaves you bruised or sore, the pressure was too firm for genuine lymphatic work.",
+      },
+      {
+        question: "Who should avoid lymphatic drainage massage?",
+        answer:
+          "Anyone with an untreated infection, active cancer not yet cleared for the treatment, heart failure, kidney disease or a suspected blood clot should check with their medical team first. A properly trained therapist will ask about these before starting a session.",
+      },
+      {
+        question: "How much does lymphatic drainage massage cost in the UK?",
+        answer:
+          "Typically £45 to £80 for a 45 to 60 minute session, similar to or slightly above the cost of a standard relaxation massage, reflecting the specialist training the technique requires.",
+      },
+      {
+        question: "Can lymphatic drainage massage help with pregnancy swelling?",
+        answer:
+          "Many pregnant and postnatal clients find gentle lymphatic work more comfortable than deeper massage for swollen ankles and feet. Always confirm the therapist has both pregnancy and lymphatic drainage training before booking, and check with your midwife if you are unsure.",
+      },
+      {
+        question: "Does the NHS offer lymphatic drainage massage?",
+        answer:
+          "Yes, but specifically for lymphoedema management, usually as short courses delivered at specialist clinics alongside compression and skin care, not as a general relaxation treatment. Availability varies, and not every area has a dedicated lymphoedema service.",
+      },
+    ],
+  },
+  {
+    slug: "what-to-wear-to-a-massage",
+    title: "What to Wear to a Massage (and What to Take Off)",
+    description:
+      "What to wear to get to your appointment, what most people keep on during the massage itself, and what changes for mobile massage at home.",
+    category: "Getting Started",
+    publishedAt: "2026-09-11",
+    readingTime: 6,
+    image: "/blog/covers/therapist-welcome-room.webp",
+    related: [
+      "what-to-expect-first-massage-appointment",
+      "how-to-check-a-massage-therapist-is-qualified",
+      "how-much-does-a-massage-cost-uk",
+    ],
+    html: `
+<p><strong>TL;DR:</strong> wear loose, comfortable clothes to get to your appointment, then undress to whatever level you feel comfortable with underneath. Most people leave their underwear on. You will always be covered with a towel or sheet except for the exact area being worked on, so there is no single right answer, only what makes you relaxed enough to actually benefit from the massage.</p>
+
+<p>What to wear to a massage worries first-timers more than almost anything else about booking one. The honest answer is that it matters far less than people expect.</p>
+
+<h2>What should you wear to get there?</h2>
+<p>Loose, comfortable clothing that is easy to get in and out of. Think what you would wear to the gym: leggings or joggers, a T-shirt, nothing with a lot of buttons or a dress that needs help getting out of.</p>
+<p>Avoid tight jeans, restrictive underwear or anything that leaves marks on your skin before you have even started, since those marks can make it harder for a therapist to see and work on the muscle underneath. Skip heavy makeup, fake tan and strong perfume too, as most treatment rooms are small and the oils used can react with them.</p>
+<p>If you are coming straight from work, a change of top is worth packing if your job involves a shirt and tie or anything structured. You want to be able to lie face down comfortably without fighting your own clothing to get there.</p>
+
+<h2>What do you actually wear during the massage?</h2>
+<p>This is entirely your choice, and a qualified therapist will never push you either way. Roughly half of clients undress fully and half keep underwear on, according to most UK massage clinics, and both are completely normal.</p>
+<p>There is no scoring system for this. A therapist working on your back does not need to know, or care, what you have chosen underneath the towel, because their attention stays on the muscle in front of them, not on judging your decision.</p>
+<p>You will be given privacy to undress and get onto the table, and you get to decide your own comfort level, full draping and all. A properly trained therapist keeps you covered with a towel or sheet throughout, uncovering only the specific area they are working on, then covering it again before moving to the next.</p>
+<p>If your problem area is your hips, lower back or glutes, tight underwear can occasionally get in the way, so briefs or a thong tend to work better than shorts-style underwear for that particular session. For a neck, shoulder or back-focused massage, it makes no real difference.</p>
+<p>Some clients bring their own shorts specifically for glute or hip work, and that is a completely reasonable thing to ask about in advance. A therapist would rather you feel settled and covered than distracted by worrying about it for the whole hour.</p>
+
+<h2>Does it depend on the type of massage?</h2>
+<ul>
+<li><strong><a href="/massage/deep-tissue/">Deep tissue massage</a></strong> usually needs bare skin over the area being treated, so the therapist can see and feel the muscle properly. Draping still applies everywhere else.</li>
+<li><strong><a href="/massage/swedish-massage/">Swedish massage</a></strong> works the same way, full-body coverage with the area in progress uncovered.</li>
+<li><strong><a href="/massage/sports-massage/">Sports massage</a></strong> sometimes uses shorts or leggings if the focus is legs and you would rather stay covered, particularly for a pre-event session.</li>
+<li><strong><a href="/massage/pregnancy-massage/">Pregnancy massage</a></strong> is usually done side-lying with pillows for support, and clients often keep more clothing on for comfort, not because it is required.</li>
+</ul>
+<p>If you are ever unsure, ask when you book. A good therapist would rather answer that question in advance than have you turn up worried about it.</p>
+
+<h2>Does it change if the therapist comes to you?</h2>
+<p>Not really. A mobile massage at home uses the same draping rules as a clinic visit, the only difference is that the treatment table is set up in your own space instead of a treatment room. Wear whatever you would wear to a clinic appointment, and have a robe or loose layer handy for moving between rooms if you need the bathroom mid-session.</p>
+<p>Make sure the room is warm enough before your therapist arrives. You will be undressed to some degree for up to an hour, and a cold room makes it much harder to relax into the massage, whatever you have chosen to wear underneath.</p>
+
+<h2>What if you feel exposed or embarrassed?</h2>
+<p>Say so. You can ask for extra draping, keep more clothing on than is typical, or stop the session entirely at any point, no explanation required. This is your appointment, not a test you can fail by being modest.</p>
+<p>If a therapist makes you feel pressured to undress more than you are comfortable with, that is worth raising with their professional body afterwards, or simply not rebooking. Our guide to <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">checking a therapist is qualified and insured</a> covers what a properly registered therapist should and should not do.</p>
+
+<h2>What happens to your clothes during the session?</h2>
+<p>You will usually be shown a hook, chair or small changing area to leave your clothes, folded, within easy reach of the table. Clinics generally provide a locker or a private corner rather than a shared changing room, since most massage appointments are one-to-one.</p>
+<p>Oils and lotions used during the massage can occasionally mark fabric, so it is worth choosing an outfit you would not mind getting a small oil mark on, rather than your newest top. Most therapists will offer a tissue or wipe afterwards so you are not putting oily skin straight back into clothing, but a little residue on your top layer is normal.</p>
+
+<h2>What should you bring or leave at home?</h2>
+<p>Bring nothing more complicated than yourself and a form of payment. Leave jewellery, watches and anything bulky in your bag rather than on the table, since rings and bracelets can dig in during a deep tissue session, and a watch strap can catch on a sheet mid-turn.</p>
+<p>If it is your first visit anywhere, arriving 10 minutes early to fill in a health form is more useful preparation than any particular outfit. See our full guide on <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at your first massage appointment</a> for the rest of the process, from booking to paying.</p>
+<p>It also helps to know roughly what you want out of the session before you arrive, such as whether you want firm pressure on a specific area or a general relaxation massage, since that shapes what your therapist recommends far more than anything you have chosen to wear.</p>
+
+<p>Ready to book? Our <a href="/find-a-therapist">directory of UK massage therapists</a> lets you check treatment type, price and location before you arrive, so the only thing left to think about is what is comfortable to wear.</p>
+`,
+    faqs: [
+      {
+        question: "Do I have to take my underwear off for a massage?",
+        answer:
+          "No. It is entirely your choice, and roughly half of clients keep it on. A properly trained therapist keeps you draped with a towel or sheet throughout, uncovering only the exact area being worked on at any moment.",
+      },
+      {
+        question: "What should I wear on the way to a massage appointment?",
+        answer:
+          "Loose, comfortable clothing that is easy to get in and out of, similar to what you would wear to the gym. Avoid tight jeans, restrictive underwear and heavy makeup, fake tan or strong perfume before you arrive.",
+      },
+      {
+        question: "Is it normal to feel nervous about undressing for a massage?",
+        answer:
+          "Completely normal, especially the first time. You get full privacy to undress, you decide your own comfort level, and you can ask for extra draping or keep more clothing on at any point without needing to explain why.",
+      },
+      {
+        question: "What do I wear for a mobile massage at home?",
+        answer:
+          "The same as you would for a clinic visit, since draping rules do not change. Have a robe or loose layer to hand for moving between rooms, and make sure the room is warm enough before your therapist arrives.",
+      },
+      {
+        question: "Will my clothes get oily during the massage?",
+        answer:
+          "Possibly a small mark on your top layer, so avoid wearing anything precious. Most therapists offer a tissue or wipe afterwards so you are not putting fully oily skin straight back into your clothes.",
+      },
+      {
+        question: "What should I do with my jewellery during a massage?",
+        answer:
+          "Leave rings, bracelets and watches in your bag rather than on the treatment table. They can dig into your skin during firmer techniques like deep tissue massage, and a watch strap can catch on the sheet as you turn.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-runners",
+    title: "Massage for Runners: Before a Race, After a Race, or Neither?",
+    description:
+      "When massage genuinely helps runners, why timing matters more than the massage itself, and how to fit it around training without risking your race.",
+    category: "Wellness Tips",
+    publishedAt: "2026-09-11",
+    readingTime: 6,
+    image: "/blog/covers/sports-massage-leg.webp",
+    related: [
+      "sports-massage-vs-deep-tissue-massage",
+      "best-massage-for-lower-back-pain",
+      "how-often-should-you-get-a-massage",
+    ],
+    html: `
+<p><strong>TL;DR:</strong> massage helps runners most as part of ongoing training, not as a magic fix the day before a race. A light massage 48 to 72 hours before a big event is fine; a deep one in the final two days is not. After a race, wait a couple of days before booking anything firm, and let the first, most painful stage of recovery pass on its own.</p>
+
+<p>Runners tend to ask the same question in two different ways: should I get a massage before my race, or should I wait until after? The honest answer is neither is urgent, and both carry a right way and a wrong way to do them.</p>
+
+<h2>Does massage actually help runners, or is it just nice to have?</h2>
+<p>Both, depending on when you book it. Regular massage through a training block genuinely helps by keeping tight, overworked muscles, calves, hamstrings and the muscles around your hips, more mobile than they would be left alone.</p>
+<p><a href="/massage/sports-massage/">Sports massage</a> is built specifically for this, using firmer, more targeted pressure than a relaxation massage to work into the muscles that take the repeated load of running. It will not add speed by itself, but a body that moves better tends to train more consistently, which is where the actual improvement comes from.</p>
+<p>Most of the research on massage and performance is mixed at best, and no study shows it reliably makes you faster on race day. Where it does show up clearly is in how sore and stiff you feel afterwards, and in how quickly you feel ready to run again.</p>
+
+<h2>Should you book massage before a race?</h2>
+<p>Timing matters more than the massage itself here. A light, gentle massage 60 to 90 minutes before the start can genuinely help with nerves and blood flow, and plenty of race-day massage tents exist for exactly this.</p>
+<p>What does not help is a deep, firm sports massage in the 48 hours before your event. Working deeply into muscle causes small amounts of micro-trauma that need a few days to settle, and you do not want that happening the day before you ask those muscles to run 10, 13 or 26 miles.</p>
+<p>If you want a proper deep tissue session before a big race, book it four to seven days out, then stick to light stretching and easy movement in the final couple of days.</p>
+<p>This matters more the bigger the event. A weekly 5K does not need this level of planning, but a marathon, where your legs need to be completely fresh on the day, is worth being genuinely strict about in the final week.</p>
+
+<h2>Should you book massage straight after a race?</h2>
+<p>Not immediately, and not too deep. Straight after a hard race, your muscles are already dealing with real damage from the effort, and firm massage on top of that can make soreness worse rather than better.</p>
+<p>Most sports therapists suggest waiting 48 to 72 hours after a marathon or similarly hard effort before booking a deep session, letting the sharpest muscle soreness pass first. A gentler massage sooner than that, focused on circulation rather than deep pressure, is a reasonable middle ground if you want something the same week.</p>
+<p>This holds for shorter races too, just on a shorter timescale. A hard 10K needs less recovery time than a marathon, but the same basic order still applies: let the initial soreness settle before asking for anything firm.</p>
+<p>Once that initial window has passed, massage can genuinely help clear the heavy, stiff feeling that lingers for days after a big effort, and get you back to normal training sooner.</p>
+<p>Gentle walking, light stretching and staying hydrated in the first 48 hours do more for recovery than any massage booked too early. Save the deep work for once the sharpest soreness has already started to ease on its own.</p>
+
+<h2>What about regular training, not just race day?</h2>
+<p>This is where massage does the most good for most runners. A session every three to four weeks through a training block helps catch tight spots, like a stiff calf or an overworked IT band, before they turn into a proper injury.</p>
+<p>If you train hard, alternating a <a href="/massage/sports-massage/">sports massage</a> with something gentler like <a href="/massage/swedish-massage/">Swedish massage</a> every other session can stop your body feeling permanently pummelled. See our comparison of <a href="/learn/sports-massage-vs-deep-tissue-massage/">sports massage and deep tissue massage</a> if you are not sure which is the better fit for your training load.</p>
+
+<h2>What should a running-focused massage actually target?</h2>
+<p>A therapist who works with runners regularly will usually spend most of the time on your calves, hamstrings, quads and the muscles around your hips and glutes, since these take the bulk of the repeated impact from running.</p>
+<p>The IT band, a thick band of tissue running down the outside of your thigh, and your feet and lower legs, are worth mentioning specifically if you have had any tightness there, since they are easy to overlook in a general full-body session but matter a lot for running comfort.</p>
+<p>Tell your therapist roughly what you are training for, a weekly park run versus marathon training changes what makes sense to focus on, and how firm you can safely go this close to your next big session.</p>
+
+<h2>What if you already have a niggle or an old injury?</h2>
+<p>Tell your therapist about it before they start, every single time, even if it feels fine that day. A good sports massage therapist will work around an acute injury rather than straight into it, and may suggest seeing a physio first if something looks more serious than general tightness.</p>
+<p>Persistent pain that does not settle with rest, or pain that changes your running gait, is a reason to see a physiotherapist rather than book another massage and hope. Our guide to <a href="/learn/best-massage-for-lower-back-pain/">massage for lower back pain</a> covers a similar principle: massage helps ordinary tightness, but it is not a substitute for diagnosis when something feels properly wrong.</p>
+<p>A useful rule of thumb is that ordinary muscle tightness tends to ease within a session or two, while a genuine injury tends to come back in the same spot, in the same way, every time you increase your mileage. If that pattern sounds familiar, get it looked at before your next big training block rather than after.</p>
+
+<p>Cost is roughly in line with a standard sports massage, typically £40 to £70 for an hour, though race-day massage tents sometimes offer shorter, cheaper sessions of 15 to 20 minutes aimed purely at loosening you up before the start.</p>
+
+<p>Whether you are building a base, tapering for a race, or recovering from one, you can find a sports massage therapist who works with runners specifically through our <a href="/find-a-therapist">directory of UK massage therapists</a>.</p>
+`,
+    faqs: [
+      {
+        question: "Should I get a massage the day before a marathon?",
+        answer:
+          "Avoid anything deep or firm that close to race day. A light, gentle massage 60 to 90 minutes before the start can help with nerves and blood flow, but save deep tissue work for four to seven days out instead.",
+      },
+      {
+        question: "How soon after a race can I get a sports massage?",
+        answer:
+          "Most sports therapists suggest waiting 48 to 72 hours before booking a deep session, letting the sharpest muscle soreness pass first. A gentler, circulation-focused massage sooner than that is a reasonable middle ground.",
+      },
+      {
+        question: "Does massage actually improve running performance?",
+        answer:
+          "The evidence for a direct performance boost is mixed at best, and no study reliably shows it makes you faster. Where it does clearly help is in reducing how sore and stiff you feel afterwards, and getting you back to training sooner.",
+      },
+      {
+        question: "How often should runners book a massage during training?",
+        answer:
+          "Roughly every three to four weeks through a training block works well for most runners, catching tight spots like a stiff calf or IT band before they become a proper injury, without turning into an excessive expense.",
+      },
+      {
+        question: "Can I get a massage if I have a running injury?",
+        answer:
+          "Tell your therapist about it before the session starts, every time. A good sports massage therapist will work around an acute injury rather than into it, and may suggest seeing a physio first if it looks more serious than general tightness.",
+      },
+      {
+        question: "How much does a sports massage cost for runners in the UK?",
+        answer:
+          "Typically £40 to £70 for an hour, similar to a standard sports massage. Race-day massage tents sometimes offer shorter 15 to 20 minute sessions at a lower price, aimed purely at loosening you up before the start.",
       },
     ],
   },
