@@ -385,9 +385,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 7,
     image: "/blog/how-often-should-you-get-a-massage.webp",
     related: [
-      "how-much-does-a-massage-cost-uk",
       "best-massage-for-lower-back-pain",
       "is-pregnancy-massage-safe",
+      "why-am-i-sore-after-a-massage",
     ],
     html: `
 <p>There's no single correct frequency — it depends on why you're getting a massage in the first place. As a rough starting point: <strong>every 4–6 weeks</strong> works well for general wellbeing and stress relief, <strong>every 1–2 weeks</strong> is more typical when actively managing chronic pain or tension, and athletes in heavy training often book around key sessions or events rather than on a fixed schedule.</p>
@@ -745,9 +745,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/treatment-room-back-massage.webp",
     related: [
-      "sports-massage-vs-deep-tissue-massage",
       "best-massage-for-lower-back-pain",
       "massage-for-neck-and-shoulder-tension",
+      "massage-vs-physiotherapy",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you are under the care of a GP, physiotherapist or consultant, follow what they have told you.</p>
@@ -1065,9 +1065,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/lower-back-hands.webp",
     related: [
-      "what-is-remedial-massage",
       "deep-tissue-vs-swedish-massage",
       "best-massage-for-lower-back-pain",
+      "massage-for-tension-headaches",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If a GP or physiotherapist has already given you a plan for your neck or shoulders, follow that first.</p>
@@ -1250,9 +1250,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/therapist-welcome-room.webp",
     related: [
-      "what-to-expect-first-massage-appointment",
       "how-to-check-a-massage-therapist-is-qualified",
       "how-much-does-a-massage-cost-uk",
+      "mobile-massage-vs-clinic",
     ],
     html: `
 <p><strong>TL;DR:</strong> wear loose, comfortable clothes to get to your appointment, then undress to whatever level you feel comfortable with underneath. Most people leave their underwear on. You will always be covered with a towel or sheet except for the exact area being worked on, so there is no single right answer, only what makes you relaxed enough to actually benefit from the massage.</p>
@@ -1417,6 +1417,392 @@ export const manualPosts: ManualPost[] = [
         question: "How much does a sports massage cost for runners in the UK?",
         answer:
           "Typically £40 to £70 for an hour, similar to a standard sports massage. Race-day massage tents sometimes offer shorter 15 to 20 minute sessions at a lower price, aimed purely at loosening you up before the start.",
+      },
+    ],
+  },
+  {
+    slug: "why-am-i-sore-after-a-massage",
+    title: "Why Am I Sore After a Massage? What Is Normal and What Is Not",
+    description:
+      "Why massage causes soreness, how long it should realistically last, what actually helps, and the warning signs that mean it is not just ordinary soreness.",
+    category: "Wellness Tips",
+    publishedAt: "2026-09-18",
+    readingTime: 6,
+    image: "/blog/covers/bedroom-pillows.webp",
+    related: [
+      "how-often-should-you-get-a-massage",
+      "deep-tissue-vs-swedish-massage",
+      "sports-massage-vs-deep-tissue-massage",
+    ],
+    html: `
+<p><strong>TL;DR:</strong> mild soreness for a day or two after a massage, especially a firm one, is normal and usually means your muscles are recovering, not that anything went wrong. Sharp pain, bruising, numbness or soreness that lasts more than three days is not normal, and worth mentioning to your therapist or a GP.</p>
+
+<p>You booked a massage to feel better, so waking up stiff the next morning feels like it backfired. Most of the time it hasn't.</p>
+
+<h2>Why do you feel sore after a massage at all?</h2>
+<p>Firm massage, particularly <a href="/massage/deep-tissue/">deep tissue massage</a>, works into muscle fibres that do not normally get much direct pressure. That causes tiny amounts of microscopic strain, similar to what happens after a hard workout.</p>
+<p>Your body responds by sending extra blood, oxygen and nutrients to the area to repair it, which is the same inflammatory process behind muscle soreness after exercise. It is a sign the tissue is being worked on, not a sign of damage.</p>
+<p>A gentler <a href="/massage/swedish-massage/">Swedish massage</a> rarely causes this kind of soreness, since it works with lighter pressure. If you always feel sore afterwards, the pressure may simply be firmer than your body is used to.</p>
+<p><a href="/massage/sports-massage/">Sports massage</a> tends to produce a similar kind of soreness to deep tissue, since both use firm, targeted pressure on muscle that is already doing a lot of work. If you have booked either for the first time, some soreness the next day is genuinely expected rather than a red flag.</p>
+
+<h2>Is soreness actually a sign the massage worked?</h2>
+<p>Not necessarily, and this is a common myth worth clearing up. Soreness is a side effect of firm pressure on muscle tissue, not proof that anything was fixed or released.</p>
+<p>Plenty of effective massages produce little to no soreness at all, particularly lighter relaxation work. Judge a massage by how you feel once any soreness has passed, not by how sore you were the next morning.</p>
+
+<h2>How long should soreness actually last?</h2>
+<p>Typically a few hours up to a day and a half. For a first massage, a first deep tissue session, or work on an area that was particularly tight, it can stretch to two or three days.</p>
+<p>Soreness that is still building on day three or four, rather than easing, is unusual and worth flagging. Ordinary post-massage soreness peaks early and fades steadily, it does not get worse the longer you wait.</p>
+<p>How sore you get also depends on how regularly you have massage. Someone booking their first deep tissue session after months without one will usually feel more the next day than someone having a similar session every few weeks, since the muscle is less accustomed to that kind of work.</p>
+
+<h2>What actually helps once you're sore?</h2>
+<ul>
+<li><strong>Drink water.</strong> It will not "flush toxins" in the way some clinics claim, but staying hydrated genuinely helps muscle recovery generally.</li>
+<li><strong>Move gently.</strong> A short walk keeps blood flowing to sore muscles better than sitting still all day.</li>
+<li><strong>Use heat, not ice</strong>, unless you were told otherwise. Warmth relaxes muscle fibres, where ice is more for acute injury, not ordinary post-massage soreness.</li>
+<li><strong>Skip another hard session immediately.</strong> Give the area a few days before booking anything equally firm on the same spot.</li>
+<li><strong>Stretch gently, do not push through pain.</strong> Light stretching can ease stiffness, but stop if it sharpens the soreness rather than easing it.</li>
+<li><strong>Get some sleep.</strong> Muscle repair happens largely while you rest, so an early night after a firm massage genuinely helps more than most people expect.</li>
+</ul>
+<p>None of this needs to be complicated. Most soreness resolves on its own regardless of what you do, these steps just make the day or two more comfortable while it does.</p>
+
+<h2>Is more pressure always a better massage?</h2>
+<p>No. Firmer is not automatically more effective, and soreness afterwards is not proof the massage "worked". <a href="/massage/remedial-massage/">Remedial massage</a> in particular should feel purposeful rather than simply hard, since a good remedial therapist adjusts pressure to what your muscle can actually tolerate that day.</p>
+<p>If you consistently leave sessions in real pain rather than mild soreness, that is worth raising with your therapist before your next booking, not something to push through as a sign of a good treatment.</p>
+
+<h2>How do you avoid unnecessary soreness next time?</h2>
+<p>Tell your therapist how sore you were after your last session, and whether that was more than you wanted. A good therapist will adjust pressure based on that feedback rather than repeating exactly the same approach.</p>
+<p>If you know an area is particularly sensitive, such as tight shoulders or a previously injured muscle, say so before they start rather than partway through. Booking a slightly shorter session focused on fewer areas can also mean less overall soreness than a full-body deep tissue massage in one go.</p>
+<p>Drinking water and eating something light before your appointment, rather than arriving dehydrated or on an empty stomach, also seems to help some people cope better with firmer pressure, even though the evidence for this is more anecdotal than proven.</p>
+
+<h2>When is soreness not normal?</h2>
+<p>Sharp, localised pain during or after a massage, rather than a general dull ache, is not typical and is worth mentioning straight away. The same goes for bruising, since a competent therapist should not leave marks from ordinary pressure.</p>
+<p>Numbness, tingling or weakness in a limb after a massage is not ordinary soreness and needs medical attention rather than waiting it out. If pain is still getting worse after three or four days, or comes with swelling, redness or a fever, contact your GP rather than assuming it will pass.</p>
+<p>These situations are uncommon. Most people who feel sore after a massage are dealing with the same ordinary, self-limiting soreness that follows a hard workout, and it settles on its own within a day or two without needing anything more than a bit of patience.</p>
+
+<h2>Does the type of massage change how sore you get?</h2>
+<p>Broadly, yes. Deeper, more targeted techniques tend to produce more soreness than lighter, broader strokes, simply because they work more intensely into a smaller area of muscle.</p>
+<p>A full-body relaxation massage using lighter pressure throughout will usually leave you feeling loose rather than sore. A session that spends 20 minutes working firmly into one tight shoulder is far more likely to leave that specific spot sore the next day, even though the overall appointment felt the same length.</p>
+<p>If you want the benefits of firm work with less next-day soreness, ask your therapist to spend slightly less time on any one area and cover more ground at a moderate pressure instead.</p>
+
+<p>Tell your therapist about any soreness at your next visit, since it changes how firm they should go. You can find deep tissue, remedial and Swedish therapists who work at a range of pressures through our <a href="/find-a-therapist">directory of massage therapists</a>.</p>
+`,
+    faqs: [
+      {
+        question: "Is it normal to be sore the day after a massage?",
+        answer:
+          "Yes, especially after deep tissue or sports massage. It is a similar response to soreness after a hard workout, and usually settles within a day or two without needing anything more than rest and water.",
+      },
+      {
+        question: "How long does soreness after a massage usually last?",
+        answer:
+          "Typically a few hours up to a day and a half, stretching to two or three days for a first session or particularly firm work. Soreness that is still getting worse after three or four days is unusual and worth mentioning to your therapist or GP.",
+      },
+      {
+        question: "Does being sore mean the massage actually worked?",
+        answer:
+          "Not necessarily. Soreness is a side effect of firm pressure on muscle, not proof anything was fixed or released. Plenty of genuinely effective, lighter massages produce little to no soreness at all.",
+      },
+      {
+        question: "What helps soreness after a deep tissue massage?",
+        answer:
+          "Staying hydrated, moving gently rather than resting completely still, using heat rather than ice, and getting a good night's sleep all help. Avoid booking another firm session on the same area until the soreness has fully settled.",
+      },
+      {
+        question: "When should I worry about soreness after a massage?",
+        answer:
+          "If you have sharp, localised pain, bruising, numbness, tingling or weakness in a limb, or soreness that keeps getting worse after three or four days, contact your therapist or a GP rather than waiting it out.",
+      },
+      {
+        question: "Should I ask for lighter pressure if I always get sore?",
+        answer:
+          "Yes. Consistently significant soreness usually means the pressure is firmer than your body currently tolerates well. Tell your therapist at the start of your next session so they can adjust, rather than assuming firmer is always better.",
+      },
+    ],
+  },
+  {
+    slug: "massage-vs-physiotherapy",
+    title: "Massage or Physiotherapy: Which One Do You Actually Need?",
+    description:
+      "How massage and physiotherapy actually differ, when each is the right first booking, whether you can use both, and how NHS self-referral works.",
+    category: "Treatment Guides",
+    publishedAt: "2026-09-18",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "what-is-remedial-massage",
+      "best-massage-for-lower-back-pain",
+      "does-massage-help-sciatica",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have had a recent injury, surgery, or a condition your GP is already treating, follow their advice on which of these to book, or whether to book either yet.</p>
+
+<p>Massage and physiotherapy get lumped together because both involve someone working on sore muscles with their hands. What they are actually for is quite different, and booking the wrong one first can mean weeks of relaxing sessions that never actually address what is causing the pain.</p>
+
+<p><strong>TL;DR:</strong> massage relaxes muscle and eases tension, and is a reasonable first stop for general tightness or stress. Physiotherapy is a medical profession focused on diagnosing and rehabilitating an injury or movement problem, and is the right call when there is a specific injury, ongoing pain, or something your body cannot do that it used to.</p>
+
+<h2>What is the actual difference between them?</h2>
+<p><a href="/massage/remedial-massage/">Remedial massage</a> and general massage work on the soft tissue itself, the muscle and connective tissue, mainly through pressure, kneading and stretching. It feels good, reduces tension, and can genuinely help recovery, but it does not diagnose what is wrong.</p>
+<p><a href="/massage/physiotherapy/">Physiotherapy</a> is a regulated medical profession. A physiotherapist assesses how you move, identifies what is actually causing your pain or limited movement, and builds a treatment plan that might include manual therapy, targeted exercises, and advice on what to avoid while you heal.</p>
+<p>Put simply, massage treats the muscle in front of the therapist. Physiotherapy treats the reason that muscle is a problem in the first place.</p>
+<p>Training reflects this. Massage therapists complete a vocational qualification focused on technique and anatomy. Physiotherapists complete a degree-level medical qualification and are regulated in the same way as other allied health professionals, which is why a physiotherapist can diagnose, refer for scans, and design a full rehabilitation plan in a way a massage therapist is not trained or insured to do.</p>
+
+<h2>When is massage the right call?</h2>
+<ul>
+<li><strong>General tension</strong> from stress, desk work or normal daily life, with no specific injury behind it.</li>
+<li><strong>Muscle tightness after exercise</strong>, where nothing is actually wrong, it just feels overworked.</li>
+<li><strong>Ongoing maintenance</strong> once an injury has already been diagnosed and treated, to help keep muscles loose between physiotherapy sessions.</li>
+<li><strong>Relaxation and stress relief</strong> as the primary goal, rather than fixing a specific physical problem.</li>
+<li><strong>A vague, low-level ache</strong> that has been present a short while, has not changed, and is not stopping you doing anything.</li>
+</ul>
+<p>If you are unsure which category you fall into, that uncertainty is itself a reason to lean towards physiotherapy first. A proper assessment costs you little beyond the appointment, and rules out anything that massage alone would not fix.</p>
+
+<h2>When should you see a physiotherapist instead?</h2>
+<p>See a physiotherapist rather than book a massage if you have pain following a specific injury, a fall, or an accident. The same goes for pain that has lasted more than a few weeks without improving, or that changes how you walk, lift or move.</p>
+<p>Weakness, numbness, tingling, or pain that wakes you at night are all reasons to see a physiotherapist or GP rather than a massage therapist, since these need proper assessment, not just muscle work. Recovery after surgery also belongs with a physiotherapist first, who can tell you what movement is safe at each stage, since the wrong massage too early can genuinely slow healing.</p>
+<p>In many parts of the UK you can self-refer to NHS physiotherapy without seeing your GP first, through your local NHS trust's musculoskeletal service, though availability and waiting times vary by area.</p>
+<p>Self-referral usually means filling in an online form or a paper form with your GP surgery details and current medications, rather than booking a GP appointment purely to get referred onward. It is worth checking your local trust's website, since the process differs slightly across England, Scotland, Wales and Northern Ireland.</p>
+
+<h2>Can you use both together?</h2>
+<p>Often, yes, and it is a common combination. A physiotherapist might diagnose the underlying issue and give you an exercise programme, while a remedial or deep tissue massage keeps the surrounding muscles loose between sessions.</p>
+<p>If you are doing both, tell each practitioner about the other. A physiotherapist can tell your massage therapist which areas to avoid or focus on, and a good remedial therapist will ask about this anyway before working near a recent injury.</p>
+<p>A common pattern is physiotherapy first to diagnose and treat the actual problem, then massage afterwards as part of ongoing maintenance once the physiotherapist has confirmed it is safe to have firmer work done on the area.</p>
+
+<h2>What does each one cost, and is either covered by the NHS?</h2>
+<p>Private massage in the UK typically runs £40 to £75 an hour depending on the type, and private physiotherapy is similar, often £40 to £70 a session. See our full <a href="/learn/how-much-does-a-massage-cost-uk/">guide to massage pricing in the UK</a> for a treatment-by-treatment breakdown. NHS physiotherapy is available for free through self-referral or GP referral in most areas, though waiting times can be longer than booking privately.</p>
+<p>Private physiotherapy is worth considering if NHS waiting times in your area are long and the problem is affecting your daily life now. It costs more, but you are often seen within days rather than weeks.</p>
+<p>Massage is not generally available on the NHS as a standalone treatment, though manual therapy techniques are sometimes included within NHS physiotherapy for a specific injury.</p>
+
+<h2>How do you decide which one to book first?</h2>
+<p>If you can point to a specific injury, a movement you cannot do, or pain that has lasted more than two or three weeks, start with a physiotherapist. If it is general tightness, stress, or muscle fatigue with no clear cause, massage is a reasonable first step.</p>
+<p>When in doubt, a physiotherapist assessment first is the safer order, since they can tell you whether massage is even appropriate for what is actually going on. Our guide on <a href="/learn/best-massage-for-lower-back-pain/">massage for lower back pain</a> covers this same decision for one of the most common reasons people book either.</p>
+<p>Age, general fitness and how the problem started all factor in too. A sudden sports injury usually points towards physiotherapy first, where gradually building tension from months of desk work usually points towards massage, at least as a starting point.</p>
+
+<p>Neither profession is better than the other in general, they simply do different jobs and answer different questions about your body. The right first booking is the one that matches what is actually wrong, not the one that sounds more relaxing on a hard week.</p>
+
+<p>Whichever you choose, you can compare qualified, insured therapists by treatment type on our <a href="/find-a-therapist">directory of massage therapists</a>.</p>
+`,
+    faqs: [
+      {
+        question: "Should I book massage or physiotherapy for back pain?",
+        answer:
+          "If the pain follows a specific injury, has lasted more than a few weeks, or changes how you move, start with physiotherapy. For general tightness or stress-related tension with no clear injury, massage is a reasonable first step.",
+      },
+      {
+        question: "Is a physiotherapist more qualified than a massage therapist?",
+        answer:
+          "They are trained for different things rather than one being simply more qualified. Physiotherapy is a regulated medical profession requiring a degree-level qualification, while massage therapy is a vocational qualification focused on technique, not diagnosis.",
+      },
+      {
+        question: "Can I see a massage therapist and a physiotherapist at the same time?",
+        answer:
+          "Yes, and it is a common combination. A physiotherapist typically diagnoses and treats the underlying issue, while massage helps keep the surrounding muscles loose between sessions, as long as both practitioners know about the other.",
+      },
+      {
+        question: "Do I need a GP referral to see an NHS physiotherapist?",
+        answer:
+          "Not always. Many parts of the UK allow self-referral directly to an NHS musculoskeletal physiotherapy service through an online or paper form, without seeing a GP first, though this varies by local trust.",
+      },
+      {
+        question: "Is massage ever available on the NHS?",
+        answer:
+          "Not usually as a standalone treatment. Manual therapy techniques are sometimes included as part of NHS physiotherapy for a specific injury, but general relaxation or remedial massage is typically a private cost.",
+      },
+      {
+        question: "How much does private physiotherapy cost compared to massage?",
+        answer:
+          "Both are broadly similar, typically £40 to £70 a session for physiotherapy and £40 to £75 an hour for massage depending on the type. Private physiotherapy is often worth it if NHS waiting times in your area are long.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-tension-headaches",
+    title: "Does Massage Help Tension Headaches and Migraines?",
+    description:
+      "Why massage helps tension headaches more reliably than migraines, what a headache-focused session should target, and the red flags that need a GP instead.",
+    category: "Wellness Tips",
+    publishedAt: "2026-09-18",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "massage-for-neck-and-shoulder-tension",
+      "deep-tissue-vs-swedish-massage",
+      "how-often-should-you-get-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have a diagnosed headache or migraine condition, follow your GP or neurologist's plan first.</p>
+
+<p>Tension headaches and migraines are not the same thing, and massage does not help them equally. Knowing which one you actually get changes whether booking a massage is worth your time.</p>
+
+<p><strong>TL;DR:</strong> for tension headaches, massage aimed at the neck, shoulders and scalp has a reasonable evidence base and is genuinely worth trying. For migraines, the evidence is weaker and more mixed, though massage may still help by easing stress and muscle tension, two common triggers. Never book a massage during an active migraine attack, when touch, light and sound are already too much.</p>
+
+<h2>Tension headache or migraine: which do you actually have?</h2>
+<p>A tension headache usually feels like a dull, tight band of pressure around your head, often with tight muscles in your neck and shoulders alongside it. It rarely stops you doing normal activities entirely.</p>
+<p>A migraine is different: often one-sided, throbbing, and severe enough to disrupt your day, frequently with nausea, and sensitivity to light or sound. Some people get warning symptoms beforehand, called an aura.</p>
+<p>If you are not sure which you get, or your headaches have changed pattern recently, that is worth raising with a GP before assuming massage is the answer either way.</p>
+<p>It is also possible to get both, since frequent tension headaches and migraines can overlap in the same person. Keeping a simple diary of when headaches start, how they feel and what came before them can help you and a GP tell the two apart over time.</p>
+
+<h2>Does massage actually help tension headaches?</h2>
+<p>Yes, reasonably well. Massage is commonly suggested as a way of easing the muscle tension and stress that drive tension headaches, working through the neck, shoulders and base of the skull where that tension tends to sit.</p>
+<p><a href="/massage/deep-tissue/">Deep tissue massage</a> can help release the specific tight spots at the base of your skull and across your shoulders that often refer pain up into your head. If you also deal with ongoing shoulder and neck tightness generally, our guide on <a href="/learn/massage-for-neck-and-shoulder-tension/">massage for neck and shoulder tension</a> covers the same muscles from that angle.</p>
+<p>Regular massage, rather than a one-off session when a headache is already bad, tends to work better for reducing how often tension headaches show up in the first place. Think of it as managing the underlying tension, rather than treating each headache as it arrives.</p>
+<p><a href="/massage/remedial-massage/">Remedial massage</a> is worth considering if your headaches come with genuinely restricted movement in your neck, since a remedial therapist will assess your posture and range of motion as part of the session, not just work the sore spot.</p>
+
+<h2>Does massage help migraines too?</h2>
+<p>The evidence here is more mixed. Massage is not part of official migraine treatment guidelines, but it may still help indirectly, by easing stress and improving sleep, both common migraine triggers.</p>
+<p>A gentler approach, such as <a href="/massage/swedish-massage/">Swedish massage</a>, tends to suit migraine-prone clients better than firm deep tissue work, since intense pressure can occasionally act as a trigger itself in sensitive people.</p>
+<p>Never book a massage during an active migraine attack. Touch, light and sound are often already unbearable at that point, and a treatment room is the wrong place to be.</p>
+<p>If massage does help your migraines, it is more likely to be through reducing how often they happen over weeks and months, rather than stopping one that has already started. Booking regularly during a calmer period tends to be more useful than reaching for a massage the moment an attack begins.</p>
+
+<h2>What should a session actually focus on?</h2>
+<ul>
+<li><strong>Base of the skull</strong>, where tight muscles commonly refer pain up over the head.</li>
+<li><strong>Shoulders and upper back</strong>, especially if you spend long hours at a screen.</li>
+<li><strong>Scalp and temples</strong>, using light pressure, which some clients find eases tension quickly.</li>
+<li><strong>Jaw</strong>, if you clench or grind your teeth, since jaw tension commonly contributes to headaches around the temples.</li>
+</ul>
+<p>Tell your therapist specifically that headaches are the goal, since it changes where they spend the most time compared with a general relaxation massage.</p>
+
+<h2>What triggers your headaches in the first place?</h2>
+<p>Massage tends to work best when it is aimed at an actual cause, rather than used as a generic response to any headache. Screen time, poor sleep, dehydration, skipped meals and stress are the most common triggers behind both tension headaches and migraines.</p>
+<p>If your headaches reliably show up after long screen days, our guide on <a href="/learn/massage-for-neck-and-shoulder-tension/">massage for neck and shoulder tension</a> tackles the same root cause from the desk-work angle, including changes to your setup that reduce how often the tension builds up in the first place.</p>
+<p>Massage treats the muscular symptom well. It does not remove the underlying trigger, so pairing it with better sleep, regular meals and reasonable screen breaks tends to work better than massage on its own.</p>
+
+<h2>How often should you book if headaches are frequent?</h2>
+<p>For tension headaches happening more than once a week, a session every two to three weeks tends to help more than an occasional one-off when things get bad. See our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often you should get a massage</a> for how to build a realistic schedule around this.</p>
+<p>If you are getting headaches most days, or migraines more than a few times a month, that frequency itself is worth discussing with a GP, since it may point to something that needs a different kind of management than massage alone can offer.</p>
+
+<h2>When is a headache a reason to see a doctor, not book a massage?</h2>
+<p>Most tension headaches and known migraines are safe to manage this way. A small number of headaches are a sign of something more serious, and massage is the wrong response to those.</p>
+<p>Get emergency medical help for a sudden, extremely severe headache unlike anything you've had before, especially with confusion, slurred speech, weakness down one side, or vision loss. The same applies to a headache with a stiff neck, rash and fever, which can be a sign of meningitis. None of these are situations where a massage is an appropriate response.</p>
+<p>See a GP, rather than booking a massage, for headaches that are new after age 50, that keep getting worse over days or weeks, or that wake you from sleep. These need proper assessment before anything else, since a massage will not address whatever is actually causing them.</p>
+
+<p>If your headaches are the ordinary tension type, you can find deep tissue and remedial therapists experienced with neck and shoulder work through our <a href="/find-a-therapist">directory of massage therapists</a>.</p>
+`,
+    faqs: [
+      {
+        question: "Does massage help tension headaches?",
+        answer:
+          "Yes, reasonably well. Massage aimed at the neck, shoulders and base of the skull eases the muscle tension that commonly drives tension headaches, and regular sessions tend to reduce how often they happen.",
+      },
+      {
+        question: "Is massage as effective for migraines as for tension headaches?",
+        answer:
+          "No, the evidence is weaker and more mixed for migraines. It is not part of official migraine treatment guidelines, though it may help indirectly by easing stress and improving sleep, both common migraine triggers.",
+      },
+      {
+        question: "Can I get a massage during a migraine attack?",
+        answer:
+          "It is best avoided. Touch, light and sound are often already unbearable during an active migraine, making a treatment room the wrong environment. Book massage during calmer periods instead, as part of ongoing prevention.",
+      },
+      {
+        question: "What part of a massage session actually helps headaches?",
+        answer:
+          "Work at the base of the skull, across the shoulders and upper back, and sometimes the jaw if you clench or grind your teeth. Tell your therapist headaches are the goal so they focus time there rather than a general full-body massage.",
+      },
+      {
+        question: "How often should I get a massage for frequent headaches?",
+        answer:
+          "For tension headaches happening more than once a week, a session every two to three weeks tends to work better than an occasional one-off. Headaches most days, or frequent migraines, are worth discussing with a GP alongside any massage.",
+      },
+      {
+        question: "When is a headache a sign I need a doctor, not a massage?",
+        answer:
+          "Seek urgent help for a sudden, extremely severe headache, especially with confusion, slurred speech, weakness or vision loss, or a stiff neck with fever. See a GP for headaches that are new after 50, worsening over weeks, or waking you from sleep.",
+      },
+    ],
+  },
+  {
+    slug: "mobile-massage-vs-clinic",
+    title: "Mobile Massage vs a Clinic Visit: Which Is Right for You?",
+    description:
+      "The real trade-offs between booking a mobile massage at home and visiting a clinic, what to check before a home visit, and how much more it costs.",
+    category: "Getting Started",
+    publishedAt: "2026-09-18",
+    readingTime: 6,
+    image: "/blog/covers/calendar-treatment-room.webp",
+    related: [
+      "how-much-does-a-massage-cost-uk",
+      "what-to-wear-to-a-massage",
+      "what-to-expect-first-massage-appointment",
+    ],
+    html: `
+<p><strong>TL;DR:</strong> mobile massage saves you the travel and lets you relax straight into your own evening, usually for a small premium over the clinic price. A clinic gives you proper equipment, a dedicated treatment space, and is often the better choice for firm remedial or deep tissue work. Neither is more "real" than the other, the right one depends on what you actually need from the session.</p>
+
+<p>Booking a massage used to mean one option: drive or walk to a clinic. Mobile massage has changed that, but it is not automatically the better choice just because it is more convenient.</p>
+
+<h2>What actually changes with mobile massage?</h2>
+<p>A qualified mobile therapist brings a portable table, oils and everything else needed, and sets up in your living room, spare room or garden, wherever you have space. The treatment itself, whether <a href="/massage/deep-tissue/">deep tissue</a> or <a href="/massage/swedish-massage/">Swedish massage</a>, is the same technique either way.</p>
+<p>What changes is everything around the massage. No travel time before or after, no changing in an unfamiliar room, and you can go straight to bed or the sofa afterwards instead of driving home.</p>
+<p>A genuinely professional mobile therapist still turns up with a proper portable treatment table, not a yoga mat on the floor, along with clean linens, oils and hand sanitiser. If someone offers to work on your sofa or bed instead of bringing a table, that is a sign of a less professional setup, whatever else they say about their experience.</p>
+
+<h2>What are the real benefits of booking mobile?</h2>
+<ul>
+<li><strong>No travel time.</strong> A one-hour clinic massage can easily become two hours once you add getting there, parking and getting home.</li>
+<li><strong>You control the environment.</strong> Your own room temperature, lighting and music, rather than whatever the clinic has set up.</li>
+<li><strong>Easier for limited mobility.</strong> Older clients, anyone with a disability, or parents who cannot easily leave the house often find mobile massage far more practical.</li>
+<li><strong>Better for full relaxation.</strong> Going straight to bed or the sofa afterwards, rather than driving, tends to extend how long the benefits last.</li>
+</ul>
+
+<h2>Where does a clinic still win?</h2>
+<p>Clinics have proper treatment tables built for the job, better lighting, and equipment like hot stone warmers that are harder to bring to a house visit. For firm <a href="/massage/remedial-massage/">remedial massage</a> or anything needing precise positioning, that equipment can genuinely matter.</p>
+<p>A clinic is also a clear boundary between home and treatment. Some people find it easier to properly switch off in a dedicated space than in the room where they usually work or watch television.</p>
+<p>If you live somewhere genuinely too small or cluttered to fit a table comfortably, a clinic visit avoids the awkwardness of rearranging furniture for an hour.</p>
+<p>Clinics also tend to suit people who share their home with others, since privacy is guaranteed in a treatment room in a way it is not always in a house full of flatmates, family or a home office next door.</p>
+
+<h2>What about hygiene and setup standards?</h2>
+<p>Reputable clinics are set up specifically for treatments, with proper cleaning routines between clients built into how the space runs. A good mobile therapist replicates this with fresh linens for every appointment and the same hygiene standards, just packed into a bag rather than built into a room.</p>
+<p>Ask any mobile therapist directly how they handle linens and cleaning between clients if it is not already clear from their listing. A professional will have a straightforward answer, since it is a normal part of running a mobile practice properly.</p>
+
+<h2>Does mobile massage cost more?</h2>
+<p>Usually, by roughly £5 to £15, to cover the therapist's travel time and equipment transport. See our full guide on <a href="/learn/how-much-does-a-massage-cost-uk/">massage prices in the UK</a> for typical rates by treatment type.</p>
+<p>Some therapists cap this with a flat local-area rate rather than charging per mile, which is worth asking about if you are planning regular sessions rather than a one-off. Over several bookings, that small premium is often still cheaper overall once you account for the time and, in some cities, the parking cost of a clinic visit.</p>
+
+<h2>What should you check before letting a therapist into your home?</h2>
+<p>Book through a proper listing or directory rather than an unverified social media post, so there is a paper trail of who you booked and when. Confirm the appointment time and treatment in writing beforehand, whether that is an email, text or booking confirmation.</p>
+<p>It is entirely reasonable to ask for proof of qualifications and insurance before a home visit, exactly as you would in a clinic. Most professional mobile therapists will happily send this in advance, since they are used to being asked.</p>
+<p>Some people prefer to have someone else in the house, or nearby, for a first mobile appointment with a new therapist, purely for peace of mind. There is nothing unusual about that, and a professional therapist will not be offended by it.</p>
+
+<h2>Is a mobile therapist as qualified as one in a clinic?</h2>
+<p>Qualifications and insurance work exactly the same way regardless of where the massage happens. A mobile therapist should hold the same recognised qualifications and both public liability and professional indemnity insurance as someone working from a clinic.</p>
+<p>If anything, it is worth asking a few extra questions before a home visit, such as how they handle safety and whether anyone else will be present, since you are inviting someone into your home rather than meeting on neutral ground. See our guide on <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at your first massage appointment</a> for what to check either way.</p>
+
+<h2>Which one should you actually book?</h2>
+<p>Choose mobile massage if convenience matters most, you have a comfortable space at home, or getting to a clinic is genuinely difficult. Choose a clinic if you want firm, precise remedial work, prefer a dedicated space away from home, or simply do not have room to set up a table.</p>
+<p>Plenty of people use both, clinic visits for deeper, targeted sessions, and mobile massage for regular relaxation top-ups that are easier to fit around a busy week. Our guide on <a href="/learn/what-to-wear-to-a-massage/">what to wear to a massage</a> applies the same way whichever you choose.</p>
+<p>Your schedule matters as much as the treatment itself. Someone with a demanding job and small children at home often gets far more consistent benefit from a slightly more expensive mobile session they can actually keep booking, than from a cheaper clinic slot that keeps getting cancelled because getting there is too much hassle.</p>
+
+<p>There is no wrong answer here, only the one that means you actually keep the appointment. You can filter for mobile and clinic-based therapists near you on our <a href="/find-a-therapist">directory of massage therapists</a>.</p>
+`,
+    faqs: [
+      {
+        question: "Is mobile massage as good as going to a clinic?",
+        answer:
+          "The treatment technique itself is identical. The difference is entirely in the surrounding experience, no travel time and full control over your environment with mobile, versus proper equipment and a dedicated space at a clinic.",
+      },
+      {
+        question: "How much more expensive is mobile massage than a clinic visit?",
+        answer:
+          "Usually £5 to £15 more, to cover the therapist's travel time and equipment. Some therapists charge a flat local-area rate instead of a per-mile fee, which is worth asking about for regular bookings.",
+      },
+      {
+        question: "Is it safe to have a massage therapist come to your home?",
+        answer:
+          "Yes, as long as you book through a proper directory or listing, check qualifications and insurance in advance, and confirm the appointment in writing. Having someone else nearby for a first visit with a new therapist is a reasonable extra step.",
+      },
+      {
+        question: "Are mobile massage therapists as qualified as clinic-based ones?",
+        answer:
+          "Qualifications and insurance requirements are exactly the same regardless of location. A mobile therapist should hold the same recognised training and both public liability and professional indemnity insurance as a clinic-based therapist.",
+      },
+      {
+        question: "What should I have ready before a mobile massage appointment?",
+        answer:
+          "A warm room with space to fit a portable table, and a clear area they can set up in without moving lots of furniture. Confirm this with your therapist beforehand if your space is on the smaller side.",
+      },
+      {
+        question: "Is a clinic better for deep tissue or remedial massage?",
+        answer:
+          "Often, yes, since clinics have proper treatment tables and equipment built for firm, precise work. A skilled mobile therapist can still deliver effective deep tissue or remedial massage, but the setup matters more for these firmer techniques.",
       },
     ],
   },
