@@ -128,9 +128,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 8,
     image: "/blog/deep-tissue-vs-swedish-massage.webp",
     related: [
-      "sports-massage-vs-deep-tissue-massage",
       "what-is-remedial-massage",
       "best-massage-for-lower-back-pain",
+      "hot-stone-massage-guide",
     ],
     html: `
 <p>The short answer: <strong>Swedish massage</strong> is for general relaxation and stress relief using long, flowing strokes at light-to-medium pressure. <strong>Deep tissue massage</strong> is for tackling specific muscle tension, knots and chronic tightness using slower, firmer pressure aimed at deeper muscle layers.</p>
@@ -468,9 +468,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 9,
     image: "/blog/what-to-expect-first-massage-appointment.webp",
     related: [
-      "deep-tissue-vs-swedish-massage",
       "how-to-check-a-massage-therapist-is-qualified",
       "what-to-wear-to-a-massage",
+      "when-you-should-not-have-a-massage",
     ],
     html: `
 <p>If you've never had a professional massage before, a bit of nervousness is completely normal. Here's exactly what to expect, from booking to walking out, so there are no surprises.</p>
@@ -546,9 +546,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 8,
     image: "/blog/how-to-sleep-after-shoulder-surgery.webp",
     related: [
-      "best-massage-for-lower-back-pain",
       "sports-massage-vs-deep-tissue-massage",
       "how-often-should-you-get-a-massage",
+      "does-massage-help-frozen-shoulder",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> Always follow the specific instructions your surgeon or physiotherapist gives you — they know your repair and your recovery plan better than any general guide can.</p>
@@ -955,9 +955,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/towels-oils-flatlay.webp",
     related: [
-      "what-to-expect-first-massage-appointment",
       "how-often-should-you-get-a-massage",
       "what-is-lymphatic-drainage-massage",
+      "postnatal-massage-when-is-it-safe",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> Your midwife or maternity team knows your pregnancy. Anything they tell you overrides anything you read here, including this article.</p>
@@ -1803,6 +1803,522 @@ export const manualPosts: ManualPost[] = [
         question: "Is a clinic better for deep tissue or remedial massage?",
         answer:
           "Often, yes, since clinics have proper treatment tables and equipment built for firm, precise work. A skilled mobile therapist can still deliver effective deep tissue or remedial massage, but the setup matters more for these firmer techniques.",
+      },
+    ],
+  },
+  {
+    slug: "does-massage-help-frozen-shoulder",
+    title: "Frozen Shoulder: Does Massage Help, and When?",
+    description:
+      "What massage can and cannot do for frozen shoulder, how it changes through the freezing, frozen and thawing stages, and when to see your GP or a physio instead.",
+    category: "Wellness Tips",
+    publishedAt: "2026-09-25",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "how-to-sleep-after-shoulder-surgery",
+      "massage-vs-physiotherapy",
+      "massage-for-neck-and-shoulder-tension",
+    ],
+    html: `
+<p><em>This is general guidance, not medical advice. If you have been diagnosed with frozen shoulder, or think you might have it, your GP's or physiotherapist's advice comes first.</em></p>
+
+<p><strong>TL;DR:</strong> massage will not unfreeze a frozen shoulder. The problem sits in the joint capsule, deep inside the shoulder, where hands cannot reach. What massage may help with is the aching, guarded muscles around it, which often make the pain and the stiffness feel worse than they need to.</p>
+
+<p>That makes massage a useful extra, not the main treatment. The NHS approach is pain relief, gentle exercises and, if needed, physiotherapy or a steroid injection. Massage fits alongside that plan, and it helps more at some stages than others.</p>
+
+<h2>Why massage cannot reach the real problem</h2>
+<p>Frozen shoulder, or adhesive capsulitis, is a thickening and tightening of the capsule that wraps the shoulder joint. The capsule becomes inflamed, then stiff, and the space inside the joint shrinks. That is why the arm will not lift, however hard you or anyone else pushes.</p>
+<p>No amount of pressure on the skin changes that capsule directly. Anyone who promises to "break down the adhesions" with their thumbs is overselling. The honest pitch is smaller but still worth having.</p>
+<p>When a shoulder hurts, the muscles around it tighten to protect it. Your upper trapezius, the muscles over your shoulder blade and the ones across your chest all start working overtime. You also start hitching your shoulder and leaning to reach things. After a few months, your neck and upper back ache as much as the shoulder itself.</p>
+<p>That secondary tension is what massage can work on. Easing it may make the shoulder more comfortable and make your home exercises easier to do.</p>
+
+<h2>Which stage are you in? It changes what massage can do</h2>
+<p>Frozen shoulder usually moves through three stages. The timings below are commonly quoted ranges, and yours may be shorter or longer. The NHS says recovery can take months or years, but the pain and stiffness usually go away in the end.</p>
+
+<h3>Freezing: pain first, for roughly 2 to 9 months</h3>
+<p>This is the painful stage. The shoulder hurts at rest and often at night, and movement is starting to shrink. Firm work around the joint can make things worse here.</p>
+<p>If you book a massage in this stage, ask for gentle work on the neck, upper back and the other side of the body. Many people find this helps them relax and sleep, even if the shoulder itself is barely touched.</p>
+
+<h3>Frozen: stiff more than sore, for roughly 4 to 12 months</h3>
+<p>The pain usually settles, but the stiffness stays. You may struggle to reach a back pocket, fasten a bra or reach a high shelf.</p>
+<p>This is often when massage is most useful. A <a href="/massage/remedial-massage/">remedial massage therapist</a> can work more firmly on the muscles around the shoulder blade, chest and upper arm, and fit this around the stretches your physio has given you.</p>
+
+<h3>Thawing: movement slowly returns, over months to 2 years</h3>
+<p>Range of movement comes back gradually. Massage at this point can help with the muscles that have been underused and overworked for months, and can make the return to normal activity feel less stiff.</p>
+
+<h2>What a good session for frozen shoulder looks like</h2>
+<p>Expect questions first. A good therapist will ask how long it has been going on, whether it has been diagnosed, what your GP or physio has advised, and whether you have diabetes, which is linked to frozen shoulder.</p>
+<p>The session itself should include:</p>
+<ul>
+<li><strong>Work around the joint, not into it.</strong> Shoulder blade muscles, upper back, chest, neck and upper arm.</li>
+<li><strong>Pressure you can breathe through.</strong> Discomfort should not go above what you would call a 5 out of 10. Sharp or lingering pain is a sign to ease off.</li>
+<li><strong>No forced stretching.</strong> Gentle, pain-free movement of the arm is fine. Cranking it past its current range is not.</li>
+<li><strong>Positioning that suits you.</strong> Lying on the sore side is often impossible, so side-lying on the good side or sitting may work better.</li>
+</ul>
+<p>An hour of remedial or <a href="/massage/deep-tissue/">deep tissue massage</a> usually costs £45 to £70 outside London. A 30-minute session focused on the shoulder, neck and upper back is often enough, and costs less.</p>
+
+<h2>Massage, physio or both?</h2>
+<p>If you have to choose one, choose <a href="/massage/physiotherapy/">physiotherapy</a>. The NHS names physio as a main treatment for frozen shoulder, with courses usually running for at least six weeks. A physio can assess the joint, set an exercise plan and, in some cases, give a steroid injection.</p>
+<p>Massage is best as a second layer. Plenty of people use a physio for the plan and a massage therapist every two to four weeks to keep the surrounding muscles from locking up. Our guide on <a href="/learn/massage-vs-physiotherapy/">massage vs physiotherapy</a> explains who does what in more detail.</p>
+<p>Tell each of them about the other. Your massage therapist should know what exercises you have been given, so they do not undo them, and your physio should know you are having massage.</p>
+
+<h2>What you can do at home between sessions</h2>
+<p>Most of the progress with frozen shoulder happens at home, a few minutes at a time. Follow the exercises your physio or GP gives you, and keep them within a comfortable range.</p>
+<ul>
+<li><strong>Keep the arm moving gently.</strong> Resting it completely tends to make stiffness worse.</li>
+<li><strong>Use warmth before exercises.</strong> A warm shower or a heat pack for 10 to 15 minutes can make movement easier.</li>
+<li><strong>Sort your sleep position.</strong> Night pain is one of the worst parts. A pillow under the sore arm can help, and our guide on <a href="/learn/how-to-sleep-after-shoulder-surgery/">sleeping with a painful shoulder</a> has more setups to try.</li>
+<li><strong>Look after your neck.</strong> Compensating for the shoulder loads the neck and upper back. Our guide to <a href="/learn/massage-for-neck-and-shoulder-tension/">neck and shoulder tension</a> covers easy ways to ease it.</li>
+</ul>
+
+<h2>When to see your GP instead of booking a massage</h2>
+<p>See a GP if you have shoulder pain and stiffness that does not go away, or pain so bad it is hard to move your arm. The <a href="https://www.nhs.uk/conditions/frozen-shoulder/" target="_blank" rel="noopener noreferrer">NHS frozen shoulder guidance</a> is a good place to check your symptoms first.</p>
+<p>Get medical help first, before any massage, if:</p>
+<ul>
+<li>the pain started after a fall or injury, which could mean a fracture or dislocation</li>
+<li>the shoulder is hot, red or swollen, or you have a fever</li>
+<li>you have numbness, tingling or weakness running down the arm</li>
+<li>you have shoulder or arm pain with chest pain or breathlessness, which needs a 999 call</li>
+<li>the pain is getting worse week on week despite treatment</li>
+</ul>
+<p>Never delay a GP or physio appointment in favour of massage. Use massage to make the wait, and the recovery, more comfortable.</p>
+
+<h2>Finding the right therapist for a frozen shoulder</h2>
+<p>Look for a therapist who lists remedial, sports or clinical massage and mentions shoulder problems. Ask at booking whether they have worked with frozen shoulder before and how they would approach your stage.</p>
+<p>A good answer mentions working around the joint, keeping pressure comfortable and fitting in with your physio plan. A worrying one promises to fix it in a few sessions.</p>
+<p>You can search for remedial and sports massage therapists near you on our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+`,
+    faqs: [
+      {
+        question: "Can massage cure frozen shoulder?",
+        answer:
+          "No. Frozen shoulder is a tightening of the joint capsule, which massage cannot reach. Massage may ease the tight, guarded muscles around the shoulder, which can make pain more manageable and home exercises easier. Physiotherapy, exercise and pain relief remain the main treatments.",
+      },
+      {
+        question: "Is it safe to have a massage with frozen shoulder?",
+        answer:
+          "Usually, yes, as long as the therapist works gently around the joint and does not force the arm through painful movement. In the early painful stage, lighter work on the neck and upper back is often better. Check with your GP or physio if you are unsure.",
+      },
+      {
+        question: "Which type of massage is best for frozen shoulder?",
+        answer:
+          "Remedial or sports massage from a therapist experienced with shoulder problems is a good fit. They focus on the muscles around the shoulder blade, chest, neck and upper arm, and keep pressure within a comfortable range rather than pushing through pain.",
+      },
+      {
+        question: "Should I see a physio or a massage therapist for frozen shoulder?",
+        answer:
+          "Start with a physio or your GP. The NHS names physiotherapy as a main treatment, and a physio can assess the joint and set exercises. Massage works well alongside that plan, often every two to four weeks, to keep surrounding muscles from tightening up.",
+      },
+      {
+        question: "How long does frozen shoulder last?",
+        answer:
+          "It varies widely. The NHS says it can take months or years to get better, though the pain and stiffness usually go in the end. Many people move through freezing, frozen and thawing stages over one to three years in total.",
+      },
+      {
+        question: "Can massage make frozen shoulder worse?",
+        answer:
+          "It can if the pressure is too firm during the painful freezing stage, or if the therapist forces the arm past its current range. Tell your therapist straight away if anything feels sharp, and expect any soreness to settle within a day or two.",
+      },
+    ],
+  },
+  {
+    slug: "hot-stone-massage-guide",
+    title: "Hot Stone Massage: What It Does and Who Should Skip It",
+    description:
+      "What really happens in a hot stone massage, what the heat adds, UK prices, how it compares with Swedish and deep tissue, and who should skip it or ask first.",
+    category: "Treatment Guides",
+    publishedAt: "2026-09-25",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "deep-tissue-vs-swedish-massage",
+      "how-much-does-a-massage-cost-uk",
+      "when-you-should-not-have-a-massage",
+    ],
+    html: `
+<p><em>This is general guidance, not medical advice. If you have a health condition or take regular medication, check with your GP before booking a heat-based treatment.</em></p>
+
+<p>Smooth, warm stones laid along your spine. More stones held in the therapist's hands and glided over your back, shoulders and legs. That is hot stone massage, and for most people it is one of the most relaxing treatments on offer.</p>
+
+<p><strong>The short answer:</strong> hot stone massage is a <a href="/massage/swedish-massage/">Swedish-style massage</a> with added heat. The warmth helps muscles relax faster, so you get a deeper sense of ease without firm pressure. It is not the right choice for everyone, though. Heat changes who can safely have it, and the list is longer than for a standard massage.</p>
+
+<h2>What actually happens in a hot stone massage?</h2>
+<p>The stones are usually basalt, a volcanic rock that holds heat well. They are warmed in a water heater, commonly to somewhere around 45 to 55°C, and dried before they touch you.</p>
+<p>A session tends to follow the same pattern:</p>
+<ul>
+<li>The therapist warms up your back with oil and their hands first.</li>
+<li>Stones are placed on key points, often along the back, on the palms or between the toes.</li>
+<li>Held stones are then used like an extension of the hand, with long, flowing strokes.</li>
+<li>Cooled stones are swapped for warm ones throughout, so the heat stays steady.</li>
+</ul>
+<p>Most sessions run 75 to 90 minutes, as the stones take time to use well. You undress to your comfort level and stay covered with towels, exactly as you would for any other massage.</p>
+
+<h2>What does the heat add that hands alone do not?</h2>
+<p>Warmth makes tight muscles easier to work. A therapist can reach the same level of release with lighter pressure, which suits people who find deep tissue too intense.</p>
+<p>People commonly book hot stone massage for:</p>
+<ul>
+<li><strong>General muscle tension and stiffness</strong>, especially in the back and shoulders</li>
+<li><strong>Stress and poor sleep</strong>, as many find the heat deeply calming</li>
+<li><strong>Feeling cold or run down</strong> in winter, when the warmth is simply pleasant</li>
+<li><strong>Anyone who dislikes firm pressure</strong> but wants more than a light relaxation massage</li>
+</ul>
+<p>Keep your expectations realistic. The research on hot stone massage specifically is small. Most of the benefit people report is relaxation and short-term relief from muscle tension, similar to other forms of massage. It is a comfort treatment, not a medical one.</p>
+
+<h2>Who should skip hot stones, or ask first?</h2>
+<p>This is the part most spa pages skim over. Heat adds risks that a standard massage does not have, so be honest on your intake form.</p>
+
+<h3>Usually best avoided</h3>
+<ul>
+<li><strong>Pregnancy.</strong> Raising your core temperature is not advised, and many therapists will not offer hot stones to pregnant clients at all. A <a href="/massage/pregnancy-massage/">pregnancy massage</a> is the safer choice.</li>
+<li><strong>Reduced feeling in the skin.</strong> Diabetes with nerve damage (neuropathy), or any condition that dulls sensation, means you may not notice a stone is too hot.</li>
+<li><strong>A fresh injury.</strong> Heat can add to swelling in the first 48 to 72 hours after a sprain or strain.</li>
+<li><strong>Fever, infection or feeling unwell.</strong> Rebook for when you are better.</li>
+<li><strong>Sunburn, broken skin or an active skin flare-up</strong>, such as eczema or psoriasis in the area being treated.</li>
+</ul>
+
+<h3>Ask your GP or specialist first</h3>
+<ul>
+<li>heart conditions, or high or low blood pressure</li>
+<li>blood-thinning medication, as heat and pressure can increase bruising</li>
+<li>varicose veins, where stones should not be placed or pressed</li>
+<li>cancer treatment, or any condition affecting your immune system</li>
+<li>multiple sclerosis or other conditions where heat can make symptoms worse</li>
+</ul>
+<p>Our guide on <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> covers the wider list that applies to every treatment.</p>
+
+<h2>Is it safe? What a good therapist does about burns</h2>
+<p>Burns are the main risk, and they are avoidable. A trained therapist will:</p>
+<ul>
+<li>check the water temperature with a thermometer, not by guesswork</li>
+<li>test each stone on their own skin before it touches yours</li>
+<li>keep stones moving, or put a towel between you and any stone left still</li>
+<li>ask you regularly whether the heat is comfortable</li>
+</ul>
+<p>Speak up the moment anything feels too hot. Redness that fades within an hour is normal. Blistering, or a patch that stays sore and red, is not, and you should tell the therapist and get it looked at.</p>
+<p>Hot stone work is a specific add-on skill, so ask what training the therapist has in it. Our guide on <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">checking a therapist is qualified</a> explains what insurance and qualifications to look for.</p>
+
+<h2>How much does hot stone massage cost in the UK?</h2>
+<p>Expect roughly £50 to £90, depending on location and length. Sessions are usually longer than a standard hour, and the stones and heater add to the therapist's setup costs.</p>
+<ul>
+<li><strong>60 minutes:</strong> around £50 to £70 outside London</li>
+<li><strong>75 to 90 minutes:</strong> around £65 to £90</li>
+<li><strong>Central London and hotel spas:</strong> often £100 or more</li>
+</ul>
+<p>Our full <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage prices guide</a> compares this with other treatments. Mobile hot stone massage is less common, as the heater and stones are awkward to carry.</p>
+
+<h2>Hot stone, Swedish or deep tissue: which suits you?</h2>
+<p>Pick by what you want to walk out feeling.</p>
+<ul>
+<li><strong>Hot stone</strong> if you want deep relaxation, feel the cold, or find firm pressure uncomfortable.</li>
+<li><strong>Swedish</strong> if you want a relaxing massage but do not need, or cannot have, the heat.</li>
+<li><strong><a href="/massage/deep-tissue/">Deep tissue</a></strong> if you have stubborn knots or a specific problem area and are happy with firmer pressure.</li>
+</ul>
+<p>If you are torn between the last two, our guide to <a href="/learn/deep-tissue-vs-swedish-massage/">deep tissue vs Swedish massage</a> goes into the difference. Some therapists also combine stones with deeper work in the same session, so it is worth asking.</p>
+
+<h2>Should you try hot stones at home?</h2>
+<p>Home hot stone kits are cheap and easy to buy online. They are also the most common way people end up with a burn from this treatment.</p>
+<p>The problem is temperature control. Stones heated in a pan or microwave can be far hotter on the inside than they feel on the surface. Without a thermometer and a proper heater, it is hard to keep them in a safe range.</p>
+<p>If you want warmth at home, a wheat bag or a hot water bottle wrapped in a towel is simpler and safer. Hold it on a tight area for 10 to 15 minutes, then stretch gently. Leave the stones to someone trained in using them, especially if anyone in the house has reduced feeling in their skin.</p>
+<p>Clean stones matter too. A therapist washes and sanitises them between clients, which is harder to get right with a kit that lives in a kitchen drawer.</p>
+
+<h2>Getting the most from your first session</h2>
+<p>Drink some water beforehand and avoid a heavy meal in the hour before. Arrive a few minutes early to fill in the health form properly, as it matters more for heat treatments.</p>
+<p>Afterwards, you may feel drowsy and very relaxed. Give yourself a quiet evening if you can. Avoid a hot bath or sauna straight after, as your body has already had plenty of heat.</p>
+<p>Ready to try it? Browse <a href="/massage/hot-stone-massage/">hot stone massage therapists</a> or search our full <a href="/find-a-therapist">therapist directory</a> for someone near you.</p>
+`,
+    faqs: [
+      {
+        question: "What is hot stone massage good for?",
+        answer:
+          "Most people book it for relaxation, general muscle tension and stress. The heat helps muscles loosen with lighter pressure, so it suits anyone who wants a deep sense of ease without the intensity of deep tissue massage. It is a comfort treatment rather than a medical one.",
+      },
+      {
+        question: "Who should not have a hot stone massage?",
+        answer:
+          "It is usually best avoided in pregnancy, with reduced skin sensation such as diabetic neuropathy, with a fresh injury, fever, sunburn or broken skin. Anyone with heart problems, blood pressure issues, varicose veins or taking blood thinners should check with their GP first.",
+      },
+      {
+        question: "Can hot stone massage burn you?",
+        answer:
+          "It can if the stones are too hot or left still on bare skin, but a trained therapist prevents this. They check the water temperature, test stones on their own skin first and keep them moving. Tell them straight away if anything feels too hot.",
+      },
+      {
+        question: "How much is a hot stone massage in the UK?",
+        answer:
+          "Usually around £50 to £90, depending on where you live and how long the session is. Most run 75 to 90 minutes. Central London clinics and hotel spas often charge £100 or more for the same treatment.",
+      },
+      {
+        question: "Is hot stone massage better than deep tissue?",
+        answer:
+          "Neither is better overall. Hot stone suits people who want relaxation and dislike firm pressure. Deep tissue suits people with stubborn knots or a specific problem area. Some therapists combine the two, which can give you the warmth plus targeted work.",
+      },
+      {
+        question: "Can I have a hot stone massage while pregnant?",
+        answer:
+          "It is generally best avoided, as raising your core temperature is not advised in pregnancy and many therapists will not offer it. A pregnancy massage from a therapist with prenatal training is the safer option. Check with your midwife if you are unsure.",
+      },
+    ],
+  },
+  {
+    slug: "when-you-should-not-have-a-massage",
+    title: "When You Should Not Have a Massage",
+    description:
+      "The illnesses, injuries, conditions and medications that mean you should cancel, rebook or check with your GP before a massage, and the red flags to act on.",
+    category: "Getting Started",
+    publishedAt: "2026-09-25",
+    readingTime: 6,
+    image: "/blog/covers/therapist-welcome-room.webp",
+    related: [
+      "what-to-expect-first-massage-appointment",
+      "how-to-check-a-massage-therapist-is-qualified",
+      "why-am-i-sore-after-a-massage",
+    ],
+    html: `
+<p><em>This is general guidance, not medical advice. If you have a health condition, are recovering from surgery or are under a specialist, their advice comes before anything here.</em></p>
+
+<p>Massage is safe for most people most of the time. But there are times to cancel, times to have a massage with some areas left alone, and times to check with your GP before you book at all. Therapists call these contraindications.</p>
+
+<p>Here is the quick version. <strong>Cancel</strong> if you are ill, feverish or have a stomach bug. <strong>Avoid the area</strong> if it has a fresh injury, a wound, a rash or a lump nobody has checked. <strong>Ask your GP first</strong> if you have a suspected clot, a heart condition, cancer, recent surgery, or take blood thinners.</p>
+
+<h2>Cancel and rebook: short-term reasons to skip</h2>
+<p>These are the easy ones. Rebook once you are better, and most therapists will be glad you did.</p>
+<ul>
+<li><strong>Fever, flu or a heavy cold.</strong> Massage can make you feel worse, and you will pass it on to the therapist and their next client.</li>
+<li><strong>A stomach bug.</strong> The NHS advises staying away from others until 48 hours after the last bout of sickness or diarrhoea. Apply the same rule to a massage.</li>
+<li><strong>Anything contagious on the skin</strong>, such as cold sores on the face for a facial massage, impetigo, scabies or a fungal infection.</li>
+<li><strong>Too much alcohol.</strong> You will not feel pressure properly and may feel sick or faint.</li>
+<li><strong>Feeling very unwell and not sure why.</strong> See a doctor first. Massage can wait.</li>
+</ul>
+<p>Most therapists have a cancellation policy, but a genuine illness is the one reason nearly all of them will be flexible about. Call as early as you can.</p>
+
+<h2>Leave these areas alone, but massage elsewhere</h2>
+<p>Some problems only rule out the area they affect. The therapist works around them and treats the rest of you as normal.</p>
+<ul>
+<li><strong>Open wounds, cuts, burns and recent sunburn</strong></li>
+<li><strong>Fresh bruises</strong>, and anywhere that bruises unusually easily</li>
+<li><strong>Acute injuries</strong>, such as a sprain in its first 48 to 72 hours, while it is hot and swollen</li>
+<li><strong>Recent fractures</strong>, until your clinician says the bone has healed</li>
+<li><strong>Varicose veins</strong>, which should get light touch only, never deep pressure</li>
+<li><strong>Rashes, infected skin or a flare-up</strong> of eczema or psoriasis</li>
+<li><strong>Lumps you have not had checked</strong>, which need a GP, not a massage</li>
+<li><strong>A hot, red, swollen joint</strong>, such as during a gout flare</li>
+</ul>
+<p>Tell your therapist about all of these before you start, even the small ones. They cannot work around something they do not know about.</p>
+
+<h2>Check with your GP or specialist first</h2>
+<p>These conditions do not always rule massage out. But the right type and pressure depends on your situation, and your care team is best placed to say.</p>
+
+<h3>Suspected blood clot: do not have a massage</h3>
+<p>This is the most important one on the list. Deep vein thrombosis (DVT) usually shows up as throbbing pain, swelling and warmth in one leg, often the calf. Massaging a clot could dislodge it.</p>
+<p>If you have these symptoms, contact your GP or NHS 111 the same day. The <a href="https://www.nhs.uk/conditions/deep-vein-thrombosis-dvt/" target="_blank" rel="noopener noreferrer">NHS DVT guidance</a> says to call 999 if they come with breathlessness or chest pain. The risk of clots is higher after surgery, long flights, and in pregnancy and the weeks after giving birth.</p>
+
+<h3>Heart, blood pressure and circulation</h3>
+<p>Uncontrolled high blood pressure, a recent heart attack or stroke, heart failure, or a pacemaker all need a conversation with your GP or cardiac team first. Gentle massage is often fine once things are stable.</p>
+
+<h3>Cancer, surgery and other long-term conditions</h3>
+<ul>
+<li><strong>Cancer and cancer treatment.</strong> Massage can often be adapted, but only with your care team's agreement and a therapist trained in oncology massage.</li>
+<li><strong>Recent surgery.</strong> Wait for your surgical team's go-ahead, and keep well away from the wound until it has fully healed.</li>
+<li><strong>Osteoporosis.</strong> Firm pressure and some positions can risk a fracture, so lighter work is usual.</li>
+<li><strong>Diabetes with nerve damage.</strong> Reduced feeling means you may not notice if pressure or heat is too much.</li>
+<li><strong>Pregnancy.</strong> Usually fine with a trained therapist, but see our guide on <a href="/learn/is-pregnancy-massage-safe/">whether pregnancy massage is safe</a> for the details by trimester.</li>
+</ul>
+
+<h2>Medications that change what is safe</h2>
+<p>Some medicines do not stop you having a massage, but they change how it should be done. Mention them on your health form.</p>
+<ul>
+<li><strong>Blood thinners</strong>, such as warfarin, apixaban or daily aspirin, raise the risk of bruising. Lighter pressure is usual.</li>
+<li><strong>Strong painkillers</strong> can hide pain that would normally tell you the pressure is too much.</li>
+<li><strong>Steroids taken long term</strong> can thin the skin and weaken bones.</li>
+<li><strong>A recent injection</strong>, such as a steroid injection or a vaccine, means that spot should be left alone for a few days.</li>
+</ul>
+
+<h2>Why your therapist asks so many questions</h2>
+<p>The health form is not red tape. It is how a therapist spots the issues above before they put their hands on you. A good one will ask follow-up questions and may ask you to check with your GP before going ahead.</p>
+<p>That is a sign they know what they are doing. A therapist who skips the questions altogether is a warning sign. Our guides on <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at your first massage</a> and <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">checking a therapist is qualified</a> explain what a proper consultation looks like.</p>
+<p>Be honest, even if something feels embarrassing or unrelated. Everything on the form is confidential, and the therapist has heard it all before.</p>
+<p>Things people often leave off the form, but should mention:</p>
+<ul>
+<li>a recent long-haul flight, which raises the risk of a clot</li>
+<li>a new mole or lump you have been meaning to get checked</li>
+<li>a recent fall, even if nothing seemed broken</li>
+<li>any change to your medication since your last visit</li>
+</ul>
+<p>If you see the same therapist regularly, update them each time something changes. A form filled in two years ago is not much use today.</p>
+
+<h2>What if you feel unwell after a massage?</h2>
+<p>Mild soreness for a day or two after firmer work is normal. Our guide on <a href="/learn/why-am-i-sore-after-a-massage/">soreness after a massage</a> explains what to expect.</p>
+<p>Some reactions are not normal. Get medical advice if you notice:</p>
+<ul>
+<li>swelling, heat and pain in one calf or thigh</li>
+<li>breathlessness or chest pain, which needs a 999 call</li>
+<li>severe pain, numbness or weakness that was not there before</li>
+<li>heavy bruising that keeps spreading</li>
+</ul>
+<p>Tell your therapist too, so they can adjust things next time.</p>
+
+<h2>Unsure? Ask before you book</h2>
+<p>If you are not sure whether a condition affects your massage, call or message the therapist before you book. Most will talk it through, and a good one will tell you honestly if a different treatment, a lighter touch or a GP check comes first. Our <a href="/faq">FAQ page</a> covers more common booking questions.</p>
+<p>When you are ready, you can search for qualified, insured therapists near you in our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+`,
+    faqs: [
+      {
+        question: "When should you not get a massage?",
+        answer:
+          "Skip it if you have a fever, flu, stomach bug or contagious skin condition. Check with your GP first if you have a suspected blood clot, a heart condition, cancer, recent surgery or take blood thinners. Fresh injuries, wounds and rashes should be avoided but the rest of you can usually be treated.",
+      },
+      {
+        question: "Can I have a massage with a cold?",
+        answer:
+          "It is best to cancel if you have a fever, a heavy cold or flu. Lying face down with a blocked nose is uncomfortable, massage can leave you feeling worse, and you risk passing it on. A mild sniffle with no fever is less of a problem, but ask the therapist first.",
+      },
+      {
+        question: "Why should you not massage a blood clot?",
+        answer:
+          "Pressing on a deep vein thrombosis could, in theory, loosen part of the clot and send it to the lungs. If you have pain, swelling and warmth in one leg, contact your GP or NHS 111 the same day, and call 999 if you are also breathless or have chest pain.",
+      },
+      {
+        question: "Can I have a massage if I take blood thinners?",
+        answer:
+          "Often, yes, but tell your therapist so they can use lighter pressure, since blood thinners make bruising more likely. Avoid deep tissue and hot stone work unless your GP agrees. Mention the name of the medicine on your health form.",
+      },
+      {
+        question: "How long after surgery can I have a massage?",
+        answer:
+          "It depends on the operation, so wait for your surgical team's go-ahead. Even then, the therapist should stay well away from the wound until it has fully healed. Gentle massage of other areas is sometimes possible earlier, but only with your clinician's agreement.",
+      },
+      {
+        question: "Why does a massage therapist need my medical history?",
+        answer:
+          "Your answers tell them whether massage is safe for you, which areas to avoid and how much pressure to use. Conditions, medications and recent injuries can all change the treatment. The form is confidential, and a therapist who asks no questions at all is a warning sign.",
+      },
+    ],
+  },
+  {
+    slug: "postnatal-massage-when-is-it-safe",
+    title: "Postnatal Massage: When Is It Safe to Start?",
+    description:
+      "When you can safely have a massage after giving birth, how timing differs after a caesarean, what a postnatal session involves, and the warning signs to watch for.",
+    category: "Wellness Tips",
+    publishedAt: "2026-09-25",
+    readingTime: 6,
+    image: "/blog/covers/bedroom-pillows.webp",
+    related: [
+      "is-pregnancy-massage-safe",
+      "what-is-lymphatic-drainage-massage",
+      "mobile-massage-vs-clinic",
+    ],
+    html: `
+<p><em>This is general guidance, not medical advice. Your midwife, health visitor or GP knows your birth and your recovery. If their advice differs from anything here, follow theirs.</em></p>
+
+<p>After an uncomplicated vaginal birth, many therapists are happy to offer a gentle massage of your back, neck and shoulders within the first few weeks. Full-body work, and anything on your tummy, usually waits until after your postnatal check at 6 to 8 weeks.</p>
+
+<p>After a caesarean, the wait is longer. Nothing should go near your abdomen until at least six weeks, your wound has fully healed and your GP or midwife is happy. Gentle work elsewhere may be possible sooner, with their agreement.</p>
+
+<h2>Why timing matters in the first six weeks</h2>
+<p>Your body does a lot of recovering in the weeks after birth. Your womb is shrinking back, you may be bleeding, and any tears, stitches or a caesarean wound are still healing.</p>
+<p>There is also a less obvious reason to be careful. The risk of blood clots stays raised for about six weeks after giving birth, and it is higher after a caesarean. That is why a good postnatal therapist avoids firm work on the legs early on and asks about leg pain or swelling before starting.</p>
+<p>None of this means massage is off limits. It means the early weeks call for a lighter, more careful kind of session, from someone who understands what your body is doing.</p>
+
+<h2>A rough timeline: vaginal birth vs caesarean</h2>
+<p>Use this as a guide to discuss with your midwife or GP, not a set of rules. Everyone recovers at a different pace.</p>
+
+<h3>After a straightforward vaginal birth</h3>
+<ul>
+<li><strong>First two weeks:</strong> rest comes first. A short neck and shoulder massage, seated or lying on your side, is fine for many people if it helps.</li>
+<li><strong>From about two to six weeks:</strong> gentle back, shoulder, arm and foot massage, lying on your side or supported.</li>
+<li><strong>After your 6 to 8 week check:</strong> full-body massage, if you have been told your recovery is on track.</li>
+</ul>
+
+<h3>After a caesarean</h3>
+<ul>
+<li><strong>First six weeks:</strong> major surgery comes first. Only gentle neck, shoulder or hand work, and only with your midwife's or GP's agreement.</li>
+<li><strong>After your postnatal check:</strong> wider massage, keeping clear of the abdomen until the scar has fully healed.</li>
+<li><strong>Scar massage:</strong> only once the wound is closed, dry and free of infection, and ideally after a midwife, GP or pelvic health physio has shown you how.</li>
+</ul>
+<p>If you had a difficult birth, heavy blood loss, pre-eclampsia or any other complication, check with your care team before booking anything.</p>
+<p>Your postnatal check with your GP, usually at 6 to 8 weeks, is a good moment to ask directly. Mention that you are thinking about massage, and ask whether there is anything the therapist should avoid. Write down the answer so you can pass it on at booking.</p>
+
+<h2>Easing the new-parent aches at home</h2>
+<p>You may not have time for a massage for a while, and that is fine. A few small changes can take some of the strain off in the meantime.</p>
+<ul>
+<li><strong>Bring your baby to you when feeding.</strong> Use a pillow to lift them to breast or bottle height, so you are not hunching down.</li>
+<li><strong>Roll your shoulders often.</strong> Ten slow rolls backwards after each feed eases the upper back.</li>
+<li><strong>Lift from your legs.</strong> Bend your knees to pick up the car seat or the baby from the floor, and hold the weight close.</li>
+<li><strong>Swap sides.</strong> Carrying on the same hip every time loads one side of your back.</li>
+<li><strong>Ask a partner for five minutes.</strong> A simple shoulder rub from someone at home still counts, and needs no booking.</li>
+</ul>
+<p>A warm shower on your neck and shoulders before bed can also help, and costs nothing but a few minutes.</p>
+
+<h2>What a postnatal massage actually involves</h2>
+<p>A postnatal session is gentler and more flexible than a standard massage. Expect a longer chat at the start about your birth, feeding and how you are recovering.</p>
+<ul>
+<li><strong>Positioning built around you.</strong> Lying on your side with pillows is common, especially if your breasts are sore or you had a caesarean.</li>
+<li><strong>Focus on the new-parent aches.</strong> Upper back, neck and shoulders from feeding and carrying, and lower back from lifting a car seat.</li>
+<li><strong>Lighter pressure early on.</strong> Firmer work can come later, once you have been checked and feel ready.</li>
+<li><strong>Flexibility on the day.</strong> A good therapist will not mind if you need to stop to feed.</li>
+</ul>
+<p>Most sessions are 45 to 60 minutes and cost roughly £45 to £70, similar to a <a href="/massage/swedish-massage/">Swedish massage</a>. A <a href="/learn/mobile-massage-vs-clinic/">mobile therapist who comes to you</a> is worth considering when leaving the house with a newborn feels like a military operation.</p>
+
+<h2>What postnatal massage may help with</h2>
+<p>Research on postnatal massage is limited, so be wary of big promises. What many new parents report is simpler: some relief from aching muscles, a rare hour of rest, and better sleep afterwards.</p>
+<p>Some people also book gentle <a href="/massage/lymphatic-drainage/">lymphatic drainage</a> for swollen ankles and feet in the first weeks. Our guide to <a href="/learn/what-is-lymphatic-drainage-massage/">lymphatic drainage massage</a> explains what it is and what to expect.</p>
+<p>Massage is not a fix for tummy muscle separation (diastasis recti) or pelvic floor problems. If you notice a bulge down the middle of your tummy, leaking, or heaviness in your pelvis, ask your GP about a referral to a pelvic health <a href="/massage/physiotherapy/">physiotherapist</a>.</p>
+<p>A massage can also be a welcome break if you are feeling low. It does not replace proper support, though. If low mood, anxiety or feeling unable to cope lasts more than two weeks, talk to your health visitor or GP. Postnatal depression is common and treatable.</p>
+
+<h2>Warning signs that need a doctor, not a massage</h2>
+<p>Do not book a massage, and contact your GP, midwife or NHS 111 the same day, if you have:</p>
+<ul>
+<li>pain, swelling, warmth or redness in one leg, especially the calf</li>
+<li>a caesarean wound that is red, hot, weeping or opening</li>
+<li>a fever, or feeling shivery and unwell</li>
+<li>bleeding that gets heavier rather than lighter, or large clots</li>
+<li>a severe headache, vision changes or sudden swelling of your face or hands</li>
+</ul>
+<p>Call 999 for sudden breathlessness, chest pain or coughing up blood. These can be signs of a clot in the lungs. Our guide on <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> covers other reasons to wait.</p>
+
+<h2>Choosing the right therapist</h2>
+<p>Look for a therapist with pregnancy or postnatal training, not just a general massage qualification. Many therapists who offer <a href="/massage/pregnancy-massage/">pregnancy massage</a> also offer postnatal sessions, as the training overlaps.</p>
+<p>Ask at booking:</p>
+<ul>
+<li>what postnatal training they hold, and whether their insurance covers it</li>
+<li>how they would adapt the session after a caesarean</li>
+<li>whether you can bring your baby, and whether they mind pauses for feeding</li>
+</ul>
+<p>If you had a pregnancy massage you liked, going back to the same therapist is often easiest. Our guide on <a href="/learn/is-pregnancy-massage-safe/">pregnancy massage safety</a> covers the same questions from the other side of the birth.</p>
+<p>You can find therapists offering pregnancy and postnatal massage near you in our <a href="/find-a-therapist">massage therapist directory</a>.</p>
+`,
+    faqs: [
+      {
+        question: "How soon after giving birth can I have a massage?",
+        answer:
+          "After an uncomplicated vaginal birth, gentle back, neck and shoulder massage is often fine within the first few weeks. Full-body massage usually waits until after your 6 to 8 week postnatal check. Always check with your midwife or GP if you had any complications.",
+      },
+      {
+        question: "Can I have a massage after a C-section?",
+        answer:
+          "Gentle neck, shoulder or hand massage may be possible in the first weeks, but only with your midwife's or GP's agreement. Nothing should go near your abdomen until at least six weeks, your wound has fully healed, and you have had your postnatal check.",
+      },
+      {
+        question: "Why do therapists avoid deep leg massage after birth?",
+        answer:
+          "The risk of blood clots stays raised for about six weeks after giving birth, and more so after a caesarean. Firm pressure on the legs is avoided early on. If you have pain, swelling or warmth in one leg, contact your GP or NHS 111 rather than booking a massage.",
+      },
+      {
+        question: "Can I have a massage while breastfeeding?",
+        answer:
+          "Yes. A postnatal therapist can position you on your side with pillows if lying face down is uncomfortable. Let them know if you are using essential oils, as some therapists prefer unscented oils while you are feeding. Most are happy to pause if your baby needs a feed.",
+      },
+      {
+        question: "Does postnatal massage help with diastasis recti?",
+        answer:
+          "No. Massage cannot close a gap in your tummy muscles. If you notice a bulge down the middle of your tummy, pelvic heaviness or leaking, ask your GP about a referral to a pelvic health physiotherapist, who can assess you and give you the right exercises.",
+      },
+      {
+        question: "How much does a postnatal massage cost in the UK?",
+        answer:
+          "Usually around £45 to £70 for 45 to 60 minutes, similar to a standard relaxation massage. Mobile therapists who come to your home often charge £5 to £15 more, which many new parents find worth it to avoid travelling with a newborn.",
       },
     ],
   },
