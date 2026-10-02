@@ -1065,9 +1065,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/lower-back-hands.webp",
     related: [
-      "deep-tissue-vs-swedish-massage",
       "best-massage-for-lower-back-pain",
       "massage-for-tension-headaches",
+      "massage-for-desk-workers",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If a GP or physiotherapist has already given you a plan for your neck or shoulders, follow that first.</p>
@@ -1529,9 +1529,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/treatment-room-back-massage.webp",
     related: [
-      "what-is-remedial-massage",
       "best-massage-for-lower-back-pain",
       "does-massage-help-sciatica",
+      "osteopath-vs-physio-vs-massage-therapist",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you have had a recent injury, surgery, or a condition your GP is already treating, follow their advice on which of these to book, or whether to book either yet.</p>
@@ -1721,9 +1721,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/calendar-treatment-room.webp",
     related: [
-      "how-much-does-a-massage-cost-uk",
       "what-to-wear-to-a-massage",
       "what-to-expect-first-massage-appointment",
+      "do-you-tip-a-massage-therapist-uk",
     ],
     html: `
 <p><strong>TL;DR:</strong> mobile massage saves you the travel and lets you relax straight into your own evening, usually for a small premium over the clinic price. A clinic gives you proper equipment, a dedicated treatment space, and is often the better choice for firm remedial or deep tissue work. Neither is more "real" than the other, the right one depends on what you actually need from the session.</p>
@@ -1932,9 +1932,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/treatment-room-back-massage.webp",
     related: [
-      "deep-tissue-vs-swedish-massage",
       "how-much-does-a-massage-cost-uk",
       "when-you-should-not-have-a-massage",
+      "massage-for-stress-and-anxiety",
     ],
     html: `
 <p><em>This is general guidance, not medical advice. If you have a health condition or take regular medication, check with your GP before booking a heat-based treatment.</em></p>
@@ -2319,6 +2319,472 @@ export const manualPosts: ManualPost[] = [
         question: "How much does a postnatal massage cost in the UK?",
         answer:
           "Usually around £45 to £70 for 45 to 60 minutes, similar to a standard relaxation massage. Mobile therapists who come to your home often charge £5 to £15 more, which many new parents find worth it to avoid travelling with a newborn.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-stress-and-anxiety",
+    title: "Massage for Stress and Anxiety: What the Evidence Says",
+    description:
+      "Massage can ease stress and anxious tension for a few hours to a few days. See what the trials show, what the NHS recommends first, and what to book.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-02",
+    readingTime: 6,
+    image: "/blog/covers/towels-oils-flatlay.webp",
+    related: [
+      "hot-stone-massage-guide",
+      "how-often-should-you-get-a-massage",
+      "massage-for-tension-headaches",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you are under the care of a GP or a mental health team, their plan comes first. Massage sits alongside that care, never in place of it.</p>
+
+<p>Massage can lower stress and take the edge off anxious feelings, and most people notice it within the hour. The effect is real but short. It does not treat an anxiety disorder, and the research is clear about that gap.</p>
+
+<p><strong>TL;DR:</strong> a massage reliably helps you feel calmer for anything from a few hours to a few days. Trials back that up for everyday stress and for anxiety before events like surgery. For generalised anxiety disorder, the NHS and NICE recommend talking therapies and sometimes medicine, not massage. Book it as a way to switch off, and keep it next to proper support if anxiety is running your life.</p>
+
+<h2>What does the research actually show?</h2>
+<p>Most trials measure how anxious people feel just before and just after a session. On that test, massage does well. Reviews of studies in hospital patients, including people waiting for surgery, generally find that anxiety scores drop after a massage.</p>
+<p>The picture changes when massage is tested as a treatment for an anxiety disorder. The best-known trial, published in 2010, followed 68 people with generalised anxiety disorder for 12 weeks. One group had ten massages. One had heat therapy. One simply lay in a quiet, pleasant room.</p>
+<p>All three groups improved by a similar amount. Massage was no better than resting somewhere calm. That tells you something useful. A lot of the benefit comes from an hour of warmth, quiet and nobody asking you for anything.</p>
+<p>So the fair summary is this. Massage is a dependable way to feel calmer in the short term. There is no good evidence that it changes the course of an anxiety disorder.</p>
+
+<h2>What do the NHS and NICE recommend for anxiety?</h2>
+<p>Neither lists massage as a treatment. <a href="https://www.nhs.uk/mental-health/conditions/generalised-anxiety-disorder-gad/" target="_blank" rel="noopener noreferrer">NHS guidance on generalised anxiety disorder</a> points to talking therapies such as cognitive behavioural therapy (CBT), and sometimes medicine. NICE guidance follows the same steps, starting with guided self-help and moving on to CBT or applied relaxation.</p>
+<p>NICE has looked at the massage research and has not added it to its recommendations. That is not a verdict that massage is useless. It means the evidence is too thin to offer it as a treatment.</p>
+<p>For day-to-day stress, the NHS suggests talking to someone you trust, breathing exercises, regular exercise and decent sleep. Massage fits beside those as one more way to wind down. If you are 18 or over in England, you can refer yourself to NHS talking therapies without seeing a GP first.</p>
+
+<h2>Why does a massage feel so calming?</h2>
+<p>Three things are probably going on at once.</p>
+<ul>
+<li><strong>Your body shifts into rest mode.</strong> Slow, steady pressure tends to lower your heart rate and slow your breathing. That is the opposite of the fight-or-flight state stress keeps you in.</li>
+<li><strong>Tight muscles let go.</strong> Stress shows up as a clenched jaw, raised shoulders and a stiff neck. Easing those removes a physical signal that keeps telling your brain something is wrong.</li>
+<li><strong>You get an hour off.</strong> No phone, no screen, no decisions. For many people it is the only hour in the week like it.</li>
+</ul>
+<p>You will see claims that massage cuts the stress hormone cortisol. The studies on that are small and mixed, so treat it as a maybe. What people report feeling is far better supported than any hormone number.</p>
+
+<h2>Which type of massage is best for stress?</h2>
+<p>Pick the gentlest style you enjoy. For stress, comfort matters more than technique.</p>
+<h3>Swedish massage</h3>
+<p><a href="/massage/swedish-massage/">Swedish massage</a> is the standard choice. It uses long, flowing strokes at light to medium pressure, usually across your back, legs, arms and neck. Expect to pay around £40 to £70 for an hour.</p>
+<h3>Hot stone massage</h3>
+<p><a href="/massage/hot-stone-massage/">Hot stone massage</a> adds warmth, which many people find settles them faster. It usually costs £10 to £25 more than Swedish. Our <a href="/learn/hot-stone-massage-guide/">hot stone massage guide</a> covers who should skip it.</p>
+<h3>Deep tissue, with a caveat</h3>
+<p>Firm work can be the right call if your stress lives in knotted shoulders. It is not relaxing while it happens, though. If you are unsure, read our comparison of <a href="/learn/deep-tissue-vs-swedish-massage/">deep tissue and Swedish massage</a> before you book.</p>
+<p>Whichever you choose, tell the therapist you are there to switch off. They can slow the pace, keep talk to a minimum and avoid pressure that makes you brace.</p>
+
+<h2>How long does the calm last, and how often should you book?</h2>
+<p>For most people the calm lasts from a few hours to two or three days. Sleep on the night of the massage is often better too. After that, life catches up.</p>
+<p>That is why a single session is a treat, not a plan. If stress is constant, a massage every two to four weeks gives you a regular reset. During a rough patch, some people book weekly for a month and then space sessions out.</p>
+<p>Budget matters here. A fortnightly hour at £55 is about £1,400 a year. A monthly session costs half that and still gives you something fixed to look forward to. Our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often you should get a massage</a> helps you set a schedule you can keep.</p>
+<p>Sixty minutes is enough. Thirty minutes on your back, neck and shoulders also works if that is where you hold tension.</p>
+
+<h2>What if being touched makes you anxious?</h2>
+<p>This is common, and it does not rule massage out. You stay in control the whole time.</p>
+<ul>
+<li>Say at the start that you feel nervous. A good therapist hears this every week.</li>
+<li>Ask for one area only, such as your back, or your hands and forearms.</li>
+<li>Keep more clothing on, or choose a seated massage where you stay fully dressed.</li>
+<li>Agree a simple word for stop, and one for lighter, before you begin.</li>
+<li>Book 30 minutes first. You can always go longer next time.</li>
+</ul>
+<p>If you have a history of trauma, tell the therapist only as much as you want to. Saying you may need to pause is enough. Our guide to <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at a first massage appointment</a> walks through the whole visit, so nothing comes as a surprise.</p>
+
+<h2>When is a massage not enough?</h2>
+<p>Stress that passes when the deadline does is one thing. Anxiety that stays is another. The NHS advises seeing a GP if you are struggling to cope, or if what you have tried yourself is not helping.</p>
+<p>Speak to a GP, or refer yourself to NHS talking therapies, if any of these sound familiar:</p>
+<ul>
+<li>You have felt anxious most days for several months.</li>
+<li>Worry is affecting your work, your sleep or your relationships.</li>
+<li>You get panic attacks, or avoid places and people because of fear.</li>
+<li>You are using alcohol or other substances to cope.</li>
+</ul>
+<p>Chest pain, a racing heart or breathlessness can come from anxiety, but they can have physical causes too. Get them checked by a doctor before you assume it is stress.</p>
+<p>If you need help urgently and it is not an emergency, call NHS 111. If you feel you cannot keep yourself safe, call 999 or go to A&amp;E. Samaritans are free to call on 116 123 at any hour.</p>
+<p>A massage therapist is not a counsellor. A good one will listen kindly, but they are not trained to treat mental health conditions and should not try to.</p>
+
+<p>If what you need is an hour of proper quiet, that is a good enough reason to book. Use our <a href="/find-a-therapist">directory of massage therapists</a> to find a qualified therapist near you who offers Swedish or hot stone massage.</p>
+`,
+    faqs: [
+      {
+        question: "Does massage really help with anxiety?",
+        answer:
+          "It can ease anxious feelings for a short time. Trials show people feel calmer straight after a session, and the effect can last a few days. For generalised anxiety disorder, one 12-week trial found massage no better than resting in a quiet room. It works best as a way to unwind, alongside proper support.",
+      },
+      {
+        question: "What type of massage is best for stress and anxiety?",
+        answer:
+          "Swedish massage is the usual choice, with light to medium pressure and slow, flowing strokes. Hot stone massage adds warmth, which many people find calming. Deep tissue suits you only if stress sits in tight, knotted muscles, since it is not relaxing during the session. Choose the gentlest style you enjoy.",
+      },
+      {
+        question: "How often should I get a massage for stress?",
+        answer:
+          "Every two to four weeks suits most people with ongoing stress. The calm from one session usually lasts a few hours to a few days, so regular bookings do more than a one-off. During a hard spell, weekly sessions for a month, then spacing out, is a common pattern if your budget allows.",
+      },
+      {
+        question: "Can massage replace therapy or medication for anxiety?",
+        answer:
+          "No. The NHS and NICE recommend talking therapies such as CBT, and sometimes medicine, for anxiety disorders. Massage is not on that list. It can sit alongside treatment as a way to relax. Never stop or change prescribed medicine because massage is helping you feel better. Speak to your GP first.",
+      },
+      {
+        question: "Can a massage make anxiety worse?",
+        answer:
+          "Occasionally. Some people feel exposed, or find that lying still gives worries room to surface. Very firm pressure can also leave you tense. Tell the therapist you feel anxious, start with a short session on one area, and agree a word for stop. You can end the massage at any point.",
+      },
+      {
+        question: "Can you get massage for anxiety on the NHS?",
+        answer:
+          "Not as a treatment for anxiety. Some hospitals and hospices offer massage to patients as supportive care, but that is separate. For anxiety, the NHS offers talking therapies, and adults in England can refer themselves without a GP. Massage is a private cost, typically £40 to £70 an hour.",
+      },
+    ],
+  },
+  {
+    slug: "osteopath-vs-physio-vs-massage-therapist",
+    title: "Osteopath, Physio or Massage Therapist: Who Should You See?",
+    description:
+      "Osteopath, physiotherapist or massage therapist? How the three differ on training, regulation, cost and NHS access, and which to book for your problem.",
+    category: "Treatment Guides",
+    publishedAt: "2026-10-02",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "massage-vs-physiotherapy",
+      "what-is-remedial-massage",
+      "how-to-check-a-massage-therapist-is-qualified",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If a GP, consultant or surgical team is already treating you, ask them who to see and follow what they say.</p>
+
+<p>Here is the short version. See a physiotherapist for an injury, or for anything that needs rehab. See an osteopath for back, neck or joint pain you want assessed and treated mostly by hand. See a massage therapist for tight, tired muscles and stress, when nothing needs diagnosing.</p>
+
+<p><strong>TL;DR:</strong> physios and osteopaths are regulated by law and trained to assess what is wrong. Physios lean on exercise and are free on the NHS. Osteopaths lean on hands-on treatment and are nearly always private. Massage therapists work on muscle tension and do not diagnose. If you have pain and no idea why, start with one of the first two.</p>
+
+<h2>What does each one actually do?</h2>
+<h3>Physiotherapist</h3>
+<p>A <a href="/massage/physiotherapy/">physiotherapist</a> assesses how you move, works out what is causing the problem and builds a plan to restore it. The NHS describes the work as exercise, massage and other techniques. In practice, expect more exercise than hands-on treatment. You leave with homework.</p>
+<h3>Osteopath</h3>
+<p>An <a href="/massage/osteopathy/">osteopath</a> also assesses and diagnoses problems with muscles and joints. Treatment is mainly manual. The NHS describes it as massaging and stretching to help injuries, improve movement and relieve pain. Osteopaths also move joints through their range, and sometimes use a quick thrust that makes a joint click.</p>
+<h3>Massage therapist</h3>
+<p>A massage therapist works on soft tissue to ease tension and soreness. A <a href="/massage/remedial-massage/">remedial massage</a> or <a href="/massage/sports-massage/">sports massage</a> therapist will test your movement and target problem areas. They still do not diagnose. A good one will tell you when your problem is outside their scope.</p>
+
+<h2>Who is regulated, and why does that matter?</h2>
+<p>This is the biggest difference between the three, and most comparison pages skip it.</p>
+<ul>
+<li><strong>Physiotherapist</strong> is a protected title. Every physio must be registered with the Health and Care Professions Council (HCPC). Training is a university degree.</li>
+<li><strong>Osteopath</strong> is a protected title too. By law, every osteopath must be registered with the General Osteopathic Council (GOsC). Training is a degree that usually takes four years full time.</li>
+<li><strong>Massage therapist</strong> is not a protected title. Anyone can use it. Good therapists hold a recognised diploma, carry insurance and often join a voluntary register.</li>
+</ul>
+<p>Why it matters: with a physio or osteopath, the law has checked their training for you. You can confirm either on the HCPC or GOsC online register in under a minute. With a massage therapist, you do the checking. Our guide on <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">how to check a massage therapist is qualified and insured</a> shows you what to ask for.</p>
+<p>Chiropractors come up in the same searches. They are regulated by the General Chiropractic Council and focus more on spinal manipulation. The overlap with osteopathy is large.</p>
+
+<h2>Which one should you book for your problem?</h2>
+<p>Match the practitioner to the problem, not to whoever has a slot on Thursday.</p>
+<ul>
+<li><strong>A sprain, strain or sports injury:</strong> physio. You need a diagnosis and a graded return to activity.</li>
+<li><strong>Recovery after surgery or a fracture:</strong> physio, guided by your surgical team.</li>
+<li><strong>Lower back or neck pain that came on without injury:</strong> physio or osteopath. Both can assess it.</li>
+<li><strong>A stiff back or hips and you prefer hands-on treatment:</strong> osteopath.</li>
+<li><strong>A long-term condition affecting movement, such as arthritis or a stroke:</strong> physio, usually through the NHS.</li>
+<li><strong>Tight shoulders from desk work, stress or training soreness:</strong> massage therapist.</li>
+<li><strong>Keeping muscles loose once a problem has been diagnosed:</strong> massage therapist.</li>
+</ul>
+<p>For lower back pain, NICE guidance takes a clear line. Manual therapy, which includes manipulation and massage, should only be offered as part of a package that includes exercise. So whoever you see, hands-on work alone is not the whole answer. Our guide to the <a href="/learn/best-massage-for-lower-back-pain/">best massage for lower back pain</a> goes into this.</p>
+<p>Still not sure? Choose a physio or an osteopath first. They can assess you and tell you whether massage would help. A massage therapist cannot do that in reverse.</p>
+
+<h2>What does each cost, and can you get it on the NHS?</h2>
+<p>Private prices vary by region, with London at the top of each range.</p>
+<ul>
+<li><strong>Physiotherapy:</strong> typically £40 to £70 for 30 to 45 minutes. A first assessment often costs a little more.</li>
+<li><strong>Osteopathy:</strong> typically £50 to £75 for a first visit of 45 to 60 minutes, then £40 to £60 for 30-minute follow-ups.</li>
+<li><strong>Massage:</strong> typically £40 to £75 for a full hour.</li>
+</ul>
+<p>Notice the time. Massage gives you the most minutes for your money. Physio and osteopathy charge more per minute because you are paying for assessment as well as treatment.</p>
+<p>Physiotherapy is free on the NHS. In many areas you can refer yourself to the local musculoskeletal service without seeing a GP. Waits vary from days to a few months.</p>
+<p>Osteopathy is not routinely offered on the NHS. A small number of areas fund it, so ask your GP surgery. Massage on its own is a private cost. Some health cash plans pay towards physio and osteopathy, and a few cover massage, so check your policy.</p>
+
+<h2>What happens at a first appointment?</h2>
+<p>With a physio or osteopath, the first visit is mostly questions and tests. They ask how the problem started, what makes it worse and what medicines you take. Then they watch you move and check the joints and muscles involved.</p>
+<p>You get an explanation of what they think is going on before any treatment starts. A physio will usually send you home with two or three exercises. An osteopath will usually treat you on the table that day.</p>
+<p>A massage therapist asks about your health and what you want from the session, then spends most of the hour on treatment. If something you say worries them, they should suggest you get it checked first.</p>
+
+<h2>Can you see more than one?</h2>
+<p>Yes, and many people do. A common pattern is a physio or osteopath for the diagnosis and the plan, then massage to keep muscles comfortable in between. Our guide to <a href="/learn/massage-vs-physiotherapy/">massage versus physiotherapy</a> covers how the two work together.</p>
+<p>Two rules keep it safe. Tell each practitioner about the others. And avoid firm hands-on treatment from two people in the same week. You will not know what helped or what flared it.</p>
+
+<h2>When should you skip all three and see a GP?</h2>
+<p>Some symptoms need a doctor, not a treatment table. Contact your GP or call NHS 111 if you have:</p>
+<ul>
+<li>pain with a fever, or unexplained weight loss</li>
+<li>pain that is constant, worse at night and not eased by changing position</li>
+<li>a swollen, hot or red joint or calf</li>
+<li>numbness, pins and needles or weakness that is spreading</li>
+</ul>
+<p>Call 999 or go to A&amp;E for back pain with numbness around your genitals or bottom, loss of bladder or bowel control, or weakness in both legs. Do the same for chest pain.</p>
+<p>The NHS also notes that osteopathy may not be safe if you take blood-thinning medicine, or have severely weakened bones. Tell any practitioner about your medicines and conditions before treatment.</p>
+
+<p>If your problem is muscle tension and you know it, a massage therapist is a sound first booking. You can compare qualified, insured therapists by treatment type on our <a href="/find-a-therapist">directory of massage therapists</a>.</p>
+`,
+    faqs: [
+      {
+        question: "What is the difference between an osteopath and a physiotherapist?",
+        answer:
+          "Both assess and diagnose muscle and joint problems, and both are regulated by law. A physiotherapist relies more on exercise and rehab, and is available free on the NHS. An osteopath relies more on hands-on treatment, such as stretching and moving joints, and is nearly always private. For general back or neck pain, either can help.",
+      },
+      {
+        question: "Should I see an osteopath or a physio for lower back pain?",
+        answer:
+          "Either is a reasonable choice. NICE guidance says manual therapy should come as part of a package that includes exercise, so pick someone who gives you both. If the pain followed an injury or you need rehab, lean towards a physio. If you prefer hands-on treatment, an osteopath may suit you.",
+      },
+      {
+        question: "Is a massage therapist the same as a physiotherapist?",
+        answer:
+          "No. A physiotherapist holds a degree, is registered with the HCPC and can diagnose injuries and plan rehab. A massage therapist holds a vocational diploma and works on muscle tension without diagnosing. Massage therapist is not a protected title, so check qualifications and insurance yourself before you book.",
+      },
+      {
+        question: "Can you see an osteopath on the NHS?",
+        answer:
+          "Rarely. Osteopathy is not routinely offered on the NHS, though a small number of areas fund it, so ask your GP surgery. Most people pay privately, typically £50 to £75 for a first visit. Physiotherapy is free on the NHS, and many areas let you refer yourself.",
+      },
+      {
+        question: "Do I need a GP referral to see an osteopath, physio or massage therapist?",
+        answer:
+          "Not for private appointments. You can book any of the three directly. For NHS physiotherapy, many areas offer self-referral to the local musculoskeletal service, and others need a GP referral. If you plan to claim on health insurance, check first, as some insurers ask for a GP referral.",
+      },
+      {
+        question: "Which is cheapest: osteopath, physio or massage?",
+        answer:
+          "NHS physiotherapy is free. Privately, the session prices are close: roughly £40 to £70 for physio, £40 to £75 for osteopathy and £40 to £75 for massage. Massage usually gives you a full hour, while physio and osteopathy follow-ups are often 30 minutes, so massage costs least per minute.",
+      },
+    ],
+  },
+  {
+    slug: "do-you-tip-a-massage-therapist-uk",
+    title: "Do You Tip a Massage Therapist in the UK?",
+    description:
+      "Tipping a massage therapist in the UK is optional, not expected. See when people do tip, how much, how to do it without fuss, and what therapists prefer.",
+    category: "Getting Started",
+    publishedAt: "2026-10-02",
+    readingTime: 6,
+    image: "/blog/covers/therapist-welcome-room.webp",
+    related: [
+      "how-much-does-a-massage-cost-uk",
+      "what-to-expect-first-massage-appointment",
+      "mobile-massage-vs-clinic",
+    ],
+    html: `
+<p>No, you do not have to. Tipping a massage therapist in the UK is optional, and most therapists do not expect it. If you loved the session and want to add a few pounds, it will be welcome. If you pay the price and say thank you, nobody will think less of you.</p>
+
+<p><strong>TL;DR:</strong> the price you are quoted is the price. Around 10%, or rounding up to the nearest £5, is plenty if you want to tip. Self-employed therapists set their own rates, so a tip matters less to them than a rebooking or a review. In hotel spas, check the bill for a service charge before you add anything.</p>
+
+<h2>Is tipping expected in the UK?</h2>
+<p>Not in the way it is in the United States. There, 15% to 20% on a massage is standard, and leaving nothing reads as a complaint. Here, a massage sits closer to a dental check-up than a restaurant meal. You pay the fee and you are done.</p>
+<p>That said, tipping is not strange either. Plenty of people round up, and regulars often give something at Christmas. It is a thank you, not a duty.</p>
+<p>If the awkward moment at the till is what worries you, relax. Therapists in the UK are not standing there waiting. Many will be mildly surprised.</p>
+
+<h2>Does it depend on where you have the massage?</h2>
+<p>Yes. The setting changes things more than the type of massage does.</p>
+<h3>An independent therapist</h3>
+<p>Most therapists listed on a directory like ours work for themselves. They set their own price, and that price is what they need to earn. No tip is expected. Paying on time and coming back is the best thanks you can give.</p>
+<h3>A day spa or salon</h3>
+<p>Here the therapist is often an employee, and may earn only part of what you pay. A tip makes a bigger difference to them. It is still optional. Around 10% is typical when people do tip.</p>
+<h3>A hotel or destination spa</h3>
+<p>Check your bill first. Many hotel spas add a discretionary service charge, often 10% to 12.5%. If it is there, you have already tipped. You can also ask for it to be removed if the service was poor.</p>
+<h3>A clinic</h3>
+<p>If you are seeing someone for <a href="/massage/sports-massage/">sports massage</a>, remedial work or physiotherapy in a clinic, tipping is unusual. It is a healthcare-style setting. You would not tip your physio, and the same logic applies.</p>
+<h3>A mobile therapist at your home</h3>
+<p>The travel is already built into the price. That is why a home visit usually costs £5 to £15 more. No tip is needed. Our guide to <a href="/learn/mobile-massage-vs-clinic/">mobile massage versus a clinic visit</a> explains what that extra covers.</p>
+
+<h2>How much should you tip if you want to?</h2>
+<p>Keep it simple. There is no percentage you have to hit.</p>
+<ul>
+<li><strong>Rounding up:</strong> a £55 massage becomes £60. This is the most common UK tip.</li>
+<li><strong>Around 10%:</strong> £5 on a £50 session, £7 on a £70 one.</li>
+<li><strong>More for something special:</strong> £10 if the therapist stayed late, squeezed you in or sorted a problem you had put up with for months.</li>
+<li><strong>Nothing:</strong> completely fine, including when the massage was good.</li>
+</ul>
+<p>An hour of massage in the UK typically costs £35 to £90, so most tips land between £3 and £10. Our <a href="/learn/how-much-does-a-massage-cost-uk/">guide to massage prices in the UK</a> breaks that range down by treatment and region.</p>
+<p>If you paid through a discount deal, base any tip on the full price. The therapist did the full hour.</p>
+
+<h2>Does the therapist actually get the tip?</h2>
+<p>If they are self-employed, yes, because you are paying them directly.</p>
+<p>If they are employed, the law is now on their side. Since 1 October 2024, employers in England, Scotland and Wales must pass on all tips and service charges to staff. They cannot take a cut, apart from the usual tax. The <a href="https://www.gov.uk/tips-at-work" target="_blank" rel="noopener noreferrer">government guidance on tips at work</a> sets out the rules.</p>
+<p>The money can still be pooled and shared across a team, and it may not reach your therapist until the following month. If you want it to go to one person today, hand them cash.</p>
+
+<h2>How do you tip without it being awkward?</h2>
+<p>Three easy ways, depending on how you are paying.</p>
+<ul>
+<li><strong>Cash:</strong> hand it over as you leave and say it is for them. In a spa, reception will often have small envelopes.</li>
+<li><strong>Card:</strong> ask them to make the total a round number. Some card machines offer a tip screen, and some do not.</li>
+<li><strong>Bank transfer or booking app:</strong> pay the rounded-up amount and tell them you have added a little.</li>
+</ul>
+<p>Some therapists will politely turn a tip down. Do not push. Thank them and book again.</p>
+<p>You should never feel pressure to tip to get good treatment next time. A professional gives every client the same care. New to all this? Our guide to <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at your first massage appointment</a> covers payment, timing and the rest of the visit.</p>
+
+<h2>What do therapists value more than a tip?</h2>
+<p>Ask a self-employed therapist and most will name the same few things. All of them are free, and all of them are worth more than a fiver.</p>
+<ul>
+<li><strong>A review.</strong> Two honest sentences on Google or their directory listing bring in new clients for years.</li>
+<li><strong>Rebooking.</strong> A regular every four weeks is worth far more than a one-off tip.</li>
+<li><strong>A recommendation.</strong> Tell a friend or a colleague by name. Word of mouth fills most diaries.</li>
+<li><strong>Turning up on time.</strong> A late start either cuts your session or makes them run behind all day.</li>
+<li><strong>Fair notice when you cancel.</strong> Most ask for 24 hours. A late cancellation is an hour they cannot fill.</li>
+</ul>
+<p>A small gift at Christmas is a nice touch for a therapist you see often. A card with a kind line in it does the same job.</p>
+
+<h2>When is it right not to tip?</h2>
+<p>Whenever you do not want to. A tip is a bonus for service you thought was above and beyond. The price already covers a good massage.</p>
+<p>If the session was poor, a tip is the wrong tool anyway. Say what did not work, such as pressure, timing or the room being cold. A decent therapist would much prefer to hear it. If something felt unprofessional, raise it with the spa manager. Our guide on <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">how to check a massage therapist is qualified</a> sets out what you should expect.</p>
+
+<h2>What about spa days, gift vouchers and couples massages?</h2>
+<p>On a spa day or package, look at what you paid for. If a service charge was added at booking, tips are covered. If not, a few pounds for the therapist who looked after you is a kind extra, not a rule.</p>
+<p>With a gift voucher, the person who bought it paid for the massage only. You are not expected to add anything. If you do, base it on the full price of the treatment.</p>
+<p>For a couples massage, each therapist did a full session. Tip both or neither, and split it evenly.</p>
+
+<p>Looking for a therapist worth going back to? Compare qualified, insured professionals near you on our <a href="/find-a-therapist">directory of massage therapists</a>, with prices shown up front.</p>
+`,
+    faqs: [
+      {
+        question: "Is it rude not to tip a massage therapist in the UK?",
+        answer:
+          "No. Tipping for a massage is optional in the UK, and most therapists do not expect it. Paying the agreed price and saying thank you is completely normal. If you want to show appreciation without spending more, leave a review or rebook. Both mean a lot to a self-employed therapist.",
+      },
+      {
+        question: "How much should I tip for a massage in the UK?",
+        answer:
+          "If you choose to tip, around 10% or rounding up to the nearest £5 is plenty. On a £55 massage, that means paying £60. For a therapist who went out of their way, £10 is generous. There is no set percentage, and leaving nothing is fine.",
+      },
+      {
+        question: "Should I tip a self-employed massage therapist?",
+        answer:
+          "You do not need to. A self-employed therapist sets their own price, so the fee already reflects what they need to earn. Many would prefer a rebooking, a recommendation to a friend or an online review. If you still want to tip, rounding up the payment is the easiest way.",
+      },
+      {
+        question: "Do you tip at a hotel spa in the UK?",
+        answer:
+          "Check the bill first. Many hotel and destination spas add a discretionary service charge of around 10% to 12.5%, which covers the tip. If no charge has been added and you enjoyed the treatment, around 10% is typical. You can ask for a service charge to be removed if you were unhappy.",
+      },
+      {
+        question: "Do massage therapists get to keep their tips?",
+        answer:
+          "Self-employed therapists keep what you give them. For employed therapists in England, Scotland and Wales, the law since October 2024 says employers must pass on all tips and service charges, minus normal tax. Tips may be pooled across a team, so hand over cash if you want it to reach one person.",
+      },
+      {
+        question: "Should I tip in cash or by card?",
+        answer:
+          "Cash is the simplest, since it goes straight to your therapist that day. Card tips are fine too, and by law must be passed on to staff, though they can take until the following month to arrive. With a self-employed therapist, just ask them to round up the card payment.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-desk-workers",
+    title: "Massage for Desk Workers: What Sitting Does and What Helps",
+    description:
+      "Sitting all day tightens your hips, lower back and forearms as well as your neck. See which massage to book, what to ask for, how often and what it costs.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-02",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "massage-for-neck-and-shoulder-tension",
+      "best-massage-for-lower-back-pain",
+      "massage-for-tension-headaches",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If a GP or physiotherapist has given you a plan for back, neck or wrist pain, follow that first.</p>
+
+<p>Eight hours in a chair does more than tighten your neck. It shortens the front of your hips, leaves your glutes idle, stiffens your mid-back and overworks your forearms. Most desk workers only ask a therapist to work on their shoulders, and miss half the problem.</p>
+
+<p><strong>TL;DR:</strong> book a 60-minute deep tissue or remedial massage every three to four weeks. Ask for hips, glutes and lower back as well as shoulders. Expect to pay £45 to £75. Massage eases the tightness. It will not undo the sitting, so move for five minutes every hour as well.</p>
+
+<h2>What does sitting all day actually do to your body?</h2>
+<p>Your body adapts to the shape you hold most. For a desk worker, that shape is bent at the hips, rounded at the upper back and still.</p>
+<h3>Hips and glutes</h3>
+<p>Sitting keeps the muscles at the front of your hips in a shortened position for hours. They feel tight when you stand up, and can pull on your lower back. Your glutes, meanwhile, spend the day being sat on and doing very little.</p>
+<h3>Lower back</h3>
+<p>Slumping loads the muscles and joints of your lower back in one position. The result is the dull ache that builds through the afternoon and eases when you walk about.</p>
+<h3>Mid-back and chest</h3>
+<p>Reaching forward to a keyboard rounds your upper back and tightens your chest. Over time, sitting up straight starts to feel like effort.</p>
+<h3>Forearms, wrists and hands</h3>
+<p>Typing and mouse work are thousands of small, repeated movements. The muscles on both sides of your forearm get tight and tender, often without you noticing until someone presses on them.</p>
+<h3>Neck and shoulders</h3>
+<p>This is the part everyone knows about. We cover it in detail in our guide to <a href="/learn/massage-for-neck-and-shoulder-tension/">massage for neck and shoulder tension</a>, including the link with <a href="/learn/massage-for-tension-headaches/">tension headaches</a>.</p>
+
+<h2>Which massage should a desk worker book?</h2>
+<p>You have three good options. The right one depends on how long the problem has been building.</p>
+<ul>
+<li><strong><a href="/massage/deep-tissue/">Deep tissue massage</a></strong> suits general tightness in your back, hips and shoulders. The pressure is firm and slow. It is the standard choice for most desk workers.</li>
+<li><strong><a href="/massage/remedial-massage/">Remedial massage</a></strong> suits a problem that keeps coming back. The therapist checks your posture and movement first, then works on what they find. Choose this if one side or one area always flares up.</li>
+<li><strong><a href="/massage/sports-massage/">Sports massage</a></strong> suits you if you sit all day and then train hard. It deals with both loads in one session.</li>
+</ul>
+<p>If firm pressure has left you sore before, start with a medium-pressure session. You can go firmer next time.</p>
+<p>A seated chair massage at work is a pleasant 15 minutes for your neck and shoulders. It cannot reach your hips or lower back, so treat it as a top-up.</p>
+
+<h2>What should you ask the therapist to work on?</h2>
+<p>Do not just say back and shoulders. Tell them you sit for most of the day, and ask for a session built around that. A sensible hour looks something like this:</p>
+<ul>
+<li><strong>20 minutes</strong> on your lower back, glutes and the outside of your hips.</li>
+<li><strong>20 minutes</strong> on your mid-back, shoulder blades and neck.</li>
+<li><strong>10 minutes</strong> on the front of your hips and thighs.</li>
+<li><strong>10 minutes</strong> on your chest, forearms and hands.</li>
+</ul>
+<p>Mention anything specific. Which hand you use the mouse with. Whether you cross one leg. Whether you work from a laptop on the sofa two days a week. These details tell a therapist where to look.</p>
+<p>Forearm work surprises people. It can be tender, and your hands often feel lighter afterwards. If you have never had it, ask for five minutes and see.</p>
+
+<h2>How often should you book, and what will it cost?</h2>
+<p>Every three to four weeks suits most desk workers. That is often enough to stop tightness building back to where it started. If you are already sore, two sessions a week or two apart can settle things faster, then you can space them out.</p>
+<p>Sixty minutes gives time for your whole back and hips. Thirty minutes works for one area, and fits into a lunch break.</p>
+<ul>
+<li><strong>30 minutes:</strong> typically £25 to £45.</li>
+<li><strong>60 minutes:</strong> typically £45 to £75, more in central London.</li>
+<li><strong>Monthly for a year:</strong> roughly £540 to £900.</li>
+</ul>
+<p>Ask your employer too. Some offer on-site massage, a wellbeing allowance or a health cash plan that pays part of the cost. Our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often you should get a massage</a> helps you set a schedule that fits your budget.</p>
+
+<h2>What makes the results last between sessions?</h2>
+<p>A massage loosens you up for a few days. What you do at your desk decides whether it lasts.</p>
+<p><strong>Move every hour.</strong> The Health and Safety Executive says short, frequent breaks beat longer, rarer ones. Its example is 5 to 10 minutes every hour over 20 minutes every two hours. Stand up, walk to the kitchen, take a call on your feet.</p>
+<p><strong>Ask for a workstation assessment.</strong> If you use a screen for work every day, your employer has a legal duty to assess your setup. That applies at home as well as in the office. It often leads to a proper chair, a screen riser or a separate keyboard.</p>
+<p><strong>Open the front of your hips.</strong> Stand up, step one foot back and gently tuck your tailbone under. Hold for 20 seconds each side. It takes less than a minute.</p>
+<p><strong>Stay active outside work.</strong> The NHS warns that hitting your weekly exercise target is not enough. You can still be at risk if you sit for the rest of the day. A walk at lunch does more for your back than a new cushion.</p>
+
+<h2>When is it more than a desk problem?</h2>
+<p>Most desk aches are muscular and respond to movement, a better setup and massage. Some symptoms need a medical opinion first.</p>
+<p>See a GP if back pain has not improved after a few weeks, is getting worse, or stops you doing normal activities. That is the advice in <a href="https://www.nhs.uk/conditions/back-pain/" target="_blank" rel="noopener noreferrer">NHS guidance on back pain</a>. Our guide to the <a href="/learn/best-massage-for-lower-back-pain/">best massage for lower back pain</a> explains where massage fits once you have been checked.</p>
+<p>See a GP as well if you have tingling, numbness or pins and needles in your fingers, especially at night. That can be a sign of carpal tunnel syndrome, which needs assessing.</p>
+<p>Call 999 or go to A&amp;E if back pain comes with numbness around your genitals or bottom, trouble peeing, loss of bladder or bowel control, or weakness in both legs. Do not wait, and do not book a massage.</p>
+
+<p>If yours is the ordinary kind of desk stiffness, a regular massage is a sound way to stay ahead of it. Use our <a href="/find-a-therapist">directory of massage therapists</a> to find deep tissue and remedial specialists near your home or your office.</p>
+`,
+    faqs: [
+      {
+        question: "What is the best massage for someone who sits at a desk all day?",
+        answer:
+          "Deep tissue massage suits most desk workers, since it works firmly on the back, hips and shoulders. Choose remedial massage if the same area keeps flaring up, as the therapist assesses your posture and movement first. If you also train hard outside work, a sports massage covers both kinds of strain.",
+      },
+      {
+        question: "How often should desk workers get a massage?",
+        answer:
+          "Every three to four weeks works for most people with a desk job. That is frequent enough to stop tightness building back up between sessions. If you are sore right now, two sessions one or two weeks apart can calm things down, then you can move to a monthly booking.",
+      },
+      {
+        question: "Can massage help lower back pain from sitting?",
+        answer:
+          "It may help ease the muscle tightness that builds from sitting in one position. NHS advice for back pain is to stay active, so pair massage with regular movement breaks. See a GP if the pain has not improved after a few weeks, is getting worse, or stops you doing normal activities.",
+      },
+      {
+        question: "Why are my hips tight from sitting?",
+        answer:
+          "Sitting keeps the muscles at the front of your hips in a shortened position for hours at a time. When you stand, they feel tight and can pull on your lower back. Ask your therapist to work on the front of your hips and your glutes, and stand up to stretch them every hour.",
+      },
+      {
+        question: "Is a 30-minute massage enough for desk tension?",
+        answer:
+          "It is enough for one area, such as your neck and shoulders or your lower back and hips. It typically costs £25 to £45 and fits into a lunch break. For your whole back, hips and forearms in one visit, book 60 minutes, which typically costs £45 to £75.",
+      },
+      {
+        question: "Will massage improve my posture?",
+        answer:
+          "Not by itself. Massage can ease the tight muscles that make sitting upright feel like hard work, which makes good posture more comfortable. Lasting change comes from moving more often, a well set up workstation and some strengthening exercise. Think of massage as support for those habits.",
       },
     ],
   },
