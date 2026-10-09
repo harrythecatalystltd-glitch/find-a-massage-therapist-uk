@@ -212,9 +212,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 7,
     image: "/blog/sports-massage-vs-deep-tissue-massage.webp",
     related: [
-      "best-massage-for-lower-back-pain",
       "how-to-sleep-after-shoulder-surgery",
       "massage-for-runners",
+      "sports-massage-for-gym-doms",
     ],
     html: `
 <p><strong>Sports massage</strong> is built around physical activity — preparing muscles before exercise, aiding recovery after it, and helping prevent or manage sports-related injuries. <strong>Deep tissue massage</strong> uses similar firm, targeted pressure, but it isn't tied to exercise — it's aimed at general chronic tension and tightness in daily life, whether or not you're active.</p>
@@ -1342,9 +1342,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/sports-massage-leg.webp",
     related: [
-      "sports-massage-vs-deep-tissue-massage",
       "best-massage-for-lower-back-pain",
       "how-often-should-you-get-a-massage",
+      "massage-for-plantar-fasciitis",
     ],
     html: `
 <p><strong>TL;DR:</strong> massage helps runners most as part of ongoing training, not as a magic fix the day before a race. A light massage 48 to 72 hours before a big event is fine; a deep one in the final two days is not. After a race, wait a couple of days before booking anything firm, and let the first, most painful stage of recovery pass on its own.</p>
@@ -1431,8 +1431,8 @@ export const manualPosts: ManualPost[] = [
     image: "/blog/covers/bedroom-pillows.webp",
     related: [
       "how-often-should-you-get-a-massage",
-      "deep-tissue-vs-swedish-massage",
       "sports-massage-vs-deep-tissue-massage",
+      "what-to-do-after-a-massage",
     ],
     html: `
 <p><strong>TL;DR:</strong> mild soreness for a day or two after a massage, especially a firm one, is normal and usually means your muscles are recovering, not that anything went wrong. Sharp pain, bruising, numbness or soreness that lasts more than three days is not normal, and worth mentioning to your therapist or a GP.</p>
@@ -1625,8 +1625,8 @@ export const manualPosts: ManualPost[] = [
     image: "/blog/covers/lower-back-hands.webp",
     related: [
       "massage-for-neck-and-shoulder-tension",
-      "deep-tissue-vs-swedish-massage",
       "how-often-should-you-get-a-massage",
+      "trigger-point-massage-explained",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you have a diagnosed headache or migraine condition, follow your GP or neurologist's plan first.</p>
@@ -2785,6 +2785,473 @@ export const manualPosts: ManualPost[] = [
         question: "Will massage improve my posture?",
         answer:
           "Not by itself. Massage can ease the tight muscles that make sitting upright feel like hard work, which makes good posture more comfortable. Lasting change comes from moving more often, a well set up workstation and some strengthening exercise. Think of massage as support for those habits.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-plantar-fasciitis",
+    title: "Massage for Plantar Fasciitis: Does It Help Heel Pain?",
+    description:
+      "Can massage ease plantar fasciitis heel pain? Where a therapist should work, self-massage you can do at home, what the NHS recommends, and when to see a GP.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-09",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "massage-for-runners",
+      "massage-vs-physiotherapy",
+      "when-you-should-not-have-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If a GP, podiatrist or physiotherapist has diagnosed your heel pain and given you a plan, follow their advice first.</p>
+
+<p><strong>TL;DR:</strong> massage may help ease plantar fasciitis pain, mostly by loosening a tight calf and arch. It works best alongside stretches, supportive shoes and rest, not instead of them. The research is thin, so treat it as one tool, not the fix. If your heel has not improved after two weeks of self-care, the NHS says to see a GP.</p>
+
+<p>That first step out of bed is the giveaway. A sharp, bruised feeling under your heel that eases as you walk around, then comes back after a long day on your feet. That pattern is classic plantar fasciitis.</p>
+
+<h2>What is plantar fasciitis, and why does your heel hurt most in the morning?</h2>
+<p>The plantar fascia is a thick band of tissue that runs along the sole of your foot, from your heel bone to your toes. It acts like a bowstring that supports your arch. When it gets strained, the point where it joins the heel becomes painful.</p>
+<p>Overnight, the fascia and your calf tighten up while you are not using them. Your first steps stretch them suddenly, which is why mornings hurt most. The same happens after sitting for a while.</p>
+<p>The <a href="https://www.nhs.uk/conditions/plantar-fasciitis/" target="_blank" rel="noopener noreferrer">NHS page on plantar fasciitis</a> lists the common risk factors. They include being 40 to 60, a tight calf or heel, starting exercise on hard surfaces, standing or walking a lot for work, worn or poorly cushioned shoes, and carrying extra weight.</p>
+
+<h2>Can massage actually help plantar fasciitis?</h2>
+<p>It may help, and it is low risk when done sensibly. The honest answer is that the evidence is limited. Most studies are small, and many combine massage with stretching, so it is hard to say what did the work.</p>
+<p>What the research and clinical experience point to is this. Working on a tight calf and the arch of the foot can ease pain and make walking more comfortable for a while. Small trials of calf massage combined with stretching have reported less pain and better function than stretching alone.</p>
+<p>Massage is not on the NHS list of standard treatments for plantar fasciitis. That list is rest, ice, good shoes, insoles, stretches and, if those fail, physiotherapy, podiatry or injections. Think of massage as something you add to that plan, not a replacement for it.</p>
+
+<h2>Where should a therapist work if your heel hurts?</h2>
+<p>Mostly not on the heel. A good therapist spends most of the session above the sore spot.</p>
+<ul>
+<li><strong>The calf.</strong> A tight calf pulls on the Achilles tendon, which pulls on the heel and the fascia. This is where firm work usually helps most.</li>
+<li><strong>The Achilles and the back of the heel.</strong> Gentle work here can ease the pull on the sole.</li>
+<li><strong>The arch.</strong> Moderate pressure along the length of the fascia, working towards the toes.</li>
+<li><strong>The heel itself.</strong> Light work only, especially during a flare. Hard pressure on the inflamed spot can make it more irritated, not less.</li>
+</ul>
+<p>Pressure should feel firm but bearable. A useful rule is that it can be "comfortably uncomfortable" but never sharp. Stinging, tingling or pain that lingers after the session means ease off next time.</p>
+<p>A <a href="/massage/sports-massage/">sports massage</a> or <a href="/massage/remedial-massage/">remedial massage</a> therapist is the right person to book. Both work on lower legs and feet all the time, and a remedial therapist will usually check how you walk and how your ankle moves first. If you are a runner, our guide to <a href="/learn/massage-for-runners/">massage for runners</a> covers how to time sessions around training.</p>
+
+<h2>How do you massage your own foot at home?</h2>
+<p>Short, regular self-massage tends to beat one long session a week. Five minutes most days is a realistic target.</p>
+<ul>
+<li><strong>Before you get out of bed.</strong> Sit up and rub along your arch with your thumbs for a minute. Then pull your toes gently back towards your shin for 30 seconds. It takes the edge off those first steps.</li>
+<li><strong>A ball under your foot.</strong> Roll a tennis ball slowly from heel to toes for one to two minutes while sitting. A tennis ball is softer than a golf or lacrosse ball, so start there.</li>
+<li><strong>A frozen water bottle.</strong> Roll a frozen 500ml bottle under your arch for a few minutes each evening. You get massage and cold at once.</li>
+<li><strong>Your calf.</strong> Use your hands, a foam roller or a massage stick on the back of your lower leg. Spend more time here than on the foot.</li>
+</ul>
+<p>Keep the pressure moderate. Pressing hard into the sore heel feels productive at the time, but often leaves it angrier the next morning.</p>
+
+<h2>What else should you be doing alongside massage?</h2>
+<p>This is where most of the recovery comes from. NHS guidance for plantar fasciitis is mainly self-care:</p>
+<ul>
+<li>Rest and raise your foot when you can.</li>
+<li>Hold an ice pack wrapped in a towel on the heel for up to 20 minutes every two to three hours.</li>
+<li>Wear shoes with a cushioned heel and good arch support, and try insoles or heel pads.</li>
+<li>Do gentle stretches for your calf and the sole of your foot every day.</li>
+<li>Swap running or long walks for low-impact exercise like swimming while it settles.</li>
+<li>Avoid walking barefoot on hard floors, flip-flops, high heels and backless slippers.</li>
+</ul>
+<p>Most people improve with this, but it takes patience. Heel pain like this can take months to settle fully, so do not judge a plan on one week.</p>
+
+<h2>Which massage should you book, and what will it cost?</h2>
+<p>Book a 30 or 60-minute sports or remedial massage and tell the therapist your heel is the problem when you book. Thirty minutes is enough for both lower legs and feet. An hour lets them also check your hips and the rest of the chain, which helps if the pain started with a change in training.</p>
+<p>Typical UK prices are £30 to £45 for 30 minutes and £45 to £75 for an hour, with London at the top end or above. Our guide to <a href="/learn/how-much-does-a-massage-cost-uk/">massage prices in the UK</a> has a fuller breakdown.</p>
+<p>Once a week for three or four weeks is a common pattern while it is painful. If nothing has changed by then, that is useful information. It is time to see someone who can assess the foot properly.</p>
+
+<h2>When should you see a GP instead of booking a massage?</h2>
+<p>The NHS says to see a GP if:</p>
+<ul>
+<li>the pain is severe or stops you doing normal activities</li>
+<li>it is getting worse or keeps coming back</li>
+<li>it has not improved after two weeks of self-care</li>
+<li>you have tingling or loss of feeling in your foot</li>
+<li>you have diabetes and foot pain, as foot problems can be more serious with diabetes</li>
+</ul>
+<p>Get medical help quickly if your heel pain started after a fall or injury, if you cannot put weight on it, or if the foot is hot, red and swollen. Those are not signs of plantar fasciitis.</p>
+<p>A GP may refer you to physiotherapy or podiatry. In many areas you can also self-refer to NHS physio. If you are unsure which to see, our comparison of <a href="/learn/massage-vs-physiotherapy/">massage and physiotherapy</a> explains what each does. Massage is fine to carry on alongside that care, as long as your clinician is happy with it.</p>
+
+<p>Ready to book? Search our <a href="/find-a-therapist">directory of massage therapists</a> for a sports or remedial therapist near you, and mention your heel when you get in touch.</p>
+`,
+    faqs: [
+      {
+        question: "Is massage good for plantar fasciitis?",
+        answer:
+          "It may help ease the pain, especially when it focuses on a tight calf and the arch of the foot. The research is limited, so use massage alongside NHS self-care advice like stretches, ice, rest and supportive shoes rather than instead of it.",
+      },
+      {
+        question: "Should you massage the heel if you have plantar fasciitis?",
+        answer:
+          "Only gently, especially during a flare. Hard pressure directly on the sore spot can irritate it further. Most of the useful work happens in the calf, around the Achilles and along the arch, where firmer pressure is usually better tolerated.",
+      },
+      {
+        question: "How often should I massage my foot for plantar fasciitis?",
+        answer:
+          "Short self-massage most days works better than one long session a week. Aim for a minute or two with a ball or frozen bottle under your arch, plus some calf work. A professional session once a week for a few weeks is a common pattern.",
+      },
+      {
+        question: "Can massage make plantar fasciitis worse?",
+        answer:
+          "It can if the pressure on the heel is too hard. Pain that is sharp, tingling, or worse the next morning is a sign to ease off. Tell your therapist the heel is sensitive so they focus on the calf and arch instead.",
+      },
+      {
+        question: "How long does plantar fasciitis take to heal?",
+        answer:
+          "It varies a lot. Many people improve within weeks of starting self-care, but it can take months to settle fully. The NHS advises seeing a GP if the pain has not improved after two weeks, is getting worse or keeps coming back.",
+      },
+      {
+        question: "What type of massage is best for plantar fasciitis?",
+        answer:
+          "A sports or remedial massage focused on the lower legs and feet. Both types of therapist regularly treat calf tightness and foot pain. A remedial therapist will often assess how you walk first, which helps if the problem keeps returning.",
+      },
+    ],
+  },
+  {
+    slug: "trigger-point-massage-explained",
+    title: "Trigger Point Massage Explained (and Why It Hurts So Good)",
+    description:
+      "What trigger points are, what happens in a trigger point massage, why it feels painful and relieving at once, what the evidence says, and what it costs in the UK.",
+    category: "Treatment Guides",
+    publishedAt: "2026-10-09",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "massage-for-neck-and-shoulder-tension",
+      "massage-for-tension-headaches",
+      "what-is-remedial-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have ongoing pain, a diagnosed condition or a treatment plan from a clinician, check with them before booking.</p>
+
+<p>Trigger point massage is steady, focused pressure on one small, tender spot in a muscle, held until it eases. That spot is the "knot" you can feel between your shoulder blades or at the top of your shoulder. Pressing it often sends an ache somewhere else, like your head or down your arm.</p>
+
+<p><strong>TL;DR:</strong> it is a technique, not a whole type of massage. Most deep tissue, sports and remedial therapists use it. It should feel intense but bearable, around 6 or 7 out of 10. It may ease muscle tension and the pain it causes, though the research behind it is still limited.</p>
+
+<h2>What is a trigger point?</h2>
+<p>A trigger point is a small, tight, sensitive spot inside a muscle. Press it and it is tender. Press it harder and it often causes pain in a different place. That is called referred pain, and it is the main thing that sets a trigger point apart from ordinary stiffness.</p>
+<p>A few well-known examples:</p>
+<ul>
+<li>A spot at the top of your shoulder that sends an ache up the side of your neck to your temple.</li>
+<li>A spot at the base of your skull that feels like a headache behind your eyes.</li>
+<li>A spot in your buttock that aches down the back of your thigh.</li>
+<li>A spot in your forearm that aches into your wrist and hand.</li>
+</ul>
+<p>Common triggers include long hours in one position, repetitive tasks, stress and a sudden jump in training. Scientists still debate exactly what a trigger point is under the skin. Nobody disputes that the tender spots are real, or that pressing them reproduces familiar pain.</p>
+
+<h2>What happens in a trigger point session?</h2>
+<p>It usually starts like any other massage. Your therapist warms the area with broad strokes so the muscle is not cold when they start pressing into it.</p>
+<p>Then they find the tender spot, often by asking "is that the one?" When you recognise the ache, they hold firm pressure with a thumb, knuckle or elbow for around 30 to 90 seconds. You breathe slowly. The ache should fade a little as they hold.</p>
+<p>After that they release, flush the area with lighter strokes, and may stretch the muscle gently. They will check several spots in a session, not just one.</p>
+<p>A good therapist will ask you to rate the pressure. Aim for 6 or 7 out of 10. If you are holding your breath, clenching your jaw or curling your toes, it is too much. Say so.</p>
+
+<h2>Why does trigger point massage hurt so good?</h2>
+<p>Because you feel two things at once. The pressure itself is uncomfortable. At the same time, it lands exactly on an ache you have been carrying around, and that recognition feels like relief.</p>
+<p>As the pressure is held, many people feel the ache soften or "melt". Part of that is the muscle relaxing. Part is your nervous system turning down the volume on a spot it has been guarding. Either way, the area usually feels looser afterwards.</p>
+<p>The next day can be a different story. Tender spots often feel bruised for 24 to 48 hours. That is normal. Our guide on <a href="/learn/why-am-i-sore-after-a-massage/">soreness after a massage</a> covers what is expected and what is not.</p>
+
+<h2>Does trigger point massage actually work?</h2>
+<p>The evidence is mixed, so it is worth being straight about it. Small trials suggest trigger point pressure may help with neck and shoulder pain and with tension-type headaches. Our guide to <a href="/learn/massage-for-tension-headaches/">massage for tension headaches</a> covers that link in more detail.</p>
+<p>For long-term pain, the picture is less clear. When NICE reviewed treatments for chronic primary pain in 2021, it did not find strong enough evidence to recommend manual therapies, massage included, and called for more research. It does recommend exercise.</p>
+<p>A fair way to read that: trigger point work may ease tension and pain in the short term, and many people find it worthwhile. It works best paired with movement and stretching, so the muscle does not tighten straight back up.</p>
+
+<h2>How is it different from deep tissue or remedial massage?</h2>
+<p>Think of trigger point work as a tool inside those treatments rather than a rival to them.</p>
+<ul>
+<li><strong><a href="/massage/deep-tissue/">Deep tissue massage</a></strong> uses slow, firm strokes across whole muscles. Trigger point holds are often mixed in where the therapist finds a stubborn spot.</li>
+<li><strong><a href="/massage/remedial-massage/">Remedial massage</a></strong> starts with an assessment of posture and movement, then picks techniques to suit. Trigger point work is one of the most common.</li>
+<li><strong><a href="/massage/sports-massage/">Sports massage</a></strong> focuses on muscles you load in training. Trigger points in calves, hamstrings and shoulders get a lot of attention.</li>
+</ul>
+<p>If you want a session built around it, book remedial or deep tissue and say "I would like you to focus on trigger points in my upper back" when you book. Our guide to <a href="/learn/what-is-remedial-massage/">what remedial massage is</a> explains the assessment side.</p>
+
+<h2>Can you do trigger point massage on yourself?</h2>
+<p>Yes, and it is a good way to keep a knot in check between appointments.</p>
+<ul>
+<li>Put a tennis ball between your upper back and a wall. Lean in until you find the tender spot.</li>
+<li>Hold steady pressure for 30 to 60 seconds, breathing slowly. Do not roll back and forth fast.</li>
+<li>Stop at around five minutes per area. More is not better.</li>
+<li>Move the area gently afterwards, such as shoulder rolls or a neck stretch.</li>
+</ul>
+<p>Keep away from the front and sides of your neck, where there are nerves and blood vessels close to the surface. If you get numbness, tingling or sharp pain, stop.</p>
+
+<h2>Who should skip it or check first?</h2>
+<p>Firm, held pressure is not right for everyone. Check with your GP before booking if you take blood thinners, bruise easily, have a bleeding disorder, have varicose veins in the area, or have had recent surgery or a fresh injury.</p>
+<p>Avoid it over areas of numbness, broken skin, or anywhere that is hot and swollen. Our guide on <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> has the fuller list.</p>
+<p>Pain that wakes you at night, spreads, or comes with weakness, fever or weight loss needs a GP, not a massage.</p>
+
+<h2>What does trigger point massage cost?</h2>
+<p>It is priced like the treatment it sits inside. In the UK, expect around £30 to £45 for 30 minutes and £45 to £75 for an hour of deep tissue or remedial massage, with London often higher.</p>
+<p>Thirty minutes is enough for one area, like neck and shoulders. If your <a href="/learn/massage-for-neck-and-shoulder-tension/">neck and shoulder tension</a> keeps coming back, two or three sessions a couple of weeks apart is a sensible test of whether it helps you.</p>
+
+<p>To book, search our <a href="/find-a-therapist">directory of massage therapists</a> for a deep tissue or remedial therapist near you, and mention trigger point work when you get in touch.</p>
+`,
+    faqs: [
+      {
+        question: "What is trigger point massage?",
+        answer:
+          "It is a technique where the therapist holds steady pressure on a small, tender spot in a muscle for around 30 to 90 seconds until it eases. These spots often cause pain elsewhere, such as a shoulder knot that brings on a headache.",
+      },
+      {
+        question: "Is trigger point massage supposed to hurt?",
+        answer:
+          "It should feel intense but bearable, around 6 or 7 out of 10. You may feel the ache spread to a familiar place. If you are holding your breath, tensing up or feeling sharp pain, the pressure is too strong and you should say so.",
+      },
+      {
+        question: "How long does soreness last after trigger point massage?",
+        answer:
+          "The treated spots often feel bruised or tender for 24 to 48 hours. That usually fades steadily. Soreness that keeps getting worse after a few days, or comes with numbness, swelling or bruising, is not normal and worth checking with your therapist or GP.",
+      },
+      {
+        question: "Is trigger point massage the same as deep tissue?",
+        answer:
+          "Not quite. Deep tissue massage uses slow, firm strokes across whole muscles. Trigger point work is held pressure on one small spot. Most deep tissue, remedial and sports therapists use trigger point holds as part of their sessions, so you can ask for it.",
+      },
+      {
+        question: "How many trigger point sessions will I need?",
+        answer:
+          "Many people notice a difference after one session, but tension often returns. Two or three sessions a couple of weeks apart is a fair test. Pair them with stretching and regular movement so the muscle does not tighten straight back up.",
+      },
+      {
+        question: "Can I do trigger point massage at home?",
+        answer:
+          "Yes. Lean against a tennis ball on a wall, find the tender spot and hold steady pressure for 30 to 60 seconds while breathing slowly. Keep to about five minutes per area and avoid the front and sides of your neck.",
+      },
+    ],
+  },
+  {
+    slug: "what-to-do-after-a-massage",
+    title: "What to Do After a Massage to Get the Most From It",
+    description:
+      "What to do in the first hour, the rest of the day and the next two days after a massage: water, food, exercise, baths, alcohol, driving and when to rebook.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-09",
+    readingTime: 6,
+    image: "/blog/covers/bedroom-pillows.webp",
+    related: [
+      "why-am-i-sore-after-a-massage",
+      "how-often-should-you-get-a-massage",
+      "what-to-expect-first-massage-appointment",
+    ],
+    html: `
+<p>Take it easy for the rest of the day. Drink some water, eat something light, move gently and leave hard exercise, alcohol and saunas until tomorrow. That covers most of it.</p>
+
+<p><strong>TL;DR:</strong> the hour after a massage is for getting up slowly and staying calm. The rest of the day is for gentle movement and an early night. Wait 24 hours before hard training after deep work. Tell your therapist how you felt, so the next session is better.</p>
+
+<p>The details depend on what you had. A relaxing <a href="/massage/swedish-massage/">Swedish massage</a> needs very little aftercare. A firm <a href="/massage/deep-tissue/">deep tissue</a> or <a href="/massage/sports-massage/">sports massage</a> needs a bit more. Here is how to handle each stage.</p>
+
+<h2>In the first ten minutes: get up slowly</h2>
+<p>You have been lying still for up to an hour, and your blood pressure has probably dropped a little. Standing up quickly can make you dizzy.</p>
+<ul>
+<li>Roll onto your side, then push yourself up to sitting.</li>
+<li>Sit on the edge of the couch for a minute before you stand.</li>
+<li>Get dressed slowly. There is no rush, and a good therapist builds that time into the booking.</li>
+</ul>
+<p>Most therapists offer a glass of water at this point. Take it. You may also feel a bit spaced out or even emotional. Both are normal after deep relaxation and pass quickly.</p>
+
+<h2>In the first hour: should you drive, eat or go back to work?</h2>
+<p><strong>Driving.</strong> If you feel drowsy or light-headed, sit in the car for ten minutes before setting off. Your reactions can be slower than usual straight after a very relaxing session.</p>
+<p><strong>Eating.</strong> A light snack or meal is a good idea, especially if you skipped lunch to fit the appointment in. Keep it light. A heavy meal straight after lying face down for an hour is rarely comfortable.</p>
+<p><strong>Work.</strong> Going back to your desk is fine. If you can, book massages for the end of the day, so you can carry the calm into the evening rather than straight into back-to-back meetings.</p>
+
+<h2>For the rest of the day: what actually helps</h2>
+
+<h3>Drink water, but not for the reason you have been told</h3>
+<p>You will often hear that water "flushes out toxins" released by massage. There is no good evidence for that. Massage does not release a load of toxins that need washing away.</p>
+<p>Drinking water is still sensible. Staying hydrated supports normal muscle recovery, and a glass or two after an hour-long session does no harm. Just do not force down litres of it.</p>
+
+<h3>Move gently</h3>
+<p>A short walk or some light stretching keeps blood moving through the muscles that were worked. It also stops you seizing up on the sofa. Gentle is the key word. A stroll counts. A spin class does not.</p>
+
+<h3>Use warmth, but wait a few hours for heat</h3>
+<p>A warm bath or shower later in the day can feel lovely, especially after firm work. Leave very hot baths, saunas and steam rooms for at least a few hours, and ideally until the next day. Heat on top of a massage can leave you light-headed, and it can make freshly worked tissue feel more tender.</p>
+<p>If you had a <a href="/massage/hot-stone-massage/">hot stone massage</a>, your muscles have already had plenty of heat. Skip the sauna that day.</p>
+
+<h3>Skip the alcohol</h3>
+<p>A drink straight after a massage hits harder when you are already relaxed and a bit light-headed. It also dehydrates you and can make next-day soreness feel worse. Leave it until tomorrow.</p>
+
+<h3>Go to bed early</h3>
+<p>Most of your body's repair happens while you sleep. Massage often makes it easier to fall asleep, so take advantage of it. An early night does more for recovery than anything you can buy.</p>
+
+<h2>Is it normal to feel emotional, cold or thirsty afterwards?</h2>
+<p>Yes. Some people feel teary after a massage, especially one that followed a stressful stretch. It is a common response to deep relaxation and usually passes within the hour. You do not need to explain it to your therapist, but you can if you want to.</p>
+<p>Feeling a little cold is common too. You have been lying still with your skin exposed, so bring a jumper in winter. A mild thirst or a slight headache can follow if you arrived dehydrated, which is another reason for that glass of water.</p>
+<p>If you feel faint, sick or unusually unwell rather than just relaxed, sit down, tell your therapist and do not drive until it passes.</p>
+
+<h2>Over the next 48 hours: when can you exercise again?</h2>
+<p>It depends on the massage.</p>
+<ul>
+<li><strong>After a relaxation or Swedish massage:</strong> you can usually train as normal the next day, or even the same evening if you feel good.</li>
+<li><strong>After deep tissue or sports massage:</strong> wait about 24 hours before hard or heavy training. Muscles that have had firm work can feel tired and tender, and lifting heavy on them too soon is uncomfortable.</li>
+<li><strong>Before a race or big event:</strong> keep any massage light, and have it at least two days before. Never try a new firm massage the day before something important.</li>
+</ul>
+<p>Some soreness the next day is normal after firm work and usually fades within a day or two. If you want to know what is expected and what is a warning sign, read our guide to <a href="/learn/why-am-i-sore-after-a-massage/">why you might feel sore after a massage</a>.</p>
+<p>Look after your skin too. If oil was used, wash it off before sitting in strong sun. If you are going to exfoliate or wax, give your skin a day.</p>
+
+<h2>Before you book again: give your therapist feedback</h2>
+<p>This is the step most people skip, and it is the one that makes the biggest difference to your next session.</p>
+<p>Notice how you feel at three points: when you leave, the next morning, and two or three days later. Then tell your therapist at the start of your next visit. Useful things to mention:</p>
+<ul>
+<li>Was the pressure right, or too much in one area?</li>
+<li>How sore were you the next day, and for how long?</li>
+<li>Did the area you came in for feel better, and for how long did that last?</li>
+<li>Did anything feel worse?</li>
+</ul>
+<p>How long the benefit lasts is a good guide to how often you should go back. If your shoulders feel looser for two weeks and then tighten up again, a booking every two to three weeks makes sense. Our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often to get a massage</a> has more detail.</p>
+
+<h2>When should you call your therapist or GP?</h2>
+<p>Most people feel better, or a little sore and then better. A few signs are not part of normal aftercare:</p>
+<ul>
+<li>sharp, localised pain rather than a general ache</li>
+<li>bruising from ordinary pressure</li>
+<li>numbness, tingling or weakness in an arm or leg</li>
+<li>pain that keeps getting worse after two or three days</li>
+<li>swelling, redness and warmth in one calf, which needs urgent medical advice</li>
+</ul>
+<p>Tell your therapist about bruising or soreness that lasts. Contact your GP or call NHS 111 for numbness, weakness, or a swollen, painful calf.</p>
+
+<p>If this is your first massage, our guide on <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at your first appointment</a> covers the visit itself. When you are ready to book, search our <a href="/find-a-therapist">directory of massage therapists</a> near you.</p>
+`,
+    faqs: [
+      {
+        question: "Should you drink water after a massage?",
+        answer:
+          "Yes, a glass or two is sensible, as staying hydrated supports normal muscle recovery. The idea that water flushes out toxins released by massage is not backed by good evidence, so there is no need to force down large amounts.",
+      },
+      {
+        question: "Can I exercise after a massage?",
+        answer:
+          "Gentle movement like walking or light stretching is fine and helps. After deep tissue or sports massage, wait about 24 hours before hard or heavy training. After a relaxing Swedish massage, you can usually train as normal the next day.",
+      },
+      {
+        question: "Can I have a shower or bath after a massage?",
+        answer:
+          "A warm shower or bath later in the day is fine and can feel soothing. Leave very hot baths, saunas and steam rooms for a few hours, ideally until the next day, as heat on top of a massage can leave you light-headed.",
+      },
+      {
+        question: "Is it OK to drink alcohol after a massage?",
+        answer:
+          "It is best to wait until the next day. Alcohol hits harder when you are relaxed and slightly light-headed after a massage. It also dehydrates you, which can make next-day soreness feel worse after firm deep tissue or sports work.",
+      },
+      {
+        question: "Why do I feel tired after a massage?",
+        answer:
+          "Massage helps your body shift into a calmer, resting state, and your blood pressure often drops slightly. Feeling sleepy afterwards is common and harmless. Take it as a cue for an early night, and sit for a few minutes before driving.",
+      },
+      {
+        question: "Can I drive after a massage?",
+        answer:
+          "Usually, yes. If you feel drowsy, dizzy or light-headed, sit for ten minutes and have some water before setting off. Your reactions can be slower straight after a deeply relaxing session, so do not rush back onto a busy road.",
+      },
+    ],
+  },
+  {
+    slug: "sports-massage-for-gym-doms",
+    title: "Sports Massage for Gym Soreness: Does It Beat DOMS?",
+    description:
+      "Does sports massage reduce DOMS after the gym? What the research shows, the best timing, what it costs in the UK, cheaper options and when soreness is not normal.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-09",
+    readingTime: 6,
+    image: "/blog/covers/sports-massage-leg.webp",
+    related: [
+      "sports-massage-vs-deep-tissue-massage",
+      "why-am-i-sore-after-a-massage",
+      "massage-for-runners",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have an injury or a health condition, or a clinician has given you a training plan, follow their advice first.</p>
+
+<p>Leg day was Monday. On Wednesday you cannot sit down without wincing. Will a sports massage sort that out?</p>
+
+<p><strong>TL;DR:</strong> a little. The best research suggests sports massage gives a small reduction in delayed onset muscle soreness (DOMS) and a small boost in flexibility. It does not make you stronger or faster. It feels good and it is safe for most people, but sleep, gentle movement and smarter programming do more to stop DOMS in the first place.</p>
+
+<h2>What is DOMS, and why does it peak two days later?</h2>
+<p>DOMS is the ache and stiffness you get a day or two after training that was harder or newer than usual. It comes from tiny amounts of strain in the muscle fibres, followed by your body's normal repair response.</p>
+<p>It tends to start six to eight hours after training, peak around 24 to 72 hours, then fade. <a href="https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/pain-and-injuries-after-exercise" target="_blank" rel="noopener noreferrer">NHS inform</a> says the ache usually settles within two to five days without medical help.</p>
+<p>Some training causes far more DOMS than others. Lowering movements are the worst: the bottom half of a squat, Romanian deadlifts, downhill running, slow negatives. So is any exercise you have not done for a while, which is why the first session back after a holiday hurts so much.</p>
+
+<h2>Does sports massage actually reduce DOMS?</h2>
+<p>Yes, a bit. The biggest review on this, published in 2020 in <a href="https://bmjopensem.bmj.com/content/6/1/e000614" target="_blank" rel="noopener noreferrer">BMJ Open Sport &amp; Exercise Medicine</a>, pooled 29 studies with about 1,000 people. It found massage gave small but real improvements in DOMS and flexibility.</p>
+<p>The same review found no effect on strength, sprinting, jumping, endurance or fatigue. So massage makes soreness feel less bad. It does not speed up your return to full performance.</p>
+<p>Smaller reviews have found weaker results, and the studies vary a lot in timing and technique. A fair summary: expect to feel somewhat better, not transformed.</p>
+<p>Some studies also suggest the effect is strongest when massage happens within a day or two of training. That brings us to timing.</p>
+
+<h2>When should you book a sports massage after the gym?</h2>
+<p>Timing matters more than most people think.</p>
+<ul>
+<li><strong>Within 24 hours:</strong> a lighter, flushing massage seems to help most. Think long strokes and moderate pressure, not hard digging.</li>
+<li><strong>At peak soreness (day two or three):</strong> keep it gentle. Muscles are tender, and deep pressure on them can be miserable without adding much.</li>
+<li><strong>Before your next session on that muscle:</strong> a session a day or two before can help you feel looser, as long as it is not too firm.</li>
+<li><strong>The day before a competition or a max-effort lift:</strong> skip anything new or deep. Light work only, and only if you are used to it.</li>
+</ul>
+<p>A typical post-gym session starts with broad, warming strokes over the sore area. The therapist then works along the length of the muscle at a pressure you can relax into, checks the muscles around it, and may finish with a gentle stretch. You should leave feeling looser, not beaten up. If you hold your breath or tense against the pressure, it is too firm to help.</p>
+<p>Tell your therapist when you trained and what you did when you arrive. They will adjust pressure accordingly. If you want to understand how a sports session differs from a deep tissue one, our comparison of <a href="/learn/sports-massage-vs-deep-tissue-massage/">sports and deep tissue massage</a> covers it.</p>
+
+<h2>Is it worth paying for if you lift regularly?</h2>
+<p>That depends on what you want from it. A 30-minute <a href="/massage/sports-massage/">sports massage</a> usually costs £30 to £45 in the UK, and an hour costs £45 to £75. London prices run higher.</p>
+<p>It tends to be worth it if:</p>
+<ul>
+<li>you train four or more times a week and certain muscles never quite recover</li>
+<li>you have a niggle, such as tight hips or calves, that keeps limiting a lift</li>
+<li>you have a block of hard training or a competition coming up</li>
+<li>you simply enjoy it and recover better when you feel relaxed</li>
+</ul>
+<p>It is harder to justify purely to beat normal DOMS after the odd hard session. That soreness fades on its own within a few days. For regular lifters, one session every two to four weeks is a common pattern. Our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often to get a massage</a> goes into the options.</p>
+<p>If your soreness is more stiff than tender, or you want firm work on whole muscle groups, a <a href="/massage/deep-tissue/">deep tissue massage</a> is a reasonable alternative.</p>
+
+<h2>What else beats DOMS, and costs less?</h2>
+<p>Massage is one tool. These matter as much or more:</p>
+<ul>
+<li><strong>Build up gradually.</strong> The best way to avoid bad DOMS is not to cause it. Add weight, volume or new exercises in small steps. DOMS also fades as your body adapts to a movement.</li>
+<li><strong>Keep moving.</strong> A light walk, an easy bike ride or a gentle session of the same movement eases stiffness better than sitting still.</li>
+<li><strong>Sleep.</strong> Most muscle repair happens overnight. Seven to nine hours makes a real difference.</li>
+<li><strong>Eat enough protein.</strong> Spreading protein through the day supports muscle repair.</li>
+<li><strong>Foam rolling.</strong> It is a cheaper, at-home version of some of what massage offers, and some studies show a similar small reduction in soreness.</li>
+</ul>
+<p>Painkillers can take the edge off if you need them, but check with a pharmacist if you take other medicines or have a health condition.</p>
+
+<h2>Should you train through DOMS?</h2>
+<p>Usually, yes, as long as you scale it. Light training on sore muscles is fine and can ease stiffness. Heavy or explosive work on very sore muscles is a different matter, since your strength and coordination are temporarily reduced.</p>
+<p>A simple rule: train a different muscle group, or do the same movement at a much lower load. If a warm-up does not ease the soreness at all, rest that area for another day.</p>
+
+<h2>When is gym soreness not DOMS?</h2>
+<p>DOMS is a dull, even ache on both sides that eases when you warm up. Other things need a different response.</p>
+<ul>
+<li><strong>Sharp pain during a lift</strong>, a pop, or pain in one specific spot is more likely a strain. Stop and get it assessed.</li>
+<li><strong>Soreness lasting more than five days</strong>, or getting worse, should be checked by a GP, says NHS inform.</li>
+<li><strong>Severe pain, swelling and very dark or brown urine</strong> after extreme exercise can be a sign of rhabdomyolysis, a rare but serious condition. Get urgent medical help through NHS 111 or A&amp;E.</li>
+</ul>
+<p>Do not book a massage on a suspected strain or on muscles that are badly swollen. Let a GP or physio see it first. If the soreness you are worried about came from a massage, rather than the gym, our guide on <a href="/learn/why-am-i-sore-after-a-massage/">soreness after massage</a> is the one you want.</p>
+
+<p>Want a therapist who works with gym-goers? Search our <a href="/find-a-therapist">directory of massage therapists</a> for sports massage near you.</p>
+`,
+    faqs: [
+      {
+        question: "Does sports massage help DOMS?",
+        answer:
+          "A little. The largest review of the research, covering 29 studies, found massage gave a small reduction in DOMS and a small gain in flexibility. It did not improve strength, speed or endurance, so expect to feel somewhat better rather than fully recovered.",
+      },
+      {
+        question: "When should I get a sports massage after a workout?",
+        answer:
+          "Within about 24 hours of training seems to help most, using lighter flushing strokes. At peak soreness on day two or three, keep the pressure gentle. Avoid new or deep massage the day before a competition or a maximum-effort lift, as it can leave you tired.",
+      },
+      {
+        question: "How long does DOMS last?",
+        answer:
+          "It usually starts six to eight hours after training, peaks at one to three days and fades within two to five days. NHS inform advises contacting a GP if the pain lasts longer than five days or keeps getting worse.",
+      },
+      {
+        question: "Is foam rolling as good as a sports massage for DOMS?",
+        answer:
+          "For everyday soreness, foam rolling gives a similar small benefit at a fraction of the cost. A sports massage therapist can work more precisely, adjust pressure and spot problem areas, which helps more if a particular muscle keeps limiting your training.",
+      },
+      {
+        question: "Should I work out with DOMS?",
+        answer:
+          "Usually yes, at a lower intensity. Light training or a different muscle group is fine and can ease stiffness. Avoid heavy or explosive work on very sore muscles, as strength and control are temporarily reduced. Rest if a warm-up does not ease it.",
+      },
+      {
+        question: "How much does a sports massage cost in the UK?",
+        answer:
+          "Typically £30 to £45 for 30 minutes and £45 to £75 for an hour, with London prices often higher. For regular gym-goers, a session every two to four weeks is a common pattern, with extra sessions around heavy training blocks.",
       },
     ],
   },
