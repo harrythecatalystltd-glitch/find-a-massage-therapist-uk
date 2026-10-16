@@ -32,7 +32,7 @@ export const manualPosts: ManualPost[] = [
     related: [
       "what-to-expect-first-massage-appointment",
       "how-often-should-you-get-a-massage",
-      "deep-tissue-vs-swedish-massage",
+      "30-vs-60-vs-90-minute-massage",
     ],
     html: `
 <p>A one-hour massage in the UK typically costs somewhere between <strong>£35 and £90</strong>, depending on the treatment, the therapist's experience, and whether you're visiting a clinic, a studio, or booking a mobile massage at home.</p>
@@ -1342,9 +1342,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/sports-massage-leg.webp",
     related: [
-      "best-massage-for-lower-back-pain",
       "how-often-should-you-get-a-massage",
       "massage-for-plantar-fasciitis",
+      "massage-for-cyclists",
     ],
     html: `
 <p><strong>TL;DR:</strong> massage helps runners most as part of ongoing training, not as a magic fix the day before a race. A light massage 48 to 72 hours before a big event is fine; a deep one in the final two days is not. After a race, wait a couple of days before booking anything firm, and let the first, most painful stage of recovery pass on its own.</p>
@@ -2333,8 +2333,8 @@ export const manualPosts: ManualPost[] = [
     image: "/blog/covers/towels-oils-flatlay.webp",
     related: [
       "hot-stone-massage-guide",
-      "how-often-should-you-get-a-massage",
       "massage-for-tension-headaches",
+      "massage-for-sleep-problems",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you are under the care of a GP or a mental health team, their plan comes first. Massage sits alongside that care, never in place of it.</p>
@@ -2916,7 +2916,7 @@ export const manualPosts: ManualPost[] = [
     related: [
       "massage-for-neck-and-shoulder-tension",
       "massage-for-tension-headaches",
-      "what-is-remedial-massage",
+      "myofascial-release-explained",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you have ongoing pain, a diagnosed condition or a treatment plan from a clinician, check with them before booking.</p>
@@ -3252,6 +3252,481 @@ export const manualPosts: ManualPost[] = [
         question: "How much does a sports massage cost in the UK?",
         answer:
           "Typically £30 to £45 for 30 minutes and £45 to £75 for an hour, with London prices often higher. For regular gym-goers, a session every two to four weeks is a common pattern, with extra sessions around heavy training blocks.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-sleep-problems",
+    title: "Can Massage Help You Sleep Better?",
+    description:
+      "Massage can help you fall asleep more easily, at least for a night or two. See what the research shows, what the NHS recommends first, and when to book.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-16",
+    readingTime: 6,
+    image: "/blog/covers/bedroom-pillows.webp",
+    related: [
+      "massage-for-stress-and-anxiety",
+      "hot-stone-massage-guide",
+      "what-to-do-after-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have long-term sleep problems, or a GP or sleep clinic is involved, follow their plan first. Massage can sit alongside it, never in place of it.</p>
+
+<p>Yes, massage can help some people sleep better, at least for a night or two. Most people fall asleep more easily after a relaxing session, and small trials back that up. What massage cannot do is treat long-term insomnia on its own.</p>
+
+<p><strong>TL;DR:</strong> a gentle massage in the evening is a good way to help your body wind down, and early research suggests it can improve sleep that night. For insomnia that has lasted three months or more, NICE recommends cognitive behavioural therapy for insomnia (CBT-I) first. Use massage as a support, book a slot late in the day, and keep the pressure light.</p>
+
+<h2>Does massage actually improve sleep?</h2>
+<p>Probably a little, and mostly in the short term. The research is small, but it points the same way.</p>
+<p>A 2025 study tested massage at home, just before bed, in 20 adults with insomnia symptoms. Each person tried three nights: a 45-minute relaxation massage, a fake "sham" massage, and no massage at all. Sleep efficiency, meaning the share of time in bed actually spent asleep, was best after the real massage.</p>
+<p>Other studies, mostly in hospital patients, older adults and women around menopause, report similar gains in how well people say they slept. Most are small and short. None shows that a course of massage changes long-term insomnia once the sessions stop.</p>
+<p>So the fair reading is this. Massage is a pleasant, low-risk way to make one night easier. It is not yet a proven treatment.</p>
+
+<h2>Why a massage can make you sleepy</h2>
+<p>Nobody has pinned down the exact cause, but three things probably play a part.</p>
+<ul>
+<li><strong>Your nervous system slows down.</strong> Slow, rhythmic pressure tends to lower your heart rate and slow your breathing. That is the state your body needs to drift off.</li>
+<li><strong>Tight muscles let go.</strong> Aching shoulders, a stiff neck or a sore lower back can keep you shifting around at night. Easing them removes one reason to stay awake.</li>
+<li><strong>Your mind gets a break.</strong> An hour with no screen and no decisions is a buffer between a busy day and bed.</li>
+</ul>
+<p>You will read that massage boosts serotonin or melatonin. The studies behind those claims are small and mixed. Treat them as unproven and judge massage on how you actually sleep.</p>
+
+<h2>What does the NHS recommend for poor sleep?</h2>
+<p>Massage is not on the list. <a href="https://www.nhs.uk/conditions/insomnia/" target="_blank" rel="noopener noreferrer">NHS guidance on insomnia</a> starts with changes to your habits:</p>
+<ul>
+<li>going to bed and getting up at the same times every day, weekends included</li>
+<li>keeping your bedroom dark, quiet and cool</li>
+<li>cutting caffeine in the afternoon and evening, and not using alcohol to get to sleep</li>
+<li>avoiding big meals, heavy exercise and screens in the hour before bed</li>
+<li>getting up if you cannot sleep, and going back to bed when you feel sleepy</li>
+</ul>
+<p>If that does not help, NICE recommends CBT-I as the first treatment for long-term insomnia. It is a short course that retrains how you think about and approach sleep. NICE has also backed a digital version, Sleepio, which some areas offer free on the NHS.</p>
+<p>Sleeping pills are only meant for short spells, usually days to a few weeks. Massage fits into the habits list, as one more way to wind down.</p>
+
+<h2>Which massage is best for sleep?</h2>
+<p>The gentlest one you enjoy. For sleep, how relaxed you feel afterwards matters far more than technique.</p>
+<h3>Swedish massage</h3>
+<p><a href="/massage/swedish-massage/">Swedish massage</a> is the obvious pick. Long, flowing strokes at light to medium pressure help most people feel drowsy within half an hour. Expect around £40 to £70 for an hour in most of the UK.</p>
+<h3>Hot stone massage</h3>
+<p><a href="/massage/hot-stone-massage/">Hot stone massage</a> adds steady warmth, and many people find it settles them faster than hands alone. It usually costs £10 to £25 more than Swedish. Read our <a href="/learn/hot-stone-massage-guide/">hot stone massage guide</a> first, as it is not right for everyone.</p>
+<h3>Deep tissue, carefully</h3>
+<p>Firm pressure can help if pain is what keeps you awake. It can also leave you sore that night, which is the opposite of what you want. If you go firm, book earlier in the day, not just before bed.</p>
+
+<h2>When should you book it to sleep better that night?</h2>
+<p>Timing makes a real difference. A lunchtime massage is lovely, but the calm has often faded by bedtime.</p>
+<ul>
+<li><strong>Book the last slot of the day.</strong> Many therapists offer evening appointments until 7pm or 8pm.</li>
+<li><strong>Consider a mobile therapist.</strong> A massage at home means no drive back, and you can go straight to a warm shower and bed. Our guide to <a href="/learn/mobile-massage-vs-clinic/">mobile massage versus a clinic</a> compares the costs.</li>
+<li><strong>Keep the evening quiet.</strong> Skip the phone, the alcohol and the big meal afterwards. Our tips on <a href="/learn/what-to-do-after-a-massage/">what to do after a massage</a> help the effect last.</li>
+</ul>
+<p>Some people feel wired rather than sleepy after a first massage, especially a firm one. That usually settles after a session or two, once your body knows what to expect.</p>
+
+<h2>Can you use massage at home before bed?</h2>
+<p>Yes, and this is where the 2025 study is most useful, since it took place at home. You do not need a professional every night.</p>
+<ul>
+<li>Ask a partner for ten minutes of slow strokes on your back or shoulders. Light, even pressure works better than digging in.</li>
+<li>Rub your own feet, hands or calves with a little oil or lotion.</li>
+<li>Gently knead the top of your shoulders and the base of your skull, where tension often sits.</li>
+</ul>
+<p>Keep it slow and boring. The goal is to feel heavy, not to work out knots. If worry is what keeps you up, our guide to <a href="/learn/massage-for-stress-and-anxiety/">massage for stress and anxiety</a> covers that side.</p>
+
+<h2>When poor sleep needs a GP, not a massage</h2>
+<p>Most bad nights pass on their own. The NHS advises seeing a GP if changing your habits has not worked, if you have had trouble sleeping for months, or if it is affecting your daily life.</p>
+<p>See a GP sooner if any of these apply:</p>
+<ul>
+<li>You snore loudly and someone has noticed you stop breathing or gasp in your sleep. This can be sleep apnoea.</li>
+<li>You feel an urge to move your legs at night that keeps you awake.</li>
+<li>You fall asleep without meaning to in the day, or while driving.</li>
+<li>Low mood, worry or pain is the main reason you cannot sleep.</li>
+<li>Your sleep changed after starting a new medicine.</li>
+</ul>
+<p>These problems have their own treatments, and a massage will not touch them. Never stop or change a prescribed medicine because massage seems to help. Talk to your GP first.</p>
+
+<p>If you want an hour that sends you home ready for bed, book an evening Swedish or hot stone session. Use our <a href="/find-a-therapist">directory of massage therapists</a> to find a qualified therapist near you who works late.</p>
+`,
+    faqs: [
+      {
+        question: "Does massage help you sleep better?",
+        answer:
+          "It can, mostly in the short term. Small trials, including a 2025 home study in adults with insomnia symptoms, found people slept more efficiently after a relaxing massage than after a fake one. There is no good evidence yet that massage treats long-term insomnia, so use it alongside better sleep habits and, if needed, CBT-I.",
+      },
+      {
+        question: "What is the best type of massage for sleep?",
+        answer:
+          "Swedish massage is the usual choice, with light to medium pressure and slow, flowing strokes. Hot stone massage adds warmth, which many people find extra calming. Avoid very firm deep tissue work close to bedtime, as it can leave you sore. Pick the gentlest style you enjoy and tell the therapist your aim is sleep.",
+      },
+      {
+        question: "Is it better to have a massage in the morning or evening for sleep?",
+        answer:
+          "Evening, if better sleep is the goal. The calm from a massage tends to fade over a few hours, so a late slot carries it into bedtime. Book the last appointment of the day, or a mobile therapist at home, and keep the rest of the evening quiet and screen-free.",
+      },
+      {
+        question: "Can massage help with insomnia?",
+        answer:
+          "It may help you relax and fall asleep on the nights you have one. For insomnia that has lasted three months or more, NICE recommends cognitive behavioural therapy for insomnia (CBT-I) as the first treatment, not massage. A GP can refer you, and some areas offer the NICE-backed Sleepio app free on the NHS.",
+      },
+      {
+        question: "Why do I feel tired after a massage?",
+        answer:
+          "Slow pressure tends to lower your heart rate and slow your breathing, which shifts your body towards rest. Easing tight muscles can also lift a physical source of stress. Feeling sleepy for a few hours afterwards is normal. Drink some water, avoid a long drive if you feel drowsy, and use it as a cue for an early night.",
+      },
+      {
+        question: "How often should I get a massage to help me sleep?",
+        answer:
+          "There is no set number. Many people book every two to four weeks and fit home self-massage in between. Weekly sessions during a stressful spell are fine if your budget allows. If you still sleep badly after a month or two of better habits, see your GP rather than booking more massage.",
+      },
+    ],
+  },
+  {
+    slug: "myofascial-release-explained",
+    title: "Myofascial Release: What It Is and How It Differs From Deep Tissue",
+    description:
+      "Myofascial release uses slow, sustained pressure with little or no oil. See how it differs from deep tissue, what the evidence says, and who it suits.",
+    category: "Treatment Guides",
+    publishedAt: "2026-10-16",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "trigger-point-massage-explained",
+      "deep-tissue-vs-swedish-massage",
+      "best-massage-for-lower-back-pain",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you are being treated for an injury or a long-term pain condition, check with your GP or physio before you book. Their advice comes first.</p>
+
+<p>Picture a therapist resting their hands on your back, then slowly leaning in and waiting. There is no oil and no gliding. After a minute or two, the skin and tissue under their hands seem to soften and stretch. That is myofascial release.</p>
+
+<p><strong>TL;DR:</strong> myofascial release (MFR) uses slow, sustained pressure and stretch on the skin and the connective tissue around your muscles, usually with little or no oil. Deep tissue massage uses firm, moving strokes with oil to work into the muscle itself. Research on MFR is small but suggests modest short-term help for some long-term back pain. Most good therapists mix both.</p>
+
+<h2>What is fascia, and why target it?</h2>
+<p>Fascia is the thin, tough connective tissue that wraps your muscles, organs and bones. Think of the clear film under the skin of a chicken breast. It runs through your whole body in sheets and layers.</p>
+<p>Healthy fascia slides and stretches. The idea behind MFR is that injury, surgery, long spells of sitting or repeated strain can make it stiff in places. That stiffness may limit how you move or add to pain.</p>
+<p>That theory is popular, but parts of it are still debated. Researchers agree fascia matters. They do not agree on how much hands can change it, or whether the relief people feel comes from the fascia, the muscle or the nervous system calming down.</p>
+
+<h2>What happens in a myofascial release session?</h2>
+<p>A session looks and feels quite different from a typical massage.</p>
+<ul>
+<li><strong>Little or no oil.</strong> The therapist needs grip on your skin, so they use a dry touch or a tiny amount of balm.</li>
+<li><strong>Holds, not strokes.</strong> They press in, take up the slack, then wait. Holds often last 90 seconds to five minutes.</li>
+<li><strong>Slow stretching.</strong> They may move the tissue in one direction and follow it as it gives.</li>
+<li><strong>Areas away from the pain.</strong> Expect work on your hip for a sore back, or your chest for a tight shoulder.</li>
+</ul>
+<p>The pressure is usually moderate. It should feel like a deep, slow stretch, sometimes with a mild burning or pulling. It should not feel sharp. Because there is no oil, you may be asked to wear shorts and a vest top rather than lie under a towel.</p>
+<p>Many therapists use MFR as part of a <a href="/massage/remedial-massage/">remedial massage</a> session rather than for the whole hour. If you want pure MFR, ask before you book.</p>
+
+<h2>How does myofascial release differ from deep tissue massage?</h2>
+<p>Both can be firm and both aim at stiffness and pain. The difference is mostly in how the pressure is applied.</p>
+<ul>
+<li><strong>Target.</strong> <a href="/massage/deep-tissue/">Deep tissue massage</a> works into the deeper layers of muscle. MFR aims at the connective tissue around and between the muscles.</li>
+<li><strong>Movement.</strong> Deep tissue uses slow, gliding strokes, often across the muscle. MFR mostly holds still and lets the tissue change under steady pressure.</li>
+<li><strong>Oil.</strong> Deep tissue uses oil or lotion so the hands can glide. MFR uses little or none.</li>
+<li><strong>How it feels.</strong> Deep tissue can be intense and sometimes leaves you sore for a day or two. MFR tends to feel slower and more like a stretch, though it can still be uncomfortable.</li>
+</ul>
+<p>In practice the line is blurry. A good deep tissue therapist will use MFR holds, and an MFR therapist will sometimes switch to strokes. To compare more styles, our guides to <a href="/learn/deep-tissue-vs-swedish-massage/">deep tissue versus Swedish massage</a> and <a href="/learn/trigger-point-massage-explained/">trigger point massage</a> cover the neighbouring options.</p>
+
+<h2>Does myofascial release actually work?</h2>
+<p>The evidence is modest. It is better than nothing, but well short of proof.</p>
+<p>The best summary comes from a 2021 review of eight trials, with 375 people who had long-term low back pain. MFR gave a small improvement in pain and in day-to-day function compared with other treatments or a sham. The authors said its value is still debated, mainly because the trials were small.</p>
+<p>That fits the wider picture for hands-on treatment. <a href="https://www.nice.org.uk/guidance/ng59" target="_blank" rel="noopener noreferrer">NICE guidance on low back pain</a> says soft tissue techniques such as massage can be considered, but only as part of a package that includes exercise. It does not recommend massage on its own.</p>
+<p>Be wary of bigger claims. You may read that MFR "releases stored trauma", "breaks up adhesions" or "realigns" the body. There is no good evidence for any of these. A therapist who promises them is selling a story.</p>
+
+<h2>Who might myofascial release suit?</h2>
+<p>It is worth trying if:</p>
+<ul>
+<li>you have long-term stiffness, such as a back or neck that tightens with desk work</li>
+<li>you find deep tissue too intense but want more than a relaxing massage</li>
+<li>you have tightness around a healed scar, once your surgeon or physio says the area is ready</li>
+<li>you want slow, quiet work rather than lots of strokes and movement</li>
+</ul>
+<p>It is less useful for a fresh injury, which usually needs rest and assessment first, or if you just want to relax. For most back pain, our guide to the <a href="/learn/best-massage-for-lower-back-pain/">best massage for lower back pain</a> is a better starting point.</p>
+
+<h2>When to skip it or check first</h2>
+<p>The same safety rules apply as for any firm massage. Check with your GP or care team before booking if you:</p>
+<ul>
+<li>have had surgery in the last few months, or have an unhealed wound</li>
+<li>take blood thinners, or bruise very easily</li>
+<li>have osteoporosis, or a history of fractures from minor falls</li>
+<li>are being treated for cancer</li>
+<li>have a skin condition or infection in the area</li>
+</ul>
+<p>Do not have massage at all if you have a painful, swollen, warm calf or thigh. That can be a blood clot and needs same-day medical help. Our guide on <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> lists the rest.</p>
+
+<h2>Can you do myofascial release on yourself?</h2>
+<p>Yes, roughly. Foam rollers and massage balls are often sold as self-myofascial release tools. Rolling slowly over your thighs, calves, glutes or upper back, and pausing on tight spots for 30 to 90 seconds, copies the hold-and-wait idea.</p>
+<p>Keep it moderate. Avoid rolling directly over your lower back, the front of your neck, or any bony area. If a spot is sharply painful, move off it.</p>
+<p>Self-work is good for upkeep between sessions. It cannot assess you, and it cannot reach the areas a trained therapist can.</p>
+
+<h2>What does it cost in the UK?</h2>
+<p>MFR is usually priced like remedial or deep tissue massage. Expect around £45 to £75 for an hour, with London often higher. Thirty-minute sessions on one area are common at around £30 to £45.</p>
+<p>Many sports and remedial therapists include it without listing it separately. When you contact one, ask whether they use MFR and how much of the session it takes up.</p>
+
+<p>To find a therapist who uses myofascial techniques, search our <a href="/find-a-therapist">directory of massage therapists</a> and check the remedial and deep tissue listings near you.</p>
+`,
+    faqs: [
+      {
+        question: "What is myofascial release?",
+        answer:
+          "Myofascial release is a hands-on technique that uses slow, sustained pressure and stretch on the connective tissue around your muscles, called fascia. The therapist uses little or no oil, holds each position for one to five minutes, and waits for the tissue to soften. It is often used within remedial or deep tissue sessions.",
+      },
+      {
+        question: "Is myofascial release better than deep tissue massage?",
+        answer:
+          "Neither is better for everyone. Deep tissue suits you if you want firm, moving pressure on tight muscles. Myofascial release suits you if you prefer slow, stretching holds, or find deep tissue too intense. The research on both is limited, and many therapists combine them in one session based on how your body responds.",
+      },
+      {
+        question: "Does myofascial release hurt?",
+        answer:
+          "It should feel like a deep, slow stretch, sometimes with a mild burning or pulling sensation. It should not feel sharp or make you hold your breath. Tell the therapist if it does, and they can ease off. Some people feel a little tender the next day, which usually fades within 24 to 48 hours.",
+      },
+      {
+        question: "Is there evidence that myofascial release works?",
+        answer:
+          "Some, but it is limited. A 2021 review of eight small trials in people with long-term low back pain found modest improvements in pain and function. NICE says massage-type treatments can be considered for back pain only as part of a package with exercise. Claims about releasing trauma or adhesions are not supported.",
+      },
+      {
+        question: "Can I do myofascial release at home?",
+        answer:
+          "You can do a simple version with a foam roller or massage ball. Roll slowly over your thighs, calves, glutes or upper back and pause on tight spots for 30 to 90 seconds. Avoid your lower spine, the front of your neck and bony areas, and stop if anything feels sharp.",
+      },
+      {
+        question: "How many myofascial release sessions will I need?",
+        answer:
+          "There is no fixed number. For long-term stiffness, therapists often suggest three to six sessions a week or two apart, then a review. If nothing has changed after three or four, it may not be the right approach for you. Keep doing any exercises your physio or GP has given you alongside it.",
+      },
+    ],
+  },
+  {
+    slug: "30-vs-60-vs-90-minute-massage",
+    title: "30, 60 or 90 Minutes: Which Massage Should You Book?",
+    description:
+      "Book 30 minutes for one area, 60 for a full body and 90 for full-body work plus a problem spot. UK prices for each length and how to choose.",
+    category: "Pricing & Guides",
+    publishedAt: "2026-10-16",
+    readingTime: 6,
+    image: "/blog/covers/calendar-treatment-room.webp",
+    related: [
+      "how-much-does-a-massage-cost-uk",
+      "what-to-expect-first-massage-appointment",
+      "how-often-should-you-get-a-massage",
+    ],
+    html: `
+<p>For most people, the answer is 60 minutes. It is long enough for a full-body massage or proper work on two or three problem areas, and it is what most UK therapists price around.</p>
+
+<p>Book 30 minutes if you only need one area, like your neck and shoulders. Book 90 if you want a full-body massage and extra time on a stubborn spot, or if you take a long while to relax.</p>
+
+<p><strong>TL;DR:</strong> 30 minutes for one area, 60 for a full body or a first visit, 90 for full-body deep work or hot stones. Longer sessions usually cost a bit less per minute, but they are not automatically better.</p>
+
+<h2>What can a therapist actually do in each length?</h2>
+<p>Most therapists use the first five to ten minutes on a quick chat and, on a first visit, a health form. Allow for that when you think about time on the table.</p>
+<h3>30 minutes: one area, done properly</h3>
+<p>Thirty minutes covers one or two regions. Think back, neck and shoulders, or both legs. A full-body massage in 30 minutes is a rush, and most therapists will not offer one.</p>
+<p>It suits regular top-up sessions, lunch breaks and people who only hold tension in one place. It also works well if you are nervous about massage and want to try it first.</p>
+<h3>60 minutes: the standard</h3>
+<p>An hour allows a full-body <a href="/massage/swedish-massage/">Swedish massage</a> at a relaxed pace. Or it allows focused <a href="/massage/deep-tissue/">deep tissue massage</a> on two or three areas, with time to warm the muscles first.</p>
+<p>Ask whether "60 minutes" means time on the table or the whole appointment. Some clinics book 60 minutes but massage for 50 to 55, leaving time to undress and talk. Neither is wrong, but you should know which you are getting.</p>
+<h3>90 minutes: room to slow down</h3>
+<p>Ninety minutes lets a therapist cover your whole body and still spend 20 or 30 minutes on a problem area. Deep work needs time, because muscles have to be warmed and eased before firm pressure helps.</p>
+<p>It is also the natural length for <a href="/massage/hot-stone-massage/">hot stone massage</a>, which usually runs 75 to 90 minutes. Our <a href="/learn/hot-stone-massage-guide/">hot stone massage guide</a> explains why.</p>
+
+<h2>How much does each length cost in the UK?</h2>
+<p>These are typical ranges outside central London. City centres and London sit at the top or above.</p>
+<ul>
+<li><strong>30 minutes:</strong> £25 to £45</li>
+<li><strong>45 minutes:</strong> £35 to £55, where offered</li>
+<li><strong>60 minutes:</strong> £40 to £75</li>
+<li><strong>90 minutes:</strong> £60 to £110</li>
+</ul>
+<p>Per minute, longer sessions usually work out cheaper. Say a therapist charges £35, £55 and £80. That is about £1.17 a minute for 30, 92p for 60 and 89p for 90. The jump from 30 to 60 is the big saving. The step up to 90 adds little value per minute, so only book it if you will use the time.</p>
+<p>Our full guide to <a href="/learn/how-much-does-a-massage-cost-uk/">how much a massage costs in the UK</a> breaks prices down by treatment.</p>
+
+<h2>Which length should you book for a first massage?</h2>
+<p>Book 60 minutes. A new therapist needs time to ask about your health, check how you move and learn how your body responds to pressure. In 30 minutes, much of that eats into the massage.</p>
+<p>Ninety minutes on a first visit is fine if you already know you love long massages. If you are new to massage, it can feel like a lot, and firm work over that long may leave you sore. Our guide to <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at your first massage appointment</a> walks through the visit.</p>
+
+<h2>Match the length to what you want from it</h2>
+<ul>
+<li><strong>Stiff neck from desk work:</strong> 30 minutes, every two to four weeks.</li>
+<li><strong>General relaxation:</strong> 60 minutes of Swedish. Go to 90 if you take a while to switch off.</li>
+<li><strong>Sports recovery:</strong> 30 to 60 minutes of <a href="/massage/sports-massage/">sports massage</a>, focused on the muscles your sport uses.</li>
+<li><strong>Long-standing pain in one area:</strong> 60 minutes, so the therapist can work the area and the muscles around it.</li>
+<li><strong>Full-body deep tissue:</strong> 90 minutes. An hour usually forces a choice between depth and coverage.</li>
+<li><strong>Pregnancy:</strong> 45 to 60 minutes. Lying in one position gets uncomfortable, and many therapists cap sessions at an hour.</li>
+</ul>
+<p>Older adults, people who bruise easily and anyone new to firm pressure often do better with shorter sessions. Start short and build up.</p>
+
+<h2>Is a longer massage always better?</h2>
+<p>No. Past a point, more time adds less. A two-hour massage is not twice as useful as a one-hour one.</p>
+<p>Longer deep tissue sessions can also leave you more sore. If you came away from a 90-minute session aching for three days, try 60 next time. Our guide on <a href="/learn/why-am-i-sore-after-a-massage/">why you feel sore after a massage</a> explains what is normal.</p>
+<p>A long massage does not suit everyone, either. Some people get restless or cold after an hour, or find lying face down for long uncomfortable. If you spend the last 20 minutes watching the clock, you have booked too long.</p>
+
+<h2>Shorter and more often, or longer and less often?</h2>
+<p>For tension that keeps coming back, regular short sessions usually beat a rare long one. Thirty minutes every two weeks costs about the same as an hour a month. Many people find the regular top-up stops tightness building up.</p>
+<p>For relaxation, the opposite often holds. It can take 15 to 20 minutes to properly wind down, so a 60 or 90-minute session gives you more time in that relaxed state.</p>
+<p>Our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often you should get a massage</a> helps you set a rhythm that fits your budget.</p>
+
+<h2>What about 45-minute and two-hour sessions?</h2>
+<p>Some therapists offer 45 minutes as a middle option. It is a good fit for your back, neck and shoulders plus your legs, without the cost of a full hour. It also suits regular clients whose therapist already knows their body well.</p>
+<p>Two-hour sessions are rare outside spas. They usually combine treatments, such as a massage with a facial, or a long hot stone session. Expect £100 to £160 or more.</p>
+<p>For most people they are a treat, not a better treatment. If you want the time, a 90-minute massage followed by a quiet half hour at home gives you most of the same effect for less.</p>
+<p>Whatever length you choose, the therapist matters more than the minutes. A skilled hour beats a rushed 90 every time.</p>
+
+<h2>Questions to ask before you book</h2>
+<ul>
+<li>Is the time quoted hands-on time, or the whole appointment?</li>
+<li>Does a first visit include a longer consultation, and does it cost more?</li>
+<li>Can I switch from 60 to 90 on the day if I want more time?</li>
+<li>Do you offer packages, such as five sessions for the price of four?</li>
+</ul>
+<p>A therapist who answers these clearly is usually one who runs on time and charges fairly.</p>
+
+<p>Once you know the length you want, use our <a href="/find-a-therapist">directory of massage therapists</a> to compare prices and session lengths near you.</p>
+`,
+    faqs: [
+      {
+        question: "How long should a massage be?",
+        answer:
+          "For most people, 60 minutes. It allows a full-body massage at a relaxed pace, or focused work on two or three areas. Thirty minutes suits one area, such as the neck and shoulders. Ninety minutes suits full-body deep tissue, hot stone massage, or anyone who wants extra time on a problem spot.",
+      },
+      {
+        question: "Is a 30-minute massage worth it?",
+        answer:
+          "Yes, if you only need one area worked on. Thirty minutes is enough for the back, neck and shoulders, or both legs, and costs around £25 to £45 in the UK. It is too short for a proper full-body massage, and too short for a first visit, where the consultation takes up some of the time.",
+      },
+      {
+        question: "Is a 90-minute massage better than 60?",
+        answer:
+          "Not automatically. Ninety minutes helps if you want full-body deep tissue work, hot stones, or a full body plus extra time on a problem area. For general relaxation, 60 minutes is enough for most people. Long deep sessions can leave you more sore, so start with an hour if you are unsure.",
+      },
+      {
+        question: "Does a 60-minute massage mean 60 minutes on the table?",
+        answer:
+          "Not always. Some therapists massage for the full hour. Others book a 60-minute slot and massage for 50 to 55 minutes, leaving time to talk and undress. Both are common in the UK. Ask when you book, so you know exactly what you are paying for and can compare prices fairly.",
+      },
+      {
+        question: "How much does a 90-minute massage cost in the UK?",
+        answer:
+          "Typically £60 to £110, depending on the treatment and where you live. London and city centres sit at the top of that range or above. Hot stone and deep tissue sessions are often priced higher than Swedish. Check the therapist's own listing, as prices vary widely even within one town.",
+      },
+      {
+        question: "What length of massage should I book for my first time?",
+        answer:
+          "Sixty minutes. A first visit includes a health form and a short chat about what you want, which takes five to ten minutes. In a 30-minute slot that leaves little time for the massage itself. An hour gives the therapist enough time to learn how your body responds to pressure.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-cyclists",
+    title: "Massage for Cyclists: What to Book and When",
+    description:
+      "Which muscles cyclists need worked, when to book massage around a sportive or race, UK prices, and when a bike fit or physio is the better call.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-16",
+    readingTime: 6,
+    image: "/blog/covers/sports-massage-leg.webp",
+    related: [
+      "massage-for-runners",
+      "sports-massage-for-gym-doms",
+      "sports-massage-vs-deep-tissue-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have an injury, pain after a crash or symptoms that are not easing, see your GP or a physiotherapist before booking massage.</p>
+
+<p>You have just done your longest ride of the year. Your quads feel like wood, your lower back aches and your neck is stiff from looking up the road. Is a massage worth it, and when?</p>
+
+<p><strong>TL;DR:</strong> a sports massage can ease soreness and help you feel ready to ride again, but it will not make you faster on its own. Book a light session in the day or two after a big ride, deeper work two to three days after, and nothing deep in the 48 hours before an event. In a heavy training block, every two to four weeks is a sensible rhythm.</p>
+
+<h2>What massage can and cannot do for a cyclist</h2>
+<p>Research on recovery methods generally finds that massage reduces soreness and the feeling of tiredness after hard exercise. People who have one usually say their legs feel fresher. That matters if you are riding again the next day.</p>
+<p>What it does not do is reliably improve power, speed or endurance. The old idea that massage "flushes lactic acid" is wrong, too. Your body clears lactate within an hour or so of stopping, massage or not.</p>
+<p>So think of massage as a way to feel better and spot problems early. It supports good training, sleep and food. It does not replace any of them.</p>
+
+<h2>Which muscles do cyclists most need worked?</h2>
+<p>Cycling is the same movement thousands of times, in a bent-forward position. That loads some areas far more than others.</p>
+<ul>
+<li><strong>Quads.</strong> The front of your thighs does most of the work on each pedal stroke and usually feels it first.</li>
+<li><strong>Hip flexors.</strong> Hours in a folded position keep these short, which can pull on your lower back.</li>
+<li><strong>Glutes and hamstrings.</strong> These help drive the pedal down and often feel tight but weak.</li>
+<li><strong>Calves.</strong> Especially if you climb a lot or ride out of the saddle.</li>
+<li><strong>Lower back.</strong> It holds you in position for hours, and often aches on long rides.</li>
+<li><strong>Neck, shoulders and forearms.</strong> Looking up the road and gripping the bars adds up, especially in a low, racy position.</li>
+</ul>
+<p>Tell the therapist what kind of riding you do, how far, and where you ache. A good <a href="/massage/sports-massage/">sports massage therapist</a> will build the session around that rather than run through a standard routine.</p>
+<h3>What about the IT band?</h3>
+<p>Many cyclists ask for their IT band to be "released". The IT band is a thick strip of connective tissue on the outside of your thigh. It is very hard to stretch with hands or a roller, so heavy work on it mostly just hurts.</p>
+<p>Massage on the muscles that attach to it, mainly your glutes and the small muscle at the front of your hip, is more useful. If you have pain on the outside of your knee, get it assessed, as it is often a training load or bike set-up issue.</p>
+
+<h2>When should you book around a big ride?</h2>
+<p>Timing matters more than the type of massage. Here is a simple plan for a sportive, race or long event.</p>
+<h3>The week before</h3>
+<p>If you have regular massage, keep your usual session four to seven days out. Do not try a new therapist or deep pressure in the last few days. Deep work can leave your legs heavy or sore for 24 to 48 hours.</p>
+<h3>The day before or the morning of</h3>
+<p>Either skip it, or have a short, light session focused on loosening up. Nothing firm, and nothing new.</p>
+<h3>After the event</h3>
+<p>A light, gentle massage within a day or two can ease stiffness. Save firmer work for two to three days after, once the worst soreness has passed. Our guide to <a href="/learn/sports-massage-for-gym-doms/">sports massage for muscle soreness</a> explains why the timing works this way.</p>
+<p>On multi-day events or cycling holidays, short light sessions in the evenings are fine. Keep them gentle so your legs are ready for the next day.</p>
+
+<h2>How often should a regular rider book?</h2>
+<p>There is no rule, so let your training and budget guide you.</p>
+<ul>
+<li><strong>Commuters and casual riders:</strong> book when something feels tight, or every month or two.</li>
+<li><strong>Club riders doing 100 to 250 km a week:</strong> every two to four weeks.</li>
+<li><strong>Heavy training block before a big event:</strong> every one to two weeks, easing off in the final week.</li>
+</ul>
+<p>In between, a foam roller on your quads, glutes and calves gives you some of the same benefit for the price of one session. Use it for five to ten minutes after rides.</p>
+<p>If your aches come more from sitting at a desk all week than from riding, our guide to <a href="/learn/massage-for-desk-workers/">massage for desk workers</a> is worth a read too.</p>
+
+<h2>Sports massage or deep tissue for cycling?</h2>
+<p>For most riders, a sports massage. It is built around your training, and the therapist will usually mix firm work, stretching and lighter strokes depending on where you are in your plan.</p>
+<p><a href="/massage/deep-tissue/">Deep tissue massage</a> suits you better if you have long-standing tightness in one area, well away from any event. It is firmer and slower, and more likely to leave you sore. Our comparison of <a href="/learn/sports-massage-vs-deep-tissue-massage/">sports massage and deep tissue</a> covers the difference in detail.</p>
+
+<h2>What does a cycling massage cost?</h2>
+<p>In the UK, sports massage usually costs £30 to £45 for 30 minutes and £45 to £75 for an hour. London and city centres are often higher. University sports centres and student clinics are often cheaper.</p>
+<p>Thirty minutes is enough for legs only. An hour lets the therapist cover your legs, back, neck and shoulders. Some clubs arrange group rates with a local therapist, so it is worth asking yours.</p>
+
+<h2>When a bike fit or a physio is the better call</h2>
+<p>If the same pain comes back after every long ride, massage may only be easing the symptom. A poor bike fit is a common cause. Saddle height, cleat position and reach can all strain your knees, back or neck.</p>
+<p>See a GP or a <a href="/massage/physiotherapy/">physiotherapist</a> rather than a massage therapist if you have:</p>
+<ul>
+<li>knee pain that is getting worse, or a swollen knee</li>
+<li>numbness or tingling in your hands, feet or groin that does not go away soon after riding</li>
+<li>pain after a crash, especially in your collarbone, wrist, hip or head</li>
+<li>back pain with numbness, weakness or tingling down a leg</li>
+<li>a painful, swollen, warm calf, which can be a blood clot and needs same-day medical help</li>
+</ul>
+<p>If you run as well as ride, our guide to <a href="/learn/massage-for-runners/">massage for runners</a> covers the overlap.</p>
+
+<p>When you are ready to book, use our <a href="/find-a-therapist">directory of massage therapists</a> to find a qualified sports massage therapist near your usual routes.</p>
+`,
+    faqs: [
+      {
+        question: "Is sports massage good for cyclists?",
+        answer:
+          "It can help. Research on recovery methods generally finds massage reduces soreness and the feeling of fatigue after hard exercise, which helps if you ride again soon. It does not reliably make you faster or stronger. Most cyclists use it to ease tight quads, hips, back and neck, and to spot small problems before they become injuries.",
+      },
+      {
+        question: "Should I get a massage before or after a long ride?",
+        answer:
+          "After, mostly. A light massage within a day or two of a big ride can ease stiffness, with firmer work two to three days later. Before an event, keep any session light and at least two days out, and never try deep pressure or a new therapist in the final few days.",
+      },
+      {
+        question: "How often should cyclists get a massage?",
+        answer:
+          "It depends on how much you ride. Club riders doing regular long rides often book every two to four weeks. In a heavy training block, every one to two weeks is common, easing off before the event. Commuters and casual riders can book when something feels tight. A foam roller helps between sessions.",
+      },
+      {
+        question: "Can massage help IT band pain from cycling?",
+        answer:
+          "Massage on the IT band itself is very painful and of doubtful value, as it is tough connective tissue that hands cannot really stretch. Work on the glutes and the muscle at the front of the hip is more useful. Pain on the outside of the knee should be assessed, as bike fit and training load are common causes.",
+      },
+      {
+        question: "Which muscles should a massage focus on for cycling?",
+        answer:
+          "Usually the quads, hip flexors, glutes, hamstrings and calves, plus the lower back, neck, shoulders and forearms. The legs do the work, and the upper body holds you in a bent position for hours. Tell the therapist where you ache and what riding you do so they can tailor the session.",
+      },
+      {
+        question: "How much does a sports massage cost for cyclists in the UK?",
+        answer:
+          "Typically £30 to £45 for 30 minutes and £45 to £75 for an hour, with London prices often higher. University sports centres and student clinics can be cheaper. Thirty minutes covers the legs. An hour lets the therapist also work on your back, neck and shoulders.",
       },
     ],
   },
