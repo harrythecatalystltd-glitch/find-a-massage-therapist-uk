@@ -30,9 +30,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 9,
     image: "/blog/how-much-does-a-massage-cost-uk.webp",
     related: [
-      "what-to-expect-first-massage-appointment",
       "how-often-should-you-get-a-massage",
       "30-vs-60-vs-90-minute-massage",
+      "massage-on-health-insurance-uk",
     ],
     html: `
 <p>A one-hour massage in the UK typically costs somewhere between <strong>£35 and £90</strong>, depending on the treatment, the therapist's experience, and whether you're visiting a clinic, a studio, or booking a mobile massage at home.</p>
@@ -639,9 +639,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/lower-back-hands.webp",
     related: [
-      "best-massage-for-lower-back-pain",
       "what-is-remedial-massage",
       "how-often-should-you-get-a-massage",
+      "massage-for-hip-and-glute-pain",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If a GP, physiotherapist or consultant has given you instructions for your back, theirs come first.</p>
@@ -1932,9 +1932,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/treatment-room-back-massage.webp",
     related: [
-      "how-much-does-a-massage-cost-uk",
       "when-you-should-not-have-a-massage",
       "massage-for-stress-and-anxiety",
+      "aromatherapy-massage-vs-swedish",
     ],
     html: `
 <p><em>This is general guidance, not medical advice. If you have a health condition or take regular medication, check with your GP before booking a heat-based treatment.</em></p>
@@ -3266,8 +3266,8 @@ export const manualPosts: ManualPost[] = [
     image: "/blog/covers/bedroom-pillows.webp",
     related: [
       "massage-for-stress-and-anxiety",
-      "hot-stone-massage-guide",
       "what-to-do-after-a-massage",
+      "massage-during-menopause",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you have long-term sleep problems, or a GP or sleep clinic is involved, follow their plan first. Massage can sit alongside it, never in place of it.</p>
@@ -3727,6 +3727,476 @@ export const manualPosts: ManualPost[] = [
         question: "How much does a sports massage cost for cyclists in the UK?",
         answer:
           "Typically £30 to £45 for 30 minutes and £45 to £75 for an hour, with London prices often higher. University sports centres and student clinics can be cheaper. Thirty minutes covers the legs. An hour lets the therapist also work on your back, neck and shoulders.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-hip-and-glute-pain",
+    title: "Massage for Hip and Glute Pain (Including Piriformis)",
+    description:
+      "When massage may help a sore hip or buttock, what piriformis pain really is, what a session involves, UK prices, and the hip symptoms that need a GP first.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-23",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "does-massage-help-sciatica",
+      "best-massage-for-lower-back-pain",
+      "massage-for-runners",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have hip pain after a fall, a hot or swollen joint, or pain with a fever, get medical help first. Your GP's or physiotherapist's advice always comes before anything here.</p>
+
+<p>Hip and buttock pain is often muscular, and massage may help with that part of it. It is most useful for tight, achy glutes and a stiff feeling around the side or back of the hip. It is less useful when the pain comes from inside the joint itself, such as arthritis.</p>
+
+<p><strong>TL;DR:</strong> if your pain sits in the buttock or the side of the hip, gets worse after sitting or running, and eases when you move, a <a href="/massage/remedial-massage/">remedial</a> or <a href="/massage/deep-tissue/">deep tissue massage</a> is a reasonable thing to try alongside exercise. NHS advice says most hip pain improves within two to six weeks. If yours has not eased after two weeks of self-care, see your GP or a physio.</p>
+
+<h2>Where your pain sits tells you a lot</h2>
+<p>"Hip pain" covers several different problems. Where you feel it is the first clue to whether massage is a good fit.</p>
+<ul>
+<li><strong>Deep in the buttock.</strong> Often the glute muscles or the piriformis, a small muscle under them. This is the area massage suits best.</li>
+<li><strong>On the outside of the hip.</strong> Often the tendons of the glute muscles where they attach to the bony point of your hip. Lying on that side at night usually hurts.</li>
+<li><strong>At the front, in the groin.</strong> This is more often the hip joint itself, or a strained hip flexor. Joint pain here needs assessing before massage.</li>
+<li><strong>Pain that runs down the leg.</strong> This may be a nerve, not a muscle. Our guide on <a href="/learn/does-massage-help-sciatica/">whether massage helps sciatica</a> covers that pattern in detail.</li>
+</ul>
+<p>You do not need to work out the cause yourself. A good therapist will ask where it hurts, what makes it worse and how long it has been going on. If what you describe sounds like more than muscle tension, they should send you to a GP or physio.</p>
+
+<h2>Piriformis pain: what it is and what helps</h2>
+<p>The piriformis runs from the base of your spine to the top of your thigh bone. The sciatic nerve passes right beside it. When the muscle is tight or irritated, it can cause a deep ache in one buttock, and sometimes tingling down the back of the thigh.</p>
+<p>People often call this piriformis syndrome. It is worth knowing that doctors still debate how often the muscle is truly the cause. Back problems can produce very similar pain, which is why a proper assessment matters if it keeps coming back.</p>
+<p>Where the piriformis is the problem, it tends to feel worse after long periods of sitting, driving or climbing stairs. Massage on the glutes and the piriformis area may ease that tightness for a while. Runners' clubs often suggest weekly sessions while it is bad, then monthly ones to keep it settled.</p>
+<p>Massage works best as one part of a plan, not the whole plan. Stretches, strengthening your glutes and changing how long you sit for usually do more over time. The massage just makes those easier to start.</p>
+
+<h2>What a hip and glute massage involves</h2>
+<p>The glutes are big, thick muscles, so the work is often firm. Expect the therapist to use their forearm or elbow on some areas, as hands alone may not reach deep enough.</p>
+<p>You will usually lie face down, sometimes on your side. The therapist works through the buttock with a towel covering you, and will check you are comfortable before working there. You can keep your underwear on, and you can say no to any area at any time.</p>
+<p>A typical session also covers the muscles around the hip, because they work as a team:</p>
+<ul>
+<li>the lower back, which often tightens up alongside the glutes</li>
+<li>the hip flexors at the front, which get short from sitting</li>
+<li>the outer thigh and the small muscle at the front of the hip</li>
+<li>the hamstrings at the back of the thigh</li>
+</ul>
+<p>Some pressure on a tight spot can feel intense, a "good hurt". Sharp pain, or pain that shoots down your leg, is not that. Say so straight away and the therapist should ease off.</p>
+<h3>Why side-of-hip pain gets gentler treatment</h3>
+<p>If your pain is on the outside of the hip, deep pressure right on the bony point can make it worse. NHS physio leaflets on this kind of pain focus on exercise and education, and say over 90% of people recover without surgery. Massage on the muscles around it may feel good, but strengthening is what usually settles it.</p>
+
+<h2>How many sessions should you expect?</h2>
+<p>If massage is going to help, you should notice some change within two or three sessions. That might be easier sitting, less stiffness in the morning, or a smaller area of pain.</p>
+<p>A common pattern is weekly for two to four weeks while it is sore, then every three to six weeks once it settles. Our guide on <a href="/learn/how-often-should-you-get-a-massage/">how often to get a massage</a> explains how to space sessions out.</p>
+<p>If nothing has changed after three sessions, stop booking more of the same. That is a sign the cause is something massage cannot reach, and a physio assessment is a better use of your money.</p>
+<p>Between sessions, these help:</p>
+<ul>
+<li>get up and move every 30 to 45 minutes if you sit for work</li>
+<li>use a tennis ball against a wall on the buttock for a minute or two, gently</li>
+<li>try a figure-four stretch, ankle on the opposite knee, holding for 30 seconds</li>
+<li>avoid low chairs and sleeping on the painful side for a while</li>
+</ul>
+
+<h2>What it costs, and who to book</h2>
+<p>In the UK, a 60-minute remedial, sports or deep tissue massage usually costs £45 to £70. London and city centres often run higher. A 30-minute session focused on the hips and glutes alone is often £30 to £45.</p>
+<p>For hip and glute pain, look for a therapist with a Level 4 or Level 5 qualification in remedial or sports massage. These courses cover assessment, so the therapist can tell muscle pain from something that needs referring on. If you run or play sport, a <a href="/massage/sports-massage/">sports massage therapist</a> will also understand how training load feeds into it.</p>
+
+<h2>When to see a GP or physio instead</h2>
+<p>NHS advice is to see your GP if hip pain stops you doing normal things, keeps coming back, or has not improved after two weeks of home treatment. Many areas also let you refer yourself to NHS physiotherapy.</p>
+<p>Get urgent help from your GP or NHS 111 if you have:</p>
+<ul>
+<li>sudden, severe hip pain with no fall or injury</li>
+<li>a hot, swollen or red hip</li>
+<li>hip pain with a high temperature or feeling generally unwell</li>
+<li>morning stiffness that lasts more than half an hour, especially in other joints too</li>
+</ul>
+<p>Go to A&amp;E or call 999 after a serious fall, if your leg looks deformed, or if you cannot move your hip or put weight on it.</p>
+<p>Back pain with numbness around your bottom or genitals, or new problems controlling your bladder or bowels, needs A&amp;E straight away. These are signs of a rare but serious nerve problem.</p>
+<p>If the pain started in your lower back and spread down, our guide to the <a href="/learn/best-massage-for-lower-back-pain/">best massage for lower back pain</a> is a good next read. When you are ready, search our <a href="/find-a-therapist">directory of qualified massage therapists</a> for a remedial or sports therapist near you.</p>
+`,
+    faqs: [
+      {
+        question: "Can massage help hip pain?",
+        answer:
+          "It may help when the pain comes from tight or overworked muscles, such as the glutes, piriformis or hip flexors. It is less useful for pain inside the joint, such as arthritis. NHS advice says most hip pain improves within two to six weeks. See your GP if yours has not eased after two weeks of self-care.",
+      },
+      {
+        question: "Is massage good for piriformis syndrome?",
+        answer:
+          "Massage on the glutes and piriformis area may ease tightness and make sitting more comfortable for a while. It works best alongside stretching, glute strengthening and breaking up long periods of sitting. If the pain keeps returning or runs down your leg, get it assessed, as back problems can cause very similar symptoms.",
+      },
+      {
+        question: "Will a glute massage hurt?",
+        answer:
+          "Firm pressure on tight glute muscles can feel intense, and some people call it a good hurt. It should never be sharp, and it should not shoot down your leg. Tell the therapist if pressure is too much and they will adjust. Mild soreness for a day or two afterwards is normal.",
+      },
+      {
+        question: "Do I have to undress for a hip and glute massage?",
+        answer:
+          "You can keep your underwear on. The therapist covers you with a towel and only uncovers the area they are working on. They should explain what they plan to do and check you are comfortable before working on the buttock. You can ask them to work over the towel or skip any area.",
+      },
+      {
+        question: "How many massages will I need for hip pain?",
+        answer:
+          "You should notice some change within two or three sessions if massage is going to help. A common pattern is weekly for two to four weeks, then every three to six weeks. If nothing has improved after three sessions, a physiotherapy assessment is a better next step than more massage.",
+      },
+      {
+        question: "When should I see a doctor about hip pain?",
+        answer:
+          "See your GP if the pain stops you doing normal things, keeps coming back or lasts more than two weeks. Get urgent help for a hot, swollen hip, sudden severe pain or pain with a fever. Go to A&E if you cannot bear weight after a fall or your leg looks deformed.",
+      },
+    ],
+  },
+  {
+    slug: "aromatherapy-massage-vs-swedish",
+    title: "Aromatherapy Massage vs Swedish: What Is the Difference?",
+    description:
+      "Aromatherapy and Swedish massage use similar strokes. The difference is the oils, the pressure and who should be careful. UK prices and how to choose.",
+    category: "Treatment Guides",
+    publishedAt: "2026-10-23",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "deep-tissue-vs-swedish-massage",
+      "hot-stone-massage-guide",
+      "massage-for-stress-and-anxiety",
+    ],
+    html: `
+<p>Here is the short version. A Swedish massage and an aromatherapy massage use almost the same hand movements. The difference is the oil. In aromatherapy, the therapist blends plant essential oils into the massage oil, chosen for how you want to feel.</p>
+
+<p>That one change shifts the session. Aromatherapy usually runs lighter and slower, with more focus on mood and smell. Swedish has a wider range of pressure and more focus on easing tight muscles.</p>
+
+<p><strong>TL;DR:</strong> pick <a href="/massage/swedish-massage/">Swedish massage</a> if you want general relaxation with some real work on tight spots. Pick aromatherapy if you mainly want to switch off and you enjoy scent. If you are pregnant, have sensitive skin, asthma or epilepsy, tell the therapist before they choose any oils.</p>
+
+<h2>The quick comparison</h2>
+<ul>
+<li><strong>Strokes:</strong> both use long gliding strokes, kneading and circular movements. Swedish may also include light tapping.</li>
+<li><strong>Pressure:</strong> Swedish runs from gentle to fairly firm. Aromatherapy tends to stay light to medium.</li>
+<li><strong>Oil:</strong> Swedish uses a plain carrier oil or lotion. Aromatherapy adds a small amount of essential oil to that carrier.</li>
+<li><strong>Main aim:</strong> Swedish eases muscle tension and helps you relax. Aromatherapy puts relaxation and mood first.</li>
+<li><strong>Consultation:</strong> aromatherapy usually starts with a longer chat, as the therapist picks oils for you.</li>
+<li><strong>Price:</strong> aromatherapy is often £5 to £15 more for the same length of session.</li>
+</ul>
+<p>In practice, the line blurs. Plenty of therapists will add a drop of lavender to a Swedish massage if you ask. Others call any oil-based relaxing massage "aromatherapy". Always check what a session actually includes.</p>
+
+<h2>What happens in an aromatherapy massage</h2>
+<p>The session starts with questions about your health, how you are sleeping and how you want to feel afterwards. A trained aromatherapist uses that to choose two or three oils.</p>
+<p>They may let you smell a few options first. This matters more than it sounds. If you dislike a scent, it will not relax you, whatever it is supposed to do.</p>
+<p>The oils are always diluted in a carrier oil, such as sweet almond or grapeseed, usually at only 1% to 3%. The massage itself is unhurried, often full body, with long strokes that let the scent build. Many people find they drift off.</p>
+<p>Common choices you might be offered:</p>
+<ul>
+<li><strong>Lavender</strong> for winding down and sleep</li>
+<li><strong>Chamomile</strong> for a calm, gentle feel</li>
+<li><strong>Bergamot or sweet orange</strong> for a brighter mood</li>
+<li><strong>Eucalyptus or peppermint</strong> for a fresh, clear-headed feel</li>
+</ul>
+<p>Afterwards, you will smell of the oils for a few hours. Leave them on rather than showering straight away if your skin feels fine.</p>
+
+<h2>What happens in a Swedish massage</h2>
+<p>Swedish massage is the classic full body massage most UK spas and clinics offer. The consultation is shorter and mostly about health issues and which areas feel tight.</p>
+<p>The therapist warms the muscles with long strokes, then kneads the tighter areas more firmly. You can ask for more or less pressure at any point. It is a good choice for a first massage because you get both relaxation and some proper muscle work.</p>
+<p>If you want firmer work than Swedish gives, our guide to <a href="/learn/deep-tissue-vs-swedish-massage/">deep tissue vs Swedish massage</a> explains where one ends and the other begins.</p>
+
+<h2>What the evidence says (and does not)</h2>
+<p>Massage itself has reasonable evidence for short-term relief from stress and muscle tension. Our guide on <a href="/learn/massage-for-stress-and-anxiety/">massage for stress and anxiety</a> covers that research.</p>
+<p>Whether the essential oils add much on top is less clear. Aromatherapy is one of the most common complementary therapies offered in NHS settings, mostly in cancer and palliative care, to help with comfort and calm. Reviews of that use generally find the evidence is limited and much of it is based on how people report feeling.</p>
+<p>So treat the oils as a pleasant extra. If a scent you like helps you let go, that is a real benefit. Be wary of any therapist who claims a specific oil treats a medical condition.</p>
+
+<h2>Who should be careful with essential oils</h2>
+<p>Essential oils are strong plant extracts, and they can cause reactions. A review of reported side effects found skin irritation was the most common problem. Lavender, peppermint, tea tree and ylang-ylang were the oils most often involved.</p>
+<p>Tell the therapist before they mix anything if you:</p>
+<ul>
+<li>are pregnant or trying to be, as some oils are avoided in pregnancy</li>
+<li>have sensitive skin, eczema or known allergies, including nut allergies (some carrier oils come from nuts)</li>
+<li>have asthma, as strong scents can set it off</li>
+<li>have epilepsy, as a few oils are best avoided</li>
+<li>have high or low blood pressure, or take regular medication</li>
+<li>are having cancer treatment, where your care team should be asked first</li>
+</ul>
+<p>If any of these apply, a plain Swedish massage with an unscented oil is a simple, safe option. For pregnancy, see our guide on <a href="/learn/is-pregnancy-massage-safe/">whether pregnancy massage is safe</a>, and book a therapist trained in <a href="/massage/pregnancy-massage/">pregnancy massage</a>.</p>
+
+<h2>Can you get the same effect at home?</h2>
+<p>Partly. A warm bath with a few drops of oil mixed into a spoonful of carrier oil or unscented bath oil can help you wind down. A diffuser in the bedroom does a similar job for scent alone.</p>
+<p>A few safety rules matter more at home, where no one has checked your blend:</p>
+<ul>
+<li>never put undiluted essential oil straight on your skin</li>
+<li>never swallow essential oils, however natural the label sounds</li>
+<li>keep bottles away from children and pets, as some oils are toxic to cats and dogs</li>
+<li>do a patch test on your inner arm 24 hours before using a new oil on a larger area</li>
+<li>stop and wash it off if your skin itches, stings or goes red</li>
+</ul>
+<p>What a home routine cannot copy is the massage itself. The hands-on part is where most of the benefit comes from, so the oils at home are a top-up, not a swap. If a partner wants to try, keep it to long, gentle strokes on the back and shoulders, and skip any area that hurts.</p>
+
+<h2>Prices, and how to choose a therapist</h2>
+<p>In the UK, a 60-minute Swedish massage usually costs £40 to £65. An aromatherapy massage of the same length is often £45 to £75. Spas and hotels charge more, sometimes over £100.</p>
+<p>Ask what aromatherapy training the therapist has. A short add-on course is common in beauty training. A full aromatherapy diploma goes much deeper into safe blends and who should avoid which oils. Registers such as the CNHC list qualified aromatherapists, and our guide on <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">checking a therapist is qualified</a> shows how to search them.</p>
+<p>Still undecided? Try a Swedish massage first and ask for a scented oil you like. If you love it, book a full aromatherapy session next time. For something warmer and heavier, a <a href="/massage/hot-stone-massage/">hot stone massage</a> is another relaxing option.</p>
+<p>When you are ready, use our <a href="/find-a-therapist">directory of massage therapists</a> to find Swedish and aromatherapy massage near you.</p>
+`,
+    faqs: [
+      {
+        question: "What is the difference between aromatherapy and Swedish massage?",
+        answer:
+          "Both use similar long, gliding and kneading strokes. Aromatherapy adds diluted plant essential oils chosen for how you want to feel, and usually uses lighter pressure. Swedish massage uses a plain oil or lotion, has a wider range of pressure and focuses more on easing muscle tension. Many therapists blend the two.",
+      },
+      {
+        question: "Which is more relaxing, aromatherapy or Swedish massage?",
+        answer:
+          "Most people find aromatherapy slightly more relaxing because it is slower, lighter and adds a scent they have chosen. Swedish massage is still very relaxing but includes firmer work on tight spots. If you mainly want to switch off, choose aromatherapy. If you also carry muscle tension, choose Swedish.",
+      },
+      {
+        question: "Is aromatherapy massage safe in pregnancy?",
+        answer:
+          "Some essential oils are avoided in pregnancy, so tell the therapist before they mix anything. Many choose to skip the oils altogether or use only a few gentle ones at a low dilution. Book a therapist trained in pregnancy massage, and check with your midwife if you have any complications.",
+      },
+      {
+        question: "Can essential oils cause a reaction?",
+        answer:
+          "Yes. Skin irritation is the most commonly reported problem, and lavender, peppermint, tea tree and ylang-ylang are often involved. Strong scents can also trigger asthma. A trained therapist always dilutes oils in a carrier oil. Tell them about allergies, sensitive skin, nut allergies or asthma before your session.",
+      },
+      {
+        question: "Should I shower after an aromatherapy massage?",
+        answer:
+          "Most therapists suggest waiting a few hours so the oils stay on your skin, as long as your skin feels comfortable. If you feel any itching, redness or stinging, wash the oil off with mild soap and water straight away. Wear old, loose clothes home, as oil can mark fabric.",
+      },
+      {
+        question: "How much does an aromatherapy massage cost in the UK?",
+        answer:
+          "Typically £45 to £75 for 60 minutes, which is often £5 to £15 more than a Swedish massage of the same length. Spa and hotel prices are higher and can pass £100. Ask what training the therapist has in aromatherapy, as add-on courses vary widely in depth.",
+      },
+    ],
+  },
+  {
+    slug: "massage-on-health-insurance-uk",
+    title: "Can You Claim Massage on Health Insurance in the UK?",
+    description:
+      "Most UK health insurance will not pay for massage, but many cash plans will. What each type covers, the therapist rules insurers use, and how to claim.",
+    category: "Pricing & Guides",
+    publishedAt: "2026-10-23",
+    readingTime: 6,
+    image: "/blog/covers/towels-oils-flatlay.webp",
+    related: [
+      "how-much-does-a-massage-cost-uk",
+      "how-to-check-a-massage-therapist-is-qualified",
+      "massage-vs-physiotherapy",
+    ],
+    html: `
+<p>Sometimes, but probably not through the policy you are thinking of. Standard private medical insurance rarely pays for massage on its own. A health cash plan, often offered through work, is far more likely to give you money back.</p>
+
+<p>Even then, there are rules. The plan has to list massage as a benefit, and your therapist usually has to belong to a professional body the insurer recognises. Check both before you book, not after.</p>
+
+<p><strong>TL;DR:</strong> look in your plan's table of benefits for "sports massage", "massage therapy" or "complementary therapies". Then check which registers the insurer accepts and ask your therapist if they are on one. Keep a receipt with the therapist's name, the date and the treatment.</p>
+
+<h2>Private medical insurance vs a health cash plan</h2>
+<p>These are two different products, and people often mix them up.</p>
+<h3>Private medical insurance</h3>
+<p>This is the kind of cover from Bupa, AXA, Aviva or Vitality that pays for private diagnosis and treatment. It is built for new, short-term medical problems, not ongoing wellbeing.</p>
+<p>Therapies such as physiotherapy, osteopathy and chiropractic usually come under the outpatient part of the policy. Many policies need a GP or specialist referral first, and entry-level policies may have no outpatient cover at all. Massage as a standalone treatment is usually not covered.</p>
+<p>The exception is when massage forms part of a treatment the policy does cover. A physio may use hands-on soft tissue work in a session, and that is paid as physiotherapy.</p>
+<h3>Health cash plan</h3>
+<p>A cash plan pays you back for everyday health costs, up to a yearly limit for each type. Think dental check-ups, glasses, physio and, on some plans, massage. Common providers include Simplyhealth, Westfield Health, Health Shield, Medicash and Sovereign Health Care.</p>
+<p>Plans vary a lot, even from the same provider. One level might cover sports massage, while the one below covers only physio and osteopathy. Your plan's table of benefits is the final word.</p>
+
+<h2>What a typical cash plan covers for massage</h2>
+<p>Where massage is included, it tends to sit under a heading such as "therapies", "complementary therapies" or "wellbeing and alternative therapies". Types often named are:</p>
+<ul>
+<li><a href="/massage/sports-massage/">sports massage</a></li>
+<li><a href="/massage/remedial-massage/">remedial massage</a></li>
+<li><a href="/massage/lymphatic-drainage/">manual lymphatic drainage</a></li>
+<li>Indian head massage, reflexology and chair massage on some plans</li>
+</ul>
+<p>Plain relaxation or spa massage is less often included. Neither is a treatment given in a gym, hotel or salon by someone who is not on a recognised register.</p>
+<p>Plans usually pay either a set amount per session or a percentage of the cost, up to a yearly limit. Yearly limits for therapies are often in the low hundreds of pounds. At £45 to £70 for an hour, that might cover anything from two sessions to most of a year's regular treatment.</p>
+
+<h2>The rule that catches people out: recognised therapists</h2>
+<p>Massage therapy is not regulated by law in the UK, so insurers set their own rules. Most will only pay if your therapist is registered with, or a member of, a body they recognise. That membership also has to match the treatment you had.</p>
+<p>The Complementary and Natural Healthcare Council (CNHC) keeps a public list of cash plans that accept its registrants. Other plans name their own list of professional bodies, and some accept CNHC registration on a few corporate plans only.</p>
+<p>People have had claims turned down because the therapist was not on the list, or because the therapist's membership lapsed. A Financial Ombudsman decision involving a cash plan backed the insurer, because the plan's own list of benefits was clear. So:</p>
+<ul>
+<li>ask your therapist which register or professional body they belong to</li>
+<li>check that name against your plan's list of recognised bodies</li>
+<li>ask again each year if you see the same therapist for a long time</li>
+<li>remember the therapist cannot be you, your partner or a family member</li>
+</ul>
+<p>Our guide on <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">how to check a massage therapist is qualified</a> shows how to search the main registers.</p>
+
+<h2>How to make a claim</h2>
+<p>Most cash plans let you claim through an app or online portal in a few minutes. The process is usually the same:</p>
+<ul>
+<li>pay the therapist yourself, as normal</li>
+<li>ask for a receipt showing their name, business address, registration or membership number, the date, the treatment and the amount paid</li>
+<li>upload a photo of the receipt within the plan's time limit, often 12 weeks or six months</li>
+<li>wait for the money to reach your bank, usually within a week or two</li>
+</ul>
+<p>Some plans have a waiting period when you first join, often three months before therapy claims are allowed. Read the joining pack if you have just signed up.</p>
+<p>Many therapists are used to this and can give you a suitable receipt on the spot. If you are booking through our directory, it is fine to ask about it when you get in touch.</p>
+
+<h2>A worked example: what a year of claims might look like</h2>
+<p>Say you book a 60-minute sports massage every month at £55. That is £660 over a year.</p>
+<p>Now say your cash plan pays 100% of each session up to a therapies limit of £250 a year. You would get back the full cost of your first four sessions, then nothing until the plan year resets. Your real cost drops from £660 to £410.</p>
+<p>On a plan that pays 75% of each session up to the same £250, you would claim about £41 a time. The limit runs out on the seventh session instead of the fifth. You end up in the same place, just more slowly.</p>
+<p>Two things change the sums quickly:</p>
+<ul>
+<li><strong>Shared limits.</strong> On many plans, physio, osteopathy and massage all draw on one therapies pot. A few physio sessions after an injury can use up the money you planned for massage.</li>
+<li><strong>Plan year dates.</strong> Limits reset on your plan's start date, not in January. Spacing sessions around that date can stretch the cover further.</li>
+</ul>
+<p>The figures here are only an example. Your own plan guide sets the real limits and percentages.</p>
+
+<h2>Other ways to bring the cost down</h2>
+<p>If your plan will not pay, you still have options.</p>
+<ul>
+<li><strong>Check your employer's other perks.</strong> Some workplaces offer on-site chair massage, wellbeing allowances or discounts with local clinics.</li>
+<li><strong>Book a block of sessions.</strong> Many therapists offer a lower rate if you pay for five or six up front.</li>
+<li><strong>Try a student clinic.</strong> Colleges and universities often offer supervised sessions at reduced prices.</li>
+<li><strong>Choose a shorter session.</strong> Thirty minutes on one area costs less and may be all you need. Our guide to <a href="/learn/30-vs-60-vs-90-minute-massage/">choosing a 30, 60 or 90 minute massage</a> helps you decide.</li>
+</ul>
+<p>For typical prices across the country, see our full guide on <a href="/learn/how-much-does-a-massage-cost-uk/">how much a massage costs in the UK</a>.</p>
+
+<h2>What about the NHS?</h2>
+<p>The NHS does not usually fund massage as a treatment on its own. If you have an injury or muscle problem, NHS physiotherapy may include some hands-on work as part of your care. Many areas let you refer yourself to physio without seeing a GP first.</p>
+<p>If you are not sure whether you need a massage therapist or a physio, our guide to <a href="/learn/massage-vs-physiotherapy/">massage vs physiotherapy</a> explains when each one fits.</p>
+<p>Once you know what your plan covers, use our <a href="/find-a-therapist">directory of massage therapists</a> to find someone near you, and check their profile for the qualifications and memberships your insurer asks for.</p>
+`,
+    faqs: [
+      {
+        question: "Does private health insurance cover massage in the UK?",
+        answer:
+          "Usually not as a standalone treatment. Private medical insurance from providers such as Bupa, AXA or Aviva is built for new medical problems and tends to cover physiotherapy, osteopathy and chiropractic, often with a referral. Soft tissue work given within a covered physio session is paid as physio. Check your policy wording to be sure.",
+      },
+      {
+        question: "Can I claim sports massage on a health cash plan?",
+        answer:
+          "Often, yes, but only if your plan level includes it. Some cash plans list sports massage under therapies or complementary therapies, while others cover only physio and osteopathy. Your therapist also usually has to be a member of a professional body your insurer recognises. Check your table of benefits before you book.",
+      },
+      {
+        question: "What does my massage therapist need for me to claim?",
+        answer:
+          "Most plans need the therapist to be registered with, or a member of, a recognised body such as the CNHC or a professional association. Their membership must cover the treatment you had. Ask for a receipt with their name, address, membership number, the date, the treatment and the amount you paid.",
+      },
+      {
+        question: "How much can I claim back for massage?",
+        answer:
+          "It depends on your plan. Some pay a fixed amount per session and others a percentage of the cost, up to a yearly limit. Yearly limits for therapies are often in the low hundreds of pounds. Many plans also have a waiting period of around three months after you first join.",
+      },
+      {
+        question: "Can I get massage on the NHS?",
+        answer:
+          "The NHS does not usually fund massage on its own. If you have an injury or muscle problem, NHS physiotherapy may include some hands-on soft tissue work as part of a wider treatment plan. In many areas you can refer yourself to NHS physiotherapy without needing to see a GP first.",
+      },
+      {
+        question: "Why was my massage claim rejected?",
+        answer:
+          "The most common reasons are that massage is not on your plan's list of benefits, the therapist is not a member of a recognised body, their membership had lapsed, or the claim was sent too late. Some plans also reject claims made during the waiting period. Ask your insurer which rule applied.",
+      },
+    ],
+  },
+  {
+    slug: "massage-during-menopause",
+    title: "Massage During Menopause: What It Can and Cannot Help",
+    description:
+      "Massage may ease stress, aches and poor sleep during menopause, but it will not fix hot flushes. What the evidence shows, what to ask for, and UK prices.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-23",
+    readingTime: 6,
+    image: "/blog/covers/bedroom-pillows.webp",
+    related: [
+      "massage-for-sleep-problems",
+      "massage-for-stress-and-anxiety",
+      "aromatherapy-massage-vs-swedish",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> Menopause affects everyone differently. Speak to your GP or a menopause specialist about your symptoms and treatment, and follow their advice first.</p>
+
+<p>Can massage help with menopause? With some symptoms, it may. Small studies suggest it can ease stress, low mood, aching joints and muscles, and broken sleep. It is not a treatment for the menopause itself, and it will not stop hot flushes or night sweats in any reliable way.</p>
+
+<p>That makes massage a good extra, not a replacement. NICE guidance says HRT is the main treatment for hot flushes and night sweats, with cognitive behavioural therapy (CBT) as an option alongside it, or instead of it for people who cannot or choose not to take HRT. If symptoms are affecting your life, start with your GP.</p>
+
+<h2>What massage may help with</h2>
+<p>Research on massage during menopause is limited. Most studies are small and short, and many come from a handful of countries. Read them as a reason to try it, not as proof.</p>
+<p>With that in mind, the areas where massage looks most useful are:</p>
+<ul>
+<li><strong>Stress and feeling on edge.</strong> Massage has fair evidence for short-term relief from stress and anxiety in general. Our guide on <a href="/learn/massage-for-stress-and-anxiety/">massage for stress and anxiety</a> covers that research.</li>
+<li><strong>Sleep.</strong> Some small trials in women around menopause report better sleep after a course of massage. See our guide on <a href="/learn/massage-for-sleep-problems/">whether massage can help you sleep</a>.</li>
+<li><strong>Aches and stiffness.</strong> Many people notice more joint and muscle aches during perimenopause. Gentle to medium massage may ease how they feel.</li>
+<li><strong>Feeling at home in your body.</strong> An hour of calm, kind touch can matter when your body feels like it is changing without your say.</li>
+</ul>
+<p>One small trial of 90 women found massage, with or without aromatherapy oils, eased menopause symptoms more than no treatment. It did not report which symptoms improved most, and it was too small to be sure.</p>
+
+<h2>What massage will not do</h2>
+<p>It is worth being clear here, because some marketing is not. Massage does not balance hormones. It does not treat hot flushes, vaginal dryness or bone thinning. It does not replace HRT or anything else your doctor suggests.</p>
+<p>NHS guidance notes there is little good evidence that complementary therapies help menopause symptoms. Some herbal remedies sold for menopause can also interact with other medicines. Massage itself is low risk, but be wary of any therapist who sells supplements or "hormone balancing" treatments alongside it.</p>
+<p>If your symptoms are getting in the way of work, sleep or relationships, please do not wait. A GP appointment about menopause is never a waste of their time.</p>
+
+<h2>Which type of massage to book</h2>
+<p>For most people, a relaxing full body massage is the best place to start.</p>
+<h3>Swedish massage</h3>
+<p>A <a href="/massage/swedish-massage/">Swedish massage</a> uses long, flowing strokes at a pressure you choose. It works well for stress, sleep and general aches.</p>
+<h3>Aromatherapy massage</h3>
+<p>This is similar to Swedish but lighter, with essential oils added. Some people find a calming scent helps them switch off. Tell the therapist if you have sensitive skin, as skin can become drier and more reactive around menopause. Our comparison of <a href="/learn/aromatherapy-massage-vs-swedish/">aromatherapy and Swedish massage</a> explains the difference.</p>
+<h3>Remedial or deep tissue</h3>
+<p>If one area aches more than the rest, such as your neck or lower back, <a href="/massage/remedial-massage/">remedial massage</a> can focus there. Deep pressure is not needed and can leave you sore, so start medium and build up.</p>
+
+<h2>Making the session comfortable if you get hot flushes</h2>
+<p>A warm room, a heavy blanket and lying still for an hour is a lot if you get hot flushes. A good therapist will be happy to adjust. Ask for:</p>
+<ul>
+<li>a cooler room, or a fan you can switch on</li>
+<li>a light sheet instead of a heavy towel or blanket</li>
+<li>a glass of cold water within reach</li>
+<li>a pause if a flush starts, so you can uncover or sit up</li>
+<li>a different position if lying face down makes you feel hot or sick</li>
+</ul>
+<p>Say what helps at the start. Therapists see this often, and it is not awkward for them.</p>
+<p>It also helps to tell the therapist about anything else going on. That might be joint pain, a recent fall, osteoporosis or medication you take. Gentle pressure is advised over areas of known bone thinning.</p>
+
+<h2>What your first session will look like</h2>
+<p>Knowing what to expect makes it easier to relax, especially if you have not had a massage in years.</p>
+<p>The therapist will start with a short health form and a chat. They will ask about your symptoms, any medication, recent surgery or falls, and what you want from the session. You do not have to share more than you want to. Saying "I am going through menopause and struggling with sleep and aches" is enough for them to plan.</p>
+<p>You then undress to your comfort level and lie under a towel or sheet. Only the area being worked on is uncovered. If you would rather keep more clothes on, say so, and the therapist can work around it.</p>
+<p>During the session, speak up about pressure, temperature or anything that feels wrong. You can stop at any point. Afterwards, drink some water, take a few minutes before driving, and notice how you sleep that night.</p>
+<p>If you felt calmer, slept better or ached less for a few days, that is a good sign massage is worth keeping in your routine. If you felt nothing, try one more session with a different pressure before deciding. Our first-timer guide on <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at your first massage</a> covers the rest.</p>
+
+<h2>How often, and what it costs</h2>
+<p>If massage is helping you, every two to four weeks is a common rhythm. Some people like a short course of weekly sessions at first, then space them out.</p>
+<p>In the UK, a 60-minute Swedish massage usually costs £40 to £65. Aromatherapy is often a little more. Some health cash plans pay towards massage, so check your workplace benefits.</p>
+<p>Between sessions, the things that help most are the same things that help sleep and mood generally. Regular movement, time outside, a cool bedroom and cutting back on alcohol and late caffeine all make a difference.</p>
+
+<h2>When to see your GP instead</h2>
+<p>See your GP if menopause symptoms are affecting your daily life, or if you are under 45 and your periods have changed or stopped. Also see them about:</p>
+<ul>
+<li>low mood that lasts most days for more than two weeks</li>
+<li>bleeding after your periods have stopped for a year, which always needs checking</li>
+<li>new joint pain with swelling, redness or stiffness that lasts over half an hour in the morning</li>
+<li>sleep so poor that you are struggling to function</li>
+</ul>
+<p>If you ever feel hopeless or think about harming yourself, contact your GP or call NHS 111 the same day. In an emergency, call 999.</p>
+<p>When you are ready to book, use our <a href="/find-a-therapist">directory of massage therapists</a> to find a qualified therapist near you, and mention menopause when you get in touch so they can plan the session.</p>
+`,
+    faqs: [
+      {
+        question: "Does massage help menopause symptoms?",
+        answer:
+          "It may help some of them. Small studies suggest massage can ease stress, low mood, aches and poor sleep in women around menopause. It does not reliably reduce hot flushes or night sweats and does not affect hormones. NICE recommends HRT as the main treatment for those, with CBT as an option alongside it.",
+      },
+      {
+        question: "Can massage help with hot flushes?",
+        answer:
+          "There is no good evidence that massage reduces hot flushes. It may help you relax and sleep better, which can make them easier to cope with. For hot flushes and night sweats, NICE guidance points to HRT first, with CBT as an option. Speak to your GP about what suits you.",
+      },
+      {
+        question: "What type of massage is best during menopause?",
+        answer:
+          "A Swedish or aromatherapy massage is a good starting point, as both focus on relaxation and suit stress, sleep and general aches. If one area hurts more, remedial massage can target it. Deep pressure is not needed. Tell the therapist about hot flushes, sensitive skin or bone thinning before you start.",
+      },
+      {
+        question: "Is massage safe if I have osteoporosis?",
+        answer:
+          "Gentle massage is generally considered fine for people with osteoporosis, but deep pressure over weakened bones should be avoided. Tell the therapist about your diagnosis and any fractures before the session so they can adjust pressure and positioning. If you are unsure, ask your GP or specialist first.",
+      },
+      {
+        question: "How can I stay comfortable during a massage if I get hot flushes?",
+        answer:
+          "Ask for a cooler room or a fan, a light sheet instead of a heavy blanket, and water within reach. Agree that you can pause, uncover or sit up if a flush starts. Therapists are used to this. Saying what you need at the start makes the whole session more relaxing.",
+      },
+      {
+        question: "Can massage replace HRT?",
+        answer:
+          "No. Massage may help you feel calmer and sleep better, but it does not treat the menopause or replace HRT or any other treatment your doctor suggests. It works best as an extra alongside medical care. If you are weighing up treatment options, talk to your GP or a menopause specialist.",
       },
     ],
   },
