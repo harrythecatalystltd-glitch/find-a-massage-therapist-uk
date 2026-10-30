@@ -129,8 +129,8 @@ export const manualPosts: ManualPost[] = [
     image: "/blog/deep-tissue-vs-swedish-massage.webp",
     related: [
       "what-is-remedial-massage",
-      "best-massage-for-lower-back-pain",
       "hot-stone-massage-guide",
+      "thai-massage-vs-deep-tissue",
     ],
     html: `
 <p>The short answer: <strong>Swedish massage</strong> is for general relaxation and stress relief using long, flowing strokes at light-to-medium pressure. <strong>Deep tissue massage</strong> is for tackling specific muscle tension, knots and chronic tightness using slower, firmer pressure aimed at deeper muscle layers.</p>
@@ -851,7 +851,7 @@ export const manualPosts: ManualPost[] = [
     related: [
       "what-to-expect-first-massage-appointment",
       "what-is-remedial-massage",
-      "how-much-does-a-massage-cost-uk",
+      "how-to-find-a-good-massage-therapist",
     ],
     html: `
 <p>Here is the part most people do not realise until they go looking: in the UK, nobody has to be qualified to call themselves a massage therapist.</p>
@@ -2070,9 +2070,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/therapist-welcome-room.webp",
     related: [
-      "what-to-expect-first-massage-appointment",
       "how-to-check-a-massage-therapist-is-qualified",
       "why-am-i-sore-after-a-massage",
+      "massage-for-over-60s",
     ],
     html: `
 <p><em>This is general guidance, not medical advice. If you have a health condition, are recovering from surgery or are under a specialist, their advice comes before anything here.</em></p>
@@ -2686,8 +2686,8 @@ export const manualPosts: ManualPost[] = [
     image: "/blog/covers/lower-back-hands.webp",
     related: [
       "massage-for-neck-and-shoulder-tension",
-      "best-massage-for-lower-back-pain",
       "massage-for-tension-headaches",
+      "massage-for-tennis-elbow",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If a GP or physiotherapist has given you a plan for back, neck or wrist pain, follow that first.</p>
@@ -4197,6 +4197,494 @@ export const manualPosts: ManualPost[] = [
         question: "Can massage replace HRT?",
         answer:
           "No. Massage may help you feel calmer and sleep better, but it does not treat the menopause or replace HRT or any other treatment your doctor suggests. It works best as an extra alongside medical care. If you are weighing up treatment options, talk to your GP or a menopause specialist.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-tennis-elbow",
+    title: "Massage for Tennis Elbow: What Helps the Pain",
+    description:
+      "Massage may ease tennis elbow pain for a while, but rest and exercise do most of the work. What the evidence says, what to book, and UK prices.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-30",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "trigger-point-massage-explained",
+      "massage-vs-physiotherapy",
+      "massage-for-desk-workers",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> Get elbow pain checked if you are unsure what it is, and follow your GP's or physio's advice first.</p>
+
+<p>Does massage help tennis elbow? It may ease the pain and tightness in your forearm for a while. The evidence is thin, though, and massage is unlikely to clear the problem on its own.</p>
+
+<p>What tends to matter more is easing off the movement that set it off, then slowly building strength. The NHS lists massage as one thing a physiotherapist may use, next to stretching and strengthening exercises. Treat it the same way: one useful tool, not the whole plan.</p>
+
+<h2>Why your elbow hurts when you have never picked up a racket</h2>
+<p>Tennis elbow is pain on the outer side of your elbow. The muscles that lift your wrist and fingers join the bone there through a tendon. Too much repeated gripping, lifting or twisting overloads that tendon.</p>
+<p>Most people who get it do not play tennis. Common triggers include:</p>
+<ul>
+<li>long days with a mouse and keyboard</li>
+<li>painting, decorating or using a screwdriver</li>
+<li>gardening, especially pruning and digging</li>
+<li>lifting at work, or carrying a child on one arm</li>
+<li>a sudden jump in racket sports or gym work</li>
+</ul>
+<p>You will usually feel it when you grip something, shake hands, lift a mug or turn a door handle. Your forearm may feel tight and tired too.</p>
+<p>This matters because the sore spot is a tendon, and your forearm muscle sits just below it. Massage can reach that muscle and may help it feel easier. There is no good evidence that massage makes the tendon itself stronger. Gradual exercise is what asks it to adapt.</p>
+
+<h2>What the research says about massage for tennis elbow</h2>
+<p>Not much, and that is the honest headline. A Cochrane review looked at deep friction massage, the technique most often used on this tendon. It found only two small trials, and neither could show a clear gain in pain, grip strength or function.</p>
+<p>That does not prove friction massage is useless. It means the trials were too small to tell. Physiotherapy guidance tends to treat soft tissue work as something to consider within a wider plan, usually alongside exercise.</p>
+<p>You will see bolder claims on clinic websites. Many say massage breaks down scar tissue and speeds up healing, often with no study behind them. Be wary of anyone who promises that a set number of sessions will clear it.</p>
+<p>A fair expectation looks like this:</p>
+<ul>
+<li>your forearm feels looser for a day or two</li>
+<li>everyday grip hurts a little less for a while</li>
+<li>your exercises feel easier to do</li>
+</ul>
+<p>That can still be worth paying for, especially if tightness is stopping you from doing the exercises at all.</p>
+
+<h2>What the NHS suggests, and when</h2>
+<p>NHS guidance is reassuring on one point: tennis elbow usually settles by itself. It can take a few weeks of rest, but it can also last for more than a year. A slow recovery is not a sign that something is badly wrong.</p>
+<p>The rough order goes like this:</p>
+<ul>
+<li><strong>First two weeks:</strong> avoid what makes it worse. Try paracetamol or an anti-inflammatory gel, hot or cold packs, gentle movement and a forearm strap or brace.</li>
+<li><strong>After two weeks:</strong> see a GP if the pain has not eased with rest and self-care.</li>
+<li><strong>After six weeks:</strong> physiotherapy may help if home treatment has not worked. Many areas let you refer yourself to NHS musculoskeletal services, so check locally.</li>
+<li><strong>After six to twelve months:</strong> surgery may be considered if the problem is still there.</li>
+</ul>
+<p>Massage can sit alongside any of these stages. It should not replace any of them. If you are deciding between hands-on options, our guide to <a href="/learn/massage-vs-physiotherapy/">massage or physiotherapy</a> sets out who does what.</p>
+
+<h2>If you book a massage, ask for this</h2>
+<p>There is no special tennis elbow massage. Your best bet is a therapist who assesses first, then works where the assessment points. That usually means a <a href="/massage/sports-massage/">sports massage therapist</a> or a <a href="/massage/remedial-massage/">remedial massage therapist</a>.</p>
+<p>A good session should include:</p>
+<ul>
+<li>questions about your work, hobbies and which movements hurt</li>
+<li>a look at how your wrist and grip behave</li>
+<li>work on the forearm, then the upper arm, shoulder and neck if they are tight</li>
+<li>careful pressure near the sore bony point, not heavy digging into it</li>
+<li>advice on what to do at home between visits</li>
+</ul>
+<p>Some therapists use friction across the tendon, or pressure on tight spots in the forearm. Our guide to <a href="/learn/trigger-point-massage-explained/">trigger point massage</a> explains the second one. Either can feel uncomfortable, but it should not feel sharp, and you can ask them to ease off at any point.</p>
+<p>Mention any exercises a physio has given you, so the massage supports them. And tell the therapist if you have had a steroid injection in the elbow recently.</p>
+
+<h2>What it costs, and how many sessions to try</h2>
+<p>One forearm does not need a full hour. In the UK, 30 minutes usually costs £30 to £45 and an hour costs £45 to £75, with London prices often higher. Our <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage price guide</a> has the fuller picture.</p>
+<p>Try two or three sessions over two to four weeks, then take stock. Pick one or two tests you can repeat, such as lifting a full kettle or gripping a door handle. If those are no easier after three visits, stop paying and see a physio or your GP.</p>
+<p>Do not buy a block of sessions upfront. Some soreness for a day or two after firm work is normal, and our guide to <a href="/learn/why-am-i-sore-after-a-massage/">soreness after massage</a> explains why. Pain that stays worse for days means the work was too much, so tell your therapist.</p>
+
+<h2>What you can do at home between sessions</h2>
+<p>Self-massage has no strong evidence behind it either, but it is cheap and low risk if you stay gentle. Rest your forearm on a table with your palm facing down. Use your other thumb to press slowly along the fleshy muscle, from just below the elbow towards the wrist.</p>
+<p>A minute or two is plenty. Stay off the sore bony point, and stop if you feel a sharp pain, numbness or tingling. Our <a href="/massage-tools">massage tools page</a> has other low-cost options.</p>
+<p>Small changes in how you use your arm may do more:</p>
+<ul>
+<li>keep your mouse close, so your arm is not reaching</li>
+<li>lift things with your palm facing up where you can</li>
+<li>use both hands for a heavy kettle or pan</li>
+<li>take short breaks from any long, repeated gripping job</li>
+</ul>
+<p>If a desk is part of the cause, our guide to <a href="/learn/massage-for-desk-workers/">massage for desk workers</a> covers the wider setup.</p>
+
+<h2>When to see someone instead of booking a massage</h2>
+<p>See your GP if the pain has not improved after two weeks of rest and self-care. Do the same if it is stopping you from working. Also speak to a GP about numbness or tingling in your hand, or a grip that keeps getting weaker. These can point to something other than tennis elbow.</p>
+<p>Call NHS 111 or ask for an urgent GP appointment if your elbow is hot, red and very swollen. The same applies if you feel unwell with a high temperature. Go to A&amp;E if the pain began with a fall or a blow, and your elbow looks misshapen or will not move.</p>
+<p>Call 999 if arm pain comes with chest pain, breathlessness or sweating. That is not an elbow problem, and it should not wait.</p>
+<p>Once your elbow has been checked, our <a href="/find-a-therapist">directory of massage therapists</a> lets you filter by treatment and town. Mention tennis elbow when you get in touch, and ask whether they have worked with it before.</p>
+`,
+    faqs: [
+      {
+        question: "Is massage good for tennis elbow?",
+        answer:
+          "It may ease pain and forearm tightness for a short time, and some people find it makes their exercises easier. The research is limited, and a Cochrane review of friction massage found too few trials to show a clear benefit. It works best as an extra, alongside rest, changes to how you use your arm and strengthening exercises.",
+      },
+      {
+        question: "Should you massage tennis elbow directly on the sore spot?",
+        answer:
+          "Usually not with heavy pressure. Most of the useful work is on the fleshy forearm muscle below the elbow, plus the upper arm and shoulder if they are tight. A trained therapist may use careful friction near the tendon, but it should never feel sharp. If you massage it yourself, stay off the sore bony point.",
+      },
+      {
+        question: "How long does tennis elbow take to heal?",
+        answer:
+          "NHS guidance says it usually settles with a few weeks of rest, but it can last for more than a year. Tendons are slow to recover, so a long timeline is common and not usually a bad sign. See a GP if it has not eased after two weeks, and ask about physiotherapy after six weeks.",
+      },
+      {
+        question: "What type of massage is best for tennis elbow?",
+        answer:
+          "Sports or remedial massage is usually the best fit, because these therapists tend to assess the problem first and then work on specific areas. Thirty minutes is often enough for a forearm and upper arm. A relaxing full body massage may feel lovely, but it is unlikely to spend much time where you need it.",
+      },
+      {
+        question: "Can massage make tennis elbow worse?",
+        answer:
+          "It can flare it for a short time if the pressure on the tendon is too heavy. Mild soreness for a day or two is common after firm work. If the pain is worse for several days, tell your therapist and ask for lighter work, or stop and speak to a physio or your GP.",
+      },
+      {
+        question: "Is it tennis elbow or something else?",
+        answer:
+          "Tennis elbow causes pain on the outer side of the elbow, usually when gripping or lifting. Pain on the inner side is more often golfer's elbow. Numbness, tingling, swelling, heat or pain after a fall may point to another problem. If you are not sure, see your GP before you book a massage.",
+      },
+    ],
+  },
+  {
+    slug: "thai-massage-vs-deep-tissue",
+    title: "Thai Massage vs Deep Tissue: Which Is Right for You?",
+    description:
+      "Thai massage stretches you, fully clothed, on a mat. Deep tissue works slowly into tight spots on a couch. How they feel, what they cost and who should skip.",
+    category: "Treatment Guides",
+    publishedAt: "2026-10-30",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "deep-tissue-vs-swedish-massage",
+      "myofascial-release-explained",
+      "when-you-should-not-have-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have a health condition, an injury or recent surgery, check with your GP or specialist before booking either treatment.</p>
+
+<p><strong>TL;DR:</strong> book Thai massage if you feel stiff all over and want to be stretched and moved. Book <a href="/massage/deep-tissue/">deep tissue massage</a> if one or two areas are tight and you want slow, firm work on them. If you have fragile bones, a replaced joint or a recent injury, start with something gentler and check with your GP.</p>
+
+<p>The two get compared because both can feel intense. In the room, they have very little in common.</p>
+
+<h2>The quick differences that decide it</h2>
+<ul>
+<li><strong>Where you lie:</strong> Thai usually happens on a padded mat on the floor. Deep tissue happens on a massage couch.</li>
+<li><strong>What you wear:</strong> Thai is traditionally done in loose clothes, with no oil. For deep tissue you undress to your comfort level, under a towel, and oil or balm is used.</li>
+<li><strong>What the therapist does:</strong> Thai uses rhythmic pressing and assisted stretches, often with thumbs, palms, elbows and feet. Deep tissue uses slow strokes and sustained pressure from hands, knuckles and forearms.</li>
+<li><strong>How much you move:</strong> in Thai, you get moved through many positions. In deep tissue, you mostly stay still.</li>
+<li><strong>The focus:</strong> Thai usually covers your whole body. Deep tissue often concentrates on one or two problem areas.</li>
+<li><strong>How you leave:</strong> many people feel loose and awake after Thai. After deep tissue, you may feel heavy, relaxed and a little sore.</li>
+</ul>
+
+<h2>What a Thai massage feels like</h2>
+<p>Think of someone else doing your yoga for you. You lie on the mat, and the therapist uses their body weight to press along your legs, back and arms. They then lift, pull and fold you into stretches you could not easily reach on your own.</p>
+<p>Some styles are firmer than others, and a few include the therapist kneeling or lightly walking on parts of your body. Many sessions run for 60 or 90 minutes, because stretches take time.</p>
+<p>Wear something like gym kit, or ask if the clinic provides loose clothing. Take off your jewellery. Some high street places offer a "Thai oil massage", which is much closer to a standard couch massage. Check what you are booking.</p>
+<p>Speak up early if a stretch feels too far. A good therapist will back off straight away, and being polite about it is not worth a strained hip.</p>
+
+<h2>What a deep tissue massage feels like</h2>
+<p>Deep tissue is slower and more local. The therapist warms the area with lighter strokes, then sinks in gradually along tight bands of muscle. You will often be asked to breathe out as they press.</p>
+<p>The feeling is a strong, satisfying ache. It should never be sharp, and you should still be able to breathe normally. Soreness for a day or two afterwards is common, and our guide to <a href="/learn/why-am-i-sore-after-a-massage/">soreness after massage</a> explains what is normal.</p>
+<p>Sessions tend to be 30, 60 or 90 minutes. You can keep your underwear on, and only the area being worked on is uncovered. Our guide on <a href="/learn/what-to-wear-to-a-massage/">what to wear to a massage</a> covers the details if you are new to it.</p>
+
+<h2>Which one suits your goal?</h2>
+<h3>Choose Thai if</h3>
+<ul>
+<li>you feel stiff all over, rather than sore in one place</li>
+<li>you would like to stay clothed, or dislike the feel of oil</li>
+<li>you enjoy yoga or stretching, or know you should do more of it</li>
+<li>you want to leave feeling energised rather than sleepy</li>
+</ul>
+<h3>Choose deep tissue if</h3>
+<ul>
+<li>you have one or two stubborn areas, such as your neck, shoulders or lower back</li>
+<li>you want time spent on those areas, not spread across your whole body</li>
+<li>you would rather lie still and switch off</li>
+<li>getting down to a floor mat, or back up, would be hard for you</li>
+</ul>
+<p>If neither sounds quite right, you have other options. A <a href="/massage/swedish-massage/">Swedish massage</a> is gentler and suits stress and general aches. A <a href="/massage/sports-massage/">sports massage</a> often mixes firm work with some stretching on a couch, which can be a good middle ground. Our comparison of <a href="/learn/deep-tissue-vs-swedish-massage/">deep tissue and Swedish massage</a> helps if you are still weighing up pressure.</p>
+
+<h2>Does the evidence favour either one?</h2>
+<p>Not clearly. The research on both is small, and you will not find a good head-to-head trial of Thai against deep tissue.</p>
+<p>The best-known Thai massage trial compared it with Swedish massage. It had 180 people with back pain linked to muscle knots, each having six sessions over three to four weeks. Pain dropped by more than half in both groups, with no clear gap between them. There was no untreated group, so we cannot tell how much was down to the massage itself.</p>
+<p>A later review of Thai massage research described it as generally well tolerated. It also found that none of the studies it included were designed to measure safety, so it could not draw firm conclusions.</p>
+<p>NICE guidance on low back pain covers manual therapy, which includes massage. It says to consider it only as part of a package that includes exercise. Both treatments are best seen in that light. They may help you feel better for a while, and they work best alongside moving more.</p>
+
+<h2>Who should be careful, or skip it</h2>
+<p>Serious problems after massage are uncommon. A review of published case reports did find some, though, and many involved forceful spinal manipulation. An older safety review linked most harm to untrained practitioners, not qualified therapists.</p>
+<p>Thai massage asks more of your joints, so take extra care if you:</p>
+<ul>
+<li>have osteoporosis or have had a fracture from a minor fall</li>
+<li>have a replaced hip or knee, or recent surgery of any kind</li>
+<li>have a disc problem, or a history of neck problems</li>
+<li>have very flexible joints that move too far easily</li>
+<li>are pregnant, in which case a specialist <a href="/massage/pregnancy-massage/">pregnancy massage therapist</a> is the better route</li>
+</ul>
+<p>Deep tissue has its own cautions. Heavy pressure is a bad idea if you take blood thinners, bruise easily or have had a blood clot. Our guide on <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> covers the full list, and your GP's advice comes first.</p>
+<p>With either treatment, turn down any neck cracking or forceful spinal twists unless you have talked it through and agreed. Sudden new pain, numbness or weakness during or after a session means stop, and contact your GP or NHS 111.</p>
+
+<h2>What each one costs, and how to find someone good</h2>
+<p>Deep tissue usually costs £40 to £65 for an hour in the UK, with London often higher. Our <a href="/learn/how-much-does-a-massage-cost-uk/">price guide</a> covers other treatments too.</p>
+<p>Thai prices vary more. Listings we checked in London ran from about £40 an hour in outer boroughs to £50 to £130 in central areas. Compare a few local options, and check whether a 90-minute session is better value.</p>
+<p>Training matters more than price. Thai massage is often learned outside the usual UK diploma route. Ask where and how long the therapist trained, and whether they are insured. Check our guide on <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">how to check a therapist is qualified</a> before you pay.</p>
+<p>When you have made your choice, our <a href="/find-a-therapist">massage therapist directory</a> lets you browse by town and treatment. Read the profiles, and message a therapist first if you want to ask about their Thai training.</p>
+`,
+    faqs: [
+      {
+        question: "Is Thai massage better than deep tissue?",
+        answer:
+          "Neither is better overall, because they do different jobs. Thai massage suits whole-body stiffness and people who enjoy being stretched. Deep tissue suits one or two tight areas and people who want to lie still. Research has not compared them directly, so choose by your goal and your health, and try the one that fits best.",
+      },
+      {
+        question: "Do you keep your clothes on for a Thai massage?",
+        answer:
+          "Usually, yes. Traditional Thai massage is done in loose, stretchy clothes on a floor mat, with no oil. Wear something like gym kit, or ask if the clinic provides clothing. Some places offer a Thai oil massage on a couch, where you undress as you would for a standard massage, so check when booking.",
+      },
+      {
+        question: "Does Thai massage hurt?",
+        answer:
+          "It can feel intense, especially in tight areas, but it should not feel sharp or make you hold your breath. Stretches can feel strong, and some styles use firm pressure from elbows or feet. Tell your therapist early if anything is too much. Good therapists adjust without any fuss, and you can stop at any time.",
+      },
+      {
+        question: "Which is better for back pain, Thai or deep tissue?",
+        answer:
+          "There is no clear winner. One trial found Thai and Swedish massage both eased back pain linked to muscle knots, but Thai has not been well tested against deep tissue. NICE guidance says massage should only be considered alongside exercise for low back pain. See your GP first if your pain is new or severe.",
+      },
+      {
+        question: "Who should not have a Thai massage?",
+        answer:
+          "Take care if you have osteoporosis, a replaced joint, recent surgery, a disc or neck problem, or very flexible joints. Do not book it if you have a suspected blood clot or an acute injury. If you are pregnant, see a specialist pregnancy therapist instead. Check with your GP or specialist if you are unsure.",
+      },
+      {
+        question: "How often should you have Thai or deep tissue massage?",
+        answer:
+          "Every two to six weeks suits most people for either treatment, depending on budget and how your body responds. Leave enough time for any soreness to clear before your next session, usually a few days. If you notice no benefit after two or three sessions, try a different type or a different therapist.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-find-a-good-massage-therapist",
+    title: "How to Find a Good Massage Therapist Near You",
+    description:
+      "A good massage therapist is trained, insured and right for your problem. How to search near you, build a shortlist, what to ask, and when to try someone else.",
+    category: "Getting Started",
+    publishedAt: "2026-10-30",
+    readingTime: 6,
+    image: "/blog/covers/therapist-welcome-room.webp",
+    related: [
+      "how-to-check-a-massage-therapist-is-qualified",
+      "what-to-expect-first-massage-appointment",
+      "how-much-does-a-massage-cost-uk",
+    ],
+    html: `
+<p>Most bad massage bookings go wrong before the appointment. You searched "massage near me", picked the closest name with a nice photo, and hoped for the best.</p>
+
+<p><strong>TL;DR:</strong> work out what you want help with, then search by treatment and town. Pick three therapists whose profiles talk about your problem, check they are registered and insured, and send each a short message. The way they reply tells you a lot. Give your favourite one session before you commit to more.</p>
+
+<p>The whole job takes about half an hour, and it saves you paying for an hour you did not enjoy.</p>
+
+<h2>Start with what you need, not who is closest</h2>
+<p>A brilliant relaxation therapist may be the wrong person for a running injury. So decide what you want from the session first, then match it to a treatment:</p>
+<ul>
+<li><strong>Stress, poor sleep or general aches:</strong> look for <a href="/massage/swedish-massage/">Swedish massage</a>.</li>
+<li><strong>A stubborn tight area:</strong> look for <a href="/massage/deep-tissue/">deep tissue massage</a>.</li>
+<li><strong>Training, sport or a muscle strain:</strong> look for <a href="/massage/sports-massage/">sports massage</a>.</li>
+<li><strong>A problem that keeps coming back:</strong> look for <a href="/massage/remedial-massage/">remedial massage</a>, where therapists usually assess you first.</li>
+<li><strong>Pregnancy:</strong> look for a therapist with specific <a href="/massage/pregnancy-massage/">pregnancy massage</a> training.</li>
+</ul>
+<p>Then add your practical needs. Would you prefer a male or female therapist? Do you need ground floor access or evening hours? Would it be easier if they came to you? Our guide to <a href="/learn/mobile-massage-vs-clinic/">mobile massage or a clinic visit</a> helps with that last one.</p>
+<p>Asking for a therapist of a particular gender is completely normal. So is saying you would like to keep more clothes on. Sorting these out now is far easier than feeling awkward on the day.</p>
+
+<h2>Where to look (and how much to trust each one)</h2>
+<p>No single source gives you the full picture, so use two or three together.</p>
+<ul>
+<li><strong>A massage directory.</strong> Our <a href="/find-a-therapist">therapist directory</a> lets you filter by treatment and town. You can also go straight to pages such as <a href="/find-a-therapist/manchester">massage therapists in Manchester</a>. Profiles usually show training, treatments and areas covered.</li>
+<li><strong>Professional registers.</strong> The <a href="https://www.cnhc.org.uk/" target="_blank" rel="noopener noreferrer">CNHC register</a> can be searched by name, town, postcode or profession. The <a href="https://www.fht.org.uk/" target="_blank" rel="noopener noreferrer">FHT</a> also has a public search. Fewer people are listed, but someone has checked them.</li>
+<li><strong>People you trust.</strong> Ask friends with a similar problem, or your running club, gym or yoga teacher. Ask what the therapist helped with, not just whether they were nice.</li>
+<li><strong>Your GP or physio.</strong> They may not be able to recommend one person, but it costs nothing to ask. Physios often know who is good locally.</li>
+<li><strong>Google and Maps.</strong> These are handy for seeing who is near you and reading reviews. Being high on the page says more about marketing than skill, so do not stop at the first result.</li>
+</ul>
+<p>Distance still counts. If massage is going to be a regular thing, 20 minutes away beats an hour away, however good they are. A long drive home can also undo that relaxed feeling.</p>
+
+<h2>What a good profile tells you</h2>
+<p>Pick three therapists and read their profiles or websites properly. You are looking for specifics.</p>
+<p>A strong profile names the qualification and the level, such as a Level 3 or Level 4 diploma. It lists a sensible number of treatments and explains who they suit. It gives clear prices and session lengths, and a cancellation policy.</p>
+<p>Weak signs are just as useful:</p>
+<ul>
+<li>a very long list of unrelated therapies, with no detail on any of them</li>
+<li>big claims about curing conditions, which no reputable therapist makes</li>
+<li>no surname, business name or address area anywhere</li>
+<li>no prices, and no way of finding them without booking</li>
+</ul>
+<p>When you read reviews, look for detail. "She sorted my shoulder after months of desk work and gave me simple stretches" tells you more than ten five-star ratings saying "lovely". Check how recent they are, too.</p>
+
+<h2>The two-minute check that rules most people out</h2>
+<p>Massage is not regulated by law in the UK, so anyone can call themselves a massage therapist. Before you book, confirm three things: a recognised qualification, a current listing on a professional register, and insurance.</p>
+<p>Search the register yourself rather than trusting a logo on a website. Our guide on <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">how to check a massage therapist is qualified</a> walks through each step and the questions to ask.</p>
+<p>Being unregistered does not automatically make someone bad, as registration is voluntary. If they are not listed, though, ask about their training and insurance directly. A good therapist will answer without any fuss.</p>
+
+<h2>Send one short message before you book</h2>
+<p>This is the step almost nobody takes, and it is the most useful one. Send your three shortlisted therapists something like this:</p>
+<p><strong>"Hi, I've had a tight right shoulder for about two months, mostly from desk work. Have you worked with this before? What would you suggest for a first session, and how much would it cost?"</strong></p>
+<p>Then look at what comes back. A good reply usually:</p>
+<ul>
+<li>arrives within a day or two</li>
+<li>asks a question or two about your problem</li>
+<li>gives you a clear price and session length</li>
+<li>suggests seeing a GP or physio if your symptoms need it</li>
+</ul>
+<p>Be careful of replies that promise a fix before they have met you. The same goes for pressure to buy a block of sessions upfront. Therapists are often busy with clients, so a slow reply alone is not a bad sign, but a vague one is.</p>
+
+<h2>How to tell if your first session was any good</h2>
+<p>Book a single session first, even if a package looks cheaper. Our guide to <a href="/learn/what-to-expect-first-massage-appointment/">your first massage appointment</a> explains how it should run. Afterwards, ask yourself these questions:</p>
+<ul>
+<li>Did they ask about your health, medication and what you wanted?</li>
+<li>Did they explain what they would do, and check you were happy with it?</li>
+<li>Were you kept covered, with only the area being worked on uncovered?</li>
+<li>Did they check the pressure, and change it when you asked?</li>
+<li>Did they spend time on the area you came in about?</li>
+<li>Did you get honest advice, without a hard sell?</li>
+</ul>
+<p>If you can say yes to most of these, you have probably found someone worth keeping. Results for an ongoing problem can take two or three visits. Judge the care you got as well as how you felt the next day.</p>
+
+<h2>When to try someone else</h2>
+<p>You do not owe a therapist a second visit. Move on if you felt ignored, rushed or uncomfortable, or if nothing has changed after two or three sessions.</p>
+<p>Leave at once if anything feels unprofessional. You can stop a session at any time, and you do not need to give a reason. If a registered therapist has behaved badly, you can complain to their professional body.</p>
+<p>Price is not a reliable guide either way. In the UK, an hour usually costs £35 to £90, depending on the area and the treatment. Our <a href="/learn/how-much-does-a-massage-cost-uk/">massage price guide</a> shows what is typical, so you can spot anything far outside that range.</p>
+<p>Ready to start your shortlist? <a href="/find-a-therapist">Find a massage therapist near you</a>, then read the profiles of the three who look closest to what you need.</p>
+`,
+    faqs: [
+      {
+        question: "How do I find a good massage therapist near me?",
+        answer:
+          "Decide what you want help with, then search a directory or professional register by treatment and town. Shortlist three therapists whose profiles mention your problem. Check their qualification, register listing and insurance, then send each a short message. Book a single session with the one who replies most clearly and helpfully, before you commit to more.",
+      },
+      {
+        question: "How can I tell if a massage therapist is any good?",
+        answer:
+          "A good therapist asks about your health and goals before starting, explains the plan, checks the pressure and listens when you ask for changes. They stay within what massage can do, and they will suggest a GP or physio when needed. You should feel comfortable and respected, whether or not one session solved the problem.",
+      },
+      {
+        question: "Is the CNHC or FHT register better for finding a therapist?",
+        answer:
+          "Neither is simply better, so it makes sense to check both. CNHC is an Accredited Register approved by the Professional Standards Authority, and you can search it by name, town or postcode. FHT is a large professional association with its own public register. Many good therapists appear on only one, or belong to another body.",
+      },
+      {
+        question: "Should I choose the cheapest massage therapist?",
+        answer:
+          "Not on price alone. A low rate can reflect a newer therapist or a cheaper area, and a high one may reflect central London rent as much as skill. Compare qualifications, relevant experience and how well they listen first. Book a single session before buying a package, even if the package looks like better value.",
+      },
+      {
+        question: "What should I ask a massage therapist before booking?",
+        answer:
+          "Ask what qualification they hold, whether they are registered and insured, and whether they have worked with your problem before. Also ask what the first session involves, how long it lasts and what it costs. Check the cancellation policy too. Most of this may already be on their profile, and good therapists expect these questions.",
+      },
+      {
+        question: "How many sessions should I try before changing therapist?",
+        answer:
+          "One session is enough if you felt ignored, rushed or uncomfortable. If the session itself felt good but you are booking for an ongoing problem, give it two or three visits. If nothing has changed by then, try someone else or ask your GP or a physio whether massage is the right approach at all.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-over-60s",
+    title: "Massage After 60: What Changes and What to Ask For",
+    description:
+      "Massage is usually fine after 60 with a few changes. Blood thinners, bones, skin and getting on the couch: what to tell your therapist and what to ask for.",
+    category: "Wellness Tips",
+    publishedAt: "2026-10-30",
+    readingTime: 7,
+    image: "/blog/covers/towels-oils-flatlay.webp",
+    related: [
+      "when-you-should-not-have-a-massage",
+      "30-vs-60-vs-90-minute-massage",
+      "massage-for-stress-and-anxiety",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you have a health condition or take regular medication, check with your GP or specialist before booking. Their advice comes first.</p>
+
+<p>Turning 60 is no reason to stop having massage, or to avoid starting. For most people it remains a low-risk way to feel more comfortable. The therapist just needs to know your health history and adjust the session to suit.</p>
+
+<p>What changes is less about your age and more about what often comes with it: more medication, thinner skin, weaker bones and stiffer joints. So the two things that matter most are what you tell the therapist, and what you ask for.</p>
+
+<h2>What massage may help with, and how good the evidence is</h2>
+<p>Research on massage in older adults is limited. Many studies are small, and quite a few take place in care homes rather than among people living independently.</p>
+<p>One review of 14 studies in residential care found that people felt massage helped their pain, sleep, mood and sense of connection. That is useful, but it is mostly how people felt, not a controlled test. Read it as a good reason to try massage, not as proof of what it will do.</p>
+<p>The things people most often book for are:</p>
+<ul>
+<li><strong>Everyday stiffness and aches,</strong> particularly in the neck, shoulders and lower back.</li>
+<li><strong>Stress and poor sleep.</strong> Our guides to <a href="/learn/massage-for-stress-and-anxiety/">massage for stress and anxiety</a> and <a href="/learn/massage-for-sleep-problems/">massage for sleep</a> cover what research shows.</li>
+<li><strong>Touch and company.</strong> If you live alone, an hour of kind, attentive care can matter more than any study can measure.</li>
+</ul>
+<p>Massage will not reverse arthritis, rebuild bone or replace your medicines. Keep moving as well, since regular activity does things that massage cannot.</p>
+
+<h2>Tell your therapist these things before you start</h2>
+<p>A good therapist will ask you to fill in a health form. Take your time with it, and bring a list of your medicines if that is easier. These matter most:</p>
+<ul>
+<li><strong>Blood thinners.</strong> Warfarin, apixaban, rivaroxaban, clopidogrel and aspirin can all make you bruise more easily. The British Heart Foundation notes that older skin bruises more easily too. Expect lighter pressure, and no deep work.</li>
+<li><strong>Osteoporosis or past fractures.</strong> Weak bones and firm pressure do not mix, especially around your spine and ribs. Tell them about any fracture from a minor fall, even years ago.</li>
+<li><strong>Blood clots.</strong> Tell them about any past DVT or pulmonary embolism. A current or suspected clot means no massage until a doctor has cleared you.</li>
+<li><strong>Replaced joints and recent surgery.</strong> Your position may need to change, and some areas may be off limits for a while. Follow your surgical team's guidance on timing.</li>
+<li><strong>Heart problems and blood pressure.</strong> Mention any heart condition, pacemaker or dizzy spells, along with what you take for them.</li>
+<li><strong>Diabetes or numb areas.</strong> If you cannot feel pressure or heat well, you cannot warn the therapist when it is too much.</li>
+<li><strong>Skin problems.</strong> Thin skin, leg ulcers, rashes and varicose veins all need care, and some areas should be avoided.</li>
+<li><strong>Memory problems.</strong> If you are booking for someone living with dementia, talk to the therapist first. Short, gentle sessions with a familiar person nearby may work best.</li>
+</ul>
+<p>The US National Institutes of Health has advised against vigorous massage for people on blood thinners. It also says to avoid areas with clots, fractures, healing wounds or bones weakened by osteoporosis. UK guidance on massage and osteoporosis is hard to find, so ask your GP or fracture clinic if you have been diagnosed.</p>
+<p>Our guide on <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> has the fuller list.</p>
+
+<h2>What to ask for in the room</h2>
+<p>This is where a session goes from fine to really comfortable. None of these requests is unusual, and a good therapist will be glad you mentioned them.</p>
+<h3>Pressure</h3>
+<p>Ask for light to medium pressure at first, and say so again if it creeps up. A firmer massage is not a better one. The idea that it has to hurt to work is simply not true, and it carries more risk as you get older.</p>
+<h3>Position</h3>
+<p>Lying face down can be hard on your neck, back and breathing. Ask to lie on your side, or on your back with a pillow under your knees. A massage chair is another option if lying down does not suit you.</p>
+<h3>Getting on and off the couch</h3>
+<p>Ask whether the couch can be lowered, and whether there is a step. Take your time getting up. Sit on the edge for a minute before you stand. Dizziness is common after lying still, especially if you take blood pressure tablets.</p>
+<h3>Warmth and clothing</h3>
+<p>Ask for an extra blanket if you feel the cold. You do not have to undress fully, and many therapists can work over light clothing or around it. Our guide on <a href="/learn/what-to-wear-to-a-massage/">what to wear to a massage</a> has more detail.</p>
+<h3>Session length</h3>
+<p>Thirty to 45 minutes is plenty for a first visit. You can build up if it suits you. Our guide to <a href="/learn/30-vs-60-vs-90-minute-massage/">choosing a session length</a> explains what you get at each one.</p>
+
+<h2>Which massage to book</h2>
+<p>For most people over 60, a <a href="/massage/swedish-massage/">Swedish massage</a> is the best place to start. It uses long, flowing strokes at a pressure you control, and it can easily be adapted to your needs.</p>
+<p>If one area causes most of the trouble, <a href="/massage/remedial-massage/">remedial massage</a> can focus on it. Therapists usually assess you first, which helps when you have more than one thing going on. Ask for gentle work rather than deep work.</p>
+<p>A few treatments need more thought:</p>
+<ul>
+<li><strong>Deep tissue:</strong> not suitable if you take blood thinners, have weak bones or bruise easily.</li>
+<li><strong>Hot stone:</strong> take care if you have thin skin, poor circulation or numb areas. Our <a href="/learn/hot-stone-massage-guide/">hot stone guide</a> says who should skip it.</li>
+<li><strong>Thai massage:</strong> the strong stretches and floor mat make this a poor first choice, particularly with weak bones or a replaced joint.</li>
+</ul>
+<p>Look for someone who has worked with older clients, and ask them directly. Our guide to <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">checking a therapist's qualifications</a> covers the other questions to ask.</p>
+
+<h2>Cost, and getting there</h2>
+<p>A 30-minute massage usually costs £25 to £45 in the UK, and an hour costs £35 to £65, with London often higher. Some therapists may offer a lower rate for pensioners, so ask. Some health cash plans contribute too, and our guide to <a href="/learn/massage-on-health-insurance-uk/">claiming massage on health insurance</a> explains how.</p>
+<p>If stairs, parking or travel are a problem, a mobile therapist can come to you. Our comparison of <a href="/learn/mobile-massage-vs-clinic/">mobile massage and clinic visits</a> covers the cost and the space you need. If you live alone, you may want a friend or relative there the first time.</p>
+<p>How often is up to you. Every two to four weeks is common if massage is helping. Try two or three sessions before deciding, and notice how you move, sleep and feel over the following days.</p>
+
+<h2>When to see your GP instead</h2>
+<p>A massage is not the right next step for some symptoms. Ask for an urgent GP appointment or contact NHS 111 if you have signs of a DVT. Those include throbbing pain and swelling in one leg, or red, blue or darkened skin around the painful area.</p>
+<p>Call 999 or go to A&amp;E if those symptoms come with chest pain or shortness of breath. Do not drive yourself.</p>
+<p>See your GP before booking if you notice:</p>
+<ul>
+<li>new back pain after a minor fall or strain, or you have lost height</li>
+<li>bruises that keep appearing, or bruising along with nosebleeds, bleeding gums, or blood in your urine or stools</li>
+<li>joints that are newly hot, swollen or very stiff</li>
+<li>new numbness, weakness, or falls you cannot explain</li>
+</ul>
+<p>If you feel well and your doctor is happy, finding the right person is the next step. Our <a href="/find-a-therapist">directory of massage therapists</a> lets you search by town and treatment. Mention your age, health and any worries when you first get in touch, so the therapist can plan the session around you.</p>
+`,
+    faqs: [
+      {
+        question: "Is massage safe for older adults?",
+        answer:
+          "For most people, yes, when it is given by a qualified therapist who knows your health history. Pressure and positions may need adjusting. Tell them about blood thinners, osteoporosis, past blood clots, replaced joints and heart problems before you start. If you have a health condition or are unsure, check with your GP or specialist first.",
+      },
+      {
+        question: "Can you have a massage if you take blood thinners?",
+        answer:
+          "Often yes, but tell the therapist first and ask your GP or anticoagulant clinic if you are unsure. Blood thinners slow clotting, so firm pressure can leave bruises more easily. Expect light, gentle work and no deep tissue. If you have bruising along with nosebleeds or other bleeding, get medical advice before you book.",
+      },
+      {
+        question: "Is massage safe with osteoporosis?",
+        answer:
+          "Gentle massage may be fine, but firm pressure on weak bones carries a risk, especially around the spine and ribs. Tell the therapist about your diagnosis and any fractures, and avoid strong stretches or spinal manipulation. Ask your GP or fracture clinic for advice first, as your own risk depends on your bone health and past fractures.",
+      },
+      {
+        question: "What type of massage is best for over 60s?",
+        answer:
+          "Swedish massage is usually the best place to start, because its long strokes and adjustable pressure suit most people. Remedial massage can help when one area causes most of the trouble, if you ask for gentle work. Deep tissue and Thai massage are less suitable if you have weak bones, or if you bruise easily.",
+      },
+      {
+        question: "Do I have to lie face down for a massage?",
+        answer:
+          "No. Lying face down can be uncomfortable for your neck, back or breathing, so you can ask to lie on your side or on your back with a pillow under your knees. Seated massage is another option. Mention it when you book, so the therapist can plan how to work around your position.",
+      },
+      {
+        question: "How long should a massage be for an older person?",
+        answer:
+          "Thirty to 45 minutes is a good length for a first session. It gives the therapist time to work on the main areas, and it shows how your body responds. You can build up to an hour later if you enjoy it. Take your time getting up, and sit for a minute before you stand.",
       },
     ],
   },
