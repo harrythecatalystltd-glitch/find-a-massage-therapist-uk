@@ -849,9 +849,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/therapist-welcome-room.webp",
     related: [
-      "what-to-expect-first-massage-appointment",
       "what-is-remedial-massage",
       "how-to-find-a-good-massage-therapist",
+      "massage-therapist-insurance-uk",
     ],
     html: `
 <p>Here is the part most people do not realise until they go looking: in the UK, nobody has to be qualified to call themselves a massage therapist.</p>
@@ -1342,9 +1342,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/sports-massage-leg.webp",
     related: [
-      "how-often-should-you-get-a-massage",
       "massage-for-plantar-fasciitis",
       "massage-for-cyclists",
+      "massage-for-shin-splints",
     ],
     html: `
 <p><strong>TL;DR:</strong> massage helps runners most as part of ongoing training, not as a magic fix the day before a race. A light massage 48 to 72 hours before a big event is fine; a deep one in the final two days is not. After a race, wait a couple of days before booking anything firm, and let the first, most painful stage of recovery pass on its own.</p>
@@ -2685,9 +2685,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/lower-back-hands.webp",
     related: [
-      "massage-for-neck-and-shoulder-tension",
       "massage-for-tension-headaches",
       "massage-for-tennis-elbow",
+      "chair-massage-at-work",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If a GP or physiotherapist has given you a plan for back, neck or wrist pain, follow that first.</p>
@@ -4577,9 +4577,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 7,
     image: "/blog/covers/towels-oils-flatlay.webp",
     related: [
-      "when-you-should-not-have-a-massage",
       "30-vs-60-vs-90-minute-massage",
       "massage-for-stress-and-anxiety",
+      "massage-for-arthritis-pain",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you have a health condition or take regular medication, check with your GP or specialist before booking. Their advice comes first.</p>
@@ -4685,6 +4685,484 @@ export const manualPosts: ManualPost[] = [
         question: "How long should a massage be for an older person?",
         answer:
           "Thirty to 45 minutes is a good length for a first session. It gives the therapist time to work on the main areas, and it shows how your body responds. You can build up to an hour later if you enjoy it. Take your time getting up, and sit for a minute before you stand.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-shin-splints",
+    title: "Massage for Shin Splints: What Runners Should Know",
+    description:
+      "Massage may ease the tight calves behind shin splints, but rest and a slower build-up do most of the work. Where to massage, what to avoid and UK prices.",
+    category: "Wellness Tips",
+    publishedAt: "2026-11-06",
+    readingTime: 7,
+    image: "/blog/covers/sports-massage-leg.webp",
+    related: [
+      "massage-for-runners",
+      "massage-for-plantar-fasciitis",
+      "why-am-i-sore-after-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> If you are not sure what is causing your shin pain, get it checked, and follow your GP's or physio's advice first.</p>
+
+<p>Can massage help shin splints? It may ease the tight calf muscles that often sit behind the pain, and many runners say their legs feel lighter afterwards. It will not fix shin splints on its own, though. Rest, a slower return to running and the right shoes do most of the work.</p>
+
+<p>The one rule that matters most: massage the muscle, not the bone. Pressing hard along the sore edge of your shin bone can make things worse.</p>
+
+<h2>What shin splints actually are, and why runners get them</h2>
+<p>Shin splints is the common name for pain along the inner edge of your shin bone. It usually comes on during or after running, and it often feels like a dull ache across a few inches of bone rather than one sharp spot.</p>
+<p>It happens when the bone and the tissue around it take more load than they can handle. The usual causes are training errors, not bad luck:</p>
+<ul>
+<li>adding miles or speed work too quickly</li>
+<li>a sudden switch to hills, tracks or hard pavement</li>
+<li>worn-out or unsuitable trainers</li>
+<li>coming back too fast after a break</li>
+<li>tight, tired calves that pass more strain to the shin</li>
+</ul>
+<p>New runners are most at risk, especially in the first couple of months of a Couch to 5K style plan. Experienced runners get it too, usually when they ramp up for a race.</p>
+
+<h2>Where massage may help, and where it will not</h2>
+<p>Your calf muscles attach along the back and inner edge of your shin bone. When they are tight and overworked, they may add to the pull and strain on that area. That is the part massage can reach.</p>
+<p>A good session may help in three ways:</p>
+<ul>
+<li>your calves feel looser, so walking and easy running feel smoother</li>
+<li>the ache around the shin may ease for a day or two</li>
+<li>your therapist may spot tightness or habits worth working on</li>
+</ul>
+<p>What massage cannot do is speed up bone healing or undo a sudden jump in mileage. The research on massage for shin splints is thin. Most of the bold claims online come from clinics and massage gun brands, not from trials.</p>
+<p>So treat massage as something that makes the recovery period more comfortable. The healing still comes from easing the load and building back slowly.</p>
+
+<h2>What the NHS suggests first</h2>
+<p>NHS guidance says shin splints usually get better within a few weeks if you look after them. The advice is simple:</p>
+<ul>
+<li><strong>Rest from running</strong> or cut right back. Switch to gentler exercise such as swimming, cycling or yoga for a while.</li>
+<li><strong>Use an ice pack</strong> wrapped in a towel for up to 20 minutes every few hours in the first days.</li>
+<li><strong>Take painkillers</strong> such as paracetamol or ibuprofen if you need them. Ask a pharmacist if you are unsure which is right for you.</li>
+<li><strong>Check your trainers.</strong> Shoes with good cushioning and support help, and a running shop can advise if you are starting out.</li>
+</ul>
+<p>The NHS also says to see a GP if the pain gets worse or does not improve with rest. They may refer you to a physiotherapist, and in many areas you can refer yourself to NHS musculoskeletal services without seeing a GP first.</p>
+<p>Massage sits alongside this, not instead of it. Book it once the worst of the pain has settled, not as a way to keep running through it.</p>
+
+<h2>Booking a massage for shin splints: what to ask for</h2>
+<p>A <a href="/massage/sports-massage/">sports massage therapist</a> is usually the best fit, because they work with runners and know how to assess the lower leg. A <a href="/massage/remedial-massage/">remedial massage therapist</a> is a good alternative.</p>
+<p>When you book, say you have shin pain and roughly how long you have had it. A good therapist will ask about your training, your shoes and any recent changes before they start.</p>
+<h3>What a good session looks like</h3>
+<ul>
+<li>most of the work on the calf muscles at the back of your lower leg</li>
+<li>some work on the feet, ankles and the front of the shin muscle</li>
+<li>light, careful pressure near the sore inner edge of the bone, or none at all</li>
+<li>advice on stretching, strength work and how to build back up</li>
+</ul>
+<h3>What should make you stop</h3>
+<p>Firm calf work can feel uncomfortable, but it should never feel sharp on the bone. If pressing on one small spot of bone makes you wince, tell the therapist to stop. That kind of pinpoint bone pain needs checking before any more massage.</p>
+<p>Mild aching for a day or two after firm work is normal. Our guide to <a href="/learn/why-am-i-sore-after-a-massage/">soreness after a massage</a> explains what is expected and what is not.</p>
+
+<h2>Cost, timing and how many sessions to try</h2>
+<p>Thirty minutes is often enough for both lower legs. In the UK, expect roughly £30 to £45 for 30 minutes and £45 to £75 for an hour, with London at the top end. Our <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage price guide</a> breaks that down by treatment and region.</p>
+<p>Try one or two sessions while you rest and rebuild. If your shins are no better after a couple of weeks of rest plus massage, the massage is not the missing piece. See a physio or your GP instead of booking more.</p>
+<p>Timing matters too. Avoid a firm calf massage in the two or three days before a race or a hard session, as it can leave your legs heavy. Our guide to <a href="/learn/massage-for-runners/">massage for runners</a> covers when to book around training.</p>
+
+<h2>Self-massage at home: calves yes, shin bone no</h2>
+<p>You can do a lot for your calves yourself. A foam roller, a massage stick or your hands all work. Sit on the floor with the roller under your calf and roll slowly from just above the ankle to just below the knee.</p>
+<p>Keep it gentle and spend a minute or two on each leg. Turn your leg slightly in and out to reach the inner and outer parts of the calf. Our <a href="/massage-tools">massage tools page</a> lists low-cost options if you want to try a few.</p>
+<p>Leave the shin bone alone. Rolling or using a massage gun right on the sore edge of the bone is likely to irritate it. If you use a gun, keep it on the fleshy calf muscle and use a low setting.</p>
+<p>Self-massage works best next to the things that fix the cause:</p>
+<ul>
+<li>build your mileage back slowly, by around 10% a week at most</li>
+<li>mix soft surfaces such as grass or trail into your runs</li>
+<li>add simple calf raises to build strength in your lower leg</li>
+<li>replace trainers that have done several hundred miles</li>
+</ul>
+<p>If your heels hurt as well as your shins, our guide to <a href="/learn/massage-for-plantar-fasciitis/">massage for plantar fasciitis</a> covers that problem.</p>
+
+<h2>When shin pain needs a doctor, not a massage</h2>
+<p>Most shin splints settle with rest. Some shin pain is something else, and massage will not help it. See your GP if:</p>
+<ul>
+<li>the pain is getting worse, or has not improved after a few weeks of rest</li>
+<li>one small spot of bone is very tender to touch</li>
+<li>the pain is there at night or when you are resting</li>
+<li>you feel numbness, tingling or weakness in your foot</li>
+</ul>
+<p>Pinpoint bone pain that keeps getting worse can be a stress fracture, a small crack in the bone. That needs proper rest and sometimes a scan. Do not run through it.</p>
+<p>Call NHS 111 or get urgent help if your shin is very swollen, hot or red, or if the pain is severe after a fall or a knock. Get urgent help too if your lower leg feels tight, painful and numb during or after exercise and it does not ease when you stop.</p>
+<p>Once a GP or physio has ruled out anything serious, our <a href="/find-a-therapist">directory of massage therapists</a> lets you search by town and treatment. Look for someone who lists sports massage and mention your shins when you get in touch.</p>
+`,
+    faqs: [
+      {
+        question: "Does massage help shin splints?",
+        answer:
+          "It may help by easing tight calf muscles, which often add to the strain on your shin. Many runners find their legs feel looser afterwards. The research is limited, and massage will not heal shin splints by itself. NHS advice is rest, ice, painkillers if needed and gentler exercise, with a slow return to running.",
+      },
+      {
+        question: "Should you massage directly on shin splints?",
+        answer:
+          "Not with firm pressure. The sore inner edge of the shin bone can get more irritated if you press hard on it. Focus on the fleshy calf muscle at the back of your lower leg instead. A trained therapist may use very light work near the bone, but it should never feel sharp.",
+      },
+      {
+        question: "How long do shin splints take to heal?",
+        answer:
+          "NHS guidance says shin splints usually get better within a few weeks if you rest and look after them. Coming back too quickly is the most common reason they return. If the pain gets worse, or is no better after a few weeks of rest, see your GP or an NHS physiotherapist.",
+      },
+      {
+        question: "Is it OK to run with shin splints?",
+        answer:
+          "It is usually best to stop or cut right back until the pain settles, and switch to gentler exercise like swimming or cycling. Running through the pain can turn a short problem into a long one. When you go back, start with short, easy runs on soft ground and build up slowly.",
+      },
+      {
+        question: "Can a massage gun help shin splints?",
+        answer:
+          "A massage gun may help loosen your calves if you use it gently on a low setting. Keep it on the fleshy muscle and away from the shin bone itself, as pressing a gun onto sore bone can make it worse. Stop if you feel sharp pain, numbness or tingling.",
+      },
+      {
+        question: "How do I know if it is shin splints or a stress fracture?",
+        answer:
+          "Shin splints usually cause a dull ache along several inches of the inner shin. A stress fracture is more often one small spot of bone that is very tender, and the pain can carry on at rest or at night. If you notice either of those, stop running and see your GP.",
+      },
+    ],
+  },
+  {
+    slug: "chair-massage-at-work",
+    title: "Chair Massage at Work: What It Is and Whether It Is Worth It",
+    description:
+      "Chair massage is a 10 to 20 minute seated, clothes-on massage for the neck, back and shoulders. What it can do, typical UK costs, and when to book a table instead.",
+    category: "Treatment Guides",
+    publishedAt: "2026-11-06",
+    readingTime: 6,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "massage-for-desk-workers",
+      "massage-for-neck-and-shoulder-tension",
+      "massage-for-stress-and-anxiety",
+    ],
+    html: `
+<p><strong>TL;DR:</strong> chair massage is a short, seated massage, usually 10 to 20 minutes, done fully clothed and with no oil. It focuses on your neck, shoulders, upper back, arms and head. It is a good quick reset for desk-bound teams. It is not a substitute for a full treatment if you have ongoing pain.</p>
+
+<p>So is it worth it? For a stressed office on a Thursday afternoon, often yes. For a back that has hurt for six months, not really. The rest of this guide explains why, and what it costs on both sides of the desk.</p>
+
+<h2>What happens in a chair massage, minute by minute</h2>
+<p>You sit in a special padded chair that tilts you forward. Your chest rests against a cushion, your arms sit on a padded rest, and your face goes into a cradle like the one on a massage table.</p>
+<p>You stay fully dressed. The therapist works through your clothes, so there is no oil and nothing to wash off. A light, loose top works best, but office clothes are fine.</p>
+<p>A typical 15 minute slot runs like this:</p>
+<ul>
+<li><strong>First minute:</strong> a quick check on any health issues and how firm you like the pressure</li>
+<li><strong>Minutes two to eight:</strong> upper back and shoulders, using palms, forearms and thumbs</li>
+<li><strong>Minutes eight to twelve:</strong> neck, base of the skull and scalp</li>
+<li><strong>Minutes twelve to fifteen:</strong> arms and hands, then a few lighter strokes to finish</li>
+</ul>
+<p>Many workplace sessions use acupressure, sometimes sold as on-site massage. It relies on pressing and holding points rather than long strokes. Either style can feel good. Ask the provider which one they use if you have a preference.</p>
+
+<h2>What a 15 minute session can and cannot do</h2>
+<p>A short seated session is good at a few things. It can help you feel calmer, ease the tight, achy feeling across your shoulders, and give you a proper break from the screen.</p>
+<p>The research on chair massage specifically is limited. Most of the striking numbers you will see, such as large drops in stress, come from providers' own marketing. Wider evidence suggests massage in general may help some people with stress and with ongoing neck pain. Our guide to <a href="/learn/massage-for-stress-and-anxiety/">massage for stress and anxiety</a> covers that evidence in more detail.</p>
+<p>What it cannot do is reach most of your body. Your lower back, hips and legs are barely touched, and there is no time for a proper assessment. If you have one stubborn problem, a short session can only skim it.</p>
+<p>A fair way to think of it: chair massage is a top-up. It helps between proper sessions or as a stress break. It does not replace them.</p>
+
+<h2>Chair massage vs a table massage: which one you need</h2>
+<p>The two suit different jobs. Here is how they compare:</p>
+<ul>
+<li><strong>Length:</strong> chair is usually 10 to 20 minutes. Table is usually 30 to 90 minutes.</li>
+<li><strong>Clothing:</strong> chair is fully clothed. Table usually means undressing to your comfort level under a towel.</li>
+<li><strong>Areas:</strong> chair covers the neck, shoulders, upper back, arms and head. Table can cover the whole body.</li>
+<li><strong>Depth:</strong> chair work is moderate. Table work can go as deep as you need, including <a href="/massage/deep-tissue/">deep tissue massage</a>.</li>
+<li><strong>Assessment:</strong> chair sessions have very little. A table session with a remedial or sports therapist should start with one.</li>
+</ul>
+<p>If tension headaches or a stiff neck are your main issue, a full table session will do more. Our guide to <a href="/learn/massage-for-neck-and-shoulder-tension/">massage for neck and shoulder tension</a> explains what to book. If you are unsure how long a table session should be, see <a href="/learn/30-vs-60-vs-90-minute-massage/">30, 60 or 90 minutes</a>.</p>
+
+<h2>What chair massage costs in the UK</h2>
+<p>Prices vary by region and provider, so treat these as rough guides and get a few quotes.</p>
+<h3>If you are booking for a workplace</h3>
+<p>Most providers charge by the therapist hour or by the half day. A common pattern is a set fee per therapist for a block of time, with travel added outside their local area. In a typical hour, one therapist can see three or four people in 15 minute slots, with a short gap to reset the chair.</p>
+<p>That usually works out at somewhere around £10 to £20 per person, per slot. London and short-notice bookings tend to cost more. Ask whether the price includes the chair, wipes and a booking sheet.</p>
+<h3>If you are paying yourself</h3>
+<p>Some salons, shopping centres, airports and events offer walk-in chair massage. Expect roughly £10 to £25 for 10 to 20 minutes. Compare that with £45 to £75 for a full hour on a table, as set out in our <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage price guide</a>.</p>
+
+<h2>Bringing chair massage into your workplace</h2>
+<p>For an employer, the appeal is simple. It is cheap compared with most wellbeing perks, needs only a quiet corner, and staff can go straight back to work.</p>
+<p>Before you book, check a few things:</p>
+<ul>
+<li><strong>Qualifications:</strong> ask for proof of a recognised massage qualification and the therapist's professional body.</li>
+<li><strong>Insurance:</strong> the therapist or company should hold public liability and professional indemnity cover. Ask to see it.</li>
+<li><strong>Health questions:</strong> a short health form or verbal check before each session is a good sign.</li>
+<li><strong>Space:</strong> a small meeting room with a door gives people some privacy. An open-plan corner can put people off.</li>
+<li><strong>Opt-in only:</strong> make it clearly voluntary, and let people book their own slots without explaining why.</li>
+</ul>
+<p>Run a short trial first, perhaps a monthly session for three months. Ask staff afterwards whether they used it and whether they want more. Real feedback from your team beats any provider's return-on-investment figures.</p>
+<p>Chair massage works best as one part of a wider plan. Good desk setups and regular breaks do more for sore backs than any 15 minute session. Our guide to <a href="/learn/massage-for-desk-workers/">massage for desk workers</a> covers those fixes.</p>
+
+<h2>Who should skip it, or check first</h2>
+<p>Chair massage is gentle, but it is still massage. Tell the therapist before you start if you are pregnant, take blood thinners, have had recent surgery or have a heart condition. They may adjust the pressure or suggest you skip it.</p>
+<p>Do not book a session if you have a fever, an infection, a recent injury to your neck or back, or a skin problem in the area. Our guide to <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> lists the main reasons to wait. If you have a health condition and are not sure, ask your GP first.</p>
+<p>And if the pressure ever feels too much, say so. A good therapist will adjust straight away.</p>
+
+<h2>Finding a therapist for chair massage</h2>
+<p>Many independent therapists offer on-site chair massage as well as their usual clinic work. It is often cheaper to book a local therapist directly than to go through a large corporate wellness company.</p>
+<p>Our <a href="/find-a-therapist">directory of UK massage therapists</a> lets you search by town. Look for therapists who offer mobile or on-site sessions, then ask whether they bring a massage chair. If chair massage leaves you wanting more, the same therapist can usually see you for a full table session too.</p>
+`,
+    faqs: [
+      {
+        question: "What is a chair massage?",
+        answer:
+          "A chair massage is a short massage given while you sit in a padded, forward-tilting chair. You stay fully clothed and no oil is used. It usually lasts 10 to 20 minutes and focuses on your neck, shoulders, upper back, arms and head. It is common in offices, at events and in walk-in kiosks.",
+      },
+      {
+        question: "How long is a chair massage?",
+        answer:
+          "Most chair massages last 10 to 20 minutes, with 15 minutes being the most common slot at work. Some therapists offer 30 minute seated sessions. Longer than that, and a table massage usually makes more sense, because the therapist can reach more of your body and you can lie down and relax properly.",
+      },
+      {
+        question: "Do you take your clothes off for a chair massage?",
+        answer:
+          "No. You stay fully clothed for a chair massage, and the therapist works through your top. That is one reason it suits offices and events so well. A loose, light top is easiest, and you may want to remove a chunky jumper, scarf or necklace before you sit down.",
+      },
+      {
+        question: "How much does chair massage cost in the UK?",
+        answer:
+          "Walk-in chair massage usually costs about £10 to £25 for 10 to 20 minutes. For workplaces, providers often charge per therapist per hour or half day, which tends to work out around £10 to £20 per staff member for a 15 minute slot. London and short-notice bookings usually cost more.",
+      },
+      {
+        question: "Is chair massage as good as a normal massage?",
+        answer:
+          "It does a different job. Chair massage is a quick way to ease tension in your upper body and take a break. A full table massage can cover your whole body, go deeper and include an assessment. If you have ongoing pain in one area, a longer table session will usually help more.",
+      },
+      {
+        question: "Is chair massage at work a taxable benefit?",
+        answer:
+          "It can be, depending on how it is set up and who pays. The rules on workplace benefits change, so employers should check current HMRC guidance or speak to an accountant before they start. Staff paying for their own walk-in sessions do not need to worry about this.",
+      },
+    ],
+  },
+  {
+    slug: "massage-therapist-insurance-uk",
+    title: "Massage Therapist Insurance in the UK: What You Actually Need",
+    description:
+      "Most UK massage therapists need professional indemnity and public liability cover, often for under £150 a year. What each covers and what to check before you buy.",
+    category: "For Therapists",
+    publishedAt: "2026-11-06",
+    readingTime: 6,
+    image: "/blog/covers/therapist-welcome-room.webp",
+    related: [
+      "how-to-check-a-massage-therapist-is-qualified",
+      "mobile-massage-vs-clinic",
+      "how-much-does-a-massage-cost-uk",
+    ],
+    html: `
+<p>If you massage paying clients in the UK, you need two kinds of cover in practice: professional indemnity and public liability. Neither is a legal requirement for a sole trader. Even so, almost every clinic, gym, room landlord and professional register will ask for both before they let you work.</p>
+
+<p>For a self-employed therapist, combined cover often costs somewhere around £50 to £150 a year. That is less than the price of two treatments a month for peace of mind. The detail that matters is what the policy actually covers, so read on before you pick the cheapest quote.</p>
+
+<p>This is general information, not insurance or legal advice. Policies differ, so always read the wording and ask the insurer if anything is unclear.</p>
+
+<h2>The two covers every massage therapist should hold</h2>
+<h3>Professional indemnity: when the treatment itself causes harm</h3>
+<p>This covers you if a client says your treatment injured them or made a problem worse. Examples include a client who claims deep pressure aggravated a back injury, or one who reacts badly to an oil you used without asking about allergies.</p>
+<p>It pays for legal costs and any compensation, up to the policy limit. For a hands-on job, this is the cover that matters most. Some insurers call it malpractice or treatment risk cover.</p>
+<h3>Public liability: accidents around the treatment</h3>
+<p>This covers injury to a client or member of the public, or damage to their property, that is not caused by the treatment itself. The classic examples are a client tripping over your bag, a table collapsing, or you spilling oil on a client's carpet during a home visit.</p>
+<p>The two often come bundled in one policy aimed at therapists. Check that both are actually included, with a limit for each.</p>
+
+<h2>Other cover you might need, depending on how you work</h2>
+<p>Your setup changes what else is worth adding:</p>
+<ul>
+<li><strong>Employers' liability:</strong> in most cases a legal requirement if you employ anyone, even part time. Fines for not having it are steep. If you only work for yourself, you do not need it.</li>
+<li><strong>Products liability:</strong> covers you if a product you sell or make harms someone, such as a massage balm or an oil blend you sell to clients. Many therapist policies include it, but check.</li>
+<li><strong>Equipment cover:</strong> pays to replace your couch, chair and kit if they are stolen or damaged. Useful if you work out of your car.</li>
+<li><strong>Business use on your car insurance:</strong> if you drive to clients, your normal policy may not cover business travel. Tell your car insurer.</li>
+<li><strong>Home insurance:</strong> if clients come to your home, tell your home insurer, as it may affect your cover.</li>
+</ul>
+<p>If you are weighing up home visits against a clinic room, our guide to <a href="/learn/mobile-massage-vs-clinic/">mobile massage vs a clinic</a> covers the practical differences from the client's side.</p>
+
+<h2>How much cover to choose, and what it costs</h2>
+<p>Most therapist policies offer limits between £1 million and £6 million. The right figure depends partly on where you work.</p>
+<ul>
+<li><strong>£1 million</strong> is a common starting point for professional indemnity.</li>
+<li><strong>£5 million or £6 million</strong> of public liability is often asked for by gyms, sports clubs, spas and event organisers.</li>
+<li><strong>Corporate and NHS-linked work</strong> may have their own minimums, so check the contract.</li>
+</ul>
+<p>Comparison sites put typical premiums for massage therapists at under £100 a year, and some single covers start from a few pounds a month. Expect to pay more if you offer many treatments, have a high turnover or have made claims before.</p>
+<p>Many professional bodies, such as the FHT and the CThA, offer insurance to members as part of or alongside their membership. That can be good value because it is written for therapists and often comes with legal helplines and CPD. Compare it with a standalone quote from a specialist broker before deciding.</p>
+
+<h2>Five things to check before you buy</h2>
+<p>The cheapest policy is not always cover you can rely on. Read the schedule and check these points:</p>
+<ul>
+<li><strong>Every treatment you offer is listed.</strong> If you add hot stones, cupping or <a href="/massage/lymphatic-drainage/">lymphatic drainage</a> but the policy only names Swedish massage, you may not be covered for the new work.</li>
+<li><strong>Your qualifications match.</strong> Most insurers only cover treatments you hold a recognised qualification for. A weekend course may not count. Ask them directly.</li>
+<li><strong>Where you can work.</strong> Clinic, home, mobile, events and abroad can each be treated differently.</li>
+<li><strong>Claims-made or claims-occurring.</strong> Professional indemnity is often written on a claims-made basis. That means the policy must be in force when the claim arrives, not just when you treated the client.</li>
+<li><strong>Run-off cover.</strong> If you stop practising, a claim can still arrive years later. Ask what run-off cover costs before you retire or take a long break.</li>
+</ul>
+<p>Keep good notes too. A signed consultation form, a record of what you did and any advice you gave are your best defence if a client ever complains. Insurers will ask for them.</p>
+
+<h2>What clients and venues will ask to see</h2>
+<p>Clients are more aware of insurance than they used to be. Our consumer guide on <a href="/learn/how-to-check-a-massage-therapist-is-qualified/">how to check a massage therapist is qualified</a> tells readers to ask about both covers. Being able to say "yes, I hold both, and here is my certificate" builds trust quickly.</p>
+<p>Venues are stricter. Expect these to ask for your certificate before your first day:</p>
+<ul>
+<li>clinics and salons where you rent a room</li>
+<li>gyms, running clubs and sports teams</li>
+<li>event organisers and corporate clients booking chair massage</li>
+<li>voluntary registers such as the CNHC, which require insurance to join</li>
+</ul>
+<p>If you are looking for space to work from, our <a href="/rooms">treatment rooms page</a> lists rooms to rent. Have your certificate ready when you enquire.</p>
+
+<h2>What insurance will not cover</h2>
+<p>A policy is not a safety net for every situation. Common exclusions include:</p>
+<ul>
+<li>treatments you are not qualified or listed for</li>
+<li>working while under the influence of alcohol or drugs</li>
+<li>deliberate or criminal acts</li>
+<li>claims you knew about before the policy started</li>
+<li>treating against a clear medical reason not to</li>
+</ul>
+<p>That last one is worth thinking about. Good screening protects your clients and your cover. Our guide to <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> is a useful refresher on the main reasons to refer a client to their GP first.</p>
+
+<h2>Show clients you are covered</h2>
+<p>Once you are insured, say so. Mention your professional body and insurance on your website, your booking page and your directory listing. It answers a question many clients are too shy to ask.</p>
+<p>Listing your practice on our directory is free, and your profile has room for qualifications, memberships and the treatments you offer. <a href="/list-your-practice">List your practice</a> to get found by clients searching in your town. If you want more visibility, see our <a href="/upgrade">upgrade options</a>, and check our <a href="/faq">FAQ</a> for how listings work.</p>
+`,
+    faqs: [
+      {
+        question: "Do massage therapists need insurance in the UK?",
+        answer:
+          "There is no law that says a self-employed massage therapist must hold insurance. In practice you need it. Clinics, gyms, room landlords, event organisers and registers like the CNHC will ask for proof. Professional indemnity and public liability are the two covers almost every therapist holds. Employers' liability is a legal requirement in most cases if you employ staff.",
+      },
+      {
+        question: "How much is massage therapist insurance in the UK?",
+        answer:
+          "For a self-employed therapist, combined professional indemnity and public liability cover often costs around £50 to £150 a year. Comparison sites put the average under £100. Prices go up with the number of treatments you offer, your turnover, higher limits and any past claims. Professional body membership deals can also be good value.",
+      },
+      {
+        question: "What is the difference between public liability and professional indemnity?",
+        answer:
+          "Professional indemnity covers you if the treatment itself harms a client, such as pressure that aggravates an injury. Public liability covers accidents around the treatment, such as a client tripping over your kit or damage to their home during a mobile visit. Most therapists need both, and they are often sold together.",
+      },
+      {
+        question: "Does my insurance cover me for every massage I do?",
+        answer:
+          "Only for the treatments listed on your policy, and usually only those you hold a recognised qualification for. If you add a new treatment, such as hot stones or cupping, tell your insurer before you offer it. Otherwise a claim linked to that treatment may not be paid.",
+      },
+      {
+        question: "Do I need different insurance for mobile massage?",
+        answer:
+          "Check that your therapist policy covers work in clients' homes, as most specialist policies do. You may also want equipment cover for your couch and kit. Tell your car insurer you use the car for business travel, because standard social cover may not include driving to clients.",
+      },
+      {
+        question: "What is run-off cover and do I need it?",
+        answer:
+          "Run-off cover protects you against claims made after you stop practising, for work you did while insured. Professional indemnity is often claims-made, so once the policy ends, a late claim may not be covered. If you retire, change career or take a long break, ask your insurer about run-off cover first.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-arthritis-pain",
+    title: "Massage for Arthritis Pain: What Helps and What to Avoid",
+    description:
+      "Massage may ease stiffness and muscle aches around arthritic joints, but NICE says it belongs alongside exercise, not instead of it. What to book, and what to avoid.",
+    category: "Wellness Tips",
+    publishedAt: "2026-11-06",
+    readingTime: 6,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "massage-for-over-60s",
+      "massage-for-hip-and-glute-pain",
+      "when-you-should-not-have-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> Arthritis takes many forms. Follow your GP's, rheumatology team's or physio's advice first, and check with them if you are unsure whether massage is right for you.</p>
+
+<p>Massage will not repair a worn joint or stop arthritis progressing. What it may do is ease the stiff, aching muscles around a painful joint, and help you feel more comfortable moving. For many people that is worth having.</p>
+
+<p>NICE, which sets clinical guidance in England, is clear on one point. Hands-on therapy, including soft tissue work, should only be considered for hip or knee osteoarthritis, and only alongside exercise. On its own, there is not enough evidence that it helps. Keep that in mind and massage can be a useful extra.</p>
+
+<h2>Osteoarthritis and rheumatoid arthritis need different care</h2>
+<p>The word arthritis covers more than 100 conditions. The two most common behave very differently, and that changes how massage should be used.</p>
+<h3>Osteoarthritis</h3>
+<p>This is the most common type in the UK. The smooth surface inside a joint thins and the joint becomes stiff and painful, most often in the knees, hips, hands and spine. The muscles around it often tighten up to guard the joint.</p>
+<p>Gentle to moderate massage on those muscles is usually fine. It is the type of arthritis where massage is most often used.</p>
+<h3>Rheumatoid and other inflammatory arthritis</h3>
+<p>Rheumatoid arthritis is an autoimmune condition. The immune system attacks the lining of the joints, causing flares of heat, swelling and pain. Psoriatic arthritis and gout also cause inflamed joints.</p>
+<p>Massage may still help between flares, but only very gently. Never massage a joint that is hot, red or swollen. Speak to your rheumatology team before you book, as they know how active your condition is and what medicines you take.</p>
+
+<h2>What the evidence actually says</h2>
+<p>The research on massage for arthritis is small and mixed. A few trials of massage for knee osteoarthritis have reported short-term gains in pain and stiffness. They were mostly small, and the effects did not always last.</p>
+<p>NICE's 2022 osteoarthritis guidance weighed this up. It says manual therapy, which includes soft tissue techniques, may be considered for hip and knee osteoarthritis alongside therapeutic exercise. It also tells clinicians to explain that there is not enough evidence to support using it alone.</p>
+<p>The same guidance puts exercise at the centre of treatment for every type of osteoarthritis. Strength work and staying active help protect the joint in ways massage cannot. Weight loss also helps if you are carrying extra weight.</p>
+<p>So a fair expectation is this:</p>
+<ul>
+<li>the muscles around your joint may feel looser for a day or two</li>
+<li>moving may feel easier, which can make your exercises easier to do</li>
+<li>you may feel more relaxed, and sleep a little better</li>
+</ul>
+<p>Be wary of any clinic that promises massage will "repair" joints or reverse arthritis. That claim has no good evidence behind it.</p>
+
+<h2>Which massage to book, and what to say</h2>
+<p>For most people with arthritis, gentle is better. Two options suit most situations:</p>
+<ul>
+<li><strong><a href="/massage/swedish-massage/">Swedish massage</a></strong> uses long, flowing strokes at a pressure you choose. It suits widespread aches, stiffness and people who want to relax.</li>
+<li><strong><a href="/massage/remedial-massage/">Remedial massage</a></strong> starts with an assessment and focuses on the areas causing trouble. It suits one problem joint, such as a stiff hip or knee, as long as you ask for gentle work.</li>
+</ul>
+<p>Deep tissue massage is rarely a good idea around arthritic joints. Hard pressure can leave you sore and may flare the joint.</p>
+<p>When you book, tell the therapist:</p>
+<ul>
+<li>which type of arthritis you have and which joints are affected</li>
+<li>whether any joints are flaring right now</li>
+<li>any joint replacements, and when you had them</li>
+<li>your medicines, especially steroids, blood thinners or biologic drugs</li>
+<li>whether you have osteoporosis, as weak bones need lighter pressure</li>
+</ul>
+<p>Ask about positions too. Lying face down can be hard on stiff hips, knees or a neck. Lying on your side or on your back with pillows is fine. Our guide to <a href="/learn/massage-for-over-60s/">massage after 60</a> has more on comfortable positions and pressure.</p>
+
+<h2>Warmth, timing and cost</h2>
+<p>Many people with osteoarthritis find warmth soothing, and some enjoy a <a href="/massage/hot-stone-massage/">hot stone massage</a> for that reason. Avoid heat on a joint that is already hot and swollen, as it may make inflammation feel worse.</p>
+<p>Book when your joints are at their calmest. For many people that is late morning, once the early stiffness has eased. Leave time to move gently afterwards rather than rushing straight back into a busy day.</p>
+<p>A 30 to 45 minute session is a good start. In the UK that usually costs about £30 to £55, and an hour costs £45 to £75. Our <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage price guide</a> has regional prices.</p>
+<p>Try two or three sessions, a week or two apart, and judge them by everyday tasks. Is it easier to climb stairs, get out of a chair or turn a key? If nothing has changed, put the money towards something else, such as a strength class.</p>
+
+<h2>What to avoid</h2>
+<p>Massage is low risk for most people with arthritis when it is gentle. Steer clear of these:</p>
+<ul>
+<li><strong>Massage on a flaring joint.</strong> Heat, redness or swelling means hands off that joint until it settles.</li>
+<li><strong>Strong pressure or forceful stretching</strong> around a replaced joint, especially in the first months after surgery. Ask your surgical team when massage is safe.</li>
+<li><strong>Hard pressure if you take steroids or blood thinners.</strong> Both can make you bruise more easily and steroids can thin the skin.</li>
+<li><strong>Clicking or cracking joints.</strong> Spinal or joint manipulation is a different treatment and is not part of massage.</li>
+</ul>
+<p>Our guide to <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> lists other reasons to wait or check with your GP first.</p>
+
+<h2>When joint pain needs a doctor, not a massage</h2>
+<p>See your GP if you have joint pain or stiffness that is new and has not been diagnosed. This matters most if your joints are stiff for more than half an hour each morning, or several joints are swollen. Early treatment for inflammatory arthritis makes a real difference, so do not wait.</p>
+<p>Speak to your GP or rheumatology team if your usual pain changes, a flare will not settle, or a new joint starts to hurt.</p>
+<p>Call NHS 111 or get an urgent GP appointment if a joint suddenly becomes hot, red and very swollen, especially if you feel unwell or have a high temperature. That can be a sign of a joint infection, and it needs treating quickly.</p>
+<p>If hip pain is your main problem, our guide to <a href="/learn/massage-for-hip-and-glute-pain/">massage for hip and glute pain</a> helps you tell muscle pain from joint pain. For ongoing joint problems, NHS <a href="/massage/physiotherapy/">physiotherapy</a> can build a proper exercise plan.</p>
+<p>When you are ready to book, our <a href="/find-a-therapist">directory of UK massage therapists</a> lets you search by town and treatment. Mention your arthritis when you first get in touch and ask whether they have worked with it before.</p>
+`,
+    faqs: [
+      {
+        question: "Is massage good for arthritis?",
+        answer:
+          "Massage may ease stiffness and aching in the muscles around arthritic joints, and help you feel more relaxed. It does not repair joints. NICE guidance says hands-on therapy should only be considered for hip or knee osteoarthritis, alongside exercise, as there is not enough evidence for it on its own.",
+      },
+      {
+        question: "Should you massage an arthritic joint?",
+        answer:
+          "Gentle work on the muscles around the joint is usually fine for osteoarthritis. Avoid firm pressure directly on the joint, and never massage a joint that is hot, red or swollen. If you have rheumatoid or another inflammatory arthritis, check with your rheumatology team before booking a massage.",
+      },
+      {
+        question: "What type of massage is best for arthritis?",
+        answer:
+          "Swedish massage is usually the best starting point, because its long strokes and adjustable pressure suit stiff, sore bodies. Remedial massage can help if one joint causes most of the trouble, as long as you ask for gentle work. Deep tissue massage is rarely a good choice around arthritic joints.",
+      },
+      {
+        question: "Can massage make arthritis worse?",
+        answer:
+          "Gentle massage is low risk for most people. Heavy pressure on or around a joint can leave it sore and may trigger a flare, especially in inflammatory arthritis. If a joint feels worse for more than a day or two after a session, tell your therapist and ask your GP or rheumatology team for advice.",
+      },
+      {
+        question: "Can you have a massage with rheumatoid arthritis?",
+        answer:
+          "Often yes, between flares and with gentle pressure. Avoid any joint that is hot, swollen or painful during a flare. Some medicines for rheumatoid arthritis affect your skin or your risk of infection, so speak to your rheumatology team first and tell the therapist what you take.",
+      },
+      {
+        question: "Is heat or a hot stone massage good for arthritis?",
+        answer:
+          "Many people with osteoarthritis find warmth soothing for stiff joints and muscles, so a hot stone massage may feel good. Avoid heat on any joint that is already hot or swollen, as it may make inflammation worse. Ask the therapist to check the stones are warm, not hot, before they touch your skin.",
       },
     ],
   },
