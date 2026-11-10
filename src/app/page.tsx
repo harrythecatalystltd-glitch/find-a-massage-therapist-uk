@@ -8,7 +8,7 @@ import { TensionLine } from "@/components/tension-line";
 import { Reveal } from "@/components/reveal";
 import { getFeaturedListings, getAllLocations, getTreatmentTypes } from "@/lib/queries";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data edits call revalidatePath, so this is only a safety net
 
 export const metadata: Metadata = {
   title: "Find a Massage Therapist UK | Qualified, Insured Therapists Near You",

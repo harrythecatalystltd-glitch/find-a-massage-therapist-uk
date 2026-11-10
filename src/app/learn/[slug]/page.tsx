@@ -4,8 +4,17 @@ import { notFound } from "next/navigation";
 import { FaqAccordion } from "@/components/faq-accordion";
 import { getBlogPostBySlug } from "@/lib/blog";
 import { manualPosts } from "@/lib/manual-posts";
+import { getBlogPosts as getSeobotPosts } from "@/lib/seobot";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data edits call revalidatePath, so this is only a safety net
+
+// Without this the route rendered on every visit (a function run plus SeoBot calls each
+// time). Listing the slugs prerenders them at build and caches any others on first visit.
+export async function generateStaticParams() {
+  const { articles } = await getSeobotPosts(0, Number.MAX_SAFE_INTEGER).catch(() => ({ articles: [] as { slug: string }[] }));
+  const slugs = new Set([...manualPosts.map((p) => p.slug), ...articles.map((a) => a.slug)]);
+  return [...slugs].map((slug) => ({ slug }));
+}
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.findamassagetherapist.co.uk";

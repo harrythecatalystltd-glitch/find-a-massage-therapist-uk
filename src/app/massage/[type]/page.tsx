@@ -8,7 +8,7 @@ import {
   getTreatmentTypes,
 } from "@/lib/queries";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data edits call revalidatePath, so this is only a safety net
 
 const BLURB: Record<string, string> = {
   "sports-massage":

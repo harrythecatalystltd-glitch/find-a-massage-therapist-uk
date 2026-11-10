@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { revalidatePath } from "next/cache";
 import type Stripe from "stripe";
 import { stripeClient, tierForPriceId, type ListingTier } from "@/lib/stripe";
 import { createAdminClient } from "@/lib/supabase/admin";
@@ -27,6 +28,11 @@ async function applyTierChange(
           .eq("stripe_subscription_id", match.stripe_subscription_id)
           .select("business_name, email")
           .maybeSingle();
+
+  // Tier drives featured/boosted ordering on public pages, so refresh them now. Public pages
+  // only revalidate once a day on a timer (to stay inside Vercel's ISR write limits), so
+  // without this a paid upgrade could take up to a day to show.
+  revalidatePath("/", "layout");
 
   if (data?.email) {
     await sendTierChangedEmail(data.email, data.business_name, tier);
