@@ -1624,9 +1624,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/lower-back-hands.webp",
     related: [
-      "massage-for-neck-and-shoulder-tension",
       "how-often-should-you-get-a-massage",
       "trigger-point-massage-explained",
+      "massage-for-jaw-tension-tmj",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you have a diagnosed headache or migraine condition, follow your GP or neurologist's plan first.</p>
@@ -2567,9 +2567,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/therapist-welcome-room.webp",
     related: [
-      "how-much-does-a-massage-cost-uk",
       "what-to-expect-first-massage-appointment",
       "mobile-massage-vs-clinic",
+      "massage-gift-vouchers-uk",
     ],
     html: `
 <p>No, you do not have to. Tipping a massage therapist in the UK is optional, and most therapists do not expect it. If you loved the session and want to add a few pounds, it will be welcome. If you pay the price and say thank you, nobody will think less of you.</p>
@@ -3265,9 +3265,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/bedroom-pillows.webp",
     related: [
-      "massage-for-stress-and-anxiety",
       "what-to-do-after-a-massage",
       "massage-during-menopause",
+      "massage-for-fibromyalgia",
     ],
     html: `
 <p><strong>This is general guidance, not medical advice.</strong> If you have long-term sleep problems, or a GP or sleep clinic is involved, follow their plan first. Massage can sit alongside it, never in place of it.</p>
@@ -4941,9 +4941,9 @@ export const manualPosts: ManualPost[] = [
     readingTime: 6,
     image: "/blog/covers/therapist-welcome-room.webp",
     related: [
-      "how-to-check-a-massage-therapist-is-qualified",
       "mobile-massage-vs-clinic",
       "how-much-does-a-massage-cost-uk",
+      "how-to-get-more-massage-clients",
     ],
     html: `
 <p>If you massage paying clients in the UK, you need two kinds of cover in practice: professional indemnity and public liability. Neither is a legal requirement for a sole trader. Even so, almost every clinic, gym, room landlord and professional register will ask for both before they let you work.</p>
@@ -5163,6 +5163,486 @@ export const manualPosts: ManualPost[] = [
         question: "Is heat or a hot stone massage good for arthritis?",
         answer:
           "Many people with osteoarthritis find warmth soothing for stiff joints and muscles, so a hot stone massage may feel good. Avoid heat on any joint that is already hot or swollen, as it may make inflammation worse. Ask the therapist to check the stones are warm, not hot, before they touch your skin.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-jaw-tension-tmj",
+    title: "Massage for Jaw Tension and TMJ Pain",
+    description:
+      "Massage of the jaw muscles is part of NHS self-help advice for TMJ pain. What a therapist can do, simple self-massage, and when to see a dentist or GP instead.",
+    category: "Wellness Tips",
+    publishedAt: "2026-11-20",
+    readingTime: 7,
+    image: "/blog/covers/lower-back-hands.webp",
+    related: [
+      "massage-for-tension-headaches",
+      "massage-for-neck-and-shoulder-tension",
+      "trigger-point-massage-explained",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> Jaw pain has several possible causes. If your dentist, GP or physio has given you a plan, follow theirs first.</p>
+
+<p>Yes, massage may help jaw tension and TMJ pain, especially when the pain comes from tight, overworked chewing muscles. NHS physiotherapy leaflets list massage of the jaw muscles as one part of self-help, alongside warmth, soft food and jaw exercises. It works best as part of that plan, not as a one-off fix.</p>
+
+<p>The good news is that most jaw pain of this kind is not serious. NHS guidance says it often settles on its own within weeks, and simple self-care is the recommended first step.</p>
+
+<h2>What TMJ pain actually is, and why muscles are usually the problem</h2>
+<p>Your temporomandibular joints, or TMJs, sit just in front of each ear. They hinge and slide every time you talk, chew or yawn. Problems with the joint or the muscles around it are called temporomandibular disorders, or TMD.</p>
+<p>The Royal College of Surgeons puts TMD at up to 1 in 15 people in the UK. Most cases are benign and do not get steadily worse. Common signs include:</p>
+<ul>
+<li>an ache in the jaw, cheek or temple, often worse after chewing</li>
+<li>clicking, popping or grating when you open your mouth</li>
+<li>a jaw that feels stiff or tired, especially in the morning</li>
+<li>headaches, or pain that seems to come from the ear</li>
+</ul>
+<p>In many people the main source of pain is the muscle, not the joint itself. The masseter, the thick muscle at the back of your cheek, and the temporalis, the fan-shaped muscle over your temple, take the strain. Clenching or grinding your teeth, often at night or when stressed, keeps them working when they should be resting.</p>
+<p>That is where massage comes in. It cannot realign a joint, but it may ease the tight, tender muscles that drive much of the ache.</p>
+
+<h2>What a massage therapist can do for your jaw</h2>
+<p>Many therapists will work on the jaw as part of a head, neck and shoulder treatment. Ask before you book, as not all of them do. A <a href="/massage/remedial-massage/">remedial massage therapist</a> is a good place to start, as they assess first and then focus on the problem area.</p>
+<p>A typical session might include:</p>
+<ul>
+<li><strong>Outside the mouth:</strong> slow circles and gentle kneading over the masseter and temples.</li>
+<li><strong>Neck and shoulders:</strong> tight upper traps and neck muscles often go hand in hand with jaw clenching.</li>
+<li><strong>Trigger points:</strong> sustained pressure on tender knots in the jaw muscles. Our guide to <a href="/learn/trigger-point-massage-explained/">trigger point massage</a> explains how that feels.</li>
+</ul>
+<p>Some specially trained therapists and physios also work inside the mouth, wearing gloves. This should only happen with your clear consent, after the therapist has explained it. You can say no and still have a useful session.</p>
+<p>Pressure should be firm enough to feel, but never sharp. The jaw muscles are small and often sore, so a good therapist will start gently and check in.</p>
+<p>A 30 minute head, neck and shoulder session costs about £30 to £50 in most of the UK. A full hour of remedial work is usually £45 to £75. Our <a href="/learn/how-much-does-a-massage-cost-uk/">massage price guide</a> breaks this down by region.</p>
+
+<h2>Simple self-massage you can do at home</h2>
+<p>Self-massage is part of the supported self-management that UK guidance puts first. It costs nothing and you can do it daily. Try this for two or three minutes, once or twice a day:</p>
+<ol>
+<li>Warm the area first. Hold a warm flannel against your jaw for about 10 minutes.</li>
+<li>Find the masseter. Clench your teeth gently and feel the muscle bulge at the back of your cheek. Then relax your jaw.</li>
+<li>Using two or three fingers, make slow, small circles over the muscle. Keep the pressure comfortable.</li>
+<li>Move up to your temples and repeat the circles there.</li>
+<li>Finish by letting your mouth hang slightly open, teeth apart, tongue resting behind your top teeth.</li>
+</ol>
+<p>Stop if it causes sharp pain or makes your symptoms worse. Never try to force your jaw open or "pop it back into place". That can aggravate the joint.</p>
+
+<h2>Habits that help the massage last longer</h2>
+<p>Massage loosens the muscles for a while. Whether the relief lasts depends on what you do between sessions. NHS advice for TMD includes these simple steps:</p>
+<ul>
+<li><strong>Rest the jaw.</strong> Eat softer food such as pasta, soup and omelettes for a while. Cut food into small pieces.</li>
+<li><strong>Skip chewing gum</strong> and avoid biting your nails or pens.</li>
+<li><strong>Notice clenching.</strong> During the day, check that your teeth are apart and your jaw is loose.</li>
+<li><strong>Use warmth or cold.</strong> A warm or cool cloth for 10 to 20 minutes can ease the ache.</li>
+<li><strong>Look at stress.</strong> Clenching often rises with stress. Our guide to <a href="/learn/massage-for-stress-and-anxiety/">massage for stress and anxiety</a> covers what helps there.</li>
+</ul>
+<p>Your posture matters too. If you spend hours at a screen with your head pushed forward, your neck and jaw muscles work harder. Our guide to <a href="/learn/massage-for-neck-and-shoulder-tension/">neck and shoulder tension</a> has practical fixes for desk workers.</p>
+
+<h2>How jaw tension links to headaches</h2>
+<p>Tight jaw muscles often go with tension-type headaches. The temporalis muscle sits right where many people feel that band of pressure around the head. Loosening it, and the neck below it, may ease both.</p>
+<p>If headaches are your main complaint, read our guide on <a href="/learn/massage-for-tension-headaches/">massage for tension headaches</a>. It covers what the NHS says and when a headache needs checking.</p>
+
+<h2>When to see a dentist or GP instead</h2>
+<p>Massage is for muscle tension. It is not a substitute for a proper check if something else may be going on. See your dentist or GP if:</p>
+<ul>
+<li>the pain has not improved after two weeks of self-care</li>
+<li>you cannot open or close your mouth fully, or your jaw locks</li>
+<li>the pain is severe or stops you eating</li>
+<li>you think you grind your teeth at night, as a dentist can check for wear and talk about a mouthguard</li>
+<li>you have toothache, gum swelling or pain in one tooth, as that may be a dental problem</li>
+</ul>
+<p>Get urgent help if jaw pain comes with chest pain, breathlessness or pain spreading down your arm. Call 999, as jaw pain can sometimes be a sign of a heart problem. Also seek help quickly if you have jaw pain with a high temperature, swelling of the face, or pain in the temple with changes to your vision.</p>
+<p>If self-care is not enough, your GP or dentist may refer you to NHS <a href="/massage/physiotherapy/">physiotherapy</a> for jaw exercises, or to a specialist. Massage can carry on alongside that if your clinician agrees.</p>
+<p>When you are ready to book, our <a href="/find-a-therapist">directory of UK massage therapists</a> lets you search by town and treatment. Mention your jaw when you first get in touch and ask whether they have worked with TMJ pain before.</p>
+`,
+    faqs: [
+      {
+        question: "Does massage help TMJ pain?",
+        answer:
+          "Massage may ease TMJ pain that comes from tight, overworked jaw muscles. NHS physiotherapy leaflets include massage of the jaw muscles in self-help advice, alongside warmth, soft food and jaw exercises. It works best as part of that routine rather than as a one-off. It cannot fix a problem inside the joint itself.",
+      },
+      {
+        question: "How do you massage your jaw for TMJ?",
+        answer:
+          "Warm the area with a flannel first. Then find the muscle at the back of your cheek by gently clenching, relax, and make slow, small circles over it with two or three fingers. Repeat at your temples. Keep the pressure comfortable, two or three minutes at a time, and stop if it causes sharp pain.",
+      },
+      {
+        question: "What kind of massage therapist should I see for jaw pain?",
+        answer:
+          "A remedial massage therapist is a good choice, as they assess first and focus on the problem area. Ask before booking whether they treat the jaw, as not all therapists do. Some physios and specially trained therapists also work inside the mouth with gloves, but only with your clear consent.",
+      },
+      {
+        question: "How long does TMJ pain take to go away?",
+        answer:
+          "NHS guidance says TMJ pain often gets better on its own within a couple of weeks, especially with self-care such as soft food, warmth and resting the jaw. Some people have it for longer or find it comes back. See your dentist or GP if it has not improved after two weeks.",
+      },
+      {
+        question: "Can teeth grinding cause jaw pain?",
+        answer:
+          "Yes. Clenching or grinding your teeth, often at night or when stressed, keeps the jaw muscles working when they should rest. That can leave them sore and tight in the morning. A dentist can check your teeth for wear and talk to you about a mouthguard if grinding is likely.",
+      },
+      {
+        question: "When is jaw pain serious?",
+        answer:
+          "Call 999 if jaw pain comes with chest pain, breathlessness or pain spreading to your arm, as it can be a sign of a heart problem. Seek help quickly for facial swelling with a high temperature, a jaw that locks, or temple pain with changes to your vision.",
+      },
+    ],
+  },
+  {
+    slug: "massage-for-fibromyalgia",
+    title: "Massage for Fibromyalgia: A Careful Guide",
+    description:
+      "Gentle massage may give short-term relief for some people with fibromyalgia, but evidence is limited. What to book, what to avoid, and what to ask your care team.",
+    category: "Wellness Tips",
+    publishedAt: "2026-11-20",
+    readingTime: 7,
+    image: "/blog/covers/treatment-room-back-massage.webp",
+    related: [
+      "massage-for-stress-and-anxiety",
+      "massage-for-sleep-problems",
+      "when-you-should-not-have-a-massage",
+    ],
+    html: `
+<p><strong>This is general guidance, not medical advice.</strong> Fibromyalgia affects everyone differently. Speak to your GP, pain clinic or rheumatology team before you start massage, and follow their advice if it differs from anything here.</p>
+
+<p>Short answer: gentle massage may give some people with fibromyalgia a little short-term relief from pain, stiffness and stress. The research is limited, the effects tend to fade within days, and firm pressure can make a flare worse. So treat it as a possible comfort, not a treatment.</p>
+
+<p>If you decide to try it, the type of massage and the therapist you choose matter more than for almost any other condition. This guide explains why, and how to go about it carefully.</p>
+
+<h2>What the NHS and NICE actually say</h2>
+<p>Fibromyalgia causes widespread pain, tiredness, poor sleep and problems with memory and focus, sometimes called fibro fog. There is no cure, so care focuses on easing symptoms and helping you live well.</p>
+<p>NICE, which sets clinical guidance in England, published its chronic pain guideline in 2021. It covers fibromyalgia as a form of chronic primary pain. For this group it recommends:</p>
+<ul>
+<li>supervised exercise programmes, adapted to what you can manage</li>
+<li>psychological therapies such as CBT or acceptance and commitment therapy</li>
+<li>acupuncture in some settings</li>
+<li>some antidepressants, which your doctor would discuss with you</li>
+</ul>
+<p>NICE did not recommend massage or other manual therapy for chronic primary pain. Instead it asked for more research, because the evidence was not good enough to say whether it helps. NHS pages note that some people with fibromyalgia try complementary therapies such as massage, without saying they work.</p>
+<p>The research that exists is small. Reviews have found that massage often brings short-term relief of some symptoms, with little proof of benefit beyond that. That is an honest starting point.</p>
+
+<h2>Why some people find it helps, and others do not</h2>
+<p>In fibromyalgia the nervous system seems to turn pain signals up. Touch that would feel fine to someone else can hurt. That is why the same massage can soothe one person and flare another.</p>
+<p>When massage helps, people usually describe:</p>
+<ul>
+<li>feeling calmer and less tense for a while afterwards</li>
+<li>muscles that feel looser and less stiff</li>
+<li>sleeping a little better that night</li>
+<li>a break from pain that feels worth having, even if it is brief</li>
+</ul>
+<p>Stress and poor sleep both make fibromyalgia worse. So a calming hour can matter even if the pain itself only shifts a little. Our guides to <a href="/learn/massage-for-stress-and-anxiety/">massage for stress and anxiety</a> and <a href="/learn/massage-for-sleep-problems/">massage for sleep</a> look at that side of things in more detail.</p>
+<p>When massage does not help, it is often because the pressure was too firm or the session too long. That is why the next section matters.</p>
+
+<h2>Which massage to book: gentle, short and in your control</h2>
+<p>For most people with fibromyalgia, light to medium pressure is the safest place to start.</p>
+<ul>
+<li><strong><a href="/massage/swedish-massage/">Swedish massage</a></strong> uses long, flowing strokes at a pressure you choose. It is usually the best first option.</li>
+<li><strong><a href="/massage/lymphatic-drainage/">Lymphatic drainage</a></strong> uses very light, rhythmic strokes. Some people with fibromyalgia find it gentle enough to enjoy when other massage is too much.</li>
+<li><strong><a href="/massage/remedial-massage/">Remedial massage</a></strong> can work if you ask for gentle techniques and the therapist has experience with chronic pain.</li>
+</ul>
+<p>Avoid deep tissue, sports massage and firm trigger point work, at least at first. Strong pressure is the most common reason people feel worse after a session.</p>
+<p>Start with 30 minutes. In the UK that usually costs £30 to £50, with an hour around £45 to £75. A short first session lets you see how your body reacts over the next two days without a big outlay.</p>
+
+<h2>What to tell your therapist before the first session</h2>
+<p>A good therapist will ask about your health anyway. Give them the full picture:</p>
+<ul>
+<li>that you have fibromyalgia, and how your pain behaves day to day</li>
+<li>whether you are in a flare right now</li>
+<li>any areas that are especially tender, or that you would rather they avoid</li>
+<li>your medicines, as some affect bruising, drowsiness or blood pressure</li>
+<li>other conditions, such as joint problems, migraines or skin sensitivity</li>
+</ul>
+<p>Agree a simple signal for "lighter please" before you start. You should never have to put up with pain to get your money's worth. Ask about positions too. Lying face down for an hour can be hard, so lying on your side with pillows is fine.</p>
+<p>It is fair to ask whether they have treated people with fibromyalgia before. Our guide on <a href="/learn/how-to-find-a-good-massage-therapist/">how to find a good massage therapist</a> covers the other questions worth asking.</p>
+
+<h2>After a session: what is normal and what is a flare</h2>
+<p>Feeling a bit tired or slightly achy the next day can happen. It should ease within a day or two. A clear rise in pain, fatigue or sleep problems that lasts longer is a sign the session was too much.</p>
+<p>Help yourself recover:</p>
+<ul>
+<li>book at a time you can rest afterwards, not before a busy day</li>
+<li>drink some water and have something to eat</li>
+<li>keep your usual gentle movement going if you can</li>
+<li>jot down how you feel over the next 48 hours</li>
+</ul>
+<p>Those notes help you and your therapist adjust the pressure or length next time. If two or three gentle sessions bring no benefit, it is reasonable to stop and spend the money elsewhere.</p>
+
+<h2>Free self-help that does some of the same job</h2>
+<p>Massage costs money every time. Some of what people like about it, the warmth, the calm and the looser muscles, you can get at home. NHS self-help advice for fibromyalgia suggests:</p>
+<ul>
+<li><strong>A warm bath before bed.</strong> It may ease pain and stiffness and help you wind down. Keep it to a normal length rather than a long soak.</li>
+<li><strong>Heat for morning stiffness.</strong> A hot water bottle or a warm shower can loosen you up at the start of the day.</li>
+<li><strong>Gentle, regular exercise.</strong> Walking, swimming or cycling, built up slowly. Your GP or a physio can help plan this if pain or tiredness make it hard.</li>
+<li><strong>A steady sleep routine.</strong> A dark, quiet, comfortable bedroom and the same bedtime each night.</li>
+</ul>
+<p>Exercise is the one NICE backs most firmly. If money is tight, spend your energy there first and treat massage as an occasional extra.</p>
+
+<h2>Massage alongside your care, never instead of it</h2>
+<p>Keep going with the plan your GP or pain team has given you. Do not stop medicines, exercise or therapy sessions because massage feels good. If you want to add massage, tell your care team, so they can flag anything specific to you.</p>
+<p>See your GP if your symptoms change, if you get new pain in one specific place, or if pain comes with swelling, a high temperature or weight loss you cannot explain. New or different symptoms should be checked, not put down to fibromyalgia.</p>
+<p>Check our guide to <a href="/learn/when-you-should-not-have-a-massage/">when you should not have a massage</a> for other reasons to wait.</p>
+<p>When you are ready, our <a href="/find-a-therapist">directory of UK massage therapists</a> lets you search by town and treatment. Get in touch first, explain that you have fibromyalgia, and choose someone who is happy to start gently.</p>
+`,
+    faqs: [
+      {
+        question: "Is massage good for fibromyalgia?",
+        answer:
+          "Gentle massage may give some people short-term relief from pain, stiffness and stress, and help them sleep a little better. The research is limited and the effects usually fade within days. NICE did not recommend massage for chronic primary pain, including fibromyalgia, and asked for more research. Talk to your care team before trying it.",
+      },
+      {
+        question: "What type of massage is best for fibromyalgia?",
+        answer:
+          "Swedish massage at a light to medium pressure is usually the best place to start. Some people prefer very gentle lymphatic drainage. Avoid deep tissue, sports massage and firm trigger point work at first, as strong pressure is the most common reason people feel worse after a session.",
+      },
+      {
+        question: "Can massage make fibromyalgia worse?",
+        answer:
+          "Yes, it can, especially if the pressure is too firm or the session too long. Some people feel a flare in pain or tiredness afterwards. Start with a short, gentle session, agree a signal for lighter pressure, and note how you feel over the next two days before booking again.",
+      },
+      {
+        question: "How often should you get a massage with fibromyalgia?",
+        answer:
+          "There is no set rule. Many people try a short, gentle session every two to four weeks and adjust from there. Judge it by how you feel over the following days. If two or three sessions bring no benefit, or they leave you worse, it is fine to stop.",
+      },
+      {
+        question: "Does NICE recommend massage for fibromyalgia?",
+        answer:
+          "No. NICE's 2021 chronic pain guideline, which covers fibromyalgia, recommends exercise programmes, psychological therapies, acupuncture in some settings and some antidepressants. It did not recommend manual therapy such as massage, and asked for more research on it. That does not mean massage is harmful, only that the evidence is weak.",
+      },
+      {
+        question: "Should I tell my massage therapist I have fibromyalgia?",
+        answer:
+          "Yes, always. Tell them how your pain behaves, whether you are in a flare, which areas are most tender and what medicines you take. A good therapist will use lighter pressure, check in often and adjust the session. Ask whether they have treated people with fibromyalgia before you book.",
+      },
+    ],
+  },
+  {
+    slug: "massage-gift-vouchers-uk",
+    title: "Buying a Massage Gift Voucher: What to Check First",
+    description:
+      "A massage voucher makes a good gift if you check the expiry, the treatment and who honours it. UK prices, your rights, and the small print that catches people out.",
+    category: "Pricing & Guides",
+    publishedAt: "2026-11-20",
+    readingTime: 7,
+    image: "/blog/covers/towels-oils-flatlay.webp",
+    related: [
+      "how-much-does-a-massage-cost-uk",
+      "30-vs-60-vs-90-minute-massage",
+      "do-you-tip-a-massage-therapist-uk",
+    ],
+    html: `
+<p>A massage voucher is one of the few presents almost nobody returns. It only works, though, if the person can actually use it. Before you pay, check four things: when it expires, what it covers, who honours it, and what happens if plans change.</p>
+
+<p>Most UK vouchers are bought direct from a therapist or clinic, or through an experience gift website. Buying direct is usually cheaper and simpler. Here is what to look for either way, and what your rights are if something goes wrong.</p>
+
+<h2>How much to spend on a massage voucher</h2>
+<p>Set the voucher to a treatment, not just a round number. A £50 voucher that falls £15 short of an hour leaves your friend paying the difference, which takes the shine off the gift.</p>
+<p>Typical UK prices for a single treatment:</p>
+<ul>
+<li><strong>30 minute back, neck and shoulder massage:</strong> about £30 to £50</li>
+<li><strong>60 minute full body massage:</strong> about £45 to £75 outside London, often £70 to £100 in central London</li>
+<li><strong>90 minute massage:</strong> about £70 to £110</li>
+<li><strong>Hot stone or aromatherapy:</strong> often £5 to £20 more than a standard hour</li>
+<li><strong>Spa day with a massage:</strong> from around £90 to well over £200</li>
+</ul>
+<p>An hour is the safest choice for a first-timer. It gives enough time to relax without feeling rushed. Our guide to <a href="/learn/30-vs-60-vs-90-minute-massage/">30, 60 or 90 minute massages</a> helps if you are unsure. For prices by region, see our <a href="/learn/how-much-does-a-massage-cost-uk/">UK massage price guide</a>.</p>
+<p>Some therapists sell packages of three or five sessions at a small discount. These make a generous gift for someone with an ongoing ache, but only if they already like that therapist.</p>
+
+<h2>The small print to check before you pay</h2>
+<p>Most voucher problems come from terms nobody read. Look for these before you buy:</p>
+<ul>
+<li><strong>Expiry date.</strong> Six to twelve months is common. Longer is better, especially for busy people.</li>
+<li><strong>Book by or use by.</strong> Some vouchers only need booking before the expiry date. Others must be used by then. That gap matters when diaries are full.</li>
+<li><strong>Which treatments it covers.</strong> A voucher for "a massage" may exclude hot stones, pregnancy massage or longer sessions.</li>
+<li><strong>Peak-time charges.</strong> Some clinics and spas add a supplement for evenings and weekends.</li>
+<li><strong>Cancellation rules.</strong> Many therapists treat a missed appointment as a used voucher. Check how much notice is needed to move a booking.</li>
+<li><strong>Transfer and top-up.</strong> Can it be passed to someone else? Can the person pay the difference for a longer treatment?</li>
+<li><strong>Location.</strong> If the clinic has more than one site, or the therapist works from home and at a gym, check where it can be used.</li>
+</ul>
+<p>Ask for the terms in writing and pass them on with the gift. A card that just says "one massage" is how arguments start.</p>
+<p>If you are the one receiving a voucher, check the expiry date the day you open it. Which? notes that getting an expired voucher extended for free is hard unless the terms were unclear when it was bought. Some sellers will extend for a fee, but booking early is far easier than asking for favours later.</p>
+
+<h2>Buying direct or from an experience website</h2>
+<h3>Buying direct from a therapist or clinic</h3>
+<p>This is usually the best option if you know the person's area. The therapist gets the full price, you can ask questions directly, and booking is easy. Many independent therapists will write a personal message on the voucher or email a printable one the same day.</p>
+<h3>Experience gift websites</h3>
+<p>These offer a wide choice across the country, which helps if you do not know where the person will want to go. The trade-off is that the site takes a cut, choice at each venue can be limited, and popular slots can be hard to get. Consumer group Which? has reported many people struggling to redeem experience vouchers before they expire.</p>
+<h3>Spa and hotel vouchers</h3>
+<p>These often bundle a massage with pool access, lunch or an overnight stay. They are lovely gifts, but check how long the massage itself is. Some spa day treatments are only 25 minutes.</p>
+<p>If you want to buy direct, our <a href="/find-a-therapist">directory of UK massage therapists</a> lets you search by town. Many listings say whether the therapist sells vouchers. If not, send them a message and ask.</p>
+
+<h2>Your rights if something goes wrong</h2>
+<p>Vouchers are allowed to expire in the UK. According to Which?, the expiry date and key terms should be made clear when you buy. If they were hidden, you may have grounds to ask for an extension or refund.</p>
+<p>If the therapist or venue stops offering the treatment, or has no slots before the expiry date, you should usually be offered an alternative, an exchange or a refund. Speak to them first, politely and in writing.</p>
+<p>The bigger risk is the business closing. If a small clinic shuts or goes into administration, your voucher may not be honoured. How you paid makes a difference:</p>
+<ul>
+<li><strong>Credit card, over £100:</strong> you may be able to claim from the card provider under Section 75 of the Consumer Credit Act.</li>
+<li><strong>Debit card, or credit card under £100:</strong> ask your bank about a chargeback. It is not a legal right, but banks often help.</li>
+<li><strong>Cash or bank transfer:</strong> you have the least protection.</li>
+</ul>
+<p>For bigger amounts, paying by credit card is the safer choice. Citizens Advice can help if you get stuck.</p>
+
+<h2>Picking the right massage for the person</h2>
+<p>Think about who you are buying for before you choose a treatment:</p>
+<ul>
+<li><strong>Someone who just needs to unwind:</strong> a <a href="/massage/swedish-massage/">Swedish massage</a> is gentle and relaxing.</li>
+<li><strong>A runner, cyclist or gym regular:</strong> a <a href="/massage/sports-massage/">sports massage</a> fits better than a spa treatment.</li>
+<li><strong>Someone who loves warmth:</strong> a <a href="/massage/hot-stone-massage/">hot stone massage</a> feels like a treat in winter.</li>
+<li><strong>Someone who is pregnant:</strong> choose a therapist trained in <a href="/massage/pregnancy-massage/">pregnancy massage</a>. Our guide on <a href="/learn/is-pregnancy-massage-safe/">whether pregnancy massage is safe</a> covers what to check.</li>
+</ul>
+<p>If you are not sure, a money voucher for the clinic lets the person choose. Make sure the value covers at least an hour.</p>
+<p>A first massage can feel a bit daunting for some people. Passing on our guide to <a href="/learn/what-to-expect-first-massage-appointment/">what to expect at a first massage</a> with the voucher can help them actually book it.</p>
+
+<h2>Timing a Christmas or birthday voucher</h2>
+<p>Therapists get busy in the weeks after Christmas, when lots of vouchers land at once. A few simple steps help the gift get used:</p>
+<ul>
+<li>buy early in December so you have time to ask questions</li>
+<li>pick a voucher with at least six months to run</li>
+<li>remind the person in February if they have not booked</li>
+<li>check whether a tip is expected, as our guide to <a href="/learn/do-you-tip-a-massage-therapist-uk/">tipping a massage therapist in the UK</a> explains</li>
+</ul>
+<p>Ready to buy? Search our <a href="/find-a-therapist">therapist directory</a> for someone near the person you are buying for, and ask about vouchers directly.</p>
+`,
+    faqs: [
+      {
+        question: "Do massage gift vouchers expire in the UK?",
+        answer:
+          "Usually, yes. Six to twelve months is common, though some last longer. Businesses can set an expiry date, but it should be clear when you buy. Check whether the voucher must be booked by the date or used by it, as that gap matters when therapists are busy after Christmas.",
+      },
+      {
+        question: "How much should I spend on a massage voucher?",
+        answer:
+          "Match the voucher to a full treatment rather than a round number. A one-hour massage costs about £45 to £75 in most of the UK and more in central London. A 30 minute session is about £30 to £50. An hour is the safest choice for someone who has not had a massage before.",
+      },
+      {
+        question: "Can I get a refund on a massage voucher?",
+        answer:
+          "Not usually just because you changed your mind, unless the seller's terms allow it. If the business stops offering the treatment or has no slots before the expiry date, you should be offered an exchange or refund. If it closes, a credit card claim or bank chargeback may help.",
+      },
+      {
+        question: "What happens if the massage business closes?",
+        answer:
+          "Your voucher may not be honoured. If you paid more than £100 by credit card, you may be able to claim from the card provider under Section 75. For smaller amounts or debit cards, ask your bank about a chargeback. Cash and bank transfers offer the least protection.",
+      },
+      {
+        question: "Is it better to buy a massage voucher direct or from a gift website?",
+        answer:
+          "Buying direct from a therapist or clinic is usually cheaper and easier to book, and the therapist gets the full price. Gift websites offer wider choice across the country, which helps if you do not know where the person lives, but slots can be limited and the site takes a cut.",
+      },
+      {
+        question: "Can you give a massage voucher to someone who is pregnant?",
+        answer:
+          "Yes, but choose a therapist who is trained in pregnancy massage, and check the voucher covers it, as some exclude it. The person should tell the therapist they are pregnant when booking. If they have any complications, they should check with their midwife or GP first.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-get-more-massage-clients",
+    title: "How to Get More Massage Clients in the UK",
+    description:
+      "Practical ways UK massage therapists can win more clients: get found locally, collect reviews, build referrals and keep clients rebooking. No big ad budget needed.",
+    category: "For Therapists",
+    publishedAt: "2026-11-20",
+    readingTime: 7,
+    image: "/blog/covers/therapist-welcome-room.webp",
+    related: [
+      "massage-therapist-insurance-uk",
+      "how-to-find-a-good-massage-therapist",
+      "how-much-does-a-massage-cost-uk",
+    ],
+    html: `
+<p>Most massage therapists do not need a big marketing budget to get busier. They need to be easy to find locally, easy to trust and easy to book. They also need the clients they already have to come back.</p>
+
+<p>That last point is the one most people skip. A client who rebooks every month is worth twelve sessions a year. A client who comes once is worth one. Work on both sides and your diary fills faster than it would from adverts alone.</p>
+
+<h2>Start with the clients you already have</h2>
+<p>Before you look for new people, look at who already comes to you. Rebooking is the cheapest growth there is.</p>
+<ul>
+<li><strong>Book the next session before they leave.</strong> Suggest a timeframe based on their goal, such as "every three to four weeks for that shoulder". Then offer a slot. Most people say yes when asked.</li>
+<li><strong>Send a reminder.</strong> A text two days before cuts no-shows. A friendly message a month after the last visit brings people back.</li>
+<li><strong>Offer packages.</strong> Three or five sessions paid upfront, at a small discount, keeps people committed and smooths your income.</li>
+<li><strong>Give simple aftercare.</strong> A stretch or two to do at home shows you care about results, not just the hour.</li>
+</ul>
+<p>Protect the slots you fill, too. A clear cancellation policy, shown at booking, cuts no-shows. Many UK therapists ask for 24 or 48 hours' notice and charge part or all of the fee for late cancellations. Taking a small deposit for first visits works well, as people who have paid something tend to turn up.</p>
+<p>Track one number: what share of first-time clients book again within six weeks. If it is under half, fix that before you spend money on getting more first-timers.</p>
+
+<h2>Get found when people search near them</h2>
+<p>Most clients look for a therapist on their phone, often searching "massage near me" or a treatment and a town. Three places matter most.</p>
+<h3>Your Google Business Profile</h3>
+<p>This is free and it is what shows up on Google Maps. Fill in every section: treatments, prices, opening hours, photos of your room and a clear description. Choose the most accurate category, and add the areas you cover if you are mobile.</p>
+<h3>Directory listings</h3>
+<p>Clients often compare several therapists before they book. A detailed directory listing puts you in front of people who are already looking. Our own directory has free listings with room for your treatments, qualifications and location. You can <a href="/list-your-practice">list your practice here</a> in a few minutes.</p>
+<h3>Your own website or booking page</h3>
+<p>It does not need to be fancy. It needs your prices, treatments, location, a short bio and a way to book online. Clients who can book at 10pm without phoning are clients you would otherwise lose.</p>
+<p>Show your prices. People hesitate to contact a therapist when they cannot see a cost. Our consumer guide to <a href="/learn/how-much-does-a-massage-cost-uk/">massage prices in the UK</a> shows what clients expect to pay in different regions.</p>
+
+<h2>Build trust before they ever meet you</h2>
+<p>Clients are inviting a stranger to touch them. They want reassurance first, and our consumer guide on <a href="/learn/how-to-find-a-good-massage-therapist/">how to find a good massage therapist</a> tells them exactly what to look for.</p>
+<ul>
+<li><strong>Reviews.</strong> Ask happy clients to leave a Google review, ideally the same day. Send a direct link to make it easy. A steady trickle of honest reviews matters more than a big burst.</li>
+<li><strong>Qualifications and insurance.</strong> State your qualifications, your professional body and that you are insured. Our guide to <a href="/learn/massage-therapist-insurance-uk/">massage therapist insurance</a> covers what you need.</li>
+<li><strong>Photos.</strong> A clear photo of you and of your treatment room helps people feel safe booking.</li>
+<li><strong>A clear first-visit process.</strong> Explain the consultation, what to wear and how long it takes.</li>
+</ul>
+<p>Be careful with health claims. UK advertising rules, enforced by the Advertising Standards Authority, do not allow you to claim massage treats or cures medical conditions without solid evidence. "May help ease muscle tension" is fine. "Cures sciatica" is not. Honest wording also builds more trust.</p>
+
+<h2>Pick a niche and own it locally</h2>
+<p>"Massage for everyone" is hard to market. "Sports massage for runners in Leeds" is easy. A clear focus makes your marketing simpler and word of mouth faster, because people know who to recommend you to.</p>
+<p>Good UK niches include:</p>
+<ul>
+<li>runners, cyclists and gym-goers, through <a href="/massage/sports-massage/">sports massage</a></li>
+<li>office workers with neck and back pain</li>
+<li>pregnancy and postnatal clients, if you hold the right training</li>
+<li>older adults who want gentle work at home</li>
+<li>corporate clients, through <a href="/learn/chair-massage-at-work/">chair massage at work</a></li>
+</ul>
+<p>You can still see anyone. The niche is just what you lead with.</p>
+
+<h2>Partner with local businesses for referrals</h2>
+<p>Other businesses already have your future clients. A few warm partnerships can send a steady flow of bookings.</p>
+<ul>
+<li><strong>Gyms, studios and running clubs:</strong> offer a member discount or a talk on recovery.</li>
+<li><strong>Physios, osteopaths and personal trainers:</strong> they often want someone reliable to refer to for soft tissue work.</li>
+<li><strong>Hairdressers, beauty salons and wedding suppliers:</strong> good for relaxation and gift vouchers.</li>
+<li><strong>Local employers:</strong> wellbeing days and chair massage can lead to private bookings.</li>
+</ul>
+<p>Make referring easy. Give partners cards or a simple link, and thank them when someone books. If you rent space, working from a busy clinic can bring referrals too. Our <a href="/rooms">treatment rooms page</a> lists rooms to rent.</p>
+<p>Ask your own clients for referrals too. A simple "if you know anyone who would benefit, I'd love to help them" at the end of a good session works. Some therapists offer a small thank-you, such as £5 off the next visit.</p>
+
+<h2>Use email and social media without burning out</h2>
+<p>You do not need to post every day. A short monthly email to past clients, with a tip and a booking link, will often bring in more bookings than daily posts.</p>
+<p>Under UK data rules, you generally need consent to send marketing emails to individuals. The exception, known as the soft opt-in, can apply to existing clients for similar services, as long as you gave them a clear chance to opt out. Check the Information Commissioner's Office guidance and add an unsubscribe link to every email.</p>
+<p>For social media, pick one platform your clients use and post when you have something useful to say. Short videos of a stretch, a peek at your room or a client tip all work well. Avoid before-and-after claims that suggest a medical result.</p>
+<p>Seasonal offers help too. Gift vouchers before Christmas and Mother's Day can fill quiet weeks in January and spring.</p>
+
+<h2>Make it easy to choose you</h2>
+<p>Every step between "I need a massage" and a confirmed booking loses some people. Clear prices, online booking, quick replies and a complete profile all help.</p>
+<p>A free listing on our directory puts you in front of people searching for a massage therapist in your town. <a href="/list-your-practice">List your practice</a> to get started. If you want more visibility, see our <a href="/upgrade">upgrade options</a>, and check our <a href="/faq">FAQ</a> for how listings work.</p>
+`,
+    faqs: [
+      {
+        question: "How do massage therapists get clients in the UK?",
+        answer:
+          "Most new clients find a therapist through Google searches, directory listings and word of mouth. A complete Google Business Profile, a detailed directory listing, steady reviews and clear prices make you easy to find and trust. Rebooking existing clients and building referral partnerships with gyms and physios keep the diary full.",
+      },
+      {
+        question: "How can I get massage clients fast?",
+        answer:
+          "Start with what is free and quick: complete your Google Business Profile, list your practice on directories, and ask past and current clients for reviews and referrals. Contact local gyms, physios and employers about simple partnerships. A short, time-limited introductory offer can also bring in first-time clients quickly.",
+      },
+      {
+        question: "How do I get massage clients to rebook?",
+        answer:
+          "Suggest a timeframe based on their goal and offer a slot before they leave. Send a reminder before appointments and a friendly follow-up a few weeks later. Packages of three or five sessions paid upfront help, and simple aftercare advice shows you care about the result, not just the hour.",
+      },
+      {
+        question: "Is a massage directory listing worth it?",
+        answer:
+          "A free listing usually is. Clients often compare several therapists before booking, and directories put you in front of people who are already looking in your area. Fill in every section, including treatments, prices, qualifications and photos, so your profile does the selling for you.",
+      },
+      {
+        question: "What can I say in massage adverts in the UK?",
+        answer:
+          "UK advertising rules do not allow you to claim massage treats or cures medical conditions unless you hold solid evidence. Wording such as may help ease muscle tension is fine, while cures sciatica is not. Check the Advertising Standards Authority's guidance for health and beauty claims if you are unsure.",
+      },
+      {
+        question: "Can I send marketing emails to my massage clients?",
+        answer:
+          "Generally only with their consent. The soft opt-in can cover existing clients for similar services, if you gave them a clear chance to opt out when you collected their email and in every message. Check the Information Commissioner's Office guidance and include an unsubscribe link every time.",
       },
     ],
   },

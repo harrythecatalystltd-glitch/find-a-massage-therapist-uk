@@ -66,10 +66,10 @@ If you reorder, keep that spread.
 | 38 | done 2026-11-06 | chair-massage-at-work | Chair Massage at Work: What It Is and Whether It Is Worth It | chair massage | Treatment | Treatment Guides | deep-tissue, massage-for-desk-workers, find-a-therapist |
 | 39 | done 2026-11-06 | massage-therapist-insurance-uk | Massage Therapist Insurance in the UK: What You Actually Need | massage therapist insurance uk | Therapist | For Therapists | list-your-practice, faq |
 | 40 | done 2026-11-06 | massage-for-arthritis-pain | Massage for Arthritis Pain: What Helps and What to Avoid | massage for arthritis | Condition | Wellness Tips | swedish-massage, remedial-massage, find-a-therapist |
-| 41 | pending | massage-for-jaw-tension-tmj | Massage for Jaw Tension and TMJ Pain | massage for tmj | Condition | Wellness Tips | remedial-massage, massage-for-tension-headaches, find-a-therapist |
-| 42 | pending | massage-for-fibromyalgia | Massage for Fibromyalgia: A Careful Guide | massage for fibromyalgia | Condition | Wellness Tips | swedish-massage, remedial-massage, find-a-therapist |
-| 43 | pending | massage-gift-vouchers-uk | Buying a Massage Gift Voucher: What to Check First | massage gift voucher uk | Practical | Pricing & Guides | how-much-does-a-massage-cost-uk, find-a-therapist |
-| 44 | pending | how-to-get-more-massage-clients | How to Get More Massage Clients in the UK | how to get more massage clients | Therapist | For Therapists | list-your-practice, upgrade |
+| 41 | done 2026-11-20 | massage-for-jaw-tension-tmj | Massage for Jaw Tension and TMJ Pain | massage for tmj | Condition | Wellness Tips | remedial-massage, massage-for-tension-headaches, find-a-therapist |
+| 42 | done 2026-11-20 | massage-for-fibromyalgia | Massage for Fibromyalgia: A Careful Guide | massage for fibromyalgia | Condition | Wellness Tips | swedish-massage, remedial-massage, find-a-therapist |
+| 43 | done 2026-11-20 | massage-gift-vouchers-uk | Buying a Massage Gift Voucher: What to Check First | massage gift voucher uk | Practical | Pricing & Guides | how-much-does-a-massage-cost-uk, find-a-therapist |
+| 44 | done 2026-11-20 | how-to-get-more-massage-clients | How to Get More Massage Clients in the UK | how to get more massage clients | Therapist | For Therapists | list-your-practice, upgrade |
 | 45 | pending | massage-for-carpal-tunnel | Massage for Carpal Tunnel and Wrist Pain | massage for carpal tunnel | Condition | Wellness Tips | remedial-massage, massage-for-desk-workers, find-a-therapist |
 | 46 | pending | massage-during-cancer-treatment | Massage During Cancer Treatment: What Is and Is Not Safe | oncology massage uk | Condition | Wellness Tips | swedish-massage, lymphatic-drainage, find-a-therapist |
 | 47 | pending | what-to-charge-as-a-massage-therapist | What Should You Charge as a Massage Therapist in the UK? | massage therapist rates uk | Therapist | For Therapists | how-much-does-a-massage-cost-uk, list-your-practice |
